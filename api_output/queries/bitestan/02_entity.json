@@ -1,0 +1,42 @@
+{
+  "name": "Bitsten",
+  "note": "",
+  "id": "bitsten",
+  "customized": false,
+  "type": "cex",
+  "service": null,
+  "website": "https://exchange.bitsten.com",
+  "twitter": "https://twitter.com/BitstenExchange",
+  "populatedTags": [
+    {
+      "id": "cex",
+      "label": "Centralized Exchange",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "token-deployer",
+      "label": "BEP20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "BEP20"
+    },
+    {
+      "id": "pool-deployer",
+      "label": "PancakeSwap V2 Pool Deployer",
+      "rank": 210,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "PancakeSwap V2 Pool"
+    }
+  ]
+}

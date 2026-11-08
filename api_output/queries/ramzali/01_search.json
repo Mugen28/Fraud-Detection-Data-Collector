@@ -1,0 +1,837 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "Raznin Ramli",
+      "note": "",
+      "id": "raznin-ramli",
+      "type": "individual",
+      "service": false
+    },
+    {
+      "name": "@RambaliRr",
+      "note": "",
+      "id": "rambalirr",
+      "type": "individual",
+      "service": false,
+      "twitter": "RambaliRr"
+    },
+    {
+      "name": "Clinton Enall Junior Ramnarine",
+      "note": "",
+      "id": "clinton-enall-junior-ramnarine",
+      "type": "individual",
+      "service": false
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "DQVNqu7ebxgzpxmkibNnDEuWKCFFAy5fwk",
+      "chain": "dogecoin",
+      "arkhamEntity": {
+        "name": "Ramzinex",
+        "note": "",
+        "id": "ramzinex",
+        "type": "cex",
+        "service": null,
+        "website": "https://ramzinex.com",
+        "twitter": "https://x.com/ramzinex_com"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "DQVNqu7ebxgzpxmkibNnDEuWKCFFAy5fwk",
+        "chainType": "dogecoin"
+      },
+      "service": true
+    },
+    {
+      "address": "DBTGMAim9PWgCwQKSiwo3jGKyiFGvDm7Av",
+      "chain": "dogecoin",
+      "arkhamEntity": {
+        "name": "Ramzinex",
+        "note": "",
+        "id": "ramzinex",
+        "type": "cex",
+        "service": null,
+        "website": "https://ramzinex.com",
+        "twitter": "https://x.com/ramzinex_com"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "DBTGMAim9PWgCwQKSiwo3jGKyiFGvDm7Av",
+        "chainType": "dogecoin"
+      },
+      "service": true
+    },
+    {
+      "address": "0xAA277CB7914b7e5514946Da92cb9De332Ce610EF",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "Ramses V2 Positions NFT-V1 (RAM-V2-POS)",
+        "address": "0xAA277CB7914b7e5514946Da92cb9De332Ce610EF",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x46abBdfC675ffa9dDf032c64FEE363745204E63e",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x46abBdfC675ffa9dDf032c64FEE363745204E63e",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x5a177cF0EfFB7e0e7115D792E587c1A5a9CbC9D4",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x5a177cF0EfFB7e0e7115D792E587c1A5a9CbC9D4",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x705D5dDa03D170384Eb43eB1aA692a6FC548306f",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x705D5dDa03D170384Eb43eB1aA692a6FC548306f",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xeE02e3A3034e9EF3bD569B140bc9911fcf1Ba067",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0xeE02e3A3034e9EF3bD569B140bc9911fcf1Ba067",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x09a6d46284fE798B669a6aaFe2eB2d0658943a82",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "MevModule (Proxy)",
+        "address": "0x09a6d46284fE798B669a6aaFe2eB2d0658943a82",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x0D3E8f6949DCaCa02cbD1aaf7ca840F4F36216b7",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x0D3E8f6949DCaCa02cbD1aaf7ca840F4F36216b7",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xe5B51F0519819e609447AB1239cf7D4324C76CeB",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0xe5B51F0519819e609447AB1239cf7D4324C76CeB",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x1885597cA499C1B460Ef30248bdc5C28f5C75C93",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@RamZ46817427",
+        "note": "",
+        "id": "ramz46817427",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ramz46817427"
+      },
+      "arkhamLabel": {
+        "name": "\"Strengthen\" on DeBank",
+        "address": "0x1885597cA499C1B460Ef30248bdc5C28f5C75C93",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x98DB3a41bF8bF4DeD2C92A84ec0705689DdEEF8B",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Ramp Network",
+        "note": "",
+        "id": "ramp-network",
+        "type": "cex",
+        "service": null,
+        "website": "https://ramp.network",
+        "twitter": "https://twitter.com/RampNetwork",
+        "crunchbase": "https://www.crunchbase.com/organization/ramp-3b7b",
+        "linkedin": "https://www.linkedin.com/company/rampnetwork"
+      }
+    },
+    {
+      "address": "5fNTwbcEBKNBYCSSgDsSXyDZgJEM24uJNv7j1A9cFzUg",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@ramarxyz",
+        "note": "",
+        "id": "ramarxyz",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ramarxyz"
+      }
+    },
+    {
+      "address": "0xF9051E71aA3acFD4502EB69DD2d475Cc525cc5f6",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0xF9051E71aA3acFD4502EB69DD2d475Cc525cc5f6",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x5B8AFa572f6827B93a02e851c4e30D98C76d4c91",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x5B8AFa572f6827B93a02e851c4e30D98C76d4c91",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "ramzo.eth",
+      "address": "0xB86B0d463e3C266B403Ef2B47AB675975a28240E"
+    },
+    {
+      "name": "ramalinga.eth",
+      "address": "0x3CCc596a2be298ff9e94bc583Bc1dE6429CD0f0A"
+    },
+    {
+      "name": "ramzes7.eth",
+      "address": "0xf46a4Ed914984923dF8c0fe1946C1f2e8b9F50B6"
+    },
+    {
+      "name": "ramibtc.eth",
+      "address": "0xFaF5Cf83230365d10D0Cb585B8678Cdf0c96E160"
+    },
+    {
+      "name": "ramagod.eth",
+      "address": "0xbd7b65aD03e489eDA10Ad8A0823b81F67Bddb1c7"
+    },
+    {
+      "name": "ramenmaxi.eth",
+      "address": "0xC9A4ddBc437d2Dd5ea8a69b1d803122818a39A0A"
+    },
+    {
+      "name": "ramzan95.eth",
+      "address": "0xF4F3dFf65f420585a356750fD7d32DDC9eb17825"
+    },
+    {
+      "name": "ramzarzvid.eth",
+      "address": "0xea79AB4ba18113d05FDaa22Af3D4439a8aB9D51F"
+    },
+    {
+      "name": "ramostrustee.eth",
+      "address": "0x04D4ffC796A9B9244cCD00459Fe2785880dcf399"
+    },
+    {
+      "name": "ram0.eth",
+      "address": "0x072243673C4CB5Effee47b2b25329D6aea5ed3aC"
+    },
+    {
+      "name": "rama.eth",
+      "address": "0xeE6d13B2Bab0a151D501CDC98E705ea37Cd7167F"
+    },
+    {
+      "name": "rambolin.eth",
+      "address": "0x30C622c9a0214c8a649a23Da7e652770cf94EF22"
+    },
+    {
+      "name": "ramtn.eth",
+      "address": "0x001A794b0973AA5384ae9B7140A767782c038af8"
+    },
+    {
+      "name": "rammy.eth",
+      "address": "0x090C847aE5623cb7c538be34fe470B0C824b181F"
+    },
+    {
+      "name": "rameet.eth",
+      "address": "0xf7417508Fa393B400DF4fBd6eb23B2537dD632a4"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "@HamzaLiverpol",
+      "note": "",
+      "id": "hamzaliverpol",
+      "type": "individual",
+      "service": false,
+      "twitter": "HamzaLiverpol"
+    },
+    {
+      "name": "@Ramalin6319",
+      "note": "",
+      "id": "ramalin6319",
+      "type": "individual",
+      "service": false,
+      "twitter": "Ramalin6319"
+    },
+    {
+      "name": "@RamalingamH",
+      "note": "",
+      "id": "ramalingamh",
+      "type": "individual",
+      "service": false,
+      "twitter": "RamalingamH"
+    },
+    {
+      "name": "@gamzalabs",
+      "note": "",
+      "id": "gamzalabs",
+      "type": "individual",
+      "service": false,
+      "twitter": "gamzalabs"
+    },
+    {
+      "name": "@jamaalism",
+      "note": "",
+      "id": "jamaalism",
+      "type": "individual",
+      "service": false,
+      "twitter": "jamaalism"
+    },
+    {
+      "name": "@faizaliando",
+      "note": "",
+      "id": "faizaliando",
+      "type": "individual",
+      "service": false,
+      "twitter": "faizaliando"
+    },
+    {
+      "name": "@aramalipoor",
+      "note": "",
+      "id": "aramalipoor",
+      "type": "individual",
+      "service": false,
+      "twitter": "aramalipoor"
+    },
+    {
+      "name": "@RambaliRr",
+      "note": "",
+      "id": "rambalirr",
+      "type": "individual",
+      "service": false,
+      "twitter": "RambaliRr"
+    },
+    {
+      "name": "@ramiabih",
+      "note": "",
+      "id": "ramiabih",
+      "type": "individual",
+      "service": false,
+      "twitter": "ramiabih"
+    },
+    {
+      "name": "@hamzalion31743",
+      "note": "",
+      "id": "hamzalion31743",
+      "type": "individual",
+      "service": false,
+      "twitter": "hamzalion31743"
+    },
+    {
+      "name": "@rameali242",
+      "note": "",
+      "id": "rameali242",
+      "type": "individual",
+      "service": false,
+      "twitter": "rameali242"
+    },
+    {
+      "name": "@Hamyality_FV",
+      "note": "",
+      "id": "hamyality-fv",
+      "type": "individual",
+      "service": false,
+      "twitter": "Hamyality_FV"
+    },
+    {
+      "name": "@Iam_alienbrain",
+      "note": "",
+      "id": "iam-alienbrain",
+      "type": "individual",
+      "service": false,
+      "twitter": "Iam_alienbrain"
+    },
+    {
+      "name": "@iamsalim1_",
+      "note": "",
+      "id": "iamsalim1",
+      "type": "individual",
+      "service": false,
+      "twitter": "iamsalim1_"
+    },
+    {
+      "name": "@HamzaLa83992770",
+      "note": "",
+      "id": "hamzala83992770",
+      "type": "individual",
+      "service": false,
+      "twitter": "HamzaLa83992770"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0xEDcF12b46f57207Ec537Eb73C4E2C103A32B233A",
+      "username": "ramzataz",
+      "profileImage": "https://i.seadn.io/gcs/files/092b76c5104be84fa954e4cc12350d32.png?w=500&auto=format"
+    },
+    {
+      "address": "0x750FE165E895942C36F910D60EcbF772a7849d7A",
+      "username": "Ramzan",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/18.png"
+    },
+    {
+      "address": "0xDD19F3F9f53Aa1a10f6733604AF5ed049fB5B955",
+      "username": "Rami",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/15.png"
+    },
+    {
+      "address": "0xbf5d3Fc4300Eae8730feC11B46376592099F4C3B",
+      "username": "rambunctious",
+      "profileImage": "https://i2c.seadn.io/profiles/0xbf5d3fc4300eae8730fec11b46376592099f4c3b/avatar/042fc845cf563ce910ad2fac591367/7b042fc845cf563ce910ad2fac591367.png"
+    },
+    {
+      "address": "0x072243673C4CB5Effee47b2b25329D6aea5ed3aC",
+      "username": "Ramo_",
+      "profileImage": "https://i.seadn.io/gcs/files/7f1215cbb14417cc3f910cd62d7e389d.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x1Ffb7D03445CF602C43ABf6E02f067DFc2b65a86",
+      "username": "RAMXL",
+      "profileImage": "https://i.seadn.io/gae/h650Vn9VXwwlxgpzjobDRxHPnVvzD4esy7trXYgcpAzXivsttzTLbVfBV7Xd9unY5OXUQ8uJxFBorYqFEwYPOstcbEAyCPX0-vH2nA?w=500&auto=format"
+    },
+    {
+      "address": "0x2c6213F3d9B091db076111C39d15abD3245b89A2",
+      "username": "RAMEK",
+      "profileImage": null
+    },
+    {
+      "address": "0xa9eE2658E4df4D3Ce5928dEAA5D71b14A4d258F5",
+      "username": "Ramik",
+      "profileImage": "https://i.seadn.io/gae/Ilywy9cfCVpsOyFSty8CST30OcKLDXbT9ktwcrUgHBlU53aZiAmQbTsh26Z3t3-NlC_ZL2J-ynKYzyEwVNhVhtHSAGykwYjJTHM-8Q?w=500&auto=format"
+    },
+    {
+      "address": "0xad997D01ad8Bc905fd48C9336c3662d05E55e3ba",
+      "username": "RAMSP",
+      "profileImage": "https://i.seadn.io/gcs/files/20d47b033004964954b3440a738f3564.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xB0Bb39Ea49d115f6d054A2dFE68B6691C3f2b805",
+      "username": "rameet",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/33.png"
+    },
+    {
+      "address": "0x06f572A2885455646B58cDF33d9804d82A72D944",
+      "username": "Rammax",
+      "profileImage": "https://i2c.seadn.io/profiles/0x06f572a2885455646b58cdf33d9804d82a72d944/avatar/7af00f842565b3eedb2027f139f142/427af00f842565b3eedb2027f139f142.jpeg"
+    },
+    {
+      "address": "0x3B7a7674A43936E9f0d4AA98Bc73f990Cd726029",
+      "username": "Ramman",
+      "profileImage": "https://i.seadn.io/gae/oCfokAdJitXF3ITOeuv6u08KjGTc7LBFZ3wsja-iSHv2SqbnROwJ5Q9p5UewxKGXX8c2lEWMJUOvJwJwp45_9rH2I5OoEsPsRBFGNOI?w=500&auto=format"
+    },
+    {
+      "address": "0xBb60F9F245505F3d132974169BE1c01Aa68F66f7",
+      "username": "ramsus",
+      "profileImage": "https://i2c.seadn.io/profiles/0xbb60f9f245505f3d132974169be1c01aa68f66f7/avatar/750159191155bf6da3f3bd7d4decfb/18750159191155bf6da3f3bd7d4decfb.png"
+    },
+    {
+      "address": "0xEb30b9Fd3Ff95149cEc6BaD768f6C45a257962a8",
+      "username": "Ramche",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/29.png"
+    },
+    {
+      "address": "0x54358beDC518D4360fA80214A1F3931fa50BB5B5",
+      "username": "ramhad",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/10.png"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "5NtgBrzSe7eUJhWBoYv6ZDoQuzY9SSNez1TrT2Q3zG2F",
+      "username": "ramz17",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-Blue~Face-9~Sunglasses~Hat-Brown~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "6FJYRo9FFkQUUtmsCMeiEiv7fGdzRytSpyXnR3ySnshJ",
+      "username": "ramzanM",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Yellow-wand~Face-10~Blush~Beret~Empty~Necklace-Yellow.webp"
+    },
+    {
+      "address": "9maASnwJCShiLPuZMsuBK1N1bgsm9ksQt9egPGjbfa7r",
+      "username": "RAMZAN",
+      "profileImage": "https://socialimages.pump.fun/profile-images/25ae18d5-b0a5-4b3a-9a87-e1d368954a2c/57864b575e4411c467bf5de9aaf0a44c"
+    },
+    {
+      "address": "57rXqaQsvgyBKwebP2StfqQeCBjBS4jsrZFJN5aU2V9b",
+      "username": "ram",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/QmTyPpR3hgHR6kmXEBzDbBNQDTTZe2bE2tRF4HMx3jkgCm"
+    },
+    {
+      "address": "DfTUBSKcYFD61hHGW7c3o5hLkvW9S15dJFY5whPrGDFe",
+      "username": "Rams",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Green-glass~Face-7~Blush~Hairstyle-2---Brown~Empty+2~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "EURdhiLhdPG4uMTmiWNEn272i86bAbeCwgn5vWu7tngx",
+      "username": "Ramc",
+      "profileImage": "https://socialimages.pump.fun/profile-images/bcdbdeb1-1b48-4612-85b4-6da7b414e791/49df40154b6c76c29885d33f55a3ba33"
+    },
+    {
+      "address": "9PKmAwPRb1dmgtqjopdhcxZNTc5H5AcbfxdrTa7N8TxP",
+      "username": "RaMag",
+      "profileImage": null
+    },
+    {
+      "address": "HEJboLv33DBvWLR4urkEXspJUVLDsLePMnWAKCZfJ19F",
+      "username": "Ram11",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Orange~Face-6~Blush~Hairstyle-1---Red~Bracelet-orange~Bowtie-Orange.webp"
+    },
+    {
+      "address": "71PCu3E4JP5RDBoY6wJteqzxkKNXLyE1byg5BTAL9UtQ",
+      "username": "ramset",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/QmNfWnPRfySWw92k67pzy1uZBp7UDiwChwNkbtM7vJSq9h"
+    },
+    {
+      "address": "8xTCHKXLenudyX62Bh7Fhr58pByC3py6degYjrcswXvQ",
+      "username": "rambo1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/312c954c-1470-4fdc-b2fa-88370c51e7bf/20568c4e99d10e41e2ad5512d9b921b3"
+    },
+    {
+      "address": "Eewz9VhxZN5P7gKCKnqUyx8bpoomZ3HYib9irPZJcKpy",
+      "username": "Ramkay",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Indigo-wand~Face-5~Glasses-black~Hairstyle-3-grey~Empty+2~Bowtie-Orange.webp"
+    },
+    {
+      "address": "AArtE8JvEHBXXju9jP7fe4R8XYP7u7ZQC5nWSUjGpTqR",
+      "username": "ramady",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Green-glass~Face-9~Glasses-black~Cap-Red~Bracelet-green~Buckle.webp"
+    },
+    {
+      "address": "G6C2UYVaiqMV4Lonf8A2VyQ8cNzfgLs4Nk1wgcb9jnGJ",
+      "username": "ram888",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-2-Emerald~Face-5~Glasses-black~Winter-Hat-Blue~Watch~Tie-Yellow.webp"
+    },
+    {
+      "address": "szFgapKPEX7f5xnSfMqk4CmDJKciLMTUrsxEPTPC881",
+      "username": "ramen4u",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Indigo~Face-10~Empty+2~Empty~Watch~Empty+2.webp"
+    },
+    {
+      "address": "Gr4vRrVKpyde3w85Z4S2ugCAcsUTD8YvXkB7s2A5SJFz",
+      "username": "ramdom9",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-Indigo~Face-10~Glasses-brown~Leafs~Bracelet-green~Empty+2.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "deziyxReMmXCSk6t8jH2fSTtssav8Tmr8E4z5G1UFSA",
+      "username": "Ramzi123"
+    },
+    {
+      "chain": "solana",
+      "address": "FGV4oWHXWWNBVQKdE3JGcgXuhPwR5HJAXjxCUiec6Max",
+      "username": "Razaria"
+    },
+    {
+      "chain": "solana",
+      "address": "4qNe1nznPoJiGayZJLbsnn515seshVSC7aE2CSEiTu5Y",
+      "username": "Rama"
+    },
+    {
+      "chain": "solana",
+      "address": "HQn9ZTCxVWBeXPm7bHv8iNZB78c8MWp6QiuF8RJTH2cK",
+      "username": "rarety"
+    },
+    {
+      "chain": "solana",
+      "address": "9T3rugeDge16uEh5qBMjFUWyzgTJV71YxWt9qBMuF2Ah",
+      "username": "racist"
+    },
+    {
+      "chain": "solana",
+      "address": "HZVEwPv8HTNndq1szU3a2PCNq5MZx2iyHda3jqZ2t3QT",
+      "username": "radiant"
+    },
+    {
+      "chain": "solana",
+      "address": "5kPizusinDYhpTwBDzQok6p29Z8YJDrDPjZcuTqMMgzG",
+      "username": "raychan"
+    },
+    {
+      "chain": "solana",
+      "address": "8kV83kkE1E89Z5ytqFdeULNG5tVWit5oUMoPPb2uuNzX",
+      "username": "Ravaelo"
+    },
+    {
+      "chain": "solana",
+      "address": "8zfCE7AsVx15oTZcnsuyPAE2EHmEAHjmSepLpkoZJnyS",
+      "username": "Rafi_0x"
+    },
+    {
+      "chain": "solana",
+      "address": "E2gNyTDydSwjqhNT5Yw2nR9SQ5xMFgCcgzaQDbDScGnv",
+      "username": "Rambler"
+    },
+    {
+      "chain": "solana",
+      "address": "25T4H5mv4U74ttyZtSJ2uLTeniox2XueENPvPR8aj7vv",
+      "username": "ramzi"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x72C687632DF545aB895ADB100a2c236a2bf0049C",
+      "username": "ramzi"
+    },
+    {
+      "chain": "solana",
+      "address": "3RvGh5UdHc8R58knhNmZrPtPZdr13jfGTWiqfAWCVr8M",
+      "username": "rawberry"
+    },
+    {
+      "chain": "solana",
+      "address": "344sdDXZBvShZaSB2fiWEpED6rT3qZ63WmRUDa79c5DS",
+      "username": "RamenXBT"
+    },
+    {
+      "chain": "solana",
+      "address": "9CNyLECt2j8tnDhqxtjYk5HUhZ2b8Nwnyb7sfYN7vND2",
+      "username": "rasmr_eth"
+    }
+  ],
+  "polymarketEvents": [
+    {
+      "eventId": 997428,
+      "title": "US Open ATP (Doubles): Krawietz/Puetz vs Ram/Salisbury",
+      "slug": "atp-doubles-krawpue-ramsali-2026-09-10",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 973810,
+      "title": "US Open ATP (Doubles): Ram/Salisbury vs Arribage/Olivetti",
+      "slug": "atp-doubles-ramsali-arrioli-2026-09-06",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 980628,
+      "title": "US Open ATP (Doubles): Carpico/Filin vs Ram/Salisbury",
+      "slug": "atp-doubles-carpfil-ramsali-2026-09-08",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 992090,
+      "title": "US Open ATP (Doubles): Ram/Salisbury vs Granollers/Zeballos",
+      "slug": "atp-doubles-ramsali-granzeb-2026-09-09",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 957525,
+      "title": "US Open ATP (Doubles): Ram/Salisbury vs Gonzalez/Smith",
+      "slug": "atp-doubles-ramsali-gonzsmi-2026-09-04",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 851875,
+      "title": "Cincinnati Open (Doubles): Cash/Glasspool vs Ram/Salisbury",
+      "slug": "atp-doubles-cashgla-ramsali-2026-08-16",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 592972,
+      "title": "HSBC Championships (Doubles): Ram/Salisbury vs Arevalo/Pavic",
+      "slug": "atp-doubles-ramsali-arevpav-2026-06-16",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 824516,
+      "title": "Brownsburg (Doubles): Ram/Salisbury vs Lammons/Withrow",
+      "slug": "atp-doubles-ramsali-lammwit-2026-08-11",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 798232,
+      "title": "National Bank Open (Doubles): Cabral/Tracy vs Ram/Salisbury",
+      "slug": "atp-doubles-cabrtra-ramsali-2026-08-06",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 753418,
+      "title": "Los Cabos Open (Doubles): Ram/Salisbury vs Escobar/Poonacha",
+      "slug": "atp-doubles-ramsali-escopoo-2026-07-28",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 917987,
+      "title": "Winston-Salem Open (Doubles): Nouza/Oberleitner vs Ram/Salisbury",
+      "slug": "atp-doubles-nouzobe-ramsali-2026-08-27",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 872833,
+      "title": "Cincinnati Open (Doubles): Ram/Salisbury vs Frantzen/Haase",
+      "slug": "atp-doubles-ramsali-franhaa-2026-08-19",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    },
+    {
+      "eventId": 76121,
+      "title": "Bluefield College Ramblin' Rams vs. Longwood Lancers (W)",
+      "slug": "cwbb-bcrr-longwd-2025-11-15",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 70380,
+      "title": "Bluefield College Ramblin' Rams vs. Presbyterian Blue Hose",
+      "slug": "cbb-bcrr-presb-2025-11-05",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 893302,
+      "title": "Winston-Salem Open (Doubles): Ram/Salisbury vs Doumbia/Reboul",
+      "slug": "atp-doubles-ramsali-doumreb-2026-08-25",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "marketCount": 16
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x172dab89fa609bB25a146723235F6d025bEFb297",
+      "displayName": "\"ramyali\" Polymarket Account"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x172dab89fa609bB25a146723235F6d025bEFb297",
+    "displayName": "\"ramyali\" Polymarket Account"
+  }
+}

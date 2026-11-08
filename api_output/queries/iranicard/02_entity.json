@@ -1,0 +1,26 @@
+{
+  "name": "@iranifarmer",
+  "note": "",
+  "id": "iranifarmer",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/iranifarmer",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "fomo-user",
+      "label": "\"IraniFarmer\" on Fomo",
+      "rank": 120,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "IraniFarmer"
+    }
+  ]
+}

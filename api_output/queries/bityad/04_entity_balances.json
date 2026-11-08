@@ -1,0 +1,119 @@
+{
+  "entities": {
+    "bit-yaa": {
+      "name": "@bit_yaa",
+      "note": "",
+      "id": "bit-yaa",
+      "type": "individual",
+      "service": null,
+      "twitter": "https://x.com/bit_yaa",
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "farcaster-user",
+          "label": "\"bityaa\" on Farcaster",
+          "rank": 105,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "\"bityaa\" on Farcaster"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0.06445503377108609,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0.01741281757886477,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0.06630188023026942,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0.017859212166929084,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [
+      {
+        "name": "BankrCoin",
+        "symbol": "BNKR",
+        "id": "bankercoin-2",
+        "balance": 200,
+        "usd": 0.064344,
+        "price": 0.00032172,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.786003505167099,
+        "priceChange24h": -9.219999999999996e-06
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 4.752812127802736e-08,
+        "usd": 0.00011103377108608918,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.499520045407873,
+        "priceChange24h": -59.88999999999987
+      }
+    ],
+    "bitcoin": [],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 7.453574687999918e-06,
+        "usd": 0.01741281757886477,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.499520045407873,
+        "priceChange24h": -59.88999999999987
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

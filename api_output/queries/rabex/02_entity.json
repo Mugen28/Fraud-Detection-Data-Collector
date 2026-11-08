@@ -1,0 +1,17 @@
+{
+  "name": "Fabian Sinar Raber",
+  "note": "",
+  "id": "fabian-sinar-raber",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    }
+  ]
+}

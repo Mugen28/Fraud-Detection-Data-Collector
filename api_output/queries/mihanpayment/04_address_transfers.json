@@ -1,0 +1,594 @@
+{
+  "transfers": [
+    {
+      "id": "0xb9d5301cd971e7d4b577aa3a1ed5e9f0cdc091f1bf3c9bc84a4ac113be74a089_72",
+      "transactionHash": "0xb9d5301cd971e7d4b577aa3a1ed5e9f0cdc091f1bf3c9bc84a4ac113be74a089",
+      "fromAddress": {
+        "address": "0xe63c89d2aFda10C301514E29340102ED367430f2",
+        "chain": "arbitrum_one",
+        "arkhamLabel": {
+          "name": "RewardDistributor",
+          "address": "0xe63c89d2aFda10C301514E29340102ED367430f2",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "type": "",
+      "blockTimestamp": "2026-10-17T10:24:40Z",
+      "blockNumber": 515646388,
+      "blockHash": "0x5a052f625aed5b12dff0aeed3a22dd40550bf387f0059379cef8f6b73bdd4ce7",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 73.006298,
+      "tokenId": "usd-coin",
+      "historicalUSD": 73.006298,
+      "chain": "arbitrum_one",
+      "seq": 463404692
+    },
+    {
+      "id": "0xd3929e69a01b93b2de25a84bc63642be798ff4cea440d752b5e31b58ee5688cc_62",
+      "transactionHash": "0xd3929e69a01b93b2de25a84bc63642be798ff4cea440d752b5e31b58ee5688cc",
+      "fromAddress": {
+        "address": "0xe63c89d2aFda10C301514E29340102ED367430f2",
+        "chain": "arbitrum_one",
+        "arkhamLabel": {
+          "name": "RewardDistributor",
+          "address": "0xe63c89d2aFda10C301514E29340102ED367430f2",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "type": "",
+      "blockTimestamp": "2026-10-17T10:21:26Z",
+      "blockNumber": 515645767,
+      "blockHash": "0xe13b330939ecdc6077c9029e08c6f40e4a91f7ed4f41f105c49e41cb648947d8",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 58.801562,
+      "tokenId": "usd-coin",
+      "historicalUSD": 58.801562,
+      "chain": "arbitrum_one",
+      "seq": 463402213
+    },
+    {
+      "id": "0x5981bea766b343310b730d1c1b0e2a6bef89195b3749fe2992cacf2e2db95173_338",
+      "transactionHash": "0x5981bea766b343310b730d1c1b0e2a6bef89195b3749fe2992cacf2e2db95173",
+      "fromAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8580BD8a97dCfb0207e9fA4C3f1720163a7919ec",
+        "chain": "ethereum",
+        "depositServiceID": "bybit",
+        "arkhamLabel": {
+          "name": "Bybit Deposit",
+          "address": "0x8580BD8a97dCfb0207e9fA4C3f1720163a7919ec",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "type": "",
+      "blockTimestamp": "2026-10-13T08:34:47Z",
+      "blockNumber": 26182405,
+      "blockHash": "0xb73905cc969ac75602566cbf670c148514b29e2616691949ae97a82a8408cb9f",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 6,
+      "unitValue": 5000,
+      "tokenId": "tether",
+      "historicalUSD": 5000,
+      "chain": "ethereum",
+      "seq": 917610460
+    },
+    {
+      "id": "0xa718ccc4aad652bf2ab83a31aa710051d92fb368f70fb50fcf19d5e5f2439f08_633",
+      "transactionHash": "0xa718ccc4aad652bf2ab83a31aa710051d92fb368f70fb50fcf19d5e5f2439f08",
+      "fromAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x16f19EFd5e69E799296caA4DBF0540a8Fa89dec7",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "GenericSwapExecutor",
+          "address": "0x16f19EFd5e69E799296caA4DBF0540a8Fa89dec7",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2026-10-06T18:37:59Z",
+      "blockNumber": 26135174,
+      "blockHash": "0x9ee36a8af619bfcfc11801e285a500a07f3a5ba2ff3b42093bf28cc50cc9e2d0",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 5000,
+      "tokenId": "usd-coin",
+      "historicalUSD": 5000,
+      "chain": "ethereum",
+      "seq": 886026119
+    },
+    {
+      "id": "0xa718ccc4aad652bf2ab83a31aa710051d92fb368f70fb50fcf19d5e5f2439f08_641",
+      "transactionHash": "0xa718ccc4aad652bf2ab83a31aa710051d92fb368f70fb50fcf19d5e5f2439f08",
+      "fromAddress": {
+        "address": "0x0000000000bbF5c5Fd284e657F01Bd000933C96D",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Velora (Prev. ParaSwap)",
+          "note": "",
+          "id": "paraswap",
+          "type": "dex-aggregator",
+          "service": null,
+          "website": "https://paraswap.io",
+          "twitter": "https://twitter.com/paraswap",
+          "crunchbase": "https://www.crunchbase.com/organization/paraswap",
+          "linkedin": "https://www.linkedin.com/company/paraswap"
+        },
+        "arkhamLabel": {
+          "name": "Adapter",
+          "address": "0x0000000000bbF5c5Fd284e657F01Bd000933C96D",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "type": "",
+      "blockTimestamp": "2026-10-06T18:37:59Z",
+      "blockNumber": 26135174,
+      "blockHash": "0x9ee36a8af619bfcfc11801e285a500a07f3a5ba2ff3b42093bf28cc50cc9e2d0",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 6,
+      "unitValue": 4999.300634,
+      "tokenId": "tether",
+      "historicalUSD": 4999.300634,
+      "chain": "ethereum",
+      "seq": 886026126
+    },
+    {
+      "id": "0xc8e1df8848038dce54c7bb04f1e1a144b75642a512b3c17d42d7b8f6ee80c6a2_428",
+      "transactionHash": "0xc8e1df8848038dce54c7bb04f1e1a144b75642a512b3c17d42d7b8f6ee80c6a2",
+      "fromAddress": {
+        "address": "0x1324d9CA99b5AFfF6e8ceb4083EF744b3B6f4161",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "LegionPreLiquidSaleV2",
+          "address": "0x1324d9CA99b5AFfF6e8ceb4083EF744b3B6f4161",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true,
+        "predictedEntity": {
+          "name": "Legion",
+          "note": "",
+          "id": "legion-2",
+          "type": "misc",
+          "service": null,
+          "website": "https://legion.cc",
+          "twitter": "http://www.x.com/legiondotcc",
+          "populatedTags": [
+            {
+              "id": "high-transacting",
+              "label": "High Transacting",
+              "rank": 160,
+              "excludeEntities": false,
+              "disablePage": false
+            },
+            {
+              "id": "contract-deployer",
+              "label": "Contract Deployer",
+              "rank": 180,
+              "excludeEntities": false,
+              "disablePage": true
+            },
+            {
+              "id": "multisig-deployer",
+              "label": "MultiSig Deployer",
+              "rank": 190,
+              "excludeEntities": false,
+              "disablePage": false
+            },
+            {
+              "id": "token-deployer",
+              "label": "ERC20 Token Deployer",
+              "rank": 200,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "ERC20"
+            },
+            {
+              "id": "token-deployer",
+              "label": "ERC1155 Token Deployer",
+              "rank": 200,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "ERC1155"
+            },
+            {
+              "id": "token-deployer",
+              "label": "ERC721 Token Deployer",
+              "rank": 200,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "ERC721"
+            },
+            {
+              "id": "gnosis-safe-signer-of-safe",
+              "label": "Signer of Gnosis Safe: 0xc0fFaec9d04E5C00a4Fac923891B8ac66CF5bf05",
+              "rank": 270,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "0xc0fFaec9d04E5C00a4Fac923891B8ac66CF5bf05"
+            }
+          ]
+        }
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2026-10-06T18:35:59Z",
+      "blockNumber": 26135164,
+      "blockHash": "0xada720d1f9e28a31e3548d077c9cbf012de9b9012a5e1dbecedb79eb9277a465",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 5000,
+      "tokenId": "usd-coin",
+      "historicalUSD": 5000,
+      "chain": "ethereum",
+      "seq": 886016814
+    },
+    {
+      "id": "0x06f6d8122b94d4c8434544b1426806f577f1687d2b8ac715d2a7113fa97b7cad_663",
+      "transactionHash": "0x06f6d8122b94d4c8434544b1426806f577f1687d2b8ac715d2a7113fa97b7cad",
+      "fromAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xfd78EE919681417d192449715b2594ab58f5D002",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Circle",
+          "note": "",
+          "id": "circle",
+          "type": "stablecoin",
+          "service": null,
+          "website": "https://circle.com",
+          "twitter": "https://twitter.com/circle",
+          "crunchbase": "https://www.crunchbase.com/organization/circle-2",
+          "linkedin": "https://www.linkedin.com/company/circle-internet-financial"
+        },
+        "arkhamLabel": {
+          "name": "TokenMinterV2",
+          "address": "0xfd78EE919681417d192449715b2594ab58f5D002",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2026-10-02T07:53:35Z",
+      "blockNumber": 26103273,
+      "blockHash": "0x12578bb46ff9fe9c730e4de3ba30bc210ff10db360ea69b681fef4e96fcdfd43",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 41.42857,
+      "tokenId": "usd-coin",
+      "historicalUSD": 41.42857,
+      "chain": "ethereum",
+      "seq": 864656183
+    },
+    {
+      "id": "0xf41c52983a974d9c93325df823ed88a7a5feb27de4e23789c021f4a67826bf3e_620",
+      "transactionHash": "0xf41c52983a974d9c93325df823ed88a7a5feb27de4e23789c021f4a67826bf3e",
+      "fromAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2026-09-30T16:53:23Z",
+      "blockNumber": 26091615,
+      "blockHash": "0x755b70ed2cb3ff88d1d51b38d6d56967f09f4b7bec79a5d2e75b1dfebdb898d9",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 41.42857,
+      "tokenId": "usd-coin",
+      "historicalUSD": 41.42857,
+      "chain": "ethereum",
+      "seq": 856713793
+    },
+    {
+      "id": "0xb5f0bc42f571737e07dbc91774c97065e7fbcec16282e65914300b80ae281786_130",
+      "transactionHash": "0xb5f0bc42f571737e07dbc91774c97065e7fbcec16282e65914300b80ae281786",
+      "fromAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8580BD8a97dCfb0207e9fA4C3f1720163a7919ec",
+        "chain": "ethereum",
+        "depositServiceID": "bybit",
+        "arkhamLabel": {
+          "name": "Bybit Deposit",
+          "address": "0x8580BD8a97dCfb0207e9fA4C3f1720163a7919ec",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "type": "",
+      "blockTimestamp": "2026-09-30T13:11:59Z",
+      "blockNumber": 26090514,
+      "blockHash": "0xf3de83c243d9630700be9e5baa565136aea8e498200b2abcb86f39311776900a",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 6,
+      "unitValue": 10002,
+      "tokenId": "tether",
+      "historicalUSD": 10002,
+      "chain": "ethereum",
+      "seq": 856094155
+    },
+    {
+      "id": "0x6499297145ea1b63c1273f9130bb885c19421018c99c0759892d23786e693eb9_589",
+      "transactionHash": "0x6499297145ea1b63c1273f9130bb885c19421018c99c0759892d23786e693eb9",
+      "fromAddress": {
+        "address": "0x0000000000bbF5c5Fd284e657F01Bd000933C96D",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Velora (Prev. ParaSwap)",
+          "note": "",
+          "id": "paraswap",
+          "type": "dex-aggregator",
+          "service": null,
+          "website": "https://paraswap.io",
+          "twitter": "https://twitter.com/paraswap",
+          "crunchbase": "https://www.crunchbase.com/organization/paraswap",
+          "linkedin": "https://www.linkedin.com/company/paraswap"
+        },
+        "arkhamLabel": {
+          "name": "Adapter",
+          "address": "0x0000000000bbF5c5Fd284e657F01Bd000933C96D",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@Mihail_Pochekai",
+          "note": "",
+          "id": "mihail-pochekai",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/Mihail_Pochekai"
+        },
+        "arkhamLabel": {
+          "name": "mikhailpochekai.eth",
+          "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "type": "",
+      "blockTimestamp": "2026-09-30T13:06:47Z",
+      "blockNumber": 26090488,
+      "blockHash": "0x83110c96f62c3dbbc4a67919f15a457e1c9e2193a461d9d6f5813327f5744156",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 6,
+      "unitValue": 10002.122173,
+      "tokenId": "tether",
+      "historicalUSD": 10002.122173,
+      "chain": "ethereum",
+      "seq": 856080080
+    }
+  ],
+  "count": 4062
+}

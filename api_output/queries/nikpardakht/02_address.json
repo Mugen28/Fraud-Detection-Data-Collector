@@ -1,0 +1,19 @@
+{
+  "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+  "chain": "ethereum",
+  "arkhamEntity": {
+    "name": "@nikploknoklay",
+    "note": "",
+    "id": "nikploknoklay",
+    "type": "individual",
+    "service": null,
+    "twitter": "https://twitter.com/nikploknoklay"
+  },
+  "arkhamLabel": {
+    "name": "nik.bnb",
+    "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+    "chainType": "evm"
+  },
+  "isUserAddress": false,
+  "contract": false
+}

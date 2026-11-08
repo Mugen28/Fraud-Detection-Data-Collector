@@ -1,0 +1,27 @@
+{
+  "name": "BitBean",
+  "note": "",
+  "id": "bitbean",
+  "customized": false,
+  "type": "meme",
+  "service": null,
+  "website": "https://www.bitbeanonsol.vip",
+  "twitter": "https://x.com/BitBean_on_Sol",
+  "populatedTags": [
+    {
+      "id": "meme",
+      "label": "Meme",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "solana-token-creator",
+      "label": "Token Creator: 3Xy1Jyw4o3Y2MvJ345SbxZrAttJxkRdzfvQXtUW3n1tD",
+      "rank": 210,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "3Xy1Jyw4o3Y2MvJ345SbxZrAttJxkRdzfvQXtUW3n1tD"
+    }
+  ]
+}

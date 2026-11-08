@@ -1,0 +1,37 @@
+{
+  "target": "abantether",
+  "entity_id": "abantether",
+  "entity_name": "Abantether",
+  "summary": {
+    "entityId": "abantether",
+    "numAddresses": 150004,
+    "volumeUsd": 2252417724.3799987,
+    "balanceUsd": 730185.5960411814,
+    "firstTx": "2021-05-23T10:28:06Z",
+    "lastTx": "2026-11-02T23:59:46Z"
+  },
+  "top_address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c\"",
+  "wallets": [
+    {
+      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Abantether",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x549D4fC107185De6997f7bCbA5d28F0DFB7eAF2c",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Abantether",
+      "source": "transfers"
+    },
+    {
+      "address": "0x549D4fC107185De6997f7bCbA5d28F0DFB7eAF2c",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Abantether",
+      "source": "transfers"
+    }
+  ]
+}

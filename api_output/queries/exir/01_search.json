@@ -1,0 +1,930 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "EXIT Labs",
+      "note": "",
+      "id": "exit-labs",
+      "type": "misc",
+      "service": false,
+      "twitter": "ExitLab_io"
+    },
+    {
+      "name": "@exirweb3",
+      "note": "",
+      "id": "exirweb3",
+      "type": "individual",
+      "service": false,
+      "twitter": "exirweb3"
+    },
+    {
+      "name": "Nomad Exiles",
+      "note": "",
+      "id": "nomad-exiles",
+      "type": "misc",
+      "service": false,
+      "twitter": "NomadExiles"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "DYmsQudNqJyyDvq86XmzAvrU9T7xwfQEwh6gPQw9TPNF",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@exitliquid1ty",
+        "note": "",
+        "id": "exitliquid1ty",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/exitliquid1ty"
+      },
+      "arkhamLabel": {
+        "name": "\"unprofitab1e\" on Pump.fun",
+        "address": "DYmsQudNqJyyDvq86XmzAvrU9T7xwfQEwh6gPQw9TPNF",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "3Q2ffuXf2KVShJ9dasV3viFzAHYSLijC6a",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "EXMO",
+        "note": "",
+        "id": "exmo",
+        "type": "cex",
+        "service": null,
+        "website": "https://exmo.me",
+        "twitter": "https://twitter.com/Exmo_Com",
+        "crunchbase": "https://www.crunchbase.com/organization/exmo"
+      }
+    },
+    {
+      "address": "0x828b3DCcbC9f868Dd52dEE247cACFDf66d849bbB",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@exitliquidity1",
+        "note": "",
+        "id": "exitliquidity1",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/exitliquidity1"
+      },
+      "arkhamLabel": {
+        "name": "859.eth",
+        "address": "0x828b3DCcbC9f868Dd52dEE247cACFDf66d849bbB",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x7817946035C3dF3e3FEe461642fd575908d6Ea54",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@exitliquidity1",
+        "note": "",
+        "id": "exitliquidity1",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/exitliquidity1"
+      },
+      "arkhamLabel": {
+        "name": "\"!18417\" on Farcaster",
+        "address": "0x7817946035C3dF3e3FEe461642fd575908d6Ea54",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x6f71e1190F2eBf07844EcEc08E8440B4a3e83da8",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@exitliquidity1",
+        "note": "",
+        "id": "exitliquidity1",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/exitliquidity1"
+      },
+      "arkhamLabel": {
+        "name": "\"DM-Twitter-for-OTC-discount\" on OpenSea",
+        "address": "0x6f71e1190F2eBf07844EcEc08E8440B4a3e83da8",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x4228C5752654E4A4f8d281521521d3dDe2b6D6E6",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ExileDAO",
+        "note": "",
+        "id": "exiledao",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ExileDAO"
+      },
+      "arkhamLabel": {
+        "name": "notarget.eth",
+        "address": "0x4228C5752654E4A4f8d281521521d3dDe2b6D6E6",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xdE242261BCD8d4320113F12230DA34D705ca25a8",
+      "chain": "polygon",
+      "arkhamEntity": {
+        "name": "@exitIiquidty",
+        "note": "",
+        "id": "exitiiquidty",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/exitIiquidty"
+      },
+      "arkhamLabel": {
+        "name": "\"PolymaREKT\" Polymarket Account",
+        "address": "0xdE242261BCD8d4320113F12230DA34D705ca25a8",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x897514C38477B6B9c756cEBD7B531768cac1E2d0",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@exitIiquidty",
+        "note": "",
+        "id": "exitiiquidty",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/exitIiquidty"
+      },
+      "arkhamLabel": {
+        "name": "\"PolymaREKT\" on Polymarket",
+        "address": "0x897514C38477B6B9c756cEBD7B531768cac1E2d0",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "7yypUieHXh9PHDjrwpQTS2g1TgxxpPoY3Rr3V8aXZp4J",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@exitliquid1ty",
+        "note": "",
+        "id": "exitliquid1ty",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/exitliquid1ty"
+      },
+      "arkhamLabel": {
+        "name": "\"exitliquid1ty\" on Fomo",
+        "address": "7yypUieHXh9PHDjrwpQTS2g1TgxxpPoY3Rr3V8aXZp4J",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "0xBB505c54D71E9e599cB8435b4F0cEEc05fC71cbD",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "Extra Finance",
+        "note": "",
+        "id": "extra-finance",
+        "type": "yield",
+        "service": null,
+        "website": "https://extrafi.io",
+        "twitter": "https://twitter.com/ExtraFi_io"
+      },
+      "arkhamLabel": {
+        "name": "LendingPool",
+        "address": "0xBB505c54D71E9e599cB8435b4F0cEEc05fC71cbD",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "TDBeRLDTdhVJSYytwhDBFH5vLdiY4b9aVn",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Exnode",
+        "note": "",
+        "id": "exnode",
+        "type": "cex",
+        "service": null,
+        "website": "https://exnode.ru"
+      }
+    },
+    {
+      "address": "0xd7B9A9b2F665849C4071Ad5af77d8c76aa30fb32",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "EXMO",
+        "note": "",
+        "id": "exmo",
+        "type": "cex",
+        "service": null,
+        "website": "https://exmo.me",
+        "twitter": "https://twitter.com/Exmo_Com",
+        "crunchbase": "https://www.crunchbase.com/organization/exmo"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0xd7B9A9b2F665849C4071Ad5af77d8c76aa30fb32",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "8EC8D6FG4ATRTScZvziTgtrcMv9Edvwv3hHmZNdnTCg",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Exponent",
+        "note": "",
+        "id": "exponent",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.exponent.finance",
+        "twitter": "https://x.com/ExponentFinance"
+      }
+    },
+    {
+      "address": "BmLiVHRb9ppTrEA5jhTgNJ2WFtjUZEkfzJZGswEidxzu",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Exponent",
+        "note": "",
+        "id": "exponent",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.exponent.finance",
+        "twitter": "https://x.com/ExponentFinance"
+      }
+    },
+    {
+      "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "EXIT Labs",
+        "note": "",
+        "id": "exit-labs",
+        "type": "misc",
+        "service": null,
+        "twitter": "https://x.com/ExitLab_io"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "exie.eth",
+      "address": "0x0279B630cd278250D57f7648843d3aB93F7e00f2"
+    },
+    {
+      "name": "exitz.eth",
+      "address": "0x3c698d1E054A921dcf46Bc213CA407E39AE4Db8d"
+    },
+    {
+      "name": "exilegs.eth",
+      "address": "0x853ecFC3D7092ef665E4D5B9fE8074Aeeb8646e2"
+    },
+    {
+      "name": "exitliq1.eth",
+      "address": "0xbA3AdF242d98D220bE9CF6a5e3Bc3543FB073470"
+    },
+    {
+      "name": "exitplan.eth",
+      "address": "0x04D4E38E09a2f3DAe520f3D0071e10b51B78b77A"
+    },
+    {
+      "name": "existence1.eth",
+      "address": "0xD04d1EfEEF7846D5664D9E1F925dB4e6ab855C44"
+    },
+    {
+      "name": "exiledvegan.eth",
+      "address": "0x89Cc7B39de00E8E61e83912A5c002D7D072887A4"
+    },
+    {
+      "name": "exitallmarket.eth",
+      "address": "0x6Ebb8eACBB89b4A04b354c247Aa4F40c655655Ae"
+    },
+    {
+      "name": "existenceispain.eth",
+      "address": "0xBca26341D5b153C6Bc4E971234a879e26a7a5DCf"
+    },
+    {
+      "name": "exirbroker.eth",
+      "address": "0xa98972D02e723D83371E5FF1eaC36c980CEE0224"
+    },
+    {
+      "name": "exit-gradual-10.drkmttr.eth",
+      "address": "0x897dAe3F7466338DC5f590B1E5379335031a976B"
+    },
+    {
+      "name": "exitliquidity8888.eth",
+      "address": "0xfAB8480b9DbD263168680d864400797c78563783"
+    },
+    {
+      "name": "exploser.eth",
+      "address": "0x2C4287B79B15aE63FbaaCd85a0302f6F172182fA"
+    },
+    {
+      "name": "excelsior.eth",
+      "address": "0x188C30E9A6527F5F0c3f7fe59B72ac7253C62F28"
+    },
+    {
+      "name": "extra201.eth",
+      "address": "0x939035097Adb542b53B56e586DEaAfA27e8A6566"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "@exirweb3",
+      "note": "",
+      "id": "exirweb3",
+      "type": "individual",
+      "service": false,
+      "twitter": "exirweb3"
+    },
+    {
+      "name": "Extra Finance",
+      "note": "",
+      "id": "extra-finance",
+      "type": "yield",
+      "service": false,
+      "twitter": "ExtraFi_io"
+    },
+    {
+      "name": "@exitliquid1ty",
+      "note": "",
+      "id": "exitliquid1ty",
+      "type": "individual",
+      "service": false,
+      "twitter": "exitliquid1ty"
+    },
+    {
+      "name": "@Exi7zZ",
+      "note": "",
+      "id": "exi7zz",
+      "type": "individual",
+      "service": false,
+      "twitter": "Exi7zZ"
+    },
+    {
+      "name": "@0xiroh_",
+      "note": "",
+      "id": "0xiroh",
+      "type": "individual",
+      "service": false,
+      "twitter": "0xiroh_"
+    },
+    {
+      "name": "@extrajt",
+      "note": "",
+      "id": "extrajt",
+      "type": "individual",
+      "service": false,
+      "twitter": "extrajt"
+    },
+    {
+      "name": "@ExileDAO",
+      "note": "",
+      "id": "exiledao",
+      "type": "individual",
+      "service": false,
+      "twitter": "ExileDAO"
+    },
+    {
+      "name": "IXIRSwap",
+      "note": "",
+      "id": "ixir-swap",
+      "type": "misc",
+      "service": false,
+      "twitter": "ixirswap"
+    },
+    {
+      "name": "@eiiriknft",
+      "note": "",
+      "id": "eiiriknft",
+      "type": "individual",
+      "service": false,
+      "twitter": "eiiriknft"
+    },
+    {
+      "name": "@extrasisu",
+      "note": "",
+      "id": "extrasisu",
+      "type": "individual",
+      "service": false,
+      "twitter": "extrasisu"
+    },
+    {
+      "name": "@0xIrohsol",
+      "note": "",
+      "id": "0xirohsol",
+      "type": "individual",
+      "service": false,
+      "twitter": "0xIrohsol"
+    },
+    {
+      "name": "@exitliquidity1",
+      "note": "",
+      "id": "exitliquidity1",
+      "type": "individual",
+      "service": false,
+      "twitter": "exitliquidity1"
+    },
+    {
+      "name": "@exitIiquidty",
+      "note": "",
+      "id": "exitiiquidty",
+      "type": "individual",
+      "service": false,
+      "twitter": "exitIiquidty"
+    },
+    {
+      "name": "@ExTRA201Crypto",
+      "note": "",
+      "id": "extra201crypto",
+      "type": "individual",
+      "service": false,
+      "twitter": "extra201crypto"
+    },
+    {
+      "name": "@emircan_kaplan",
+      "note": "",
+      "id": "emircan-kaplan",
+      "type": "individual",
+      "service": false,
+      "twitter": "emircan_kaplan"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0xd0103edA26ee0e8911b9F3C1a96E33980c7Ee042",
+      "username": "Exi0m",
+      "profileImage": null
+    },
+    {
+      "address": "0x3A9069Cfd1ce555404A82a9b8f734cb8fD19632B",
+      "username": "ExitParad77",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/21.png"
+    },
+    {
+      "address": "0x3c698d1E054A921dcf46Bc213CA407E39AE4Db8d",
+      "username": "Exi7zZ",
+      "profileImage": "https://i.seadn.io/gcs/files/cde91de837919bff41828df063ed2eca.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xA566720b01938243cb9797393aa8A820DF492108",
+      "username": "exia0259",
+      "profileImage": "https://i.seadn.io/gae/pZ6TJsiZflJO_nac8mzqwu2JLu4c0LMNSc-MwftRGwIpDaad317POkmzQon5Od8Y6-Nlev2hwwX9jnkz7pv1x5lLKgJnCJA7YV1aBw?w=500&auto=format"
+    },
+    {
+      "address": "0x853ecFC3D7092ef665E4D5B9fE8074Aeeb8646e2",
+      "username": "Exilegs",
+      "profileImage": "https://i.seadn.io/gcs/files/3547ec78236de623c2eb63a570234451.png?w=500&auto=format"
+    },
+    {
+      "address": "0xF02DE4505027133432DF6eB111e4e60588B690e5",
+      "username": "exit-liq",
+      "profileImage": "https://i.seadn.io/gae/Qt8XR2LAHlRHWDK6M5CFZyd7joyxwndsMUUeXO4JQtXU-SB1atiiE7QLViwagxE5kIKR2VsQrQjMVYEyPKiRk1iRTAN_cEJzm6Eimg?w=500&auto=format"
+    },
+    {
+      "address": "0x4228C5752654E4A4f8d281521521d3dDe2b6D6E6",
+      "username": "eXileDAO",
+      "profileImage": "https://i2c.seadn.io/profiles/0x4228c5752654e4a4f8d281521521d3dde2b6d6e6/avatar/0f077191044cb4f3d83704d38141ca/470f077191044cb4f3d83704d38141ca.png"
+    },
+    {
+      "address": "0x48781fd2973698404a1a49A18327772659585097",
+      "username": "ExiledApe",
+      "profileImage": "https://i.seadn.io/gae/Npot16poFqdwMr-BVlOWs3g8WYCxGIyZf9jGowoZjNR_wsErEVbynqJ3P_j8BKlgjQI29HvOP9fKN7ulnO3FgwXqpYAaMQ0rKMkjOVk?w=500&auto=format"
+    },
+    {
+      "address": "0xcFEf4dD0b7701Ee8fE47EAacbC81531E6c84c346",
+      "username": "exit_lick",
+      "profileImage": "https://i.seadn.io/s/raw/files/80d71dfbcd3281f490df9eef2bd8a25a.png?w=500&auto=format"
+    },
+    {
+      "address": "0x6d16749cEfb3892A101631279A8fe7369A281D0E",
+      "username": "exn",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/23.png"
+    },
+    {
+      "address": "0xF478f2619870795380582E5dd5Ce1016CDBA3dBE",
+      "username": "ExileVault",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png"
+    },
+    {
+      "address": "0xa33A1E07112b77f78eaA7fFca3A10CD6172d6dfD",
+      "username": "exist4exist",
+      "profileImage": "https://i.seadn.io/gae/z3RIUMt8mY7DJkOe2nJaLZAeABU4w0JC2MfHaj05o6g9Gqih7mUUaEbGbYrZ3ue-Sz5oAvzS92mYUlm5Rm9eWw6yjM8s5Ch719GV?w=500&auto=format"
+    },
+    {
+      "address": "0x89Cc7B39de00E8E61e83912A5c002D7D072887A4",
+      "username": "ExiledVegan",
+      "profileImage": "https://i.seadn.io/gae/yNCELOzxTn_XuV5K9_Lvzp_eFjVn029VO8dYJ-blkcpbNKAgsrmr_uEbezeaNMAXecnXM7FJlctBHPKNLeX2839RorQWNjdw_je9FQ?w=500&auto=format"
+    },
+    {
+      "address": "0x7817946035C3dF3e3FEe461642fd575908d6Ea54",
+      "username": "ExitIiquidity",
+      "profileImage": "https://i.seadn.io/s/raw/files/2e812b12e8fddaa9854f30030a4511b6.png?w=500&auto=format"
+    },
+    {
+      "address": "0xdF5638AA7c6fd64D1Cf37F04959075816E304aF3",
+      "username": "EximiousTitan",
+      "profileImage": "https://i.seadn.io/gae/pSfO2MgQPqzX640MG2PwDY9ozpimDkvBvMmWce4idJdKl14HeZl0igKpnv0osHmfFnVMRAWGtOrN-zzOZnsVC2z0RokJWjb0xDBjwA?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "ZsNRMPRn6HMj9nP24RGCyMJXJ3v9JKkKG5fN2uFjUbk",
+      "username": "exits",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Emerald-wand~Face-4~Glasses-black~Empty~Empty+2~Tie-Green.webp"
+    },
+    {
+      "address": "3trv2yQiwZhh3VM8cGm7KSY4Bm2AQFTUVVnobSnybAWQ",
+      "username": "ExitLiq",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Cyan~Face-4~Sunglasses~Durag-Yellow~Empty~Bowtie-Red.webp"
+    },
+    {
+      "address": "96Qn6HLaWxvvj4QVw44yd78sFHytcHXF61xF353nH2ST",
+      "username": "exiledotter7386",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-2-Orange~Face-8~Empty+2~Cap-back-red~Empty+2~Winter-Scarf.webp"
+    },
+    {
+      "address": "EioeShoTk3Uf87dt88u5FxpfLy8ncCNqhaLTto6WSpa1",
+      "username": "Exitplan",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Blue-glass~Face-2~Blush~Cap-back-green~Bracelet-green~Empty+2.webp"
+    },
+    {
+      "address": "G2XYq9Xift1Vwt5NnPeFTVD5n5iF82FEVqumGaBXpwcP",
+      "username": "exitliq3",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-2-Emerald~Face-3~Glasses~Hairstyle-5~Empty~Tie-Yellow.webp"
+    },
+    {
+      "address": "HUdosohSZaNooK7xQeEYQTNbx1Ap3X1ydJkqymVV67B8",
+      "username": "exit_liq",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-2-Yellow~Face-1~Empty~Graduation-hat~Bracelet-orange~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "HYRS78R5ssJ58bQEj9DJd46LJ3MqTs4kAmpW798v2fpE",
+      "username": "exitliqpf",
+      "profileImage": "https://socialimages.pump.fun/profile-images/a6ed7dd6-53be-409b-b7c6-f11cf0053f3b/1f011889ed2b6c31098b936bfa74d2aa"
+    },
+    {
+      "address": "2UcTcqetibEAE6o3k1yUCm6gPagq9KEgf2jDRsWcSa5e",
+      "username": "exit_lqdty",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-2-Blue~Face-10~Glasses~Durag-Yellow~Empty~Bowtie-Red.webp"
+    },
+    {
+      "address": "95VjFCFV33bJHjn4WhJC4Nhfw4fwqNAKNUoP7r1CdWxr",
+      "username": "exitliq123",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Orange-glass~Face-6~Glasses~Leafs~Watch~Tie-Yellow.webp"
+    },
+    {
+      "address": "3XUnm85Eg5oVojKxfT88dx2NzthFF1cPMewRLDWmodFN",
+      "username": "exitliqcap",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Green-wand~Face-3~Glasses-brown~Empty~Bracelet-green~Necklace-White.webp"
+    },
+    {
+      "address": "8oBky3hevBspsoTSHgGgacyTcnXkgJqyEJPwRd6L1qgR",
+      "username": "ExitLiqui6",
+      "profileImage": "https://socialimages.pump.fun/profile-images/c52d8425-4264-4846-b114-a200fabf2c5a/7e81b595f2e3854aef251f6aeecca95b"
+    },
+    {
+      "address": "2VPBNAf3jmZgiTSiLrPScZvVc1PbazWPU1X1pB2eohDe",
+      "username": "exiledshark2691",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-2-Green~Face-8~Sunglasses~Cap-Green~Bracelet-orange~Necklace-Yellow.webp"
+    },
+    {
+      "address": "7agw3ABSTEBTJR6XY2wAzDuvf1gbxzDxXYQPJG3MZ4cS",
+      "username": "existingcrab635",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Yellow-wand~Face-2~Blush~Hat~Empty~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "66yBpFLVuWBKZVdUYjJuHQr55a4N1WarVz1nLMdH9bjv",
+      "username": "existinthewired",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/QmVFgGaHXJ2zGRPwvdxCeduhrabScW1hLg9HpSFC8y6cCf"
+    },
+    {
+      "address": "8s2NGKVaUbMur935vaDrM9VyxFdBXkTfkmYysx6CpcBK",
+      "username": "exiledwhale7926",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Green-wand~Face-11~Empty+2~Beret~Watch~Tie-Green.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "7yypUieHXh9PHDjrwpQTS2g1TgxxpPoY3Rr3V8aXZp4J",
+      "username": "exitliquid1ty"
+    },
+    {
+      "chain": "solana",
+      "address": "2wLY7QAQAzU8cDV34rhzroR2pSksGRqpNdUzKEmjdMVF",
+      "username": "ExitLiquidity92"
+    },
+    {
+      "chain": "solana",
+      "address": "6wVdobqscP4bb8G2hogngjgD8f5KRB5Qrs7jfwi8Q2vu",
+      "username": "ExistingElectricPanda"
+    },
+    {
+      "chain": "solana",
+      "address": "GHExVNkuiWDRpmhPVVRrd7Kqz9WPMVunkfzr49hCRP6e",
+      "username": "exuro"
+    },
+    {
+      "chain": "solana",
+      "address": "6oc6HMxqAYmaViJvjXqWaPvZdXMMHNGy7be9rURxPgwE",
+      "username": "Exhuma"
+    },
+    {
+      "chain": "solana",
+      "address": "ATTcGfaxq93t2MXFAVx8zyRkigm625DEGboQafz1TAsV",
+      "username": "exploit"
+    },
+    {
+      "chain": "solana",
+      "address": "HmYdPjqDicwKSRNyez8gssk9fDG6v1Kbi7TBt84Un8CH",
+      "username": "exit_onchain"
+    },
+    {
+      "chain": "solana",
+      "address": "ETppPwAsUqDsBjnGx9xtryStDZ3nRZu1Z4GZT3E1F3fN",
+      "username": "ExtraClearCrow"
+    },
+    {
+      "chain": "solana",
+      "address": "9qRTY9RAQXjhc9Uzv5x4L7YMSQAJrWMbuLSbad5A1Uak",
+      "username": "exitliquidity"
+    },
+    {
+      "chain": "solana",
+      "address": "64rY3jB9i1wZy1VMMfxGJ8CpkGfdTzP32pFquth2ATLw",
+      "username": "externalkid"
+    },
+    {
+      "chain": "solana",
+      "address": "5VjeALacsgRGFYSvTYSMzEa9PbzMA4iLdU2hEZdVRwtU",
+      "username": "exe_plata93"
+    },
+    {
+      "chain": "solana",
+      "address": "2g1CuRN3BxzkeJrSAV6jJxDPnCpe8EP9Mk7T7pdryWL7",
+      "username": "exitliquidity34"
+    },
+    {
+      "chain": "solana",
+      "address": "4uZwFCFC3wQGdqsi9SxfyMHoPgtRGvz2D9R64bdfFYFe",
+      "username": "ExactTealNewt"
+    },
+    {
+      "chain": "solana",
+      "address": "CMWnXmtdmtttMMNu9YrzPfuEauS8sF9RomA1dkrvzdJq",
+      "username": "ExtremeForeignCamel"
+    },
+    {
+      "chain": "solana",
+      "address": "DsUAxptJUMxg47UMGm1QRifpdDeE7xCpa5R3CAkzvvek",
+      "username": "ExistingLovelyMink"
+    }
+  ],
+  "tokens": [
+    {
+      "identifier": {
+        "pricingID": "exim"
+      },
+      "name": "Exim",
+      "symbol": "exim",
+      "price": 0.069773,
+      "price24hAgo": 0.069773,
+      "deployments": [
+        {
+          "chain": "avalanche",
+          "address": "0x0e16eEE9240561EBB2D2Fe2E7A86C87B492Af768"
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "pricingID": "exit-designer-token"
+      },
+      "name": "EXIT Designer Token",
+      "symbol": "exit",
+      "price": 0.499682,
+      "price24hAgo": 0.499682,
+      "deployments": [
+        {
+          "chain": "bsc",
+          "address": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287"
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "pricingID": "push-to-exit"
+      },
+      "name": "push to exit",
+      "symbol": "push",
+      "price": 3.57e-06,
+      "price24hAgo": 3.57e-06,
+      "deployments": [
+        {
+          "chain": "solana",
+          "address": "F5RyYFSXMuTXPjcLBTDr9ihy7ZUw93f1b3gLn1U1pump"
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "pricingID": "nomad-exiles"
+      },
+      "name": "Nomad Exiles",
+      "symbol": "pride",
+      "price": 0.00030181,
+      "price24hAgo": 0.00030181,
+      "deployments": [
+        {
+          "chain": "bsc",
+          "address": "0x085D15DB9c7Cd3Df188422f88Ec41ec573D691b9"
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "pricingID": "exit-liquidity"
+      },
+      "name": "Exit Liquidity",
+      "symbol": "retail",
+      "price": 4.123e-05,
+      "price24hAgo": 4.321e-05,
+      "deployments": [
+        {
+          "chain": "solana",
+          "address": "7RT5zwZG1hhfparpKgh8WvSnPxJB8FQ529VSyaNKpump"
+        }
+      ]
+    }
+  ],
+  "pools": [
+    {
+      "poolAddress": "2YmswdACbzLrYkLQLfiWoxzZFEaJ64ttWFYyYKUAef2J",
+      "tokenAddress": "F5RyYFSXMuTXPjcLBTDr9ihy7ZUw93f1b3gLn1U1pump",
+      "pricingID": "push-to-exit",
+      "tokenName": "push to exit",
+      "tokenSymbol": "push",
+      "priceUsd": 3.57e-06,
+      "marketCapUsd": null,
+      "liquidityUsd": 6153.015667828474,
+      "volume1h": null,
+      "programAddress": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"
+    },
+    {
+      "poolAddress": "DyGZRQLEwdKyngU1ym9VR52p3Wx3H1bcmW2FYP8cyhBG",
+      "tokenAddress": "7RT5zwZG1hhfparpKgh8WvSnPxJB8FQ529VSyaNKpump",
+      "pricingID": "exit-liquidity",
+      "tokenName": "Exit Liquidity",
+      "tokenSymbol": "retail",
+      "priceUsd": 4.123e-05,
+      "marketCapUsd": null,
+      "liquidityUsd": 19352.341166361384,
+      "volume1h": null,
+      "programAddress": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"
+    }
+  ],
+  "polymarketEvents": [
+    {
+      "eventId": 1040466,
+      "title": "Helen Frankenthaler's “Return and Exit” Sale Price",
+      "slug": "frankenthaler-return-and-exit-sale-price",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/all-nine-towns-woods-lots-sell-at-sothebys-6exFP6UYcb1D.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/all-nine-towns-woods-lots-sell-at-sothebys-6exFP6UYcb1D.jpg",
+      "marketCount": 4
+    },
+    {
+      "eventId": 3655,
+      "title": "Will the Ever Given exit the Great Bitter Lake in the Suez Canal by July 25?",
+      "slug": "will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-july-25",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-july-25-1450ea6c-0ce9-4af3-bd9f-605609535612.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-july-25-1450ea6c-0ce9-4af3-bd9f-605609535612.png",
+      "category": "Global Politics",
+      "marketCount": 1
+    },
+    {
+      "eventId": 5207,
+      "title": "Will the Ever Given exit the Great Bitter Lake in the Suez Canal by May 20?",
+      "slug": "will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-may-20",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-may-20-f4d4993d-960b-4c8f-9d25-0d6024fe586d.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-may-20-f4d4993d-960b-4c8f-9d25-0d6024fe586d.png",
+      "category": "Global Politics",
+      "marketCount": 1
+    },
+    {
+      "eventId": 4842,
+      "title": "Will the Ever Given exit the Great Bitter Lake in the Suez Canal by April 22?",
+      "slug": "will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-april-22",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-april-22-db5999cd-ca0b-44c9-b833-8951037bce58.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-ever-given-exit-the-great-bitter-lake-in-the-suez-canal-by-april-22-db5999cd-ca0b-44c9-b833-8951037bce58.png",
+      "category": "Pop-Culture ",
+      "marketCount": 1
+    },
+    {
+      "eventId": 90177,
+      "title": "Will the US confirm that aliens exist by...?",
+      "slug": "will-the-us-confirm-that-aliens-exist-before-2027",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "marketCount": 6
+    },
+    {
+      "eventId": 16166,
+      "title": "Will the US confirm that aliens exist in 2025?",
+      "slug": "will-the-us-confirm-that-aliens-exist-in-2025",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 11339,
+      "title": "Will the US confirm that aliens exist in 2024?",
+      "slug": "will-the-us-confirm-that-aliens-exist-in-2024",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 102613,
+      "title": "Maduro exiled to Russia by March 31?",
+      "slug": "maduro-exiled-to-russia-by-march-31",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/maduro-exiled-to-russia-by-march-31-PZ3D18ejIl5R.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/maduro-exiled-to-russia-by-march-31-PZ3D18ejIl5R.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 98054,
+      "title": "Maduro exiled to Qatar by March 31?",
+      "slug": "maduro-exiled-to-qatar-by-march-31",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Maduro-Exile-Qatar-e1cf86b8fc.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Maduro-Exile-Qatar-e1cf86b8fc.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 902019,
+      "title": "Will the US confirm that aliens exist by August 31?",
+      "slug": "will-the-us-confirm-that-aliens-exist-by-august-31",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien.jpeg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 15727,
+      "title": "Trump Admin confirms Aliens exist in first 100 days?",
+      "slug": "trump-administration-confirms-aliens-exist-in-first-100-days",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump+ufo.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump+ufo.jpeg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 902383,
+      "title": "Will the US confirm that aliens exist in 2023?",
+      "slug": "will-the-us-confirm-that-aliens-exist-in-2023",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien2.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien2.jpeg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 903128,
+      "title": "Will the US confirm that aliens exist by June?",
+      "slug": "will-the-us-confirm-that-aliens-exist-by-june",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/alien+head.jpeg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 23320,
+      "title": "Trump exits Russia x Ukraine negotiations before June? ",
+      "slug": "will-trump-pull-out-of-russia-x-ukraine-negotiations-before-june",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-pull-out-of-russia-x-ukraine-negotiations-before-june-KU_Uh9mhNj1F.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-pull-out-of-russia-x-ukraine-negotiations-before-june-KU_Uh9mhNj1F.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 26743,
+      "title": "Trump exits Iran nuclear negotiations before July?",
+      "slug": "trump-exits-iran-nucelar-negotiations-before-july",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-exits-iran-nucelar-negotiations-before-july-yaH8Ktou8xz-.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-exits-iran-nucelar-negotiations-before-july-yaH8Ktou8xz-.jpg",
+      "marketCount": 1
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0xEa6830B7866300180BbAa3380EC58c8F9D667Cbf",
+      "displayName": "\"exirnb\" Polymarket Account"
+    },
+    {
+      "address": "0xdE242261BCD8d4320113F12230DA34D705ca25a8",
+      "displayName": "@exitIiquidty"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0xEa6830B7866300180BbAa3380EC58c8F9D667Cbf",
+    "displayName": "\"exirnb\" Polymarket Account"
+  }
+}

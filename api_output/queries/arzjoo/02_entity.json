@@ -1,0 +1,42 @@
+{
+  "name": "@arzoo47660036",
+  "note": "",
+  "id": "arzoo47660036",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/arzoo47660036",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "farcaster-user",
+      "label": "\"searchers\" on Farcaster",
+      "rank": 105,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "\"searchers\" on Farcaster"
+    },
+    {
+      "id": "polymarket-user",
+      "label": "\"Searcherr\" on Polymarket",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "\"Searcherr\" on Polymarket"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xae3d79661587c83b74756F2a6f2f564d3ed67Fc4",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xae3d79661587c83b74756F2a6f2f564d3ed67Fc4"
+    }
+  ]
+}

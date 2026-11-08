@@ -1,0 +1,569 @@
+{
+  "name": "Tornado.Cash",
+  "note": "",
+  "id": "tornado-cash",
+  "customized": false,
+  "type": "privacy",
+  "service": null,
+  "website": "https://tornado.cash",
+  "twitter": "https://twitter.com/TornadoCash",
+  "crunchbase": "https://www.crunchbase.com/organization/tornado-cash",
+  "populatedTags": [
+    {
+      "id": "suspicious",
+      "label": "Suspicious",
+      "rank": 30,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "mixer",
+      "label": "Mixer",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "tornado-cash"
+    },
+    {
+      "id": "mixer",
+      "label": "Mixer",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "validator",
+      "label": "Validator",
+      "rank": 70,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "ens-primary-name",
+      "label": "tornado-dev.eth",
+      "rank": 100,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "tornado-dev.eth"
+    },
+    {
+      "id": "opensea-user",
+      "label": "OpenSea User",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "OpenSea User"
+    },
+    {
+      "id": "opensea-user",
+      "label": "\"dondarko\" on OpenSea",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "\"dondarko\" on OpenSea"
+    },
+    {
+      "id": "tornadocash-depositor",
+      "label": "Tornado Cash Depositor",
+      "rank": 150,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "tornadocash-recipient",
+      "label": "Tornado Cash Recipient",
+      "rank": 150,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "input-data-messenger",
+      "label": "Input Data Messenger",
+      "rank": 170,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "multisig-deployer",
+      "label": "MultiSig Deployer",
+      "rank": 190,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "token-deployer",
+      "label": "BEP20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "BEP20"
+    },
+    {
+      "id": "token-deployer",
+      "label": "ERC20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ERC20"
+    },
+    {
+      "id": "pool-deployer",
+      "label": "PancakeSwap V2 Pool Deployer",
+      "rank": 210,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "PancakeSwap V2 Pool"
+    },
+    {
+      "id": "multisig",
+      "label": "MultiSig / Contract Wallet",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xBd782e7df7c2592f167aCF2023139F6BB6c2b81D",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xBd782e7df7c2592f167aCF2023139F6BB6c2b81D"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xa40dd37dbcc2c0799921ca0ef7e8148e828C70FD",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xa40dd37dbcc2c0799921ca0ef7e8148e828C70FD"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0xEA27752f7D6687CB3Be2F180B997713b784c9911",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xEA27752f7D6687CB3Be2F180B997713b784c9911"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0xAf98Bb4bCeD00A17fFE020499C342CFC3511Fb10",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xAf98Bb4bCeD00A17fFE020499C342CFC3511Fb10"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0x7c09bCa28ba3DB1CF7cd793696B161261cAC27b5",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x7c09bCa28ba3DB1CF7cd793696B161261cAC27b5"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0x0D5bbdBa8Fd6523102A0bb5a0E68b30441a3765F",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x0D5bbdBa8Fd6523102A0bb5a0E68b30441a3765F"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0x339B45fBEed1ab46Fe9c11f484b0Ea7220e75300",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x339B45fBEed1ab46Fe9c11f484b0Ea7220e75300"
+    },
+    {
+      "id": "ens-owner",
+      "label": "tornadocash.eth Owner",
+      "rank": 310,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "tornadocash.eth"
+    },
+    {
+      "id": "ens-owner",
+      "label": "tornado-dev.eth Owner",
+      "rank": 310,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "tornado-dev.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "cli.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "cli.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "minified.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "minified.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "staking-rewards.contract.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "staking-rewards.contract.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "download.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "download.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "docs.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "docs.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "nova.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "nova.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "cli.minified.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "cli.minified.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "nova.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "nova.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "config.packages.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "config.packages.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "relayer.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "relayer.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "swap.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "swap.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "swap.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "swap.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "contract.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "contract.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "trees.packages.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "trees.packages.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "packages.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "packages.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "help.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "help.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "nova.minified.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "nova.minified.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "docs.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "docs.tornadocash.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "oracles.packages.sources.tornadocash.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "oracles.packages.sources.tornadocash.eth"
+    },
+    {
+      "id": "ens-owner-prev",
+      "label": "tornadomixer.eth Prev. Owner",
+      "rank": 330,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "tornadomixer.eth"
+    },
+    {
+      "id": "ens-owner-prev",
+      "label": "30023002.eth Prev. Owner",
+      "rank": 330,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "30023002.eth"
+    },
+    {
+      "id": "ens-manager-prev",
+      "label": "tornadomixer.eth Prev. Manager",
+      "rank": 340,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "tornadomixer.eth"
+    },
+    {
+      "id": "donor",
+      "label": "Ukraine Donations Donor",
+      "rank": 370,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Ukraine Donations"
+    },
+    {
+      "id": "governance-voter",
+      "label": "TornadoCash Governance Voter",
+      "rank": 420,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TornadoCash"
+    },
+    {
+      "id": "governance-delegator",
+      "label": "TornadoCash Governance Delegator",
+      "rank": 450,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TornadoCash"
+    },
+    {
+      "id": "governance-delegatee",
+      "label": "TornadoCash Governance Delegatee",
+      "rank": 460,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TornadoCash"
+    },
+    {
+      "id": "tokenized-eth2-staker",
+      "label": "Tokenized ETH2 Staker",
+      "rank": 510,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"alchemist\",\"symbol\":\"MIST\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"alchemist\",\"symbol\":\"MIST\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"ampleforth\",\"symbol\":\"AMPL\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"ampleforth\",\"symbol\":\"AMPL\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"rai\",\"symbol\":\"RAI\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"rai\",\"symbol\":\"RAI\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"nftx\",\"symbol\":\"NFTX\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"nftx\",\"symbol\":\"NFTX\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"acent\",\"symbol\":\"ACE\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"acent\",\"symbol\":\"ACE\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"rook\",\"symbol\":\"ROOK\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"rook\",\"symbol\":\"ROOK\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"mirror-protocol\",\"symbol\":\"MIR\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"mirror-protocol\",\"symbol\":\"MIR\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"uma\",\"symbol\":\"UMA\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"uma\",\"symbol\":\"UMA\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"compound-0x\",\"symbol\":\"CZRX\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"compound-0x\",\"symbol\":\"CZRX\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"sperax-usd\",\"symbol\":\"USDS\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"sperax-usd\",\"symbol\":\"USDS\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"nutcash\",\"symbol\":\"NCASH\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"nutcash\",\"symbol\":\"NCASH\"}"
+    }
+  ]
+}

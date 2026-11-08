@@ -1,0 +1,18 @@
+{
+  "name": "@tetherix",
+  "note": "",
+  "id": "tetherix",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/tetherix",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    }
+  ]
+}

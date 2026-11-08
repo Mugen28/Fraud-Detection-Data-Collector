@@ -1,0 +1,137 @@
+{
+  "entities": {
+    "exit-labs": {
+      "name": "EXIT Labs",
+      "note": "",
+      "id": "exit-labs",
+      "type": "misc",
+      "service": null,
+      "twitter": "https://x.com/ExitLab_io",
+      "populatedTags": [
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "token-deployer",
+          "label": "BEP20 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "BEP20"
+        },
+        {
+          "id": "pool-deployer",
+          "label": "PancakeSwap V2 Pool Deployer",
+          "rank": 210,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "PancakeSwap V2 Pool"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 777.1622136327948,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 792.1316490729438,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 1.0669544992419195,
+        "usd": 777.1589877028217,
+        "price": 728.39,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -1.8897659007031025,
+        "priceChange24h": -14.029999999999973
+      },
+      {
+        "name": "CZ THE GOAT",
+        "symbol": "CZGOAT",
+        "id": "the-goat-cz",
+        "balance": 56.384367125,
+        "usd": 0.00315244996595875,
+        "price": 5.591e-05,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -1.9466853735531413,
+        "priceChange24h": -1.1100000000000012e-06
+      },
+      {
+        "name": "Wrapped BNB",
+        "symbol": "WBNB",
+        "id": "wbnb",
+        "balance": 1e-07,
+        "usd": 7.271299999999999e-05,
+        "price": 727.13,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -1.9048903878583479,
+        "priceChange24h": -14.120000000000005
+      },
+      {
+        "name": "MSV Protocol",
+        "symbol": "MSVP",
+        "id": "msv-protocol",
+        "balance": 0.5079517466048799,
+        "usd": 7.670071373733685e-07,
+        "price": 1.51e-06,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": 31.304347826086953,
+        "priceChange24h": 3.5999999999999994e-07
+      }
+    ],
+    "dogecoin": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

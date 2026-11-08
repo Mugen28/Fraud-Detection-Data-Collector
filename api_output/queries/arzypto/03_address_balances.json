@@ -1,0 +1,55 @@
+{
+  "addresses": {
+    "solana": {
+      "3Mujms2rLmGmoS5MM3F6GVge2f8evxjSuwbkSRoS5VEv": {
+        "address": "3Mujms2rLmGmoS5MM3F6GVge2f8evxjSuwbkSRoS5VEv",
+        "chain": "solana",
+        "arkhamEntity": {
+          "name": "@arzuavdtk",
+          "note": "",
+          "id": "arzuavdtk",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://x.com/arzuavdtk"
+        },
+        "isUserAddress": false,
+        "program": false
+      }
+    }
+  },
+  "totalBalance": {
+    "solana": 5.5956619982
+  },
+  "totalBalance24hAgo": {
+    "solana": 5.7515270924
+  },
+  "balances": {
+    "solana": [
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "id": "solana",
+        "balance": 0.05527131,
+        "balanceExact": "55271310",
+        "usd": 5.5945619982,
+        "price": 101.22,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.710495963091126,
+        "priceChange24h": -2.8200000000000074
+      },
+      {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "ethereumAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "balance": 0.0011,
+        "balanceExact": "1100",
+        "usd": 0.0011,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ]
+  }
+}

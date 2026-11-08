@@ -1,0 +1,505 @@
+{
+  "transfers": [
+    {
+      "id": "call_0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d_0,0,0",
+      "transactionHash": "0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d",
+      "fromAddress": {
+        "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Spoke Pool",
+          "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "chain": "arbitrum_one",
+        "arkhamLabel": {
+          "name": "Wrapped Ether (WETH)",
+          "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:56Z",
+      "blockNumber": 516927247,
+      "blockHash": "0xfb51e0332c3ad52789f16b9415c7657a722af0038c20dd6e14b5a8b339d28b06",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.46499,
+      "tokenId": "ethereum",
+      "historicalUSD": 1148.5531994,
+      "chain": "arbitrum_one",
+      "seq": 472234724
+    },
+    {
+      "id": "call_0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d_0",
+      "transactionHash": "0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d",
+      "fromAddress": {
+        "address": "0x97CCDBea4632140639aD5eA9b944aa034eb15fD4",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "SpokePoolPeriphery",
+          "address": "0x97CCDBea4632140639aD5eA9b944aa034eb15fD4",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Spoke Pool",
+          "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:56Z",
+      "blockNumber": 516927247,
+      "blockHash": "0xfb51e0332c3ad52789f16b9415c7657a722af0038c20dd6e14b5a8b339d28b06",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.46499,
+      "tokenId": "ethereum",
+      "historicalUSD": 1148.5531994,
+      "chain": "arbitrum_one",
+      "seq": 472234723
+    },
+    {
+      "id": "0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d",
+      "transactionHash": "0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d",
+      "fromAddress": {
+        "address": "0xb143F6cA55358Fac056eCa7aC1A228a1f018B048",
+        "chain": "arbitrum_one",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x97CCDBea4632140639aD5eA9b944aa034eb15fD4",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "SpokePoolPeriphery",
+          "address": "0x97CCDBea4632140639aD5eA9b944aa034eb15fD4",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:56Z",
+      "blockNumber": 516927247,
+      "blockHash": "0xfb51e0332c3ad52789f16b9415c7657a722af0038c20dd6e14b5a8b339d28b06",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.46499,
+      "tokenId": "ethereum",
+      "historicalUSD": 1148.5531994,
+      "chain": "arbitrum_one",
+      "seq": 472234722
+    },
+    {
+      "id": "0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d_11",
+      "transactionHash": "0xf5bc1eb5f5e5eeb1618be465a97a0e6f580d257fe53def027dc3b3108c67d26d",
+      "fromAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "arbitrum_one",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Spoke Pool",
+          "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:56Z",
+      "blockNumber": 516927247,
+      "blockHash": "0xfb51e0332c3ad52789f16b9415c7657a722af0038c20dd6e14b5a8b339d28b06",
+      "tokenName": "Wrapped Ether",
+      "tokenSymbol": "WETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.46499,
+      "tokenId": "arbitrum-bridged-weth-arbitrum-one",
+      "historicalUSD": 1150.7758516000001,
+      "chain": "arbitrum_one",
+      "seq": 472234725
+    },
+    {
+      "id": "call_0xb03cae34c107ff05f301e4de9f6049bc7c13c188e6f0b47e1f1873e34c5001e4_1,2,0,0",
+      "transactionHash": "0xb03cae34c107ff05f301e4de9f6049bc7c13c188e6f0b47e1f1873e34c5001e4",
+      "fromAddress": {
+        "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Universal_SpokePool (Proxy)",
+          "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+        "chain": "robinhood",
+        "arkhamLabel": {
+          "name": "WETH (WETH)",
+          "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:55Z",
+      "blockNumber": 94320812,
+      "blockHash": "0xf16e1d9c92c473ec437d40807cbd314c784551143d6c6223d0a0bc29e74437d6",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.000766954710893459,
+      "tokenId": "ethereum",
+      "historicalUSD": 1.8944241531894974,
+      "chain": "robinhood",
+      "seq": 2393447305
+    },
+    {
+      "id": "call_0xb03cae34c107ff05f301e4de9f6049bc7c13c188e6f0b47e1f1873e34c5001e4_1,2",
+      "transactionHash": "0xb03cae34c107ff05f301e4de9f6049bc7c13c188e6f0b47e1f1873e34c5001e4",
+      "fromAddress": {
+        "address": "0xaA691Df10d9fEDF08a6164A1aF66328828cdb520",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "0x",
+          "note": "",
+          "id": "0x",
+          "type": "dex",
+          "service": null,
+          "website": "https://0x.org",
+          "twitter": "https://twitter.com/0xProject",
+          "crunchbase": "https://www.crunchbase.com/organization/0x-project",
+          "linkedin": "https://www.linkedin.com/company/0x"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Universal_SpokePool (Proxy)",
+          "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:55Z",
+      "blockNumber": 94320812,
+      "blockHash": "0xf16e1d9c92c473ec437d40807cbd314c784551143d6c6223d0a0bc29e74437d6",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.000766954710893459,
+      "tokenId": "ethereum",
+      "historicalUSD": 1.8944241531894974,
+      "chain": "robinhood",
+      "seq": 2393447304
+    },
+    {
+      "id": "0xb03cae34c107ff05f301e4de9f6049bc7c13c188e6f0b47e1f1873e34c5001e4_69",
+      "transactionHash": "0xb03cae34c107ff05f301e4de9f6049bc7c13c188e6f0b47e1f1873e34c5001e4",
+      "fromAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "robinhood",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Universal_SpokePool (Proxy)",
+          "address": "0xD29C85F15DF544bA632C9E25829fd29d767d7978",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:55Z",
+      "blockNumber": 94320812,
+      "blockHash": "0xf16e1d9c92c473ec437d40807cbd314c784551143d6c6223d0a0bc29e74437d6",
+      "tokenName": "WETH",
+      "tokenSymbol": "WETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.000766954710893459,
+      "tokenId": "weth",
+      "historicalUSD": 1.8980901967075683,
+      "chain": "robinhood",
+      "seq": 2393447306
+    },
+    {
+      "id": "0xe8d6d70f582b69a846377bb3e092602c7bd19f7f771d1152becc3aa17e464a1e_1111",
+      "transactionHash": "0xe8d6d70f582b69a846377bb3e092602c7bd19f7f771d1152becc3aa17e464a1e",
+      "fromAddress": {
+        "address": "0x394311A6Aaa0D8E3411D8b62DE4578D41322d1bD",
+        "chain": "base",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Base_SpokePool (Proxy)",
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x4200000000000000000000000000000000000006",
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:47Z",
+      "blockNumber": 52900170,
+      "blockHash": "0x39aa01e7efea7ee46edf8d0704214c950bd73214b56cbd69cb28a4679881bdd6",
+      "tokenName": "Wrapped Ether",
+      "tokenSymbol": "WETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.6637888040677787,
+      "tokenId": "l2-standard-bridged-weth-base",
+      "historicalUSD": 1642.7710838591017,
+      "chain": "base",
+      "seq": 2452007335
+    },
+    {
+      "id": "call_0xe8d6d70f582b69a846377bb3e092602c7bd19f7f771d1152becc3aa17e464a1e_0,2",
+      "transactionHash": "0xe8d6d70f582b69a846377bb3e092602c7bd19f7f771d1152becc3aa17e464a1e",
+      "fromAddress": {
+        "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Base_SpokePool (Proxy)",
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xD941d38076AD64ceb587747cE1c332E11FcD834e",
+        "chain": "base",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:47Z",
+      "blockNumber": 52900170,
+      "blockHash": "0x39aa01e7efea7ee46edf8d0704214c950bd73214b56cbd69cb28a4679881bdd6",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.6637888040677787,
+      "tokenId": "ethereum",
+      "historicalUSD": 1639.5981733756576,
+      "chain": "base",
+      "seq": 2452007334
+    },
+    {
+      "id": "call_0xe8d6d70f582b69a846377bb3e092602c7bd19f7f771d1152becc3aa17e464a1e_0,1,0",
+      "transactionHash": "0xe8d6d70f582b69a846377bb3e092602c7bd19f7f771d1152becc3aa17e464a1e",
+      "fromAddress": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "chain": "base",
+        "arkhamLabel": {
+          "name": "Wrapped Ether (WETH)",
+          "address": "0x4200000000000000000000000000000000000006",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "Across Protocol",
+          "note": "",
+          "id": "across-protocol",
+          "type": "bridge",
+          "service": null,
+          "website": "https://across.to/",
+          "twitter": "https://twitter.com/AcrossProtocol"
+        },
+        "arkhamLabel": {
+          "name": "Base_SpokePool (Proxy)",
+          "address": "0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T13:34:47Z",
+      "blockNumber": 52900170,
+      "blockHash": "0x39aa01e7efea7ee46edf8d0704214c950bd73214b56cbd69cb28a4679881bdd6",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.6637888040677787,
+      "tokenId": "ethereum",
+      "historicalUSD": 1639.5981733756576,
+      "chain": "base",
+      "seq": 2452007333
+    }
+  ],
+  "count": 10000
+}

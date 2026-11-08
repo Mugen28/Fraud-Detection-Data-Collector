@@ -1,0 +1,37 @@
+{
+  "target": "pingi",
+  "entity_id": "pingincu4n",
+  "entity_name": "@pingincu4n",
+  "summary": {
+    "entityId": "pingincu4n",
+    "numAddresses": 3,
+    "volumeUsd": 0,
+    "balanceUsd": 0,
+    "firstTx": null,
+    "lastTx": null
+  },
+  "top_address": null,
+  "wallets": [
+    {
+      "address": "0xabbB423d762bD79E9a921A61a2BB5a557044Cb8B",
+      "chain": "avalanche",
+      "label": "Hot Wallet / Deposit",
+      "entity": "@pingincu4n",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "6hFS3P7rVfejkMS7yXubUwz5t14hjNJjoTw9yMshiNgz",
+      "chain": "solana",
+      "label": "Hot Wallet / Deposit",
+      "entity": "@pingincu4n",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xD24A2066Bf39d0726c088EadD6d5F90b50d7BAf7",
+      "chain": "hypercore",
+      "label": "Hot Wallet / Deposit",
+      "entity": "@pingincu4n",
+      "source": "intelligence/search"
+    }
+  ]
+}

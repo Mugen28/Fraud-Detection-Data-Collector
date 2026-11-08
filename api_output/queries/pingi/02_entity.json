@@ -1,0 +1,18 @@
+{
+  "name": "@pingincu4n",
+  "note": "",
+  "id": "pingincu4n",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/pingincu4n",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    }
+  ]
+}

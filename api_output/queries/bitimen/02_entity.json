@@ -1,0 +1,117 @@
+{
+  "name": "Bitmine",
+  "note": "",
+  "id": "bitmine",
+  "customized": false,
+  "type": "fund",
+  "service": null,
+  "website": "https://bitminetech.io/",
+  "twitter": "https://x.com/BitMNR",
+  "populatedTags": [
+    {
+      "id": "note-entity",
+      "label": "Note: Bitmine has staked a large portion of its ETH holdings",
+      "rank": 15,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "Note: Bitmine has staked a large portion of its ETH holdings"
+    },
+    {
+      "id": "treasury-company",
+      "label": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"} Treasury Company",
+      "rank": 39,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"}"
+    },
+    {
+      "id": "fund",
+      "label": "Fund",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "validator",
+      "label": "Validator",
+      "rank": 70,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "whale",
+      "label": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"} Whale",
+      "rank": 130,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"}"
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "multisig-deployer",
+      "label": "MultiSig Deployer",
+      "rank": 190,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "multisig",
+      "label": "MultiSig / Contract Wallet",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "coinbase-prime-custody",
+      "label": "Coinbase Prime Custody",
+      "rank": 240,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "ens-owner",
+      "label": "discordkitten.eth Owner",
+      "rank": 310,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "discordkitten.eth"
+    },
+    {
+      "id": "ens-manager",
+      "label": "discordkitten.eth Manager",
+      "rank": 320,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "discordkitten.eth"
+    },
+    {
+      "id": "beacon-depositor",
+      "label": "Beacon Depositor",
+      "rank": 480,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "mev-fee-recipient",
+      "label": "MEV Fee Recipient",
+      "rank": 490,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ethereum"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"imagen-ai\",\"symbol\":\"IMAGE\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"imagen-ai\",\"symbol\":\"IMAGE\"}"
+    }
+  ]
+}

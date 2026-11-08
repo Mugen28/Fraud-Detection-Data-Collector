@@ -1,0 +1,261 @@
+{
+  "addresses": {
+    "arbitrum_one": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "avalanche": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "avalanche",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "base": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "bsc": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "ethereum": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "flare": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "flare",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "hypercore": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hypercore",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false
+      }
+    },
+    "hyperevm": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      }
+    },
+    "optimism": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "optimism",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "polygon": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "polygon",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "robinhood": {
+      "0x3c1403335d0ca7d0A73c9E775B25514537C2b809": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bsc": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 23530.659891484345,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bsc": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 23753.344475314945,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bsc": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [
+      {
+        "name": "USD₮0",
+        "symbol": "USD₮0",
+        "id": "usdt0",
+        "ethereumAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "balance": 12738.258628,
+        "balanceExact": "12738258628",
+        "usd": 12738.258628,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Wrapped HYPE",
+        "symbol": "WHYPE",
+        "id": "wrapped-hype",
+        "ethereumAddress": "0x5555555555555555555555555555555555555555",
+        "balance": 141.837314541784,
+        "balanceExact": "141837314541784010142",
+        "usd": 10792.401263484346,
+        "price": 76.09,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.021632758176659,
+        "priceChange24h": -1.5699999999999932
+      }
+    ],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "@sarmadei",
+  "note": "",
+  "id": "sarmadei",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/sarmadei",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "opensea-user",
+      "label": "OpenSea User",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "OpenSea User"
+    },
+    {
+      "id": "polymarket-account",
+      "label": "\"NHYKYTKYUKHJ\" Polymarket Account",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "\"NHYKYTKYUKHJ\" Polymarket Account"
+    },
+    {
+      "id": "polymarket-user",
+      "label": "\"NHYKYTKYUKHJ\" on Polymarket",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "\"NHYKYTKYUKHJ\" on Polymarket"
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "token-deployer",
+      "label": "ERC20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ERC20"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0xEF2b9B0ca2701588658F47cD14c8c55fDcAF9F25",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xEF2b9B0ca2701588658F47cD14c8c55fDcAF9F25"
+    },
+    {
+      "id": "polymarket-profitable-trader",
+      "label": "Polymarket Profitable Trader",
+      "rank": 265,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0x95866222e5eFE81Ba69B7536fabAb8A48814B1D8",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x95866222e5eFE81Ba69B7536fabAb8A48814B1D8"
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "name": "Bitpanda",
+  "note": "",
+  "id": "bitpanda",
+  "customized": false,
+  "type": "cex",
+  "service": null,
+  "website": "https://bitpanda.com",
+  "twitter": "https://twitter.com/Bitpanda",
+  "crunchbase": "https://www.crunchbase.com/organization/bitpanda",
+  "linkedin": "https://www.linkedin.com/company/bitpanda",
+  "populatedTags": [
+    {
+      "id": "cex",
+      "label": "Centralized Exchange",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "miner",
+      "label": "Miner",
+      "rank": 60,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "validator",
+      "label": "Validator",
+      "rank": 70,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "multisig-deployer",
+      "label": "MultiSig Deployer",
+      "rank": 190,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "token-deployer",
+      "label": "ERC20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ERC20"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0x3c1977DA1B8EA35cEE83da1d4ed7D0Cc1C9f3ae6",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x3c1977DA1B8EA35cEE83da1d4ed7D0Cc1C9f3ae6"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0x3e3ce0E15E4F92995A5db2F9ba505383169B3D20",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x3e3ce0E15E4F92995A5db2F9ba505383169B3D20"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xca0f48EbCdB6cf91B7fE566067F9570A922f1eFD",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xca0f48EbCdB6cf91B7fE566067F9570A922f1eFD"
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xd462535eFaD9c9AA0AC8BCC733e6348cE3083C0d",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xd462535eFaD9c9AA0AC8BCC733e6348cE3083C0d"
+    },
+    {
+      "id": "ens-owner-prev",
+      "label": "bitpandapro.eth Prev. Owner",
+      "rank": 330,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "bitpandapro.eth"
+    },
+    {
+      "id": "ens-owner-prev",
+      "label": "visionfoundation.eth Prev. Owner",
+      "rank": 330,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "visionfoundation.eth"
+    },
+    {
+      "id": "ens-manager-prev",
+      "label": "bitpandapro.eth Prev. Manager",
+      "rank": 340,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "bitpandapro.eth"
+    },
+    {
+      "id": "ens-manager-prev",
+      "label": "visionfoundation.eth Prev. Manager",
+      "rank": 340,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "visionfoundation.eth"
+    },
+    {
+      "id": "donor",
+      "label": "Ukraine Donations Donor",
+      "rank": 370,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Ukraine Donations"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TRzW2kQonPMHjttPGVjxZizqatKAPosXYR",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TRzW2kQonPMHjttPGVjxZizqatKAPosXYR"
+    },
+    {
+      "id": "snapshot-delegator",
+      "label": "Snapshot Delegator to 0xAad447D6ee0382A42a13eED6b5a2996141c467CA",
+      "rank": 430,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xAad447D6ee0382A42a13eED6b5a2996141c467CA"
+    },
+    {
+      "id": "beacon-depositor",
+      "label": "Beacon Depositor",
+      "rank": 480,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "mev-fee-recipient",
+      "label": "MEV Fee Recipient",
+      "rank": 490,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ethereum"
+    },
+    {
+      "id": "tron-staker",
+      "label": "TRX Staker",
+      "rank": 500,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "tokenized-eth2-staker",
+      "label": "Tokenized ETH2 Staker",
+      "rank": 510,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"usd-coinvertible\",\"symbol\":\"USDCV\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"usd-coinvertible\",\"symbol\":\"USDCV\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"moonriver\",\"symbol\":\"MOVR\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"moonriver\",\"symbol\":\"MOVR\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"societe-generale-forge-eurcv\",\"symbol\":\"EURCV\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"societe-generale-forge-eurcv\",\"symbol\":\"EURCV\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"kilt-protocol-2\",\"symbol\":\"KILT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"kilt-protocol-2\",\"symbol\":\"KILT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"quantoz-usdq\",\"symbol\":\"USDQ\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"quantoz-usdq\",\"symbol\":\"USDQ\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"gala\",\"symbol\":\"GALA\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"gala\",\"symbol\":\"GALA\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"arena-z\",\"symbol\":\"A2Z\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"arena-z\",\"symbol\":\"A2Z\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"catcoin-3\",\"symbol\":\"CATCOIN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"catcoin-3\",\"symbol\":\"CATCOIN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"gbtc6900\",\"symbol\":\"GBTC\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"gbtc6900\",\"symbol\":\"GBTC\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"web3-decision\",\"symbol\":\"WEB3D\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"web3-decision\",\"symbol\":\"WEB3D\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"outlanders\",\"symbol\":\"LAND\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"outlanders\",\"symbol\":\"LAND\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"alpha-city\",\"symbol\":\"AMETA\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"alpha-city\",\"symbol\":\"AMETA\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"ducky-2\",\"symbol\":\"DUCKY\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"ducky-2\",\"symbol\":\"DUCKY\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"andy-2\",\"symbol\":\"ANDY\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"andy-2\",\"symbol\":\"ANDY\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"legacy-token\",\"symbol\":\"LGCT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"legacy-token\",\"symbol\":\"LGCT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"ultiverse\",\"symbol\":\"ULTI\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"ultiverse\",\"symbol\":\"ULTI\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"nftwizard\",\"symbol\":\"NFTWIZ\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"nftwizard\",\"symbol\":\"NFTWIZ\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"yeet-the-yeti\",\"symbol\":\"YEET\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"yeet-the-yeti\",\"symbol\":\"YEET\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"bemu\",\"symbol\":\"BEMU\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"bemu\",\"symbol\":\"BEMU\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"peezy-eth\",\"symbol\":\"PEEZY\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"peezy-eth\",\"symbol\":\"PEEZY\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"shackleford\",\"symbol\":\"SHACK\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"shackleford\",\"symbol\":\"SHACK\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"killer-bean-2\",\"symbol\":\"BEAN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"killer-bean-2\",\"symbol\":\"BEAN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"akita-inu-5\",\"symbol\":\"AKITA\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"akita-inu-5\",\"symbol\":\"AKITA\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"schuman-europ\",\"symbol\":\"EUROP\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"schuman-europ\",\"symbol\":\"EUROP\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"fc-porto\",\"symbol\":\"PORTO\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"fc-porto\",\"symbol\":\"PORTO\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"aergo-2\",\"symbol\":\"HPP\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"aergo-2\",\"symbol\":\"HPP\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"joi\",\"symbol\":\"JOI\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"joi\",\"symbol\":\"JOI\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"lumia\",\"symbol\":\"LUMIA\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"lumia\",\"symbol\":\"LUMIA\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"lisk\",\"symbol\":\"LSK\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"lisk\",\"symbol\":\"LSK\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"allunity-eur\",\"symbol\":\"EURAU\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"allunity-eur\",\"symbol\":\"EURAU\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"simple-ai\",\"symbol\":\"SMPL\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"simple-ai\",\"symbol\":\"SMPL\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"blck-coin\",\"symbol\":\"BLCK\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"blck-coin\",\"symbol\":\"BLCK\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"bancor\",\"symbol\":\"BNT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"bancor\",\"symbol\":\"BNT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"euro-coin\",\"symbol\":\"EURC\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"euro-coin\",\"symbol\":\"EURC\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"don-pepex\",\"symbol\":\"PEPEX\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"don-pepex\",\"symbol\":\"PEPEX\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"medxt\",\"symbol\":\"MEDXT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"medxt\",\"symbol\":\"MEDXT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"chickencoin\",\"symbol\":\"CHKN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"chickencoin\",\"symbol\":\"CHKN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"mcoin-2\",\"symbol\":\"MCOIN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"mcoin-2\",\"symbol\":\"MCOIN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"wrapped-elrond\",\"symbol\":\"WEGLD\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"wrapped-elrond\",\"symbol\":\"WEGLD\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"switch-token\",\"symbol\":\"SWITCH\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"switch-token\",\"symbol\":\"SWITCH\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"telos\",\"symbol\":\"TLOS\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"telos\",\"symbol\":\"TLOS\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"crime-lizard\",\"symbol\":\"CLZD\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"crime-lizard\",\"symbol\":\"CLZD\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"ignore-fud\",\"symbol\":\"4TOKEN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"ignore-fud\",\"symbol\":\"4TOKEN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"vision-3\",\"symbol\":\"VSN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"vision-3\",\"symbol\":\"VSN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"notai\",\"symbol\":\"NOTAI\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"notai\",\"symbol\":\"NOTAI\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"dec-token\",\"symbol\":\"DECT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"dec-token\",\"symbol\":\"DECT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"acent\",\"symbol\":\"ACE\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"acent\",\"symbol\":\"ACE\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"dogcoin-2\",\"symbol\":\"DCOIN\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"dogcoin-2\",\"symbol\":\"DCOIN\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"venom\",\"symbol\":\"VENOM\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"venom\",\"symbol\":\"VENOM\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"baby-goat\",\"symbol\":\"BABYGOAT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"baby-goat\",\"symbol\":\"BABYGOAT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"buz-economy\",\"symbol\":\"BUZ\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"buz-economy\",\"symbol\":\"BUZ\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"unlucky-2\",\"symbol\":\"UNLUCKY\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"unlucky-2\",\"symbol\":\"UNLUCKY\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"bitball\",\"symbol\":\"BTB\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"bitball\",\"symbol\":\"BTB\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"matt\",\"symbol\":\"MATT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"matt\",\"symbol\":\"MATT\"}"
+    }
+  ]
+}

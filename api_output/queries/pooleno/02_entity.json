@@ -1,0 +1,36 @@
+{
+  "name": "Poolin",
+  "note": "",
+  "id": "poolin",
+  "customized": false,
+  "type": "misc",
+  "service": null,
+  "website": "https://poolin.com",
+  "twitter": "https://twitter.com/officialpoolin",
+  "crunchbase": "https://www.crunchbase.com/organization/poolin",
+  "linkedin": "https://www.linkedin.com/company/poolinpool/",
+  "populatedTags": [
+    {
+      "id": "miner",
+      "label": "Miner",
+      "rank": 60,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0x75F85890915A6CA02B594Cf9c33BdB29fAFcfc4E",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x75F85890915A6CA02B594Cf9c33BdB29fAFcfc4E"
+    }
+  ]
+}

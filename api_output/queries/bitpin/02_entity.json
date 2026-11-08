@@ -1,0 +1,393 @@
+{
+  "name": "Bitpin",
+  "note": "",
+  "id": "bitpin",
+  "customized": false,
+  "type": "cex",
+  "service": null,
+  "website": "https://bitpin.ir",
+  "twitter": "https://x.com/bitpinmarket",
+  "populatedTags": [
+    {
+      "id": "ofac-sanctioned",
+      "label": "OFAC Sanctioned",
+      "rank": 20,
+      "excludeEntities": true,
+      "disablePage": false
+    },
+    {
+      "id": "cex",
+      "label": "Centralized Exchange",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "gnosis-safe-signer-of-safe",
+      "label": "Signer of Gnosis Safe: 0xA35396B404921C42dF8D7D2E87888377fBd797E9",
+      "rank": 270,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xA35396B404921C42dF8D7D2E87888377fBd797E9"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TSdCyinMBXpsEFvSFHgRHnkYT1hr3A5uS3",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TSdCyinMBXpsEFvSFHgRHnkYT1hr3A5uS3"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TK5uj3pN6njgh6NpDmfYqCs3KFqT75y1nK",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TK5uj3pN6njgh6NpDmfYqCs3KFqT75y1nK"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TVqZR7TfrikGJpaCBLpVpP42SvP4cwAops",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TVqZR7TfrikGJpaCBLpVpP42SvP4cwAops"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TXGNU2T8RqG7566SqEztB4tsLhCGE8Wr65",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TXGNU2T8RqG7566SqEztB4tsLhCGE8Wr65"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TC5xeiLk2hvDS7wyASTdQNQi3g34DTpegs",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TC5xeiLk2hvDS7wyASTdQNQi3g34DTpegs"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TGv9iXP5hsSuVNNcBDociCD74HxZnrWpZZ",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TGv9iXP5hsSuVNNcBDociCD74HxZnrWpZZ"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TSnAPYtGimVEYsaJi87WB86Gpo8NsvKGkQ",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TSnAPYtGimVEYsaJi87WB86Gpo8NsvKGkQ"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TGtUcRo9cEWNpTF91yS1Zp5FATf7Anm4Lu",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TGtUcRo9cEWNpTF91yS1Zp5FATf7Anm4Lu"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TCckYsZr7CqMX2wHrDSXUr1id6rovYeAze",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TCckYsZr7CqMX2wHrDSXUr1id6rovYeAze"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TJG6ww1CEfPdzZTJ5yYefGPP8jLhHXGXJJ",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TJG6ww1CEfPdzZTJ5yYefGPP8jLhHXGXJJ"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TEsteAezL6ZFo3PaPfzKAzvvuocBXGa2gZ",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TEsteAezL6ZFo3PaPfzKAzvvuocBXGa2gZ"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TNYsy7gGaTRbTVv9rvMj7Qppv6VLd6G1Rh",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TNYsy7gGaTRbTVv9rvMj7Qppv6VLd6G1Rh"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TYYcMWUk9t5hQB22k6aXTRDjVGJ1nLfrvQ",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TYYcMWUk9t5hQB22k6aXTRDjVGJ1nLfrvQ"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TU9aBS1wKfAfAdgde1FFS5151TjsvkQKUB",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TU9aBS1wKfAfAdgde1FFS5151TjsvkQKUB"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TQK5Zp5UizTJqbsQaRbWC25YVBwPiHhFUR",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TQK5Zp5UizTJqbsQaRbWC25YVBwPiHhFUR"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TKLLAEjbfNE6ptHVan1EHPnjH6FfMmkDRp",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TKLLAEjbfNE6ptHVan1EHPnjH6FfMmkDRp"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TU14efg8cmr4xiZqWLRJF4eyM1kgHNansN",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TU14efg8cmr4xiZqWLRJF4eyM1kgHNansN"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for THomkepfC7d2a3TAHJ977HkxkHcDW1Raw5",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "THomkepfC7d2a3TAHJ977HkxkHcDW1Raw5"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TUPLjTgnZuR1G8b5zcYDcnpDazG8f4ZPn9",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TUPLjTgnZuR1G8b5zcYDcnpDazG8f4ZPn9"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TZAyWnoQYPHj4nxN7HbsAD5NnZ2xWGFFi8",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TZAyWnoQYPHj4nxN7HbsAD5NnZ2xWGFFi8"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TMwRuVEzwKYKtj1sb4jENuXR9oeKh3WbEE",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TMwRuVEzwKYKtj1sb4jENuXR9oeKh3WbEE"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TRgyppgdN8nfYPVyT1zPvic8id8o6TEjtc",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TRgyppgdN8nfYPVyT1zPvic8id8o6TEjtc"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TZDZmxE5aMJXLC1A4et75dLKQGXCZxrSz3",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TZDZmxE5aMJXLC1A4et75dLKQGXCZxrSz3"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TGapqPfonT6eSE9nNEHY8yLuztbviCVKix",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TGapqPfonT6eSE9nNEHY8yLuztbviCVKix"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TPgWVKvdHY3chCJH1KStDc6V7XzDsi9C8t",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TPgWVKvdHY3chCJH1KStDc6V7XzDsi9C8t"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TGddXbp6Z55q9pvEd4i28oqmZZNd4Xf5Ah",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TGddXbp6Z55q9pvEd4i28oqmZZNd4Xf5Ah"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TX5ndUo4gRyhk7NcTkt8hqVRbrywdZ7b5r",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TX5ndUo4gRyhk7NcTkt8hqVRbrywdZ7b5r"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TAWA7shmzrfwdA5P6sGbRmempoKpUaMHEq",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TAWA7shmzrfwdA5P6sGbRmempoKpUaMHEq"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TDU1mKPTkgwFGxQyYdk9pq9QJWr6HE6s1v",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TDU1mKPTkgwFGxQyYdk9pq9QJWr6HE6s1v"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TQdK4nHVBhk7KBXdEbAi2Qopr7957dW789",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TQdK4nHVBhk7KBXdEbAi2Qopr7957dW789"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TSmPJSn24Gj2SYn8BLpf8fnAFusagwkbC6",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TSmPJSn24Gj2SYn8BLpf8fnAFusagwkbC6"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TNBRPUdTi6JZTPjn1Pr3MbL7kVJmW9Qz6k",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TNBRPUdTi6JZTPjn1Pr3MbL7kVJmW9Qz6k"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TEgL7rURWDgVfNyLs8jtxAHrwsUWVCsApN",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TEgL7rURWDgVfNyLs8jtxAHrwsUWVCsApN"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TTX2Hx1XnWHdffn35y9nWogpGAJdMX7yDo",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TTX2Hx1XnWHdffn35y9nWogpGAJdMX7yDo"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for THzh58Gb46ezbrmR7iRpvVuBpXakiGPrjD",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "THzh58Gb46ezbrmR7iRpvVuBpXakiGPrjD"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TDP4DzzYM5tXyZBgvnUz9pyYNqNkUQ5h35",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TDP4DzzYM5tXyZBgvnUz9pyYNqNkUQ5h35"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for THR86muQ3XiS9EEMyoDYyWHJg4t1zN9yvg",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "THR86muQ3XiS9EEMyoDYyWHJg4t1zN9yvg"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TPhr46eojkqN99qfPtaLcQreWTXc9wUdqT",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TPhr46eojkqN99qfPtaLcQreWTXc9wUdqT"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TP9jpoZF29NZXvpWiDAxVDRCEnomYAjkRb",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TP9jpoZF29NZXvpWiDAxVDRCEnomYAjkRb"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TK98qSuvuX16pU7QiNFCk2XdMCw456DyhF",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TK98qSuvuX16pU7QiNFCk2XdMCw456DyhF"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TQCyEpvSX3cqFJaLEw3FFkkAWPfnFV6g6f",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TQCyEpvSX3cqFJaLEw3FFkkAWPfnFV6g6f"
+    },
+    {
+      "id": "tron-energy-delegate",
+      "label": "Tron Energy Delegate for TWp3RuQ7MqKAK6hZACkZPv2aV4g2c8BZCq",
+      "rank": 400,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "TWp3RuQ7MqKAK6hZACkZPv2aV4g2c8BZCq"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"binance-peg-tezos-token\",\"symbol\":\"XTZ\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"binance-peg-tezos-token\",\"symbol\":\"XTZ\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"rezor\",\"symbol\":\"RZR\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"rezor\",\"symbol\":\"RZR\"}"
+    }
+  ]
+}

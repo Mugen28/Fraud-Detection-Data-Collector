@@ -1,0 +1,243 @@
+{
+  "entities": {
+    "sarmadei": {
+      "name": "@sarmadei",
+      "note": "",
+      "id": "sarmadei",
+      "type": "individual",
+      "service": null,
+      "twitter": "https://x.com/sarmadei",
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "opensea-user",
+          "label": "OpenSea User",
+          "rank": 110,
+          "excludeEntities": false,
+          "disablePage": true,
+          "tagParams": "OpenSea User"
+        },
+        {
+          "id": "polymarket-account",
+          "label": "\"NHYKYTKYUKHJ\" Polymarket Account",
+          "rank": 110,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "\"NHYKYTKYUKHJ\" Polymarket Account"
+        },
+        {
+          "id": "polymarket-user",
+          "label": "\"NHYKYTKYUKHJ\" on Polymarket",
+          "rank": 110,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "\"NHYKYTKYUKHJ\" on Polymarket"
+        },
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "token-deployer",
+          "label": "ERC20 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "ERC20"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0xEF2b9B0ca2701588658F47cD14c8c55fDcAF9F25",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xEF2b9B0ca2701588658F47cD14c8c55fDcAF9F25"
+        },
+        {
+          "id": "polymarket-profitable-trader",
+          "label": "Polymarket Profitable Trader",
+          "rank": 265,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "gnosis-safe-signer-of-safe",
+          "label": "Signer of Gnosis Safe: 0x95866222e5eFE81Ba69B7536fabAb8A48814B1D8",
+          "rank": 270,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x95866222e5eFE81Ba69B7536fabAb8A48814B1D8"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0.4349328895287178,
+    "avalanche": 0.0059403238032123985,
+    "base": 0.01185957256683,
+    "bitcoin": 0,
+    "bsc": 0.20506310626311752,
+    "dogecoin": 0,
+    "ethereum": 0.0008760011943048463,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 6.661338147750939e-16,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0.44663673192144765,
+    "avalanche": 0.0060739643837121144,
+    "base": 0.012178708165698444,
+    "bitcoin": 0,
+    "bsc": 0.20898480901884625,
+    "dogecoin": 0,
+    "ethereum": 0.0008995739802698178,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 6.661338147750939e-16,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 0.00018627793080900685,
+        "usd": 0.4349328895287178,
+        "price": 2334.86,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.6204388390492483,
+        "priceChange24h": -62.82999999999993
+      }
+    ],
+    "avalanche": [
+      {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "id": "avalanche-2",
+        "balance": 0.0006682029024985825,
+        "usd": 0.0059403238032123985,
+        "price": 8.89,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.2002200220021924,
+        "priceChange24h": -0.1999999999999993
+      }
+    ],
+    "base": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 5.0793506106700355e-06,
+        "usd": 0.011859572566829039,
+        "price": 2334.86,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.6204388390492483,
+        "priceChange24h": -62.82999999999993
+      },
+      {
+        "name": "Degen",
+        "symbol": "DEGEN",
+        "id": "degen-base",
+        "balance": 9.094947017729282e-13,
+        "usd": 8.268034434877336e-16,
+        "price": 0.00090908,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -4.807380181991426,
+        "priceChange24h": -4.590999999999992e-05
+      },
+      {
+        "name": "Brett",
+        "symbol": "BRETT",
+        "id": "based-brett",
+        "balance": 2.842170943040401e-14,
+        "usd": 1.3330918591236696e-16,
+        "price": 0.0046904,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -4.508678993293777,
+        "priceChange24h": -0.0002214599999999997
+      }
+    ],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 0.00028152927176803297,
+        "usd": 0.20506310626311752,
+        "price": 728.39,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -1.876549197111766,
+        "priceChange24h": -13.930000000000064
+      },
+      {
+        "name": "Sahara AI",
+        "symbol": "SAHARA",
+        "id": "sahara-ai",
+        "balance": 0,
+        "usd": 0,
+        "price": 0.0081452,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": 3.9936673305755606,
+        "priceChange24h": 0.00031280000000000023
+      }
+    ],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 3.751836059998656e-07,
+        "usd": 0.0008760011943048463,
+        "price": 2334.86,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.6204388390492483,
+        "priceChange24h": -62.82999999999993
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [
+      {
+        "name": "Polygon Bridged USDC (Polygon PoS)",
+        "symbol": "USDC.E",
+        "id": "bridged-usdc-polygon-pos-bridge",
+        "balance": 6.661338147750939e-16,
+        "usd": 6.661338147750939e-16,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:02:52Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

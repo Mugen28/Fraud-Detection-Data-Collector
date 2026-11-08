@@ -1,0 +1,559 @@
+{
+  "arkhamAddresses": [
+    {
+      "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@nikploknoklay",
+        "note": "",
+        "id": "nikploknoklay",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/nikploknoklay"
+      },
+      "arkhamLabel": {
+        "name": "nik.bnb",
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "GmYiPTRvPmN5g8UgqS4Y7MBLzmo62hYpBn1CFRQJ1o2D",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@nikzall",
+        "note": "",
+        "id": "nikzall",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/nikzall"
+      }
+    },
+    {
+      "address": "6ALR5K93i8R2Rx9MvZafq8JnLc2DffNy914DZRJMBX4V",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@Nik_AFC",
+        "note": "",
+        "id": "nik-afc",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Nik_AFC"
+      }
+    },
+    {
+      "address": "0x9e325a52255Bde373a21567B048C4A6D559Ac9DE",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@nikefernandez51",
+        "note": "",
+        "id": "nikefernandez51",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/nikefernandez51"
+      },
+      "arkhamLabel": {
+        "name": "\"siesta\" on Farcaster",
+        "address": "0x9e325a52255Bde373a21567B048C4A6D559Ac9DE",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "87ei8EVdLf3Ushc4TQJ8BkKczM5F3bAeuKxnsyZBjc44",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@niklcheva",
+        "note": "",
+        "id": "niklcheva",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/niklcheva"
+      }
+    },
+    {
+      "address": "0x6aD71B4DD5BAE567bCF3376fDc48AC5843E19203",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Nibbio",
+        "note": "",
+        "id": "nibbio",
+        "type": "fund",
+        "service": null,
+        "twitter": "https://twitter.com/Nib_bio"
+      }
+    },
+    {
+      "address": "0x72BB3e08f6B00e59e40cFCb24fd944cA5E135752",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "@NikenGem",
+        "note": "",
+        "id": "nikengem",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/NikenGem"
+      },
+      "arkhamLabel": {
+        "name": "naken.eth",
+        "address": "0x72BB3e08f6B00e59e40cFCb24fd944cA5E135752",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x868490398931ffEaD3c38d6D9aF71F4F06D3F4F6",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@Nikeron08",
+        "note": "",
+        "id": "nikeron08",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/Nikeron08"
+      },
+      "arkhamLabel": {
+        "name": "0xron.eth",
+        "address": "0x868490398931ffEaD3c38d6D9aF71F4F06D3F4F6",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xC966071815F0FdF802aEbC02E97A56AA76D380E8",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@NikHo1302",
+        "note": "",
+        "id": "nikho1302",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/NikHo1302"
+      },
+      "arkhamLabel": {
+        "name": "nikho.eth",
+        "address": "0xC966071815F0FdF802aEbC02E97A56AA76D380E8",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x488A14b1490313E966229dEa4F106F6C60F74c66",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@nika82333",
+        "note": "",
+        "id": "nika82333",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/nika82333"
+      },
+      "arkhamLabel": {
+        "name": "xuelei.eth",
+        "address": "0x488A14b1490313E966229dEa4F106F6C60F74c66",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xCbA202F6c6684C497C3FB7740a6f6BA14041CDE8",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@niklaseth",
+        "note": "",
+        "id": "niklaseth",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/niklaseth"
+      },
+      "arkhamLabel": {
+        "name": "nxklas.eth",
+        "address": "0xCbA202F6c6684C497C3FB7740a6f6BA14041CDE8",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x2C6cF65f3cD32a9Be1822855AbF2321F6F8f6b24",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Nimbus",
+        "note": "",
+        "id": "nimbus",
+        "type": "misc",
+        "service": null,
+        "website": "https://nimbusplatform.io/",
+        "twitter": "https://twitter.com/nmbplatform"
+      },
+      "arkhamLabel": {
+        "name": "NimbusRouter",
+        "address": "0x2C6cF65f3cD32a9Be1822855AbF2321F6F8f6b24",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x9e8077593BF0a6Fd63F988dCF589F7558897F694",
+      "chain": "polygon",
+      "arkhamEntity": {
+        "name": "@Nik_AFC",
+        "note": "",
+        "id": "nik-afc",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Nik_AFC"
+      },
+      "arkhamLabel": {
+        "name": "\"Nik-\" Polymarket Account",
+        "address": "0x9e8077593BF0a6Fd63F988dCF589F7558897F694",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x7eE2523b5cdb72e825d64889fFA19B62c44C9300",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@NikimbaSoul",
+        "note": "",
+        "id": "nikimbasoul",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/NikimbaSoul"
+      },
+      "arkhamLabel": {
+        "name": "nikimba.eth",
+        "address": "0x7eE2523b5cdb72e825d64889fFA19B62c44C9300",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x94c25eA64eB6c041f4F363cAE311777FfA1ADE2e",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@nik_the_general",
+        "note": "",
+        "id": "nik-the-general",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/nik_the_general"
+      },
+      "arkhamLabel": {
+        "name": "nikolaus.eth",
+        "address": "0x94c25eA64eB6c041f4F363cAE311777FfA1ADE2e",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "nik.eth",
+      "address": "0x6c0D14C67CCa5E944f2eB168EC4196e2c4658068"
+    },
+    {
+      "name": "niku.eth",
+      "address": "0xdE0fac9eBE5Ae976f4c0E5eDF35F36D350346a6a"
+    },
+    {
+      "name": "nikku.eth",
+      "address": "0x72665730836BffD5743f4CEA4973370e95E6b335"
+    },
+    {
+      "name": "nikre.eth",
+      "address": "0xAf535F8A3ee6c85622ab86F72697FaD26Fa15F2d"
+    },
+    {
+      "name": "nik3e.eth",
+      "address": "0x7465a22BA37d72eD2995BE8D5e94AB1A39338F30"
+    },
+    {
+      "name": "nikoz.eth",
+      "address": "0x51baA32Ba08FFaf3FA54b0cc0A0F7550FB3f6171"
+    },
+    {
+      "name": "nikho.eth",
+      "address": "0xC966071815F0FdF802aEbC02E97A56AA76D380E8"
+    },
+    {
+      "name": "nik89.eth",
+      "address": "0xdf2888291abF06789494e36d6f01FB423aFD3273"
+    },
+    {
+      "name": "nikkor.eth",
+      "address": "0xaBC7eba2d69EBe231441bBebB3489eEf3B6aE4e9"
+    },
+    {
+      "name": "nikoni.eth",
+      "address": "0x9c61C64696DC5FC02b7563b0531B1b8c75E6a43F"
+    },
+    {
+      "name": "nikbit.eth",
+      "address": "0x4943e71E681BF92A643C13c97982319F0fA1FE98"
+    },
+    {
+      "name": "niko24.eth",
+      "address": "0x1F8b98db321aB2816b517bbEEF905BB06473112C"
+    },
+    {
+      "name": "nikola.eth",
+      "address": "0x6Db2485A3BFF699840aDD5c2F9d103a72d4D4dD7"
+    },
+    {
+      "name": "nik-li.eth",
+      "address": "0xF85a5849a1b0C4BA599136D7b0Fc8D4a0122Cb8e"
+    },
+    {
+      "name": "nikaan.eth",
+      "address": "0xF40a2ACDcfe747103Ab4cDd4182807c148ad91AE"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0xdf2888291abF06789494e36d6f01FB423aFD3273",
+      "username": "NikP",
+      "profileImage": "https://i.seadn.io/gae/UDoSH_ul9FdBhgfhZu4Kb1G-_CFr6_Kr8F-ef8tw2hTRfwkBjjdrdBSQNxyMWEMmgJyG44GgpbtJjA5rZ62Jta2cnn4Op662D8_NvQM?w=500&auto=format"
+    },
+    {
+      "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+      "username": "Nikploknoklay",
+      "profileImage": "https://i.seadn.io/gcs/files/471ed1477ef68cce95996c209c5794d4.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x3a4C3F00d216Fcc47Ac8Ef18eFBfa8AD7e3cB92F",
+      "username": "Niko_eth",
+      "profileImage": "https://i.seadn.io/gae/sJOE9sUSypvh2jloyF15oP2INotljaGJQ-abk7EkyyFwxTuTwCYomFFDbOqo3p2eWtseGm9u0ML-u6-67RHiXVe2b9ChtATiqbX57w?w=500&auto=format"
+    },
+    {
+      "address": "0x39432039ddBd6fC67668386C897e54c1c5554CE4",
+      "username": "nikii",
+      "profileImage": "https://i.seadn.io/gae/K3k9kzj40hssAlKLiuQ907Huk8R_GdqdugWIhe33MrB_YTxpJ3QQRHCYQydpKxtcEqTfUR66L3sGcXaJZWaTTQUO_fjY-W_-Jn_NVA?w=500&auto=format"
+    },
+    {
+      "address": "0x8A1a3980a1f25a0421b460432bF9F2CdB378a056",
+      "username": "Niki1",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png"
+    },
+    {
+      "address": "0x93d69F925728FEAD9309E1C1FB7ed4f87e30893f",
+      "username": "Nik19",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/27.png"
+    },
+    {
+      "address": "0x516be5c14934A951b4b3510A25ACB6eE3bBa93Dc",
+      "username": "nikko",
+      "profileImage": "https://i.seadn.io/gcs/files/d8c518936bd08fe6e2ce9bf117943772.png?w=500&auto=format"
+    },
+    {
+      "address": "0xC966071815F0FdF802aEbC02E97A56AA76D380E8",
+      "username": "nikho",
+      "profileImage": "https://i.seadn.io/gae/8qvv6A5rCVU8kyAkNz47fkoT4sVcIhyhsUtikab9lH8Wi_M5smoccFzNkMaxQsDdfOgEM_ktDFra-o3umTZ-d-HyrGL0HplRVF7bjA?w=500&auto=format"
+    },
+    {
+      "address": "0x201bE15140c32208d26c3de02abA2023Cd3D2238",
+      "username": "Niking",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png"
+    },
+    {
+      "address": "0x9c61C64696DC5FC02b7563b0531B1b8c75E6a43F",
+      "username": "Nikoni",
+      "profileImage": "https://i.seadn.io/gae/mnSBkiHaBCqKYjyj4o3RzhX8LgN7A5Jhne849XI78_uMihw-JxhFL065HmfdD5C0bF7ryQZVhkJZEHa_RnXF_pFTBue63UhUaxKUvhk?w=500&auto=format"
+    },
+    {
+      "address": "0x6a56ebf9c469f1F6cD7324ebd809B7e541cB9964",
+      "username": "NikSon",
+      "profileImage": "https://i.seadn.io/gae/ENaFX730f2XDsdK7JSIaD0tHiH4kxYyIINKmxvMP4sIh5ysm55hYlOrqMv0HTZGBk32_yAaf8EAXeMSQKsdRRniAA1ELj1G_hkTl?w=500&auto=format"
+    },
+    {
+      "address": "0x27Da941e6c36Fa05B42588Ee698A8b3E2abF4dA6",
+      "username": "Nikaka",
+      "profileImage": "https://i.seadn.io/gcs/files/5d96d2aa0873064a9e741b53617f9c0d.webp?w=500&auto=format"
+    },
+    {
+      "address": "0xB0867191F3Ad2D2A538e8bda5F15827DA7f1cE81",
+      "username": "niknoy",
+      "profileImage": "https://i.seadn.io/gae/OVyAVBKr3nEl8qRSc5UJkIQz2BdftInTJrwmDojK2BtJu-wdl893O9eHuHKhWFdvTytRgjy19Ds-DN645kwDlHNJ6BAUDwaYcOnhXek?w=500&auto=format"
+    },
+    {
+      "address": "0xA0D0de1070948cF0CBD6Bdf4fB34D4D056bE7bC5",
+      "username": "Nik007",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png"
+    },
+    {
+      "address": "0xEB4cBF7d91F3E4bc8228620f02AbC2fF697D0d7d",
+      "username": "nikavc",
+      "profileImage": "https://i.seadn.io/gcs/files/0b4b35bb14d407698e82c2a56156f14e.png?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "CmuzidPMDyfsThscgfoKsAkYYsZ5CEc5mSeinpX4v28j",
+      "username": "nikpiz1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Orange~Face-3~Sunglasses~Leafs~Watch~Buckle.webp"
+    },
+    {
+      "address": "5N4P6nahBAtQSDLFy4261r3ttufZrah3WC9VoogoLLvV",
+      "username": "nikpant",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Blue-glass~Face-6~Glasses~Hat-Brown~Bracelet-green~Tie-Yellow.webp"
+    },
+    {
+      "address": "4HZzPSP1vbjswdLAt5vS2a2WigQhz4Q2AvgEDvaLe6cW",
+      "username": "nik",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Yellow~Face-1~Empty~Cap-back-yellow~Watch~Scarf-Green.webp"
+    },
+    {
+      "address": "8FVMnPvVf9urPqfQRf4t2XvjHv5B4MsVX8qmRvk7npxS",
+      "username": "nik0s",
+      "profileImage": "https://socialimages.pump.fun/profile-images/8FVMnPvVf9urPqfQRf4t2XvjHv5B4MsVX8qmRvk7npxS/dbf32092-8d94-45b0-8a95-add2009a6765"
+    },
+    {
+      "address": "62gZMht8L6TEUbrg8eeTx78CMwArP4JXSzqLykQY1HBm",
+      "username": "Nikaka",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Green-glass~Face-9~Glasses~Chef_s-Hat~Bracelet-green~Bowtie-Indigo.webp"
+    },
+    {
+      "address": "2v4kXymWZ81cVaUt8thTVhFwYaAHJsEUTFizSJPW5sem",
+      "username": "Nikkuz",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-2-Red~Face-3~Sunglasses~Chef_s-Hat~Bracelet-orange~Necklace-Yellow.webp"
+    },
+    {
+      "address": "89ch77xeewfE7VmghLyaebnaiEMHkDMhzc15YKWfbiCU",
+      "username": "nikpaliatsas",
+      "profileImage": null
+    },
+    {
+      "address": "57xjZVmn75rJtLmT5MyTJBuXoWn6FuSKkudb2PzswoD",
+      "username": "nikaka0",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Red-glass~Face-2~Glasses~Empty~Empty~Bowtie-Red.webp"
+    },
+    {
+      "address": "HqGYtpYnXozR2MiTaTd9D1VQfSdXj5mvHGoEPwEybtwx",
+      "username": "nikeeer",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Red~Face-1~Blush~Headphones-Grey~Watch~Bowtie-Green.webp"
+    },
+    {
+      "address": "Ci5bNzdYBuFx5mgPLpCVfWvy3a3iS2qaDvw9LjPsAf5h",
+      "username": "nik_gur",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-2-Red~Face-4~Glasses-brown~Winter-Hat~Watch~Necklace-Yellow.webp"
+    },
+    {
+      "address": "Facc4Ztg9AaQrP39qjCznRLKNHJZQUTUPwGsBbE36aLg",
+      "username": "Niklaus",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-3-Emerald-wand~Face-6~Blush~Headphones-Grey~Bracelet-green~Empty.webp"
+    },
+    {
+      "address": "ExZ6DTjp3Ah6AVsz5UEfo71SRbqqXkr7Y7Eyr66hQdZd",
+      "username": "NIKEEME",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-2-Emerald~Face-6~Glasses-brown~Hairstyle-4---Green~Empty+2~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "97K6nsFhBWDKwQf6heDDhDtsCRC4779LPHSFZkc2zqK4",
+      "username": "NikolaiX",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/QmZJp4orqqMBEsCMba2i4oYpCyEhQXhjFen2RUL5SPAZV7"
+    },
+    {
+      "address": "G5akBp5DH3tpY6mLsKxMQw6YuVxxG2RNMCStjkctikiW",
+      "username": "nikolsd1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-2-Emerald~Face-11~Sunglasses~Durag-Yellow~Empty+2~Necklace-White.webp"
+    },
+    {
+      "address": "8o9gtVYjsUC73JB7j6Nkn7T2aYEiRZtZH4WBP9ft5KF3",
+      "username": "Nikizzle",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Red-wand~Face-9~Glasses~Hairstyle-1---Black~Watch~Winter-Scarf-Green.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "APajqY2qKxsBPM6PdHVZBcRfdiEPdbYejQk1EU4ELhJ",
+      "username": "nikos0l"
+    },
+    {
+      "chain": "solana",
+      "address": "BduHPTVSSv3vsE8GMrtCRqGhe7mBecCdUgm7wE4ZNsAr",
+      "username": "Niksss16s"
+    },
+    {
+      "chain": "solana",
+      "address": "6h5TUawHGVWNNhAttzMBuREVWHLXp3PBqH9YUjP1kEuu",
+      "username": "nittybb"
+    },
+    {
+      "chain": "solana",
+      "address": "BgRBmPcWbSyockoJ4ovJAKK3Lrrf2ezqcqfJcu8sBXHz",
+      "username": "nikky"
+    },
+    {
+      "chain": "solana",
+      "address": "HRR99tQQq4ycBZwM3aDaijDKRR81TGWGNRnVyHzxXcbU",
+      "username": "Nigayahu"
+    },
+    {
+      "chain": "solana",
+      "address": "ByzZhzYh9HJhkSyd5ueMNsNAPH7WL6GL5ndx3xXH461",
+      "username": "nightcore"
+    },
+    {
+      "chain": "solana",
+      "address": "Be9F2Yw4WUD1kSHw5C9oSak3mRHCTNvo4Zuo1DaKNDjz",
+      "username": "NickS0usa"
+    },
+    {
+      "chain": "solana",
+      "address": "ADeuDt2hbgf6yMskkXe2Lp84GYi4RtwUL5X4M1CDYvHd",
+      "username": "nibblelol"
+    },
+    {
+      "chain": "solana",
+      "address": "9DXDCRrX1zP9GGAznoLLuGK4LkKaqZ4m4yDZKJ3EEUb2",
+      "username": "Nikolai"
+    },
+    {
+      "chain": "solana",
+      "address": "3waL4GoN8XmsAQGT1b7V7bkEDeM4Tw5BE9hivfYsPdS6",
+      "username": "nickgarcia"
+    },
+    {
+      "chain": "solana",
+      "address": "2hjVUrcC8ZWS5d7gVdbtwE4Qq69swkpKB4v8oGFbyvLm",
+      "username": "nikki007"
+    },
+    {
+      "chain": "solana",
+      "address": "GyoFR5hBKrDnqYzGsGuzvdYYU3QyunKnAs56jMwqYcJH",
+      "username": "nikkisee"
+    },
+    {
+      "chain": "solana",
+      "address": "2KFJoB4C2AvhpLHcWzzHTX43wkc86YHoxkKs5LhyBFdQ",
+      "username": "nikopaid"
+    },
+    {
+      "chain": "solana",
+      "address": "AVoW8jBv34tjAu5r8QcHXKzptMAFBmEEczEmMKZSNqq4",
+      "username": "NickTesla16"
+    },
+    {
+      "chain": "solana",
+      "address": "7r6MMhrTWZihghB63g3RMvwDb8cAekCQgX7h7WeArptL",
+      "username": "NiftyApeEth"
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x9e8077593BF0a6Fd63F988dCF589F7558897F694",
+      "displayName": "@Nik_AFC"
+    },
+    {
+      "address": "0x4fFF3C11a5d9B77822E01792F933cDB28557be78",
+      "displayName": "@Niky_Alpha"
+    },
+    {
+      "address": "0xC98B99Ed7F9748Fb3eb8d13d0E4531D023286430",
+      "displayName": "@nikos0l"
+    },
+    {
+      "address": "0x261444f5d65B12E284a443dc7659755409494442",
+      "displayName": "@NikolozTheo"
+    },
+    {
+      "address": "0x8331786cec9630d154223bA78EC17Ad909ef965a",
+      "displayName": "@NikoSSS2333"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x9e8077593BF0a6Fd63F988dCF589F7558897F694",
+    "displayName": "@Nik_AFC"
+  }
+}

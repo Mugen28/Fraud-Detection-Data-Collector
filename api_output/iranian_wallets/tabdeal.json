@@ -1,0 +1,15 @@
+{
+  "target": "tabdeal",
+  "entity_id": "tabdeal",
+  "entity_name": null,
+  "summary": {
+    "entityId": "tabdeal",
+    "numAddresses": 1,
+    "volumeUsd": 0,
+    "balanceUsd": 0,
+    "firstTx": null,
+    "lastTx": null
+  },
+  "top_address": null,
+  "wallets": []
+}

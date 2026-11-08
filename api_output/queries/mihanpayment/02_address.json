@@ -1,0 +1,19 @@
+{
+  "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+  "chain": "ethereum",
+  "arkhamEntity": {
+    "name": "@Mihail_Pochekai",
+    "note": "",
+    "id": "mihail-pochekai",
+    "type": "individual",
+    "service": null,
+    "twitter": "https://x.com/Mihail_Pochekai"
+  },
+  "arkhamLabel": {
+    "name": "mikhailpochekai.eth",
+    "address": "0xFbB041e1e292e34f90C1333E5360F5Ff2F3f6450",
+    "chainType": "evm"
+  },
+  "isUserAddress": false,
+  "contract": false
+}

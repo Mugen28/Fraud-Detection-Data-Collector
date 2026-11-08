@@ -1,0 +1,165 @@
+{
+  "entities": {
+    "wallex": {
+      "name": "Wallex",
+      "note": "",
+      "id": "wallex",
+      "type": "misc",
+      "service": null,
+      "website": "https://wallex.global/",
+      "twitter": "https://twitter.com/wallex_official",
+      "populatedTags": [
+        {
+          "id": "high-transacting",
+          "label": "High Transacting",
+          "rank": 160,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "token-deployer",
+          "label": "ERC721 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "ERC721"
+        },
+        {
+          "id": "token-deployer",
+          "label": "BEP20 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "BEP20"
+        },
+        {
+          "id": "metamask-user",
+          "label": "MetaMask User",
+          "rank": 235,
+          "excludeEntities": false,
+          "disablePage": false
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0.025943074635081165,
+    "dogecoin": 0.14279158965134,
+    "ethereum": 0.037953907146645684,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0.026440009531241194,
+    "dogecoin": 0.14720644864448,
+    "ethereum": 0.03897325105102256,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 3.5499839999967756e-05,
+        "usd": 0.025870153401576505,
+        "price": 728.74,
+        "quoteTime": "2026-10-24T19:00:59Z",
+        "priceChange24hPercent": -1.8796283829271625,
+        "priceChange24h": -13.960000000000036
+      },
+      {
+        "name": "Wrapped BNB",
+        "symbol": "WBNB",
+        "id": "wbnb",
+        "balance": 1e-07,
+        "usd": 7.275399999999999e-05,
+        "price": 727.54,
+        "quoteTime": "2026-10-24T19:00:59Z",
+        "priceChange24hPercent": -1.883993472778523,
+        "priceChange24h": -13.970000000000027
+      },
+      {
+        "name": "MSV Protocol",
+        "symbol": "MSVP",
+        "id": "msv-protocol",
+        "balance": 0.11075066533653692,
+        "usd": 1.6723350465817075e-07,
+        "price": 1.51e-06,
+        "quoteTime": "2026-10-24T19:00:59Z",
+        "priceChange24hPercent": 31.304347826086953,
+        "priceChange24h": 3.5999999999999994e-07
+      }
+    ],
+    "dogecoin": [
+      {
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "id": "dogecoin",
+        "balance": 1.85342527,
+        "usd": 0.14279158965134,
+        "price": 0.077042,
+        "quoteTime": "2026-10-24T19:00:59Z",
+        "priceChange24hPercent": -2.999093473005635,
+        "priceChange24h": -0.0023819999999999952
+      }
+    ],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 1.6247113553982673e-05,
+        "usd": 0.037953907146645684,
+        "price": 2336.04,
+        "quoteTime": "2026-10-24T19:00:59Z",
+        "priceChange24hPercent": -2.615496210573718,
+        "priceChange24h": -62.74000000000024
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

@@ -1,0 +1,1017 @@
+{
+  "addresses": {
+    "arbitrum_one": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "avalanche": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "avalanche",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "base": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "bsc": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "ethereum": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "flare": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "flare",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "hypercore": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "hypercore",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false
+      }
+    },
+    "hyperevm": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "optimism": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "optimism",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "polygon": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "polygon",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "robinhood": {
+      "0x9666946c62dECA06F1770A4915d503d25399EB20": {
+        "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "@nikploknoklay",
+          "note": "",
+          "id": "nikploknoklay",
+          "type": "individual",
+          "service": null,
+          "twitter": "https://twitter.com/nikploknoklay"
+        },
+        "arkhamLabel": {
+          "name": "nik.bnb",
+          "address": "0x9666946c62dECA06F1770A4915d503d25399EB20",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0.23447104153706777,
+    "avalanche": 0.017156141300695572,
+    "base": 0.3406569493892221,
+    "bsc": 0.4734572985985396,
+    "ethereum": 0.016868891556133414,
+    "flare": 4.571028e-05,
+    "hypercore": 0,
+    "hyperevm": 4.793982068484e-05,
+    "optimism": 0.10145772120850204,
+    "polygon": 0.4386024097103365,
+    "robinhood": 0.005406137610034615
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0.24210946811539738,
+    "avalanche": 0.017503119439361326,
+    "base": 0.34830926633022646,
+    "bsc": 0.48424153005081505,
+    "ethereum": 0.015550163643632129,
+    "flare": 4.925886e-05,
+    "hypercore": 0,
+    "hyperevm": 4.8782635690320006e-05,
+    "optimism": 0.10405868899902121,
+    "polygon": 0.4466922151868136,
+    "robinhood": 0.006032766761090243
+  },
+  "balances": {
+    "arbitrum_one": [
+      {
+        "name": "AIDOGE",
+        "symbol": "AIDOGE",
+        "id": "arbdoge-ai",
+        "ethereumAddress": "0x09E18590E8f76b6Cf471b3cd75fE1A1a9D2B2c2b",
+        "balance": 19604596585.86871,
+        "balanceExact": "19604596585868707",
+        "usd": 0.16742325484331877,
+        "price": 8.54e-12,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -3.3499320959710226,
+        "priceChange24h": -2.9599999999999955e-13
+      },
+      {
+        "name": "Symbiosis",
+        "symbol": "SIS",
+        "id": "symbiosis-finance",
+        "ethereumAddress": "0x9E758B8a98a42d612b3D38B66a22074DC03D7370",
+        "balance": 2,
+        "balanceExact": "2000000000000000000",
+        "usd": 0.0346621,
+        "price": 0.01733105,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.423390393142908,
+        "priceChange24h": -0.000430429999999999
+      },
+      {
+        "name": "Shibai Token",
+        "symbol": "shibai",
+        "id": "aishiba",
+        "ethereumAddress": "0xFA296FcA3c7DBa4a92A42Ec0B5E2138DA3b29050",
+        "balance": 186914399865.43338,
+        "balanceExact": "186914399865433366",
+        "usd": 0.029795650653749006,
+        "price": 1.59408e-13,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -3.1054541475956854,
+        "priceChange24h": -5.108999999999994e-15
+      },
+      {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "ethereumAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "balance": 0.002516,
+        "balanceExact": "2516",
+        "usd": 0.002516,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "IDOSToken",
+        "symbol": "IDOS",
+        "id": "idos",
+        "ethereumAddress": "0x68731d6F14B827bBCfFbEBb62b19Daa18de1d79c",
+        "balance": 0.012,
+        "balanceExact": "12000000000000000",
+        "usd": 7.403604e-05,
+        "price": 0.00616967,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -20.983013641084874,
+        "priceChange24h": -0.0016383599999999993
+      }
+    ],
+    "avalanche": [
+      {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "id": "avalanche-2",
+        "balance": 0.001927656325920851,
+        "balanceExact": "1927656325920851",
+        "usd": 0.017156141300695572,
+        "price": 8.9,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.9823788546255476,
+        "priceChange24h": -0.17999999999999972
+      }
+    ],
+    "base": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 8.9907154224449e-05,
+        "balanceExact": "89907154224449",
+        "usd": 0.21003839648453104,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.499520045407873,
+        "priceChange24h": -59.88999999999987
+      },
+      {
+        "name": "Degen",
+        "symbol": "DEGEN",
+        "id": "degen-base",
+        "ethereumAddress": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+        "balance": 54.01679143559268,
+        "balanceExact": "54016791435592680143",
+        "usd": 0.0491704049079913,
+        "price": 0.00091028,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -4.6917044467013636,
+        "priceChange24h": -4.4810000000000054e-05
+      },
+      {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "ethereumAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "balance": 0.031017,
+        "balanceExact": "31017",
+        "usd": 0.031017,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Sign",
+        "symbol": "SIGN",
+        "id": "sign-global",
+        "ethereumAddress": "0x868FCEd65edBF0056c4163515dD840e9f287A4c3",
+        "balance": 2.22505,
+        "balanceExact": "2225050000000000000",
+        "usd": 0.024265638783,
+        "price": 0.01090566,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 1.7136856085477226,
+        "priceChange24h": 0.00018373999999999995
+      },
+      {
+        "name": "Recall",
+        "symbol": "RECALL",
+        "id": "recall",
+        "ethereumAddress": "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
+        "balance": 0.33716405371542785,
+        "balanceExact": "337164053715427833",
+        "usd": 0.012707224296656588,
+        "price": 0.03768855,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 1.0172877811552883,
+        "priceChange24h": 0.0003795400000000046
+      },
+      {
+        "name": "Bento",
+        "symbol": "BENTO",
+        "id": "bento",
+        "ethereumAddress": "0x9DE16c805A3227b9b92e39a446F9d56cf59fe640",
+        "balance": 10706785.818387534,
+        "balanceExact": "10706785818387535268137061",
+        "usd": 0.012441285120966313,
+        "price": 1.162e-09,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.5984911986588433,
+        "priceChange24h": -3.0999999999999996e-11
+      },
+      {
+        "name": "Aligned Token",
+        "symbol": "ALIGN",
+        "id": "aligned",
+        "ethereumAddress": "0x53f39e5C53EE40bbc3Da97C3B47BD2968d110a8D",
+        "balance": 0.25,
+        "balanceExact": "250000000000000000",
+        "usd": 0.0010167025,
+        "price": 0.00406681,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -4.880399114015542,
+        "priceChange24h": -0.00020866000000000027
+      },
+      {
+        "name": "Cookie",
+        "symbol": "COOKIE",
+        "id": "cookie",
+        "ethereumAddress": "0xC0041EF357B183448B235a8Ea73Ce4E4eC8c265F",
+        "balance": 3.3521794169509e-05,
+        "balanceExact": "33521794169509",
+        "usd": 2.9729607682289124e-07,
+        "price": 0.00886874,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.4996399559811757,
+        "priceChange24h": -0.0002273699999999993
+      }
+    ],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 0.000348009260054435,
+        "balanceExact": "348009260054435",
+        "usd": 0.25360826817206894,
+        "price": 728.74,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.7513111239939074,
+        "priceChange24h": -12.990000000000009
+      },
+      {
+        "name": "Rekt",
+        "symbol": "REKT",
+        "id": "rekt-4",
+        "ethereumAddress": "0x20482b0b4d9d8f60d3AB432b92F4c4B901a0D10C",
+        "balance": 1533940.5919521167,
+        "balanceExact": "1533940591952116738728349",
+        "usd": 0.1058664438941673,
+        "price": 6.9016e-08,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -3.6614134758999937,
+        "priceChange24h": -2.6229999999999964e-09
+      },
+      {
+        "name": "Nexus",
+        "symbol": "NEX",
+        "id": "nexus-4",
+        "ethereumAddress": "0x365DE036A1F7dcCb621530d517133521debB2013",
+        "balance": 109993.8498843243,
+        "balanceExact": "109993849884324304217945",
+        "usd": 0.06666320264244324,
+        "price": 6.06063e-07,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.500929040602694,
+        "priceChange24h": -1.5546e-08
+      },
+      {
+        "name": "Osaka Protocol",
+        "symbol": "OSAK",
+        "id": "osaka-protocol",
+        "ethereumAddress": "0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7",
+        "balance": 1000000,
+        "balanceExact": "1000000000000000000464219",
+        "usd": 0.018699,
+        "price": 1.8699e-08,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Baby Frog Coin",
+        "symbol": "BabyFrog",
+        "id": "baby-frog-coin",
+        "ethereumAddress": "0x2e221f0A81EabAd8BC3606e51890895e4aF813c7",
+        "balance": 309186518.9390727,
+        "balanceExact": "309186518939072686",
+        "usd": 0.015215377783510708,
+        "price": 4.9211e-11,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.4617248353056613,
+        "priceChange24h": -7.300000000000003e-13
+      },
+      {
+        "name": "Hamster",
+        "symbol": "HAM",
+        "id": "hamster",
+        "ethereumAddress": "0x679D5b2d94f454c950d683D159b87aa8eae37C9e",
+        "balance": 82579992.88,
+        "balanceExact": "825799928800000",
+        "usd": 0.00870252738967304,
+        "price": 1.05383e-10,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.156797207212224,
+        "priceChange24h": -2.322999999999998e-12
+      },
+      {
+        "name": "4STOCKS",
+        "symbol": "四股",
+        "id": "4stocks",
+        "ethereumAddress": "0x800aD6bF6747105e3620D3Cb4BceD15AB9e47777",
+        "balance": 457.30478491027264,
+        "balanceExact": "457304784910272653162",
+        "usd": 0.0032697292121084496,
+        "price": 7.15e-06,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -0.9695290858725786,
+        "priceChange24h": -7.000000000000018e-08
+      },
+      {
+        "name": "MELEGA",
+        "symbol": "MARCO",
+        "id": "melega",
+        "ethereumAddress": "0x963556de0eb8138E97A85F0A86eE0acD159D210b",
+        "balance": 5,
+        "balanceExact": "5000000000000000000",
+        "usd": 0.00110725,
+        "price": 0.00022145,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -3.1997202430388625,
+        "priceChange24h": -7.3200000000000045e-06
+      },
+      {
+        "name": "River",
+        "symbol": "RIVER",
+        "id": "river",
+        "ethereumAddress": "0xdA7AD9dea9397cffdDAE2F8a052B82f1484252B3",
+        "balance": 0.000119346708326107,
+        "balanceExact": "119346708326107",
+        "usd": 0.00012054017540936808,
+        "price": 1.01,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -6.481481481481486,
+        "priceChange24h": -0.07000000000000006
+      },
+      {
+        "name": "Magic Square",
+        "symbol": "SQR",
+        "id": "magic-square",
+        "ethereumAddress": "0x2B72867c32CF673F7b02d208B26889fEd353B1f8",
+        "balance": 1.40301926,
+        "balanceExact": "140301926",
+        "usd": 0.000117993919766,
+        "price": 8.41e-05,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -22.252010723860593,
+        "priceChange24h": -2.4070000000000005e-05
+      },
+      {
+        "name": "NFTArt.Finance",
+        "symbol": "NFTART",
+        "id": "nft-art-finance",
+        "ethereumAddress": "0xF7844CB890F4C339c497aeAb599aBDc3c874B67A",
+        "balance": 9706809.6002967,
+        "balanceExact": "9706809600296700",
+        "usd": 5.172758835998111e-05,
+        "price": 5.329e-12,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.094433216975942,
+        "priceChange24h": -1.1400000000000052e-13
+      },
+      {
+        "name": "YOOSHI",
+        "symbol": "YOOSHI",
+        "id": "yooshi",
+        "ethereumAddress": "0x02fF5065692783374947393723dbA9599e59F591",
+        "balance": 10000,
+        "balanceExact": "10000000000000",
+        "usd": 2.307e-05,
+        "price": 2.307e-09,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.78799489144317,
+        "priceChange24h": -4.200000000000006e-11
+      },
+      {
+        "name": "EYED",
+        "symbol": "EYED",
+        "id": "eyed",
+        "ethereumAddress": "0xeDd9f422bC4D8E55c93a4E2fE64615f8dAb27223",
+        "balance": 69,
+        "balanceExact": "69000000000000000000",
+        "usd": 9.55788e-06,
+        "price": 1.3852e-07,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.2269278277748397,
+        "priceChange24h": -3.155000000000004e-09
+      },
+      {
+        "name": "MM72",
+        "symbol": "MM72",
+        "id": "mm72",
+        "ethereumAddress": "0xdF9e1A85dB4f985D5BB5644aD07d9D7EE5673B5E",
+        "balance": 7.77772727,
+        "balanceExact": "7777727270000000000",
+        "usd": 2.6099408290848197e-06,
+        "price": 3.35566e-07,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.9945797499458036,
+        "priceChange24h": -1.035900000000002e-08
+      },
+      {
+        "name": "Ethereum Token",
+        "symbol": "ETH",
+        "id": "binance-peg-weth",
+        "ethereumAddress": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "balance": 4.6e-17,
+        "balanceExact": "46",
+        "usd": 1.0742978e-13,
+        "price": 2335.43,
+        "quoteTime": "2026-10-24T19:07:53Z",
+        "priceChange24hPercent": -2.557244901365198,
+        "priceChange24h": -61.289999999999964
+      },
+      {
+        "name": "BNB Diamond",
+        "symbol": "BNBD",
+        "id": "bnb-diamond",
+        "ethereumAddress": "0x3c730718C97A77562866B5D29B33228c019eAC68",
+        "balance": 2.1062e-05,
+        "balanceExact": "21062",
+        "usd": 9.5368736e-14,
+        "price": 4.528e-09,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.778741865509751,
+        "priceChange24h": -8.199999999999951e-11
+      },
+      {
+        "name": "PancakeSwap Token",
+        "symbol": "Cake",
+        "id": "pancakeswap-token",
+        "ethereumAddress": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "balance": 3e-16,
+        "balanceExact": "300",
+        "usd": 6.15e-16,
+        "price": 2.05,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -5.092592592592607,
+        "priceChange24h": -0.11000000000000032
+      },
+      {
+        "name": "Polkadot Token",
+        "symbol": "DOT",
+        "id": "binance-peg-polkadot",
+        "ethereumAddress": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+        "balance": 2e-18,
+        "balanceExact": "2",
+        "usd": 2.0840000000000002e-18,
+        "price": 1.042,
+        "quoteTime": "2026-10-24T19:07:53Z",
+        "priceChange24hPercent": -6.96428571428572,
+        "priceChange24h": -0.07800000000000007
+      },
+      {
+        "name": "Pendle",
+        "symbol": "PENDLE",
+        "id": "pendle",
+        "ethereumAddress": "0xb3Ed0A426155B79B898849803E3B36552f7ED507",
+        "balance": 1e-18,
+        "balanceExact": "1",
+        "usd": 1.99e-18,
+        "price": 1.99,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -7.441860465116276,
+        "priceChange24h": -0.15999999999999992
+      },
+      {
+        "name": "Zeta",
+        "symbol": "ZETA",
+        "id": "zetachain",
+        "ethereumAddress": "0x0000028a2eB8346cd5c0267856aB7594B7a55308",
+        "balance": 1.7e-17,
+        "balanceExact": "17",
+        "usd": 6.738307e-19,
+        "price": 0.0396371,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -5.470924697456211,
+        "priceChange24h": -0.0022940200000000008
+      }
+    ],
+    "ethereum": [
+      {
+        "name": "QBX",
+        "symbol": "QBX",
+        "id": "qbx",
+        "ethereumAddress": "0x72FDc31f4a9a1EDF6B6132D3C1754F1CdcF5D9B1",
+        "balance": 6.618683104423528,
+        "balanceExact": "6618683104423528000",
+        "usd": 0.005509060881966924,
+        "price": 0.00083235,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 42.93932784942727,
+        "priceChange24h": 0.00025004
+      },
+      {
+        "name": "Layer3",
+        "symbol": "L3",
+        "id": "layer3",
+        "ethereumAddress": "0x88909D489678dD17aA6D9609F89B0419Bf78FD9a",
+        "balance": 1.462379211106944,
+        "balanceExact": "1462379211106944109",
+        "usd": 0.0035398058708212463,
+        "price": 0.00242058,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0.3357540787902919,
+        "priceChange24h": 8.100000000000034e-06
+      },
+      {
+        "name": "Lithium",
+        "symbol": "LITH",
+        "id": "lithium-finance",
+        "ethereumAddress": "0x188E817B02e635D482AE4D81e25DdA98A97C4a42",
+        "balance": 1988.381101434343,
+        "balanceExact": "1988381101434342955946",
+        "usd": 0.0023264058886781815,
+        "price": 1.17e-06,
+        "quoteTime": "2026-10-24T05:29:43Z",
+        "priceChange24hPercent": 1.7391304347826104,
+        "priceChange24h": 2.000000000000002e-08
+      },
+      {
+        "name": "OMI Token",
+        "symbol": "OMI",
+        "id": "ecomi",
+        "ethereumAddress": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",
+        "balance": 5.263671569030862,
+        "balanceExact": "5263671569030861542",
+        "usd": 0.0014308764793253496,
+        "price": 0.00027184,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.8521861573455607,
+        "priceChange24h": -5.13e-06
+      },
+      {
+        "name": "Pepe",
+        "symbol": "PEPE",
+        "id": "pepe",
+        "ethereumAddress": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+        "balance": 291.37701932250366,
+        "balanceExact": "291377019322503664310",
+        "usd": 0.0012966277359851412,
+        "price": 4.45e-06,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -5.720338983050847,
+        "priceChange24h": -2.6999999999999996e-07
+      },
+      {
+        "name": "daGama",
+        "symbol": "DGMA",
+        "id": "dagama-world",
+        "ethereumAddress": "0x4bdFa27cE379d7601dA1d15bD637a1Cf895fF8fB",
+        "balance": 0.099,
+        "balanceExact": "9900000",
+        "usd": 0.0011365101,
+        "price": 0.0114799,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -14.879592130297642,
+        "priceChange24h": -0.00200676
+      },
+      {
+        "name": "HEX",
+        "symbol": "HEX",
+        "id": "hex",
+        "ethereumAddress": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "balance": 1,
+        "balanceExact": "100000000",
+        "usd": 0.00056578,
+        "price": 0.00056578,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.234279691036957,
+        "priceChange24h": -1.2929999999999973e-05
+      },
+      {
+        "name": "UXLINK Token",
+        "symbol": "UXLINK",
+        "id": "uxlink",
+        "ethereumAddress": "0x3991B07b2951a4300Da8c76e7d2c7eddE861Fef3",
+        "balance": 1.8272010857531429,
+        "balanceExact": "1827201085753142900",
+        "usd": 0.0005643675993565732,
+        "price": 0.00030887,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -9.254634662279287,
+        "priceChange24h": -3.150000000000001e-05
+      },
+      {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "id": "weth",
+        "ethereumAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "balance": 2e-07,
+        "balanceExact": "200000000000",
+        "usd": 0.0004670859999999999,
+        "price": 2335.43,
+        "quoteTime": "2026-10-24T19:07:53Z",
+        "priceChange24hPercent": -2.557244901365198,
+        "priceChange24h": -61.289999999999964
+      },
+      {
+        "name": "DRX",
+        "symbol": "DRX",
+        "id": "drx",
+        "ethereumAddress": "0x83f4389ccCe1CC044dD7441Add33c4F28b967434",
+        "balance": 0.02,
+        "balanceExact": "20000000000000000",
+        "usd": 3.05118e-05,
+        "price": 0.00152559,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.3090961483046692,
+        "priceChange24h": -3.605999999999987e-05
+      },
+      {
+        "name": "NeurochainAI Token",
+        "symbol": "NCN",
+        "id": "neurochainai",
+        "ethereumAddress": "0xBb8954f008016055fdA6AA1c27fa769578cae213",
+        "balance": 0.04,
+        "balanceExact": "40000000000000000",
+        "usd": 1.8592e-06,
+        "price": 4.648e-05,
+        "quoteTime": "2026-10-24T19:07:53Z",
+        "priceChange24hPercent": -0.5775401069518625,
+        "priceChange24h": -2.699999999999957e-07
+      }
+    ],
+    "flare": [
+      {
+        "name": "Bugo",
+        "symbol": "BUGO",
+        "id": "bugo",
+        "ethereumAddress": "0x6c1490729ce19E809Cf9F7e3e223c0490833DE02",
+        "balance": 0.357,
+        "balanceExact": "357000000000000000",
+        "usd": 4.571028e-05,
+        "price": 0.00012804,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -7.203942600376869,
+        "priceChange24h": -9.940000000000003e-06
+      }
+    ],
+    "hypercore": [],
+    "hyperevm": [
+      {
+        "name": "Hyperliquid",
+        "symbol": "HYPE",
+        "id": "hyperliquid",
+        "balance": 6.28966422e-07,
+        "balanceExact": "628966422000",
+        "usd": 4.793982068484e-05,
+        "price": 76.22,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.727694687983501,
+        "priceChange24h": -1.3400000000000034
+      }
+    ],
+    "optimism": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 4.3429083161115e-05,
+        "balanceExact": "43429083161115",
+        "usd": 0.10145772120850204,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.499520045407873,
+        "priceChange24h": -59.88999999999987
+      }
+    ],
+    "polygon": [
+      {
+        "name": "Polygon Ecosystem Token",
+        "symbol": "POL",
+        "id": "polygon-ecosystem-token",
+        "balance": 3.1620903341479973,
+        "balanceExact": "3162090334147997439",
+        "usd": 0.28285530457020663,
+        "price": 0.089452,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.8036116142488519,
+        "priceChange24h": -0.0016429999999999917
+      },
+      {
+        "name": "Ape and Pepe",
+        "symbol": "APEPE",
+        "id": "ape-and-pepe",
+        "ethereumAddress": "0xA3f751662e282E83EC3cBc387d225Ca56dD63D3A",
+        "balance": 93407.92815994762,
+        "balanceExact": "93407928159947622957734",
+        "usd": 0.11022135522873819,
+        "price": 1.18e-06,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Dogelon (PoS)",
+        "symbol": "ELON",
+        "id": "dogelon-mars",
+        "ethereumAddress": "0xE0339c80fFDE91F3e20494Df88d4206D86024cdF",
+        "balance": 1662547.0850834304,
+        "balanceExact": "1662547085083430567695465",
+        "usd": 0.0447906810192327,
+        "price": 2.6941e-08,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -6.050355698144797,
+        "priceChange24h": -1.735000000000002e-09
+      },
+      {
+        "name": "izumi Token",
+        "symbol": "iZi",
+        "id": "izumi-finance",
+        "ethereumAddress": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+        "balance": 1.5317764518767079,
+        "balanceExact": "1531776451876707950",
+        "usd": 0.0007350688837265946,
+        "price": 0.00047988,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.338432122370935,
+        "priceChange24h": -6.50999999999999e-06
+      },
+      {
+        "name": "Aave Polygon WMATIC",
+        "symbol": "aPolWMATIC",
+        "id": "aave-v3-wmatic",
+        "ethereumAddress": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
+        "balance": 9.4283133e-11,
+        "balanceExact": "94283133",
+        "usd": 8.432400566121e-12,
+        "price": 0.089437,
+        "quoteTime": "2026-10-24T19:07:53Z",
+        "priceChange24hPercent": -1.7542896060812454,
+        "priceChange24h": -0.0015970000000000012
+      }
+    ],
+    "robinhood": [
+      {
+        "name": "StonkBroker",
+        "symbol": "STONKBROKER",
+        "id": "stonkbroker",
+        "ethereumAddress": "0xe934e36A439C94017B64a3FecE66AF12099aBF50",
+        "balance": 0.6987106149752285,
+        "balanceExact": "698710614975228474",
+        "usd": 0.00386988559920795,
+        "price": 0.00553861,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -13.147091108671782,
+        "priceChange24h": -0.0008383899999999996
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 4.4092767685e-07,
+        "balanceExact": "440927676850",
+        "usd": 0.0010300820108266645,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.499520045407873,
+        "priceChange24h": -59.88999999999987
+      },
+      {
+        "name": "RareFriends",
+        "symbol": "RAREFRIENDS",
+        "id": "rarefriends",
+        "ethereumAddress": "0x0779369854d3EcdEA927206718FFD7730C67B71f",
+        "balance": 1,
+        "balanceExact": "1000000000000000000",
+        "usd": 0.00049655,
+        "price": 0.00049655,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.7783216509378494,
+        "priceChange24h": -1.4189999999999971e-05
+      },
+      {
+        "name": "Dih",
+        "symbol": "DIH",
+        "id": "dih",
+        "ethereumAddress": "0x0c1eD62D7811e5b437e537Ac9d0592469C119C74",
+        "balance": 1,
+        "balanceExact": "1000000000000000000",
+        "usd": 9.62e-06,
+        "price": 9.62e-06,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.4340770791075164,
+        "priceChange24h": -2.400000000000011e-07
+      }
+    ]
+  }
+}

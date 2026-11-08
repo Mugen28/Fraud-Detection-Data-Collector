@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "bitbean": {
+      "name": "BitBean",
+      "note": "",
+      "id": "bitbean",
+      "type": "meme",
+      "service": null,
+      "website": "https://www.bitbeanonsol.vip",
+      "twitter": "https://x.com/BitBean_on_Sol",
+      "populatedTags": [
+        {
+          "id": "meme",
+          "label": "Meme",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "solana-token-creator",
+          "label": "Token Creator: 3Xy1Jyw4o3Y2MvJ345SbxZrAttJxkRdzfvQXtUW3n1tD",
+          "rank": 210,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "3Xy1Jyw4o3Y2MvJ345SbxZrAttJxkRdzfvQXtUW3n1tD"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

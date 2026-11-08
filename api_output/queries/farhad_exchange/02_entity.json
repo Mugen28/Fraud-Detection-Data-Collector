@@ -1,0 +1,328 @@
+{
+  "name": "Backpack Exchange",
+  "note": "",
+  "id": "backpack-exchange",
+  "customized": false,
+  "type": "cex",
+  "service": null,
+  "website": "https://backpack.exchange",
+  "twitter": "https://x.com/Backpack",
+  "populatedTags": [
+    {
+      "id": "proof-of-reserves",
+      "label": "Backpack Exchange Proof of Reserves",
+      "rank": 20,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Backpack Exchange"
+    },
+    {
+      "id": "cex",
+      "label": "Centralized Exchange",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "opensea-user",
+      "label": "OpenSea User",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "OpenSea User"
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "solana-token-creator",
+      "label": "Token Creator: FjgWqp38iS1ujvZn9QuvtGJNaDjj2wPDVrhD1H4NYEy1",
+      "rank": 210,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "FjgWqp38iS1ujvZn9QuvtGJNaDjj2wPDVrhD1H4NYEy1"
+    },
+    {
+      "id": "multisig",
+      "label": "MultiSig / Contract Wallet",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack USDC 5\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack USDC 5\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack USDC\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack USDC\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"USDC 6\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"USDC 6\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack USDC３\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack USDC３\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack SOL 5\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack SOL 5\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"USDC 7\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"USDC 7\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"BP\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"BP\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack SOL\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack SOL\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack UAE\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack UAE\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack SOL 4\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack SOL 4\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack SOL２\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack SOL２\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack SOL３\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack SOL３\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Backpack USDC 4\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Backpack USDC 4\""
+    },
+    {
+      "id": "squads-vault",
+      "label": "Squads Vault \"Corporate EU\"",
+      "rank": 230,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Squads Vault \"Corporate EU\""
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0x5a152191A59E508FA164a499e37BdF766880170B",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x5a152191A59E508FA164a499e37BdF766880170B"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0xe6892b318e0DcE2c7a5bc0db95924d5D4AD4C4Eb",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xe6892b318e0DcE2c7a5bc0db95924d5D4AD4C4Eb"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0x9648c5C5819fA6350Db858ACbA9468F45ed47d6e",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x9648c5C5819fA6350Db858ACbA9468F45ed47d6e"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0xd5Bb23D16BA5A13A91d60dD5f3925164b6eF9255",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xd5Bb23D16BA5A13A91d60dD5f3925164b6eF9255"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0xf29bB6A3c1f08d98593BFbD1314263205e75ae6b",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xf29bB6A3c1f08d98593BFbD1314263205e75ae6b"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0x094833311Ae1B30af78D0773d8E726C5A208557c",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x094833311Ae1B30af78D0773d8E726C5A208557c"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0xa5Ef16db9422Cc1cd33BaD049d5288CCff65e4cA",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xa5Ef16db9422Cc1cd33BaD049d5288CCff65e4cA"
+    },
+    {
+      "id": "gnosis-safe-signer",
+      "label": "Signer: 0x27929a64E21f815643eEe9dE223ba3127b5C7811",
+      "rank": 260,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x27929a64E21f815643eEe9dE223ba3127b5C7811"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0x4380AcB30d72AaA1eB1076969a1E5Da06D9f2314",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x4380AcB30d72AaA1eB1076969a1E5Da06D9f2314"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0x8edDD896C22202ff06F26dA30883BaE9eeD813CD",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0x8edDD896C22202ff06F26dA30883BaE9eeD813CD"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0xA8689aC594F27a97018e1399c9D3Ba315b23A9F3",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xA8689aC594F27a97018e1399c9D3Ba315b23A9F3"
+    },
+    {
+      "id": "gnosis-safe-signer-prev",
+      "label": "Prev. Signer: 0xD3a70109F8D3fCFfBEdDcdD5FF0Ca0f48Ca9390b",
+      "rank": 280,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "0xD3a70109F8D3fCFfBEdDcdD5FF0Ca0f48Ca9390b"
+    },
+    {
+      "id": "solana-stake-account",
+      "label": "Solana Stake Account",
+      "rank": 500,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"linkhash\",\"symbol\":\"LHX\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"linkhash\",\"symbol\":\"LHX\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"btc25\",\"symbol\":\"$BTC25\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"btc25\",\"symbol\":\"$BTC25\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"kamino\",\"symbol\":\"KMNO\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"kamino\",\"symbol\":\"KMNO\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"motacoin\",\"symbol\":\"MOTA\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"motacoin\",\"symbol\":\"MOTA\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"potcoin\",\"symbol\":\"POT\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"potcoin\",\"symbol\":\"POT\"}"
+    },
+    {
+      "id": "early-token-holder",
+      "label": "Early {\"pricing_id\":\"centric-swap\",\"symbol\":\"CNS\"} Holder",
+      "rank": 540,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "{\"pricing_id\":\"centric-swap\",\"symbol\":\"CNS\"}"
+    }
+  ]
+}

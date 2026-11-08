@@ -1,0 +1,33 @@
+{
+  "name": "Excoino",
+  "note": "",
+  "id": "excoino",
+  "customized": false,
+  "type": "cex",
+  "service": null,
+  "website": "https://www.excoino.com",
+  "twitter": "https://x.com/excoino",
+  "populatedTags": [
+    {
+      "id": "cex",
+      "label": "Centralized Exchange",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    }
+  ]
+}

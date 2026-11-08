@@ -1,0 +1,177 @@
+{
+  "entity_id": "farhad-exchange",
+  "entity_name": "Farhad Exchange",
+  "total_wallets": 21,
+  "chain_breakdown": {
+    "evm": 19,
+    "ethereum": 1,
+    "bsc": 1
+  },
+  "wallets": [
+    {
+      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4\"",
+      "chain": "evm",
+      "label": "Primary Master Hot Wallet",
+      "entity": "Farhad Exchange",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x16f23558970f253EE35e0d69D76c95b492589D6D",
+      "chain": "evm",
+      "usd_balance": 48.37,
+      "label": "Predicted Exchange Wallet ($48.37)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x547681D048f32eA4BC4C3a2007a701cA093727a0",
+      "chain": "evm",
+      "usd_balance": 47.52,
+      "label": "Predicted Exchange Wallet ($47.52)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x51d78aDE2362FA89e4212B0509ca9DCE07BeE048",
+      "chain": "evm",
+      "usd_balance": 23.48,
+      "label": "Predicted Exchange Wallet ($23.48)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xb5aEebec1D1d22EeDBe01461d0702856cAf44CBb",
+      "chain": "evm",
+      "usd_balance": 23.47,
+      "label": "Predicted Exchange Wallet ($23.47)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xA0c87a033D3357Ca3A6Feae4C3Cf389e21aa7b30",
+      "chain": "evm",
+      "usd_balance": 15.92,
+      "label": "Predicted Exchange Wallet ($15.92)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x654879e6162FcA78DAAE41AD92C5eEAD250837d1",
+      "chain": "evm",
+      "usd_balance": 14.78,
+      "label": "Predicted Exchange Wallet ($14.78)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x13D34B2B74675CDF71e05B9E0D3E92eFadbC189A",
+      "chain": "evm",
+      "usd_balance": 3.69,
+      "label": "Predicted Exchange Wallet ($3.69)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x1e90DFe3c5774115a2b0e1DfA141BfFF06e9b4CA",
+      "chain": "evm",
+      "usd_balance": 3.57,
+      "label": "Predicted Exchange Wallet ($3.57)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x246756033Daf03Ebe56eBb3E2C25a86daE00C1c8",
+      "chain": "evm",
+      "usd_balance": 3.2,
+      "label": "Predicted Exchange Wallet ($3.20)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x57969a699DC510eF2c7B44Fdc5846BC639FC4de4",
+      "chain": "evm",
+      "usd_balance": 0.97,
+      "label": "Predicted Exchange Wallet ($0.97)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x43856bD132F7125f047f28419286545DCE4D5DD2",
+      "chain": "evm",
+      "usd_balance": 0.95,
+      "label": "Predicted Exchange Wallet ($0.95)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x4dda1bD0a11a53B64E5a973535943B7d50b26784",
+      "chain": "evm",
+      "usd_balance": 0.95,
+      "label": "Predicted Exchange Wallet ($0.95)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xb71967f66c2ecb5Fc6cc1A7679BA955c907c50eB",
+      "chain": "evm",
+      "usd_balance": 0.94,
+      "label": "Predicted Exchange Wallet ($0.94)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xc966387aa93f27c224bE1ED3C353B6C9C48aCcdb",
+      "chain": "evm",
+      "usd_balance": 0.91,
+      "label": "Predicted Exchange Wallet ($0.91)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5E179a1Fcc1F8b8d993e9017b8650Ea843e2b889",
+      "chain": "evm",
+      "usd_balance": 0.68,
+      "label": "Predicted Exchange Wallet ($0.68)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xA0B0e20a2F7029E46510062A06d660EE0E7A15CF",
+      "chain": "evm",
+      "usd_balance": 0.16,
+      "label": "Predicted Exchange Wallet ($0.16)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x28e27F7eF850Eee984313C1bDDCc1d3616387833",
+      "chain": "evm",
+      "usd_balance": 0.09,
+      "label": "Predicted Exchange Wallet ($0.09)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x35E8052099A08310Eb7CBBce0298Caf77C37A759",
+      "chain": "evm",
+      "usd_balance": 0.06,
+      "label": "Predicted Exchange Wallet ($0.06)",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xef5e27Fc28E086FAe55854ceB194D0d4CAe632F4",
+      "chain": "ethereum",
+      "label": "Binance Deposit",
+      "entity": "Farhad Exchange",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xef5e27Fc28E086FAe55854ceB194D0d4CAe632F4",
+      "chain": "bsc",
+      "label": "Binance Deposit",
+      "entity": "Farhad Exchange",
+      "source": "transfers/chain/ethereum"
+    }
+  ]
+}

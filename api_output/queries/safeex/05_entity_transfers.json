@@ -1,0 +1,199 @@
+{
+  "transfers": [
+    {
+      "id": "0xe6344951267e942664d21900fc3ec35b89a3e24559576a253ca6ebc7db741e55",
+      "transactionHash": "0xe6344951267e942664d21900fc3ec35b89a3e24559576a253ca6ebc7db741e55",
+      "fromAddress": {
+        "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Safex",
+          "note": "",
+          "id": "safex",
+          "type": "misc",
+          "service": null,
+          "website": "https://safex.org/",
+          "twitter": "https://twitter.com/safex"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x6f469AfFc42F0AcA5b04FDD45A74E83aB3B2d56A",
+        "chain": "bsc",
+        "depositServiceID": "mexc",
+        "arkhamLabel": {
+          "name": "MEXC Deposit",
+          "address": "0x6f469AfFc42F0AcA5b04FDD45A74E83aB3B2d56A",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-01-19T02:55:13Z",
+      "blockNumber": 76103485,
+      "blockHash": "0x0adbcd66de0f5fe73ddaaa4177a909b9275319c9eaef8be78d28a96af689b9c4",
+      "tokenName": "BNB",
+      "tokenSymbol": "BNB",
+      "tokenDecimals": 18,
+      "unitValue": 0.02379733,
+      "tokenId": "binancecoin",
+      "historicalUSD": 21.9049663184,
+      "chain": "bsc"
+    },
+    {
+      "id": "0x60aac51517207a3f5bfcbe5e8a3cb0455f6252c3646b3ee14b12983bc684de9c",
+      "transactionHash": "0x60aac51517207a3f5bfcbe5e8a3cb0455f6252c3646b3ee14b12983bc684de9c",
+      "fromAddress": {
+        "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Safex",
+          "note": "",
+          "id": "safex",
+          "type": "misc",
+          "service": null,
+          "website": "https://safex.org/",
+          "twitter": "https://twitter.com/safex"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x6f469AfFc42F0AcA5b04FDD45A74E83aB3B2d56A",
+        "chain": "bsc",
+        "depositServiceID": "mexc",
+        "arkhamLabel": {
+          "name": "MEXC Deposit",
+          "address": "0x6f469AfFc42F0AcA5b04FDD45A74E83aB3B2d56A",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-01-19T02:17:58Z",
+      "blockNumber": 76098517,
+      "blockHash": "0xbc966268571e64d46820818fba8e579249a42fd816ce73bf390673886257767f",
+      "tokenName": "BNB",
+      "tokenSymbol": "BNB",
+      "tokenDecimals": 18,
+      "unitValue": 0.023,
+      "tokenId": "binancecoin",
+      "historicalUSD": 21.10733,
+      "chain": "bsc"
+    },
+    {
+      "id": "0x54187330e647f4b9b6d055ea3093f4a83b2f0957f4b3498e37257c63bb979035",
+      "transactionHash": "0x54187330e647f4b9b6d055ea3093f4a83b2f0957f4b3498e37257c63bb979035",
+      "fromAddress": {
+        "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Safex",
+          "note": "",
+          "id": "safex",
+          "type": "misc",
+          "service": null,
+          "website": "https://safex.org/",
+          "twitter": "https://twitter.com/safex"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x6f469AfFc42F0AcA5b04FDD45A74E83aB3B2d56A",
+        "chain": "bsc",
+        "depositServiceID": "mexc",
+        "arkhamLabel": {
+          "name": "MEXC Deposit",
+          "address": "0x6f469AfFc42F0AcA5b04FDD45A74E83aB3B2d56A",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-01-19T01:03:04Z",
+      "blockNumber": 76088532,
+      "blockHash": "0xbe0c2b57216e22695066ab2f5ee7465bc2f28913d4b5812e13e500f5ff8a987d",
+      "tokenName": "BNB",
+      "tokenSymbol": "BNB",
+      "tokenDecimals": 18,
+      "unitValue": 0.044,
+      "tokenId": "binancecoin",
+      "historicalUSD": 40.42016,
+      "chain": "bsc"
+    },
+    {
+      "id": "0xd39fa31f03a704d5517c1fcb9cf51df265e4ebb0c2d0de5442b57dadcdee2cc2",
+      "transactionHash": "0xd39fa31f03a704d5517c1fcb9cf51df265e4ebb0c2d0de5442b57dadcdee2cc2",
+      "fromAddress": {
+        "address": "0x78cD88691937578167F6C0F695dc1f5B5172c0B7",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Safex",
+          "note": "",
+          "id": "safex",
+          "type": "misc",
+          "service": null,
+          "website": "https://safex.org/",
+          "twitter": "https://twitter.com/safex"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2021-09-20T13:35:53Z",
+      "blockNumber": 11080309,
+      "blockHash": "0x68be9903dd92042cb9713703db79697b6c6715555dcfc80a135e929767cfebf7",
+      "tokenName": "BNB",
+      "tokenSymbol": "BNB",
+      "tokenDecimals": 18,
+      "unitValue": 0.15,
+      "tokenId": "binancecoin",
+      "historicalUSD": 61.47985112977384,
+      "chain": "bsc"
+    }
+  ],
+  "count": 4
+}

@@ -1,0 +1,550 @@
+{
+  "transfers": [
+    {
+      "id": "selfdestruct_0xa5d1d796eaebda4b1104cb1f13b489349aef69ed9db72fe481bdc85b72cb0f49_0",
+      "transactionHash": "0xa5d1d796eaebda4b1104cb1f13b489349aef69ed9db72fe481bdc85b72cb0f49",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xA79dd556f576494CadFabf104c165f4A9bDCe6af",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:06:11Z",
+      "blockNumber": 26264491,
+      "blockHash": "0x1910d8725da07683046a9df3dc3e2b7a8460f0969ab04a9a43896ba3a9e68dda",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.005815468602931511,
+      "tokenId": "ethereum",
+      "historicalUSD": 13.583538943983307,
+      "chain": "ethereum",
+      "seq": 984156770
+    },
+    {
+      "id": "selfdestruct_0xd9c26b73562426bca3c254987ce9061dee74347fa9116a12eb971e5af19a2704_0",
+      "transactionHash": "0xd9c26b73562426bca3c254987ce9061dee74347fa9116a12eb971e5af19a2704",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x1B3b9B2D6F8D88dcfc8AF769269b5314f2Cf654C",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:57:35Z",
+      "blockNumber": 26264448,
+      "blockHash": "0xa08784a90d4f1e611795b1ad437c8397adac0474036906f80627817e2c66a764",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.003964209544823537,
+      "tokenId": "ethereum",
+      "historicalUSD": 9.248104447118829,
+      "chain": "ethereum",
+      "seq": 984120346
+    },
+    {
+      "id": "selfdestruct_0xddabe1ba474748d07bc7d5f14b05774d74b246831ffecf046adae73ca613b325_0",
+      "transactionHash": "0xddabe1ba474748d07bc7d5f14b05774d74b246831ffecf046adae73ca613b325",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x2ffD67F4593ccD96a96DaA7b412C2ed501d6D3b4",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:55:35Z",
+      "blockNumber": 26264438,
+      "blockHash": "0x18c9a48356e81549bffa14c71d5292b0f74a92309adf2212bcfa91221352dc8c",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.024036726742266788,
+      "tokenId": "ethereum",
+      "historicalUSD": 56.08201010052202,
+      "chain": "ethereum",
+      "seq": 984109022
+    },
+    {
+      "id": "selfdestruct_0xc7414cc9b58872fb5919421a67df42eada5e08af6a41f273063c2df410559d34_0",
+      "transactionHash": "0xc7414cc9b58872fb5919421a67df42eada5e08af6a41f273063c2df410559d34",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xDEF643D7a8ae673f322A767A8Abe32437EB0449e",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:51:11Z",
+      "blockNumber": 26264416,
+      "blockHash": "0x43362e410daf540bf0c813b8cbb2014b3d59fd1418ae34b0bd31bff7ab8c99a9",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.006926050633059681,
+      "tokenId": "ethereum",
+      "historicalUSD": 16.145801454269737,
+      "chain": "ethereum",
+      "seq": 984084922
+    },
+    {
+      "id": "selfdestruct_0xbed3ff5c365a491fcfc90c5900ee64b5c8fc9ba09d131554f4350d0b18a8c09a_0",
+      "transactionHash": "0xbed3ff5c365a491fcfc90c5900ee64b5c8fc9ba09d131554f4350d0b18a8c09a",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x7aeb5fBc26C9a739F417e1eA06d502886AedBa03",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:45:35Z",
+      "blockNumber": 26264388,
+      "blockHash": "0x5fef51b4085cbd916b880d044ba409edd1254411eead4824a03adbe06bd7a4a8",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.006693642943000201,
+      "tokenId": "ethereum",
+      "historicalUSD": 15.594514646454718,
+      "chain": "ethereum",
+      "seq": 984057409
+    },
+    {
+      "id": "selfdestruct_0x0f23a25be011e2130b02cb53d3482d653fceba72e2e3a8892ce7215b190ab10d_0",
+      "transactionHash": "0x0f23a25be011e2130b02cb53d3482d653fceba72e2e3a8892ce7215b190ab10d",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xa7a503d31465a99B71079afCE56f40431048E24e",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:42:23Z",
+      "blockNumber": 26264372,
+      "blockHash": "0x0de358291a58b2ce0d65395da991b4764ccdbe6d20d02c7e114f68856ff2e79d",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.004672249307490712,
+      "tokenId": "ethereum",
+      "historicalUSD": 10.888536843627879,
+      "chain": "ethereum",
+      "seq": 984042425
+    },
+    {
+      "id": "selfdestruct_0x581e953a62b44423b7108dfe44245830c121813e60967084b604ef467a0ed7bc_0",
+      "transactionHash": "0x581e953a62b44423b7108dfe44245830c121813e60967084b604ef467a0ed7bc",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x30C8107fAb97E70545C4875CEBb64AC9E4Fb5385",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:41:23Z",
+      "blockNumber": 26264367,
+      "blockHash": "0xbbb5e6d538b938f61fe7a96f63e803c5b248f656245d3a3f2761d4776791c722",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.006341084212072655,
+      "tokenId": "ethereum",
+      "historicalUSD": 14.774916446655649,
+      "chain": "ethereum",
+      "seq": 984037657
+    },
+    {
+      "id": "selfdestruct_0xe51c90389d005c74d401ece323f4c28e6b71bf4b289b6fc0c151231698d4d081_0",
+      "transactionHash": "0xe51c90389d005c74d401ece323f4c28e6b71bf4b289b6fc0c151231698d4d081",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x1b6E316c4d3093bbf8182Cf2fa76Be4611df0a8A",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:38:59Z",
+      "blockNumber": 26264355,
+      "blockHash": "0x84e698906ca440d954f48399aa285e6face55ac318f1dbb0e400267ed21eb55f",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.005562131669905403,
+      "tokenId": "ethereum",
+      "historicalUSD": 12.962436614081145,
+      "chain": "ethereum",
+      "seq": 984024204
+    },
+    {
+      "id": "selfdestruct_0x65d280e24b287dcfa613531512621f3858e6b920a700b3a1a2f39598a0445062_0",
+      "transactionHash": "0x65d280e24b287dcfa613531512621f3858e6b920a700b3a1a2f39598a0445062",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x23554140eCD8b99CC746d3ba2f799A2e19084b9e",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "arkhamLabel": {
+          "name": "WalletSimple (BitGo)",
+          "address": "0x23554140eCD8b99CC746d3ba2f799A2e19084b9e",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:36:35Z",
+      "blockNumber": 26264343,
+      "blockHash": "0x05057fa1b4a0b8fe7d6c748f4be981214fb5d1d03166b1509948cbbf058d758e",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.003440635356365515,
+      "tokenId": "ethereum",
+      "historicalUSD": 8.023802495519327,
+      "chain": "ethereum",
+      "seq": 984014465
+    },
+    {
+      "id": "selfdestruct_0x474e961fbb6b84d9255320b7914aac4b8b8b31f7c53bcf3fd80b3bbcccf8fd59_0",
+      "transactionHash": "0x474e961fbb6b84d9255320b7914aac4b8b8b31f7c53bcf3fd80b3bbcccf8fd59",
+      "fromAddress": {
+        "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Titan Relay",
+          "note": "",
+          "id": "titan-relay",
+          "type": "blockchain-infra",
+          "service": null,
+          "website": "https://titanrelay.xyz",
+          "twitter": "https://x.com/titanrelayxyz"
+        },
+        "arkhamLabel": {
+          "name": "Payment Forwarder",
+          "address": "0xFEEEEEE44046c3f61a8CC081E0918eF0de0a7ffC",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xEC9A7e7D864bD598d0F0F00d8D397E83171c52De",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Bitmine",
+          "note": "",
+          "id": "bitmine",
+          "type": "fund",
+          "service": null,
+          "website": "https://bitminetech.io/",
+          "twitter": "https://x.com/BitMNR"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T18:36:11Z",
+      "blockNumber": 26264341,
+      "blockHash": "0x5180ad5f5ac3950ee28a1598cb5e197336adb49645dc23cc4a918060fdba206a",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.006002647327158432,
+      "tokenId": "ethereum",
+      "historicalUSD": 14.000214467024698,
+      "chain": "ethereum",
+      "seq": 984013525
+    }
+  ],
+  "count": 10000
+}

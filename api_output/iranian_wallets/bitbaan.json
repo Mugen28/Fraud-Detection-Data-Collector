@@ -1,0 +1,37 @@
+{
+  "target": "bitbaan",
+  "entity_id": "bitbean",
+  "entity_name": "BitBean",
+  "summary": {
+    "entityId": "bitbean",
+    "numAddresses": 0,
+    "volumeUsd": 0,
+    "balanceUsd": 0.3250917168,
+    "firstTx": null,
+    "lastTx": null
+  },
+  "top_address": "9jBg9QnpGLmPB58Fmp5L7fbwk1kJ7HYcaziRdPR7yRQJ\"",
+  "wallets": [
+    {
+      "address": "9jBg9QnpGLmPB58Fmp5L7fbwk1kJ7HYcaziRdPR7yRQJ\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "BitBean",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "HTUCz2PQS2opHMvtsvSfojyViwqxkgvhd82tRWYQ8Y4T",
+      "chain": "solana",
+      "label": "Exchange Active Wallet",
+      "entity": "BitBean",
+      "source": "transfers"
+    },
+    {
+      "address": "9jBg9QnpGLmPB58Fmp5L7fbwk1kJ7HYcaziRdPR7yRQJ",
+      "chain": "solana",
+      "label": "BitBean (BITB)",
+      "entity": "BitBean",
+      "source": "transfers"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "target": "bitpin",
+  "entity_id": "bitpin",
+  "entity_name": "Bitpin",
+  "summary": {
+    "entityId": "bitpin",
+    "numAddresses": 181412,
+    "volumeUsd": 5215152822.809985,
+    "balanceUsd": 2211196.3093780195,
+    "firstTx": "2021-02-12T14:03:12Z",
+    "lastTx": "2026-11-02T23:59:49Z"
+  },
+  "top_address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9\"",
+  "wallets": [
+    {
+      "address": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "chain": "tron",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x56b4A37c9f5661FCa68604333EE8cBf84c628d6D",
+      "chain": "bsc",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x7aA12683314dAc77e1864B5Bc9Ae609d91975Ac7",
+      "chain": "bsc",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xf5Ae5A12A9D93338eD65aebFD4581ED49776F694",
+      "chain": "bsc",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x8fEDE5452155C54c4fAA3877C97C7b1Bb75626F7",
+      "chain": "ethereum",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x9883e2C324cE83f0207a9c5a0Af25612f5402704",
+      "chain": "ethereum",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xa9Db8D84b920983cc6407f0Ca03763900Af08Fa5",
+      "chain": "ethereum",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Bitpin",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x722926eb7D370F7D4335411BC394c840EdF276aD",
+      "chain": "evm",
+      "usd_balance": 42801.97,
+      "label": "Predicted Exchange Wallet ($42,801.97)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5bc7dB693Cdcb06c81Fc4ff279929BD6e48F7cf9",
+      "chain": "evm",
+      "usd_balance": 4374.93,
+      "label": "Predicted Exchange Wallet ($4,374.93)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xe0FF1AE00A7410D1f2262b20Cb089de801617117",
+      "chain": "evm",
+      "usd_balance": 147.89,
+      "label": "Predicted Exchange Wallet ($147.89)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5991028125e2b36BfFb0d131a18d3212036C1340",
+      "chain": "evm",
+      "usd_balance": 40.08,
+      "label": "Predicted Exchange Wallet ($40.08)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x710d802610bAC3798bAf5456F43B1358680c9833",
+      "chain": "evm",
+      "usd_balance": 15.7,
+      "label": "Predicted Exchange Wallet ($15.70)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5538fE3ab0CE6afF0e3Cd54b607905151E4905C1",
+      "chain": "evm",
+      "usd_balance": 8.59,
+      "label": "Predicted Exchange Wallet ($8.59)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x981F6bcD872F639DB3dfd0E0bB2A45e437AD324E",
+      "chain": "evm",
+      "usd_balance": 6.32,
+      "label": "Predicted Exchange Wallet ($6.32)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x4D7244526f991DdA37e54DF138EbF83cA3706cBD",
+      "chain": "evm",
+      "usd_balance": 5.87,
+      "label": "Predicted Exchange Wallet ($5.87)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x28cccDBC18E579BCD0F305B3C25cBf389b16250f",
+      "chain": "evm",
+      "usd_balance": 1.08,
+      "label": "Predicted Exchange Wallet ($1.08)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x6286390A0d27766F5A3A47b594B0f121bCa383A7",
+      "chain": "evm",
+      "usd_balance": 0.21,
+      "label": "Predicted Exchange Wallet ($0.21)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x39D298E6BcA130ed49b00CBa31dF49Df5f503EdA",
+      "chain": "evm",
+      "usd_balance": 0.21,
+      "label": "Predicted Exchange Wallet ($0.21)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xa5580fb76188B58df0EE62E7168E3F9D15f8B58E",
+      "chain": "evm",
+      "usd_balance": 0.21,
+      "label": "Predicted Exchange Wallet ($0.21)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xc9922284e18b1aeCfC23D83e58D2fdc165cB95EA",
+      "chain": "evm",
+      "usd_balance": 0.05,
+      "label": "Predicted Exchange Wallet ($0.05)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x996122768dc8284367B2500c05a2b0Ce03ac9532",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x6f4B6864C5aa45F83F7BD461EA8Cb94B4B9BF0C6",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers"
+    },
+    {
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers"
+    },
+    {
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers"
+    },
+    {
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers"
+    },
+    {
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers"
+    }
+  ]
+}

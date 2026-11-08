@@ -1,0 +1,555 @@
+{
+  "transfers": [
+    {
+      "id": "0x6c54ee935a3524c6d66f7224448e7a61ae9d90477edd3153f372d935395b41a2_6",
+      "transactionHash": "0x6c54ee935a3524c6d66f7224448e7a61ae9d90477edd3153f372d935395b41a2",
+      "fromAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x9ea4459c8DefBF561495d95414b9CF1E2242a3E2",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Algebra Positions NFT-V2 (ALGB-POS)",
+          "address": "0x9ea4459c8DefBF561495d95414b9CF1E2242a3E2",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x5555555555555555555555555555555555555555",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:35Z",
+      "blockNumber": 49422202,
+      "blockHash": "0xf3fd199be2faeddd7a16bf9a44101535799ddbc8a01667f9391c512bef0773c2",
+      "tokenName": "Wrapped HYPE",
+      "tokenSymbol": "WHYPE",
+      "tokenDecimals": 18,
+      "unitValue": 0.8902676634879031,
+      "tokenId": "wrapped-hype",
+      "historicalUSD": 67.74046651479455,
+      "chain": "hyperevm",
+      "seq": 96699131
+    },
+    {
+      "id": "0x6c54ee935a3524c6d66f7224448e7a61ae9d90477edd3153f372d935395b41a2_7",
+      "transactionHash": "0x6c54ee935a3524c6d66f7224448e7a61ae9d90477edd3153f372d935395b41a2",
+      "fromAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x9ea4459c8DefBF561495d95414b9CF1E2242a3E2",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Algebra Positions NFT-V2 (ALGB-POS)",
+          "address": "0x9ea4459c8DefBF561495d95414b9CF1E2242a3E2",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:35Z",
+      "blockNumber": 49422202,
+      "blockHash": "0xf3fd199be2faeddd7a16bf9a44101535799ddbc8a01667f9391c512bef0773c2",
+      "tokenName": "USD₮0",
+      "tokenSymbol": "USD₮0",
+      "tokenDecimals": 6,
+      "unitValue": 326.194071,
+      "tokenId": "usdt0",
+      "historicalUSD": 326.194071,
+      "chain": "hyperevm",
+      "seq": 96699132
+    },
+    {
+      "id": "0x6581471ca9e1a68c14c5e3dc17ddbdf97e030e22bf4d264c0431ef03543ccbfb_4",
+      "transactionHash": "0x6581471ca9e1a68c14c5e3dc17ddbdf97e030e22bf4d264c0431ef03543ccbfb",
+      "fromAddress": {
+        "address": "0x9b36b1Ff0EE5a62C15387Fc1Fe79b029fc426413",
+        "chain": "hyperevm",
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x5555555555555555555555555555555555555555",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:32Z",
+      "blockNumber": 49422199,
+      "blockHash": "0xa3c4633ee636fe2e69ad88f5b87cacc8d7c84b7312d018c462bc0f6ef0757e2e",
+      "tokenName": "Wrapped HYPE",
+      "tokenSymbol": "WHYPE",
+      "tokenDecimals": 18,
+      "unitValue": 0.15177089546557976,
+      "tokenId": "wrapped-hype",
+      "historicalUSD": 11.548247435975965,
+      "chain": "hyperevm",
+      "seq": 96699115
+    },
+    {
+      "id": "0x6581471ca9e1a68c14c5e3dc17ddbdf97e030e22bf4d264c0431ef03543ccbfb_3",
+      "transactionHash": "0x6581471ca9e1a68c14c5e3dc17ddbdf97e030e22bf4d264c0431ef03543ccbfb",
+      "fromAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x09dE938d3e788aF06fD6D0819Db9226150D4a0F3",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Project X (PRJX)",
+          "note": "",
+          "id": "prjx",
+          "type": "dex",
+          "service": null,
+          "website": "https://www.prjx.com",
+          "twitter": "https://x.com/prjx_hl"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x09dE938d3e788aF06fD6D0819Db9226150D4a0F3",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:32Z",
+      "blockNumber": 49422199,
+      "blockHash": "0xa3c4633ee636fe2e69ad88f5b87cacc8d7c84b7312d018c462bc0f6ef0757e2e",
+      "tokenName": "USD₮0",
+      "tokenSymbol": "USD₮0",
+      "tokenDecimals": 6,
+      "unitValue": 11.579433,
+      "tokenId": "usdt0",
+      "historicalUSD": 11.579433,
+      "chain": "hyperevm",
+      "seq": 96699114
+    },
+    {
+      "id": "0xd4fc0aa05e961affa502f0a8dafb0136c2b86364782d12a58f929b112a382bcf_2",
+      "transactionHash": "0xd4fc0aa05e961affa502f0a8dafb0136c2b86364782d12a58f929b112a382bcf",
+      "fromAddress": {
+        "address": "0x9b36b1Ff0EE5a62C15387Fc1Fe79b029fc426413",
+        "chain": "hyperevm",
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x5555555555555555555555555555555555555555",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:31Z",
+      "blockNumber": 49422198,
+      "blockHash": "0xec3bc3f7e8b49d4ed671cd905e0f1890308f19a7fd53e5e1860eb44e48b107cd",
+      "tokenName": "Wrapped HYPE",
+      "tokenSymbol": "WHYPE",
+      "tokenDecimals": 18,
+      "unitValue": 0.23386367264487687,
+      "tokenId": "wrapped-hype",
+      "historicalUSD": 17.794686851548683,
+      "chain": "hyperevm",
+      "seq": 96699108
+    },
+    {
+      "id": "0xd4fc0aa05e961affa502f0a8dafb0136c2b86364782d12a58f929b112a382bcf_1",
+      "transactionHash": "0xd4fc0aa05e961affa502f0a8dafb0136c2b86364782d12a58f929b112a382bcf",
+      "fromAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x0ceca9d7DDFc57d53C5095ba377Cfaa4e0802CAE",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Hybra",
+          "note": "",
+          "id": "hybra",
+          "type": "dex",
+          "service": null,
+          "website": "https://www.hybra.finance",
+          "twitter": "https://x.com/HybraFinance"
+        },
+        "arkhamLabel": {
+          "name": "V4 Pool",
+          "address": "0x0ceca9d7DDFc57d53C5095ba377Cfaa4e0802CAE",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:31Z",
+      "blockNumber": 49422198,
+      "blockHash": "0xec3bc3f7e8b49d4ed671cd905e0f1890308f19a7fd53e5e1860eb44e48b107cd",
+      "tokenName": "USD₮0",
+      "tokenSymbol": "USD₮0",
+      "tokenDecimals": 6,
+      "unitValue": 17.846394,
+      "tokenId": "usdt0",
+      "historicalUSD": 17.846394,
+      "chain": "hyperevm",
+      "seq": 96699107
+    },
+    {
+      "id": "0xfa7a5de369834f64524b2f45bee5a0127dd1b99742468c74a9a699073b4d2ad7_32",
+      "transactionHash": "0xfa7a5de369834f64524b2f45bee5a0127dd1b99742468c74a9a699073b4d2ad7",
+      "fromAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x8F10B468b06c6FD214B65F87778827F7D113f996",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kyber Network",
+          "note": "",
+          "id": "kyber-network",
+          "type": "dex",
+          "service": null,
+          "website": "https://kyber.network",
+          "twitter": "https://twitter.com/KyberNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/kyber-network",
+          "linkedin": "https://www.linkedin.com/in/loiluu"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x5555555555555555555555555555555555555555",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:30Z",
+      "blockNumber": 49422197,
+      "blockHash": "0x537086ab1c5d807ccd007576fb30ceac2247f457ec5f4b9e1535434901ed2020",
+      "tokenName": "Wrapped HYPE",
+      "tokenSymbol": "WHYPE",
+      "tokenDecimals": 18,
+      "unitValue": 0.7838674910750754,
+      "tokenId": "wrapped-hype",
+      "historicalUSD": 59.644477395902484,
+      "chain": "hyperevm",
+      "seq": 96699090
+    },
+    {
+      "id": "0xfa7a5de369834f64524b2f45bee5a0127dd1b99742468c74a9a699073b4d2ad7_33",
+      "transactionHash": "0xfa7a5de369834f64524b2f45bee5a0127dd1b99742468c74a9a699073b4d2ad7",
+      "fromAddress": {
+        "address": "0x8F10B468b06c6FD214B65F87778827F7D113f996",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kyber Network",
+          "note": "",
+          "id": "kyber-network",
+          "type": "dex",
+          "service": null,
+          "website": "https://kyber.network",
+          "twitter": "https://twitter.com/KyberNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/kyber-network",
+          "linkedin": "https://www.linkedin.com/in/loiluu"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:30Z",
+      "blockNumber": 49422197,
+      "blockHash": "0x537086ab1c5d807ccd007576fb30ceac2247f457ec5f4b9e1535434901ed2020",
+      "tokenName": "USD₮0",
+      "tokenSymbol": "USD₮0",
+      "tokenDecimals": 6,
+      "unitValue": 59.870583,
+      "tokenId": "usdt0",
+      "historicalUSD": 59.870583,
+      "chain": "hyperevm",
+      "seq": 96699091
+    },
+    {
+      "id": "0xca57faec10bae344227a3b4a1eeaf24f0da5ada35e591fcb248c28fba541abda_21",
+      "transactionHash": "0xca57faec10bae344227a3b4a1eeaf24f0da5ada35e591fcb248c28fba541abda",
+      "fromAddress": {
+        "address": "0x8F10B468b06c6FD214B65F87778827F7D113f996",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kyber Network",
+          "note": "",
+          "id": "kyber-network",
+          "type": "dex",
+          "service": null,
+          "website": "https://kyber.network",
+          "twitter": "https://twitter.com/KyberNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/kyber-network",
+          "linkedin": "https://www.linkedin.com/in/loiluu"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:25Z",
+      "blockNumber": 49422192,
+      "blockHash": "0x322b9b1d72aed14d9986ac5f3a3c7d9b4899d2101711c9f2302594f68c531481",
+      "tokenName": "USD₮0",
+      "tokenSymbol": "USD₮0",
+      "tokenDecimals": 6,
+      "unitValue": 64.85517,
+      "tokenId": "usdt0",
+      "historicalUSD": 64.85517,
+      "chain": "hyperevm",
+      "seq": 96699031
+    },
+    {
+      "id": "0xca57faec10bae344227a3b4a1eeaf24f0da5ada35e591fcb248c28fba541abda_20",
+      "transactionHash": "0xca57faec10bae344227a3b4a1eeaf24f0da5ada35e591fcb248c28fba541abda",
+      "fromAddress": {
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kittenswap",
+          "note": "",
+          "id": "kittenswap",
+          "type": "dex",
+          "service": null,
+          "website": "https://kittenswap.finance",
+          "twitter": "https://x.com/kittenswaphype"
+        },
+        "arkhamLabel": {
+          "name": "Pool",
+          "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x8F10B468b06c6FD214B65F87778827F7D113f996",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Kyber Network",
+          "note": "",
+          "id": "kyber-network",
+          "type": "dex",
+          "service": null,
+          "website": "https://kyber.network",
+          "twitter": "https://twitter.com/KyberNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/kyber-network",
+          "linkedin": "https://www.linkedin.com/in/loiluu"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0x5555555555555555555555555555555555555555",
+      "type": "",
+      "blockTimestamp": "2026-10-24T19:04:25Z",
+      "blockNumber": 49422192,
+      "blockHash": "0x322b9b1d72aed14d9986ac5f3a3c7d9b4899d2101711c9f2302594f68c531481",
+      "tokenName": "Wrapped HYPE",
+      "tokenSymbol": "WHYPE",
+      "tokenDecimals": 18,
+      "unitValue": 0.8498661896567874,
+      "tokenId": "wrapped-hype",
+      "historicalUSD": 64.66631837098495,
+      "chain": "hyperevm",
+      "seq": 96699030
+    }
+  ],
+  "count": 10000
+}

@@ -1,0 +1,461 @@
+{
+  "transfers": [
+    {
+      "id": "0xe8c9e8cd3def58c343705c9731ce52f00f35add903b4ab6287d0d4462146720e_650",
+      "transactionHash": "0xe8c9e8cd3def58c343705c9731ce52f00f35add903b4ab6287d0d4462146720e",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x90B148927dC868dC8EDE9F3770b16D9ddCc7A1AA",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T09:47:04Z",
+      "blockNumber": 131411399,
+      "blockHash": "0x605e297512b1e8d21ba4bb029a6f68f1c38c94988c3f5f541415d3c2267a530b",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 10,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 10,
+      "chain": "bsc",
+      "seq": 9297563378
+    },
+    {
+      "id": "0xcb247a751bc6d52cba9cbd5479b3ab023fd5c88ef4780b7a75af3af3bbca6181_8",
+      "transactionHash": "0xcb247a751bc6d52cba9cbd5479b3ab023fd5c88ef4780b7a75af3af3bbca6181",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xD8DB6cA1d2BF421aF9cF5a58565801ac91d1170C",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T09:27:00Z",
+      "blockNumber": 131408723,
+      "blockHash": "0xca6ae24d5da6e995405db4700edce020d1c2c0e8b03b1120a9f63d51c8a2bd29",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 223.5,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 223.5,
+      "chain": "bsc",
+      "seq": 9296815399
+    },
+    {
+      "id": "0x2602161762e16dfa3f8d073ef143ac522eba70567ac64d0ec2ab48108c60c7fa_5",
+      "transactionHash": "0x2602161762e16dfa3f8d073ef143ac522eba70567ac64d0ec2ab48108c60c7fa",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xB030aFbAE9Ea1893ecb18629D0f09880F8c3E66e",
+        "chain": "bsc",
+        "depositServiceID": "bybit",
+        "arkhamLabel": {
+          "name": "Bybit Deposit",
+          "address": "0xB030aFbAE9Ea1893ecb18629D0f09880F8c3E66e",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T09:06:37Z",
+      "blockNumber": 131406005,
+      "blockHash": "0x03c86885f4ef9383105b7feea78beec7a52eb5baed0b1a3e6d2e79b35bf40da4",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 30,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 30,
+      "chain": "bsc",
+      "seq": 9296179952
+    },
+    {
+      "id": "0xb9be4b7170c6f5627411fbd4aef3aac7f46fbbdfc1c1c5dad924b572e84b388f_32",
+      "transactionHash": "0xb9be4b7170c6f5627411fbd4aef3aac7f46fbbdfc1c1c5dad924b572e84b388f",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8121d84B1ffd958dFE4072fD284C9EeEE3ddA810",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:51:16Z",
+      "blockNumber": 131403960,
+      "blockHash": "0x7e7dadb55b9491a72770c10589da1f4349dbeeb46b52961eb0005d18479cbb6b",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 112.37,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 112.37,
+      "chain": "bsc",
+      "seq": 9295692941
+    },
+    {
+      "id": "0x5f79fbe5abc5fc0920a3c06464159a9bf0b4859096acef6adce720fd11a9ff76_88",
+      "transactionHash": "0x5f79fbe5abc5fc0920a3c06464159a9bf0b4859096acef6adce720fd11a9ff76",
+      "fromAddress": {
+        "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xE68598AbB0Ef549aa2096F4f62cB93Fe991dfFA4",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:49:11Z",
+      "blockNumber": 131403682,
+      "blockHash": "0x4cf5d5704795a757099222f6fb834089f3bb948cd8b208b2eca3b0899d5e1231",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 500,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 500,
+      "chain": "bsc",
+      "seq": 9295619526
+    },
+    {
+      "id": "0xe21b96b39084de2adccf78791687790ebb599263df15a6d2aadb2e0eb2da1736_22",
+      "transactionHash": "0xe21b96b39084de2adccf78791687790ebb599263df15a6d2aadb2e0eb2da1736",
+      "fromAddress": {
+        "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x158afb269BD0bFA7E1BA99F579733820b2F848Ec",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:48:12Z",
+      "blockNumber": 131403551,
+      "blockHash": "0xfc7662c900c15f581f87443bfc24d3682d9eff547b5a5f02994f99316456eae7",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 15,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 15,
+      "chain": "bsc",
+      "seq": 9295584925
+    },
+    {
+      "id": "0xb03ed6758484170b23c70aef0888d5813b7dee9db5469ccfd2df703570da4ab4_368",
+      "transactionHash": "0xb03ed6758484170b23c70aef0888d5813b7dee9db5469ccfd2df703570da4ab4",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x3899318dA105dfEb633671B2a8F4fdaed1A017de",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:42:25Z",
+      "blockNumber": 131402781,
+      "blockHash": "0xa3faa1dd5176ac90c2fb74f17bd71917f22d10af2789e368c09cc69569e2466d",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 939,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 939,
+      "chain": "bsc",
+      "seq": 9295408163
+    },
+    {
+      "id": "0x1df135afde060bbb663dafa37dd6278c6de30edeef96035668ce6263f791d659_77",
+      "transactionHash": "0x1df135afde060bbb663dafa37dd6278c6de30edeef96035668ce6263f791d659",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8b5c21b612CAc454c8668Baa41487123A0330121",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:37:54Z",
+      "blockNumber": 131402177,
+      "blockHash": "0xace481f3372e457cd54970b6262c732b1507347cc5b2dc947781b4a01032f4b4",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 33,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 33,
+      "chain": "bsc",
+      "seq": 9295269401
+    },
+    {
+      "id": "0x1aeae48d982d86630c257425a19b9a03e18447fca07b12b3d127037baf94be7c_56",
+      "transactionHash": "0x1aeae48d982d86630c257425a19b9a03e18447fca07b12b3d127037baf94be7c",
+      "fromAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x6D5910A6990bEa4142b0E55bd13F8e9AB611ab8f",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:36:23Z",
+      "blockNumber": 131401976,
+      "blockHash": "0x0250ccd34fae665e05f3e269fd28c166c201b1e76ff01b26daf9940397defd63",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 1016.43,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 1016.43,
+      "chain": "bsc",
+      "seq": 9295226086
+    },
+    {
+      "id": "0x5aff787a049243341268c4281ba4d2e28e21f2c9e0fd0a8efa9f1eb48df6d3af_124",
+      "transactionHash": "0x5aff787a049243341268c4281ba4d2e28e21f2c9e0fd0a8efa9f1eb48df6d3af",
+      "fromAddress": {
+        "address": "0x4c076B120D67DbcE36aeE45D0F5159797e88585A",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Nobitex.ir",
+          "note": "",
+          "id": "nobitex",
+          "type": "cex",
+          "service": null,
+          "website": "https://nobitex.ir",
+          "twitter": "https://twitter.com/nobitexmarket"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "type": "token",
+      "blockTimestamp": "2026-11-03T08:15:08Z",
+      "blockNumber": 131399143,
+      "blockHash": "0x78540a6b752bdf9d6f5dfe927ab3da1bba990d242cb2061c5eadb90e80ec8816",
+      "tokenName": "Tether USD",
+      "tokenSymbol": "USDT",
+      "tokenDecimals": 18,
+      "unitValue": 2559.205986,
+      "tokenId": "binance-bridged-usdt-bnb-smart-chain",
+      "historicalUSD": 2559.205986,
+      "chain": "bsc",
+      "seq": 9294586186
+    }
+  ],
+  "count": 10000
+}

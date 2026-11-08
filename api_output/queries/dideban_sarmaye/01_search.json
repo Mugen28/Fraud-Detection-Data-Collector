@@ -1,0 +1,686 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "@sarmadei",
+      "note": "",
+      "id": "sarmadei",
+      "type": "individual",
+      "service": false,
+      "twitter": "sarmadei"
+    },
+    {
+      "name": "@Didiband",
+      "note": "",
+      "id": "didiband",
+      "type": "individual",
+      "service": false,
+      "twitter": "Didiband"
+    },
+    {
+      "name": "Rodel Gagola Sarate",
+      "note": "",
+      "id": "rodel-gagola-sarate",
+      "type": "individual",
+      "service": false
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "CBDQUD6GGSir4miXngCK7PKhUgBSiWpD4dtw651Wtqyx",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@Dida6880",
+        "note": "",
+        "id": "dida6880",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Dida6880"
+      }
+    },
+    {
+      "address": "EgNPF2bB8f5c5Tc7aV6JgFVNweLexkKwFXMKfYZF6xif",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@DidiTrading",
+        "note": "",
+        "id": "diditrading",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/DidiTrading"
+      }
+    },
+    {
+      "address": "0x95d4b05A61341592Dd0bFa6fd0dCBEbBfd0B5Da9",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@DidiTrading",
+        "note": "",
+        "id": "diditrading",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/DidiTrading"
+      },
+      "arkhamLabel": {
+        "name": "diederik.eth",
+        "address": "0x95d4b05A61341592Dd0bFa6fd0dCBEbBfd0B5Da9",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x72a0FB5fAc0db90631903A7b5849db1b00265F35",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "@did__ostap",
+        "note": "",
+        "id": "did-ostap",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/did__ostap"
+      },
+      "arkhamLabel": {
+        "name": "\"didostap\" on Polymarket",
+        "address": "0x72a0FB5fAc0db90631903A7b5849db1b00265F35",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x984253cAd96157B89255F4674E5362Fc0feb69Ee",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@didbit_eth",
+        "note": "",
+        "id": "didbit-eth",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/didbit_eth"
+      },
+      "arkhamLabel": {
+        "name": "didbit.eth",
+        "address": "0x984253cAd96157B89255F4674E5362Fc0feb69Ee",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x9EF171A8C62Eea6455830Bde5de99Db5A7cA5119",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "@didih2509",
+        "note": "",
+        "id": "didih2509",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/didih2509"
+      },
+      "arkhamLabel": {
+        "name": "lungdidi.eth",
+        "address": "0x9EF171A8C62Eea6455830Bde5de99Db5A7cA5119",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "TTcz2rtb8uDD7NZz5MVU8U9wLAcS72bgYf",
+      "chain": "tron",
+      "arkhamLabel": {
+        "name": "DiceGame",
+        "address": "TTcz2rtb8uDD7NZz5MVU8U9wLAcS72bgYf",
+        "chainType": "tron"
+      }
+    },
+    {
+      "address": "0xD1CEeeeee83F8bCF3BEDad437202b6154E9F5405",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Dice2Win",
+        "note": "",
+        "id": "dice2win",
+        "type": "gambling",
+        "service": null,
+        "website": "https://dice2.win/",
+        "twitter": "https://twitter.com/dice2win"
+      },
+      "arkhamLabel": {
+        "name": "Dice2Win",
+        "address": "0xD1CEeeeee83F8bCF3BEDad437202b6154E9F5405",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "1AV4hvzHLk1BxHurtzEHtcATapRD1FHGZy",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "DigiFinex",
+        "note": "",
+        "id": "digifinex",
+        "type": "cex",
+        "service": null,
+        "website": "https://digifinex.com",
+        "twitter": "https://twitter.com/DigiFinex",
+        "crunchbase": "https://www.crunchbase.com/organization/digifinex",
+        "linkedin": "https://www.linkedin.com/company/digifinex-global"
+      }
+    },
+    {
+      "address": "0xd15fE25eD0Dba12fE05e7029C88b10C25e8880E3",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "Disperse.app",
+        "note": "",
+        "id": "disperse-app",
+        "type": "misc",
+        "service": null,
+        "website": "https://disperse.app/"
+      },
+      "arkhamLabel": {
+        "name": "Disperse",
+        "address": "0xd15fE25eD0Dba12fE05e7029C88b10C25e8880E3",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xD152f549545093347A162Dce210e7293f1452150",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Disperse.app",
+        "note": "",
+        "id": "disperse-app",
+        "type": "misc",
+        "service": null,
+        "website": "https://disperse.app/"
+      },
+      "arkhamLabel": {
+        "name": "Disperse",
+        "address": "0xD152f549545093347A162Dce210e7293f1452150",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xE9C7650b97712C0Ec958FF270FBF4189fB99C071",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Dinosaur Eggs",
+        "note": "",
+        "id": "dinosaur-eggs",
+        "type": "dex",
+        "service": null,
+        "website": "https://dsgmetaverse.com/",
+        "twitter": "https://twitter.com/dsgmetaverse"
+      },
+      "arkhamLabel": {
+        "name": "SwapRouter",
+        "address": "0xE9C7650b97712C0Ec958FF270FBF4189fB99C071",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x692B5A7eCcCad243a07535E8C24B0E7433238C6a",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "Disperse.app",
+        "note": "",
+        "id": "disperse-app",
+        "type": "misc",
+        "service": null,
+        "website": "https://disperse.app/"
+      },
+      "arkhamLabel": {
+        "name": "Disperse",
+        "address": "0x692B5A7eCcCad243a07535E8C24B0E7433238C6a",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xF8d52Af93209d4b94Bd73017B340a8B5aaF6f6D5",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@didek74690",
+        "note": "",
+        "id": "didek74690",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/didek74690"
+      },
+      "arkhamLabel": {
+        "name": "\"sajid123\" on Farcaster",
+        "address": "0xF8d52Af93209d4b94Bd73017B340a8B5aaF6f6D5",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "3QitX2PMTccHP7hhCktZEK2xMZ7gQBhwCqtWDpaWAL2j",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@dirkdigglersol",
+        "note": "",
+        "id": "dirkdigglersol",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/dirkdigglersol"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "didzw.eth",
+      "address": "0xcB00e3146095649E45f44A1d4dc7ae29b32bF01b"
+    },
+    {
+      "name": "didbit.eth",
+      "address": "0x984253cAd96157B89255F4674E5362Fc0feb69Ee"
+    },
+    {
+      "name": "diducm.eth",
+      "address": "0xfc7C6D9B0369a15925399E5aEE874f937EA4916d"
+    },
+    {
+      "name": "didi8bg.eth",
+      "address": "0x0687FDf1617C222fc7EAf72e340e177C616ebF75"
+    },
+    {
+      "name": "didowner.eth",
+      "address": "0x0eCF5262E5B864e1612875f8fc18f151315b5E91"
+    },
+    {
+      "name": "didiertkt.eth",
+      "address": "0xffBb1cD787A1D75e80B89A44F75dB59CBe34f799"
+    },
+    {
+      "name": "diden.eth",
+      "address": "0xda951b9A2189b612c8C56Cf2af50D010eD6FF350"
+    },
+    {
+      "name": "diddyparty.eth",
+      "address": "0x24eCa210AFee728eb7e8e35642eD1582fF605a84"
+    },
+    {
+      "name": "didaspilja.eth",
+      "address": "0xF59FF9c0Ca00b1d3a7eef20FaF40418F6a5eC3a9"
+    },
+    {
+      "name": "diddydoodat.eth",
+      "address": "0x5dead1f49F17A4463956A5B6aabd6D96A900337D"
+    },
+    {
+      "name": "diduftkanmi.eth",
+      "address": "0x1A9344c09dFcf923028208649fF49e45Ef560e74"
+    },
+    {
+      "name": "didiclubking.eth",
+      "address": "0x4aa8D4d19C7CA3cd4cDbd655b11072A5e36c0782"
+    },
+    {
+      "name": "diddystolemy.eth",
+      "address": "0xFE2d226F1F05Ff47D18D2FD0D851759091085c5C"
+    },
+    {
+      "name": "diduanyingshi.eth",
+      "address": "0x5115e5494E230fAb622D8A57B6406B3846cE5604"
+    },
+    {
+      "name": "didyoubuyanon.eth",
+      "address": "0x578728e317e9d1Ad986872754F1aFa83D9E02B99"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x62D806873c8A76Daa89b8254beE9fD2b4a89cE32",
+      "username": "Dider",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/19.png"
+    },
+    {
+      "address": "0x8Df453C2fe5A09651bcdcB0a8a5a039857A961f5",
+      "username": "didy",
+      "profileImage": null
+    },
+    {
+      "address": "0x27CbB74723F45CaB0B52FbbeB527Ff60C671BE25",
+      "username": "didi_",
+      "profileImage": "https://i.seadn.io/gcs/files/4768081d443501e40ec1c7ea1f4eda0d.png?w=500&auto=format"
+    },
+    {
+      "address": "0xb95E8236AF329B68795b924077e649D8010E0Bd0",
+      "username": "didaz",
+      "profileImage": "https://i.seadn.io/gcs/files/8c747275e6a28c248aef9e0dd3fbe742.png?w=500&auto=format"
+    },
+    {
+      "address": "0x984253cAd96157B89255F4674E5362Fc0feb69Ee",
+      "username": "didbit",
+      "profileImage": "https://i2c.seadn.io/profiles/0x984253cad96157b89255f4674e5362fc0feb69ee/avatar/88d467ac00d083e19619fe95d664cf/a288d467ac00d083e19619fe95d664cf.png"
+    },
+    {
+      "address": "0x72b54a4926a5B34b9974bDf4844355bC4Bb87457",
+      "username": "diddyk",
+      "profileImage": "https://i.seadn.io/gae/_eZZ06ovs32lQKVm_qAPIBvnZf7utq_esVR_zn8L9RCT_kNq6ea9LG1JG1xJSk9LOyxqg-MHJkfUq5X3ICydvk2pRLwKSPXh9ZiaFg?w=500&auto=format"
+    },
+    {
+      "address": "0xfc7C6D9B0369a15925399E5aEE874f937EA4916d",
+      "username": "Diducm",
+      "profileImage": "https://i.seadn.io/gcs/files/0a6bbf511dc13d73b9f3a95b287a4e7d.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xC60F56B180A1582b346982948Fe9e1E786Ca6db3",
+      "username": "didierz",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png"
+    },
+    {
+      "address": "0x86282134CE9fC4Ac724B84b93D6D5b41cE59a40d",
+      "username": "didypop",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/5.png"
+    },
+    {
+      "address": "0xE6b5118A51eC131700D88F39b9aCBA24C953a53A",
+      "username": "DiDiDOGE",
+      "profileImage": "https://i2c.seadn.io/profiles/0xe6b5118a51ec131700d88f39b9acba24c953a53a/avatar/738a0d05bda5423803c138590a0f6f/8a738a0d05bda5423803c138590a0f6f.jpeg"
+    },
+    {
+      "address": "0x9Ae3d7fFCfA14Df5C758bb895fAc23726779CF62",
+      "username": "Didikdwg",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png"
+    },
+    {
+      "address": "0x426AEcf641FaF88AE0D6736eD87550E9ABeC0D36",
+      "username": "Didier94",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png"
+    },
+    {
+      "address": "0x13c080314Dc5CeD6A66175f570dAf7f620118dbd",
+      "username": "DIDI8811",
+      "profileImage": "https://i2c.seadn.io/profiles/0x13c080314dc5ced6a66175f570daf7f620118dbd/avatar/a29dd9046c62c864f9fd48e704ac25/b3a29dd9046c62c864f9fd48e704ac25.jpeg"
+    },
+    {
+      "address": "0x5760E867E9735DEb0CFC9192c75c87D6e025F44d",
+      "username": "DIDEBA",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png"
+    },
+    {
+      "address": "0x6cD9cd442D00BA177d888c3379E26a996dB89d0b",
+      "username": "DiDiZacZac",
+      "profileImage": "https://i.seadn.io/gae/kI2cmJLQrIT4GXDB-LOTsMBRXTA3yJa_zjrdEt8wTMZNJA1XA9My7C5KlANdLlQ8FF7nqaf0AmT2j8NFSGXnqO8jzlIz77JAaSd8?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "7j28mEagXERnux4jxk1KC89T3K4vYXoDXvLCe2KC56Lv",
+      "username": "dida1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Green-wand~Face-9~Sunglasses~Hairstyle-3-grey~Bracelet-orange~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "56SRMvhThTXGxT7Hs1xsXvpgcE7ngRoc2vU9eeX1qRBQ",
+      "username": "didida",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Cyan-wand~Face-9~Sunglasses~Empty~Empty+2~Bowtie-Green.webp"
+    },
+    {
+      "address": "hjDKR82qZ6biw6wqp7PCJ6jCqiz4LRMhxADMjSj2uPK",
+      "username": "dido28",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-Red~Face-8~Empty~Durag-Yellow~Empty~Bowtie-Red.webp"
+    },
+    {
+      "address": "DwFQpKP6WrSvW78tvr59CCV9oyXp7t1j823Ro6S31XqE",
+      "username": "Diddyy0",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-Green~Face-7~Glasses-black~Hat-Brown~Watch~Winter-Scarf.webp"
+    },
+    {
+      "address": "35GPH7Uq6Rem7PvmGFHavRfL6JVtboszeB4UMBneikA2",
+      "username": "Dididjdn",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Emerald-glass~Face-5~Empty~Hairstyle-4---Red~Watch~Buckle.webp"
+    },
+    {
+      "address": "29K7nJnURj4joLbdfvPEcXmdxiUfZBnnkhqAo7f7NRxf",
+      "username": "didier77",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-2-Green~Face-4~Glasses~Hairstyle-1---Green~Bracelet-green~Necklace-Red.webp"
+    },
+    {
+      "address": "diddyadSFmdcGdFuDeoXGBGP6RSApN6NeEejsQ2hTMV",
+      "username": "diddytwin",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Red~Face-9~Empty+2~Headphones-Grey~Bracelet-green~Necklace-Yellow.webp"
+    },
+    {
+      "address": "5Dcyw6qQTZYQNDB8HcvHAdcBLUJWkTpQmQAj4jifkH2p",
+      "username": "diddystan",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-Cyan~Face-6~Empty+2~Graduation-hat~Bracelet-green~Bowtie-Orange.webp"
+    },
+    {
+      "address": "5tcNfvodtBv45sp6iUh4t4pji2TxHrecDaiQqJdNjKw8",
+      "username": "DIDDY1230",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Blue-wand~Face-9~Empty~Hairstyle-3-grey~Bracelet-orange~Empty.webp"
+    },
+    {
+      "address": "2utLKayEMUp813WWKyDfrAenw3p36KuXzSKHnsBpoaKa",
+      "username": "didnotbuy",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/bafybeicar3uox4nsuzbuko5d75fjwc5wjavpsr5hwrvlplvy6j356mprra"
+    },
+    {
+      "address": "2fYE6NE3E6iFY9oBiM2Gfm8fzCkLTvsGQmZ5GFCwd6h8",
+      "username": "diddymade",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Yellow-glass~Face-11~Glasses-brown~Cap-back-red~Empty~Empty.webp"
+    },
+    {
+      "address": "EbnuV63mRKYmcYqH5gEX4tU3fJHgX7Fd77s3TVj8Yp5V",
+      "username": "diddyflow",
+      "profileImage": "https://socialimages.pump.fun/profile-images/543bc815-86ae-46de-a886-29a044be5bb5/c1c382785346cf9a226ac75f218b176c"
+    },
+    {
+      "address": "7UTYyATU5sWLF2nuw8jS5ugeqqMgwo4MVWrYXBLUcxS2",
+      "username": "didufumble",
+      "profileImage": "https://socialimages.pump.fun/profile-images/b5e3cfbe-87ec-407a-af10-d841613da4c4/5d88b63394cbdc8cf6f76025933813f1"
+    },
+    {
+      "address": "2QXaXo522jLfQZvXxGXtVG35YgQqAEw9ZAf5N7TgvDFh",
+      "username": "DiddysBaby",
+      "profileImage": "https://socialimages.pump.fun/profile-images/7f0cdd0f-ca3f-4667-b7f6-bdcd4f522f12/4cde518d1750a1fb4c46e17ee7e8db6a"
+    },
+    {
+      "address": "98QsYxZCNfzd1V8VfRzhnwKo1Cb4aorgSvPStV7qJMNR",
+      "username": "Didenko07",
+      "profileImage": "https://socialimages.pump.fun/profile-images/af917915-068b-4fe0-82b0-7d72d9a6d9da/c455fca9f596ad5324974b58bf9ec2f9"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "AfEhJUH1x3iseJSNr8JDJnpupxD8w79PUzvWL9uYzvon",
+      "username": "didu"
+    },
+    {
+      "chain": "solana",
+      "address": "F3VJyZw2jve5wiXsgEePcdgdkaRsnRJpTSvuEPTzRs6n",
+      "username": "dioz"
+    },
+    {
+      "chain": "solana",
+      "address": "7G5MMWS2jXxWUMo8VhZGDzrhXsUEikdvVBY4UzDdaHZx",
+      "username": "Dirteii"
+    },
+    {
+      "chain": "solana",
+      "address": "GGQoAEjV1Cn7YHksVgt2ofSn6yJqcayLVLEUE6mCANGN",
+      "username": "Dictator"
+    },
+    {
+      "chain": "solana",
+      "address": "FcfJmRr8wYRmE1rdrLeqvnzzJvXambDZxsjbjKyv6mCM",
+      "username": "Dior100x"
+    },
+    {
+      "chain": "solana",
+      "address": "GAsJg1St6LZAj3pduBtSEURShcnccmHCm4EJZAtVVKQa",
+      "username": "digglett"
+    },
+    {
+      "chain": "solana",
+      "address": "A9r6JNy5pez36mUiKVVqGvZqeQdDtVVGNja1dxnfgviy",
+      "username": "dietired"
+    },
+    {
+      "chain": "solana",
+      "address": "d1fq7NmA2oQu4s2bYtrPwrkApz2Gw3Bsjy47aMnd4Sq",
+      "username": "Diamondz"
+    },
+    {
+      "chain": "solana",
+      "address": "FU2J8yonqfzwRazG16KHfrWncAZzRTmEg1HtDWCpAn4s",
+      "username": "dispiire"
+    },
+    {
+      "chain": "solana",
+      "address": "Eh8rDX6DLQ6eTAro6DT3QHjCZx69EdG9uQ1YiWQpiFuX",
+      "username": "divagarim"
+    },
+    {
+      "chain": "solana",
+      "address": "BGq2BPyp3eCfLmZb2DyQkEsZnZGnq3a8ruK1zwaSwQu",
+      "username": "diddysauce"
+    },
+    {
+      "chain": "solana",
+      "address": "6nrKVPRhXudJLN4HRMhz5Csibw5PAJGSZKzHSUYVeK9N",
+      "username": "diddyplu67"
+    },
+    {
+      "chain": "solana",
+      "address": "BMgsHTvcasRVtuevHJh8t6Vf5dmcWkDLAx6gSAQ3dsYm",
+      "username": "DipWheeler"
+    },
+    {
+      "chain": "solana",
+      "address": "3ctCh8gMEGJyMJ4LJVE4ba4TJhxsz66XojUUBRdVc7Lu",
+      "username": "distopyian"
+    },
+    {
+      "chain": "solana",
+      "address": "CJq7jdkCVtPAnWCoo4WKStTDvYi3ui3B12Kg7VTSYNYu",
+      "username": "dinhhung493"
+    }
+  ],
+  "polymarketEvents": [
+    {
+      "eventId": 1074834,
+      "title": "CA Sarmiento vs. CA River Plate",
+      "slug": "arg-cas-riv-2026-10-07",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 942962,
+      "title": "CA Sarmiento vs. CA Belgrano",
+      "slug": "arg-cas-bel-2026-09-13",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 854173,
+      "title": "CA Unión vs. CA Sarmiento",
+      "slug": "arg-uni-cas-2026-08-28",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 224180,
+      "title": "CA Sarmiento vs. CA Aldosivi",
+      "slug": "arg-cas-ald-2026-03-22",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 1164239,
+      "title": "Sariyer SK vs. Bodrum FK",
+      "slug": "tur2-sar-bod-2026-10-13",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-icons/tur2.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-icons/tur2.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 791836,
+      "title": "CA Tucumán vs. CA Sarmiento",
+      "slug": "arg-cat-cas-2026-08-08",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 322261,
+      "title": "CA Sarmiento vs. CA Tigre",
+      "slug": "arg-cas-tig-2026-04-25",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 707136,
+      "title": "CA Banfield vs. CA Sarmiento",
+      "slug": "arg-ban-cas-2026-07-28",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 55074,
+      "title": "CA River Plate vs. CA Sarmiento",
+      "slug": "arg-riv-cas-2025-10-12",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 659688,
+      "title": "FC Inter Turku vs. FK Sarajevo",
+      "slug": "col-it-sar-2026-07-16",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-conference-league-798904aed0.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-conference-league-798904aed0.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 205245,
+      "title": "CA Sarmiento vs. Racing Club",
+      "slug": "arg-cas-rac-2026-03-10",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 970614,
+      "title": "Racing Club vs. CA Sarmiento",
+      "slug": "arg-rac-cas-2026-09-18",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 791856,
+      "title": "CA Sarmiento vs. CA Huracán",
+      "slug": "arg-cas-cah-2026-08-16",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 212002,
+      "title": "CA River Plate vs. CA Sarmiento",
+      "slug": "arg-riv-cas-2026-03-15",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 147675,
+      "title": "CA Sarmiento vs. CA Banfield",
+      "slug": "arg-cas-ban-2026-01-29",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "marketCount": 3
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0xc85199C825048B1fEDC8AbD527783a8449C4b1a1",
+      "displayName": "\"dideba\" Polymarket Account"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0xc85199C825048B1fEDC8AbD527783a8449C4b1a1",
+    "displayName": "\"dideba\" Polymarket Account"
+  }
+}

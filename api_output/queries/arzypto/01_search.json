@@ -1,0 +1,704 @@
+{
+  "arkhamAddresses": [
+    {
+      "address": "3Mujms2rLmGmoS5MM3F6GVge2f8evxjSuwbkSRoS5VEv",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@arzuavdtk",
+        "note": "",
+        "id": "arzuavdtk",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/arzuavdtk"
+      }
+    },
+    {
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "ArzPaya.com",
+        "note": "",
+        "id": "arzpaya-com",
+        "type": "cex",
+        "service": null,
+        "website": "https://arzpaya.com/",
+        "twitter": "https://twitter.com/ArzPaya"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "0xe05A884D4653289916D54Ce6aE0967707c519879",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arca",
+        "note": "",
+        "id": "arca",
+        "type": "real-world-assets",
+        "service": null,
+        "website": "https://ar.ca",
+        "twitter": "https://twitter.com/arca",
+        "crunchbase": "https://www.crunchbase.com/organization/arca-5fb9",
+        "linkedin": "https://www.linkedin.com/company/arcafinance/"
+      }
+    },
+    {
+      "address": "0x23A5eFe19Aa966388E132077d733672cf5798C03",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arca",
+        "note": "",
+        "id": "arca",
+        "type": "real-world-assets",
+        "service": null,
+        "website": "https://ar.ca",
+        "twitter": "https://twitter.com/arca",
+        "crunchbase": "https://www.crunchbase.com/organization/arca-5fb9",
+        "linkedin": "https://www.linkedin.com/company/arcafinance/"
+      }
+    },
+    {
+      "address": "0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arbitrum",
+        "note": "",
+        "id": "arbitrum",
+        "type": "smart-contract-platform",
+        "service": null,
+        "website": "https://arbitrum.foundation/",
+        "twitter": "https://twitter.com/arbitrum",
+        "crunchbase": "https://www.crunchbase.com/organization/arbitrum"
+      },
+      "arkhamLabel": {
+        "name": "Inbox",
+        "address": "0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arbitrum",
+        "note": "",
+        "id": "arbitrum",
+        "type": "smart-contract-platform",
+        "service": null,
+        "website": "https://arbitrum.foundation/",
+        "twitter": "https://twitter.com/arbitrum",
+        "crunchbase": "https://www.crunchbase.com/organization/arbitrum"
+      },
+      "arkhamLabel": {
+        "name": "Bridge",
+        "address": "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xCaeCa55Ac2b437a1331a30Aeb828EaF16eF1Acfc",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arthapala",
+        "note": "",
+        "id": "arthapala",
+        "type": "staking",
+        "service": null,
+        "website": "https://arthapala.vc/",
+        "twitter": "https://x.com/Arthapala_vc"
+      }
+    },
+    {
+      "address": "0x31439bB294f05E4a502FAD54A4C3d3ef88c59dC0",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arthapala",
+        "note": "",
+        "id": "arthapala",
+        "type": "staking",
+        "service": null,
+        "website": "https://arthapala.vc/",
+        "twitter": "https://x.com/Arthapala_vc"
+      }
+    },
+    {
+      "address": "0x64f62B8e2a7d360d90A9A61C0C2EaC64B823391A",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arthapala",
+        "note": "",
+        "id": "arthapala",
+        "type": "staking",
+        "service": null,
+        "website": "https://arthapala.vc/",
+        "twitter": "https://x.com/Arthapala_vc"
+      }
+    },
+    {
+      "address": "0x9D478393aDFa9795A36Ee086e97B0d4e2350B0Ff",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arthapala",
+        "note": "",
+        "id": "arthapala",
+        "type": "staking",
+        "service": null,
+        "website": "https://arthapala.vc/",
+        "twitter": "https://x.com/Arthapala_vc"
+      }
+    },
+    {
+      "address": "0x47e312d99C09Ce61A866c83cBbbbED5A4b9d33E7",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Art Blocks",
+        "note": "",
+        "id": "art-blocks",
+        "type": "nft",
+        "service": null,
+        "website": "https://artblocks.io",
+        "twitter": "https://twitter.com/artblocks_io",
+        "crunchbase": "https://www.crunchbase.com/organization/art-blocks"
+      }
+    },
+    {
+      "address": "0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "Arbitrum",
+        "note": "",
+        "id": "arbitrum",
+        "type": "smart-contract-platform",
+        "service": null,
+        "website": "https://arbitrum.foundation/",
+        "twitter": "https://twitter.com/arbitrum",
+        "crunchbase": "https://www.crunchbase.com/organization/arbitrum"
+      },
+      "arkhamLabel": {
+        "name": "Token Distributor",
+        "address": "0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x006102b16A04c20306A28b652745D3973D7D24fa",
+      "chain": "robinhood",
+      "arkhamEntity": {
+        "name": "Arcus",
+        "note": "",
+        "id": "arcus",
+        "type": "dex",
+        "service": null,
+        "website": "https://arcus.xyz",
+        "twitter": "https://x.com/arcus_xyz"
+      },
+      "arkhamLabel": {
+        "name": "ArcusSettlement (Proxy)",
+        "address": "0x006102b16A04c20306A28b652745D3973D7D24fa",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x5845696F6031BFd57B32e6Ce2DdeA19A486fa5e5",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "ArbDoge AI",
+        "note": "",
+        "id": "arbdoge-ai",
+        "type": "meme",
+        "service": null,
+        "website": "https://arbdoge.ai/",
+        "twitter": "https://twitter.com/ArbDogeAI"
+      },
+      "arkhamLabel": {
+        "name": "Doge Bonus Pool",
+        "address": "0x5845696F6031BFd57B32e6Ce2DdeA19A486fa5e5",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xe64a54E2533Fd126C2E452c5fAb544d80E2E4eb5",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Arbitrum",
+        "note": "",
+        "id": "arbitrum",
+        "type": "smart-contract-platform",
+        "service": null,
+        "website": "https://arbitrum.foundation/",
+        "twitter": "https://twitter.com/arbitrum",
+        "crunchbase": "https://www.crunchbase.com/organization/arbitrum"
+      },
+      "arkhamLabel": {
+        "name": "GasRefunder",
+        "address": "0xe64a54E2533Fd126C2E452c5fAb544d80E2E4eb5",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "arzhee.eth",
+      "address": "0x6e52a3F199B9E2dA6F9bCe4A395CB015a0C737d9"
+    },
+    {
+      "name": "arzitutu.eth",
+      "address": "0xe6acAD7265b4B7E498Cb019c6F973bf1dC6ABBAd"
+    },
+    {
+      "name": "argasa.eth",
+      "address": "0x6fbEC2caA6c27991d01cd00b618e733B83d1726B"
+    },
+    {
+      "name": "armads.eth",
+      "address": "0x0cA6CAdb6a8cA4199788b9a060C3285Fe7B897Fd"
+    },
+    {
+      "name": "arigato.eth",
+      "address": "0xE4709A6bc622D60eE15a29880561C85C7fdAC46D"
+    },
+    {
+      "name": "armofgod.eth",
+      "address": "0x2aE6E4bEF75fD7639F9CA7275Bf53561A82208C4"
+    },
+    {
+      "name": "arbdegen.eth",
+      "address": "0x3e516CF3C9d4F29faE6c1324c2414dC872FC9c09"
+    },
+    {
+      "name": "artilele.eth",
+      "address": "0xbe0f6d869ED37b71a5D228F87a3D993D105AD5d6"
+    },
+    {
+      "name": "arbbotold.eth",
+      "address": "0x276B8a4B41830343CCdD11CB3Cf9C2B8Bb630E5c"
+    },
+    {
+      "name": "arabeloko.eth",
+      "address": "0xFfAB14B181409170378471B13Ff2bFf5BE012C64"
+    },
+    {
+      "name": "arbinomics.eth",
+      "address": "0xCe8a3B66C5509E7be0f65485f95b69159DA870e4"
+    },
+    {
+      "name": "armananvari.eth",
+      "address": "0x8c21E8034a67eC06D874DB5e845569FB3f6D3355"
+    },
+    {
+      "name": "arenamaster.eth",
+      "address": "0x621f2A5ef987e064E76da1EB378e7193CeFC0baA"
+    },
+    {
+      "name": "arzero.eth",
+      "address": "0x95D591Fa62edb98a5aBe8e5ca90091F73A4489B2"
+    },
+    {
+      "name": "arzani.eth",
+      "address": "0x63E2A5594137A7115F5a3e288450a332AA81f5c0"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "ACryptoS",
+      "note": "",
+      "id": "acryptos",
+      "type": "yield",
+      "service": false,
+      "twitter": "acryptosdao"
+    },
+    {
+      "name": "Crypto.com",
+      "note": "",
+      "id": "crypto-com",
+      "type": "cex",
+      "service": true,
+      "twitter": "cryptocom"
+    },
+    {
+      "name": "CryptoPay.me",
+      "note": "",
+      "id": "cryptopay",
+      "type": "cex",
+      "service": false,
+      "twitter": "cryptopay"
+    },
+    {
+      "name": "KryptoDEX",
+      "note": "",
+      "id": "kryptodex",
+      "type": "dex",
+      "service": false,
+      "twitter": "KryptoDex"
+    },
+    {
+      "name": "Cryptopia",
+      "note": "",
+      "id": "cryptopia",
+      "type": "gaming",
+      "service": true,
+      "twitter": "Cryptopia_NZ"
+    },
+    {
+      "name": "Cryptonit.net",
+      "note": "",
+      "id": "cryptonit-net",
+      "type": "cex",
+      "service": false,
+      "twitter": "cryptonit_net"
+    },
+    {
+      "name": "Cryptomus",
+      "note": "",
+      "id": "cryptomus",
+      "type": "cex",
+      "service": true,
+      "twitter": "cryptomuscom"
+    },
+    {
+      "name": "Rubic",
+      "note": "",
+      "id": "cryptorubic",
+      "type": "dex-aggregator",
+      "service": false,
+      "twitter": "CryptoRubic"
+    },
+    {
+      "name": "Cryptonator",
+      "note": "",
+      "id": "cryptonator",
+      "type": "cex",
+      "service": true,
+      "twitter": "cryptonatorcom"
+    },
+    {
+      "name": "CryptoMines",
+      "note": "",
+      "id": "cryptomines",
+      "type": "gaming",
+      "service": false,
+      "twitter": "CryptoMinesApp"
+    },
+    {
+      "name": "Ccex",
+      "note": "",
+      "id": "ccex",
+      "type": "cex",
+      "service": false,
+      "twitter": "CryptoCurrEncyX"
+    },
+    {
+      "name": "GoUrl",
+      "note": "",
+      "id": "gourl",
+      "type": "misc",
+      "service": false,
+      "twitter": "cryptocoinapi"
+    },
+    {
+      "name": "CryptoZoom",
+      "note": "",
+      "id": "cryptozoon",
+      "type": "gaming",
+      "service": false,
+      "twitter": "CryptoZoonBSC"
+    },
+    {
+      "name": "CryptoKitties",
+      "note": "",
+      "id": "cryptokitties",
+      "type": "gaming",
+      "service": false,
+      "twitter": "CryptoKitties"
+    },
+    {
+      "name": "CryptoMKT",
+      "note": "",
+      "id": "cryptomkt",
+      "type": "cex",
+      "service": true,
+      "twitter": "cryptomkt"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x9F39148bACeF2d5fcc6aa3712bD50107c49c31Ac",
+      "username": "Arzyptica",
+      "profileImage": "https://i.seadn.io/gae/d1a7T0t2RmK0XknqYjAACLi6TiXEtZgbKZgM7oSx_kH6WWwRZoU10oCCn8DdYEtzoWqX0bIAh5AE3SXhKzztm1iKymT30eXFL4w?w=500&auto=format"
+    },
+    {
+      "address": "0x26CE6D0b20a1d86fda78A7c6a3B00b04b51d1270",
+      "username": "arze3",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/2.png"
+    },
+    {
+      "address": "0x6e52a3F199B9E2dA6F9bCe4A395CB015a0C737d9",
+      "username": "arzhee",
+      "profileImage": "https://i.seadn.io/gae/IWTgCEgMU0BZ38ozSILosqTicF0ljcy6C_3NiK6wxUDG7XBBxEPaSwHPA2Qfym66LRuM_TicaugHd67I2oH9fzYpKRBjs26ZnAYdBg?w=500&auto=format"
+    },
+    {
+      "address": "0xe0D62CC9233C7E2F1f23fE8C77D6b4D1a265D7Cd",
+      "username": "arzens21",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/18.png"
+    },
+    {
+      "address": "0xCdD1CE3911c794e2339E515Da4812d22bb8C6d05",
+      "username": "arzAk",
+      "profileImage": "https://i.seadn.io/gae/AZ5WTJuMR4NyJ8HsJmrLRMiA_0x6az8-NaiiswceLHkELTdDL9mx7OqgsAWT4ydbeC6dzk_AlxV9DCPIPw3qeDhzvY0UfgdrbZq7q88?w=500&auto=format"
+    },
+    {
+      "address": "0x63ADcC210D73bebc3Fb17d78411d8a52F265e00F",
+      "username": "Arzue",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/18.png"
+    },
+    {
+      "address": "0x0b3EFEBC2dF420471f726CF3f02986EA6A1c5ed8",
+      "username": "arzad",
+      "profileImage": "https://i.seadn.io/s/raw/files/665bed136ce13ee798f86ab1ea63123d.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x0b8F4C4E7626A91460dac057eB43e0de59d5b44F",
+      "username": "Artchick",
+      "profileImage": "https://i.seadn.io/gae/yRBQ0bSpT88bhrFpaadleARAd9FHPbXwAVyTEiM--Uz6_NbskKlhNhvAtZcgn89JYn5V6YyKuqShKsnW2zZF3nT1Z-CibDK_71Rl?w=500&auto=format"
+    },
+    {
+      "address": "0x3e516CF3C9d4F29faE6c1324c2414dC872FC9c09",
+      "username": "arbdegen",
+      "profileImage": null
+    },
+    {
+      "address": "0x5775580ccc9524dfc03c05b8B9821fD8A6D2066B",
+      "username": "arzi57",
+      "profileImage": "https://i.seadn.io/gae/vAoIQ8av5kE3_xj8vYNR7WJe5r5lVw688_pbQUeXu--c_hnflQDHFjbXAjHJXjCag3vAVdNbl8L1U8p4wb5bJ62Pe9g-qyMH2KU9gw?w=500&auto=format"
+    },
+    {
+      "address": "0xA2Bc303d8A2dE9F52CDac038680196C0e6D35Fc7",
+      "username": "arzgod",
+      "profileImage": "https://i.seadn.io/gcs/files/e030c6c732d23ca159a047cbcfd8a154.png?w=500&auto=format"
+    },
+    {
+      "address": "0x8A345365097244e553d0c2A5442E5AD9E4182293",
+      "username": "Artaverse",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png"
+    },
+    {
+      "address": "0x942fEC89e62C34Ecfb26694654bEC567FBDF68B5",
+      "username": "ArcticSol",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/6.png"
+    },
+    {
+      "address": "0x052a11F02Bd2E0D45Fc57990b7D4cF06e6851f33",
+      "username": "arifin040",
+      "profileImage": null
+    },
+    {
+      "address": "0xC5A2f28BAcF1425BFAEA14834486F0e9d0832155",
+      "username": "ARC",
+      "profileImage": "https://i.seadn.io/gae/PZ8LtwXjp7KrCZWsEaqsdSZstIUy83id57ddseisOioC1LQ8kI7y6Nkmn62pnxmP9eLY4pcJgZWyVP3LpR3ZdfgQ3jrMo1Ivnhr2EKM?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "FURm6b3ezHq5EyuCdBX68diFMGb1nhgTAdfoFTxwFPCP",
+      "username": "Arzyt",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-2-Yellow~Face-2~Blush~Hairstyle-4---Green~Bracelet-orange~Scarf-Green.webp"
+    },
+    {
+      "address": "ARzs6sDv52X1VwbFXZkFN3Fj4zmaDZXNtLSKkJajPRkq",
+      "username": "ARzs6s",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-Emerald~Face-4~Blush~Graduation-hat~Watch~Bowtie-Orange.webp"
+    },
+    {
+      "address": "CcMnp16dCapMFiBq5rG75uZhPRPzLy67yg37hiYPUeJH",
+      "username": "arzzzzz",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Yellow-wand~Face-10~Glasses-brown~Leafs~Bracelet-orange~Scarf-Red.webp"
+    },
+    {
+      "address": "CxhNgBwHybbGHnk5xVs4uKmuwbY2JqngcQvKdZ9U13kc",
+      "username": "arzyt2q",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Yellow-glass~Face-5~Empty+2~Cap-Red~Bracelet-green~Empty.webp"
+    },
+    {
+      "address": "ARzyM9jNofjgzEbp6kc8uyhrpt4vQKMuidQ2B5hjb6mJ",
+      "username": "ARzyM9",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Emerald-wand~Face-11~Glasses~Hat~Bracelet-green~Tie-Green.webp"
+    },
+    {
+      "address": "4DYUD8e6nxW27JW4A8hRE3otAgudYVY4hvZ22etvvUEH",
+      "username": "arzyy100x",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Yellow-wand~Face-3~Glasses-brown~Beret~Empty+2~Scarf-Red.webp"
+    },
+    {
+      "address": "HRKqjcmHrX2212a1pUjo2ARiSrvx7ayJ4bpFE7Ln5eP1",
+      "username": "arsrich",
+      "profileImage": "https://socialimages.pump.fun/profile-images/b5ef7f52-1d1d-498b-b8df-f3fbb5d2bf64/b01ac18a70b8aeabacb32050b6e4b8ef"
+    },
+    {
+      "address": "CEqLo9FcwrqUHA3Gwb1osj9kmuC4wzq9yboas6WUtqpo",
+      "username": "arzs",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Cyan-glass~Face-7~Glasses-black~Cap-Orange~Bracelet-green~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "6beStUqSLYgvkSQqejdhCwJEpVi6DXHmL4vjwdhiCdgs",
+      "username": "arzz",
+      "profileImage": "https://socialimages.pump.fun/profile-images/fc195306-1139-4771-ab4f-847e924b58e1/b2d18fa79d00ec2d5d0e5abe675d7ff5"
+    },
+    {
+      "address": "CVe27R2P74WRb1AigqxvAqP1KzqH58o6stS15yhMff6j",
+      "username": "ArZib",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-Green~Face-10~Empty~Winter-Hat~Empty~Bowtie-Indigo.webp"
+    },
+    {
+      "address": "AuiZFBBXeeanqmiN9bhAiAxQamFiJcFwLswAcWoaEzix",
+      "username": "arzus",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-Cyan~Face-1~Blush~Empty+2~Empty+2~Necklace-White.webp"
+    },
+    {
+      "address": "6RzkgBYPpoHepD33cixCJLJ2cb8QgZfCPiQbeiZ9r1NE",
+      "username": "arzen",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Cyan-glass~Face-7~Glasses~Cap-back-green~Empty~Empty.webp"
+    },
+    {
+      "address": "5C3Q5LrSbw4ujtjMxqkCwzsvig5kT16m39MDYBPPhWh2",
+      "username": "Aru",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Orange~Face-6~Glasses-brown~Cap-Red~Empty+2~Empty.webp"
+    },
+    {
+      "address": "Fr9zyHeKv2X6dd8Go4SherQ18hJ3Y17eZaGLFuRx1ZA1",
+      "username": "arb",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Cyan~Face-10~Glasses-brown~Hat~Watch~Winter-Scarf.webp"
+    },
+    {
+      "address": "6zxeHmqMWwbfC1S9doBfuxdT4B5MXnwxMEkuejJsdjbd",
+      "username": "Art",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Orange-glass~Face-6~Glasses~Hairstyle-3-grey~Bracelet-orange~Scarf-Red.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "Ex6Ewz4C4afHKMEuzQbR68eStCYCntnYsHBuGpuempbi",
+      "username": "arez"
+    },
+    {
+      "chain": "solana",
+      "address": "8PgKC22ZbWJtcpQGAYqTKqmTCNGeRa4KUamnY91oRDnL",
+      "username": "arima"
+    },
+    {
+      "chain": "solana",
+      "address": "2Kc1CDoE1YaG5mTLXtsMfNvLMrHuSKAJ1EubnsSxnoyQ",
+      "username": "Aragorn"
+    },
+    {
+      "chain": "solana",
+      "address": "C8FgQZbVxem7i79kyRzCmapNTKucsF5SYz3NbuDo2ah",
+      "username": "Arbiter"
+    },
+    {
+      "chain": "solana",
+      "address": "EhSeHYLmrU26EAPd43G4TtqoGUBQpByLijPxhembo7Wt",
+      "username": "Arrrky1"
+    },
+    {
+      "chain": "solana",
+      "address": "BY2QUYQ5EATL75sG2ex5QGF6BC6jD3ZeEwDQ6SipwaFp",
+      "username": "ArtbyNafay"
+    },
+    {
+      "chain": "solana",
+      "address": "9kv3ZnvsEfF3Vf6Pp5qd4C9neJWb7UDqyxq1oHPCMeb7",
+      "username": "arun_14159"
+    },
+    {
+      "chain": "solana",
+      "address": "CriVjLDyxojiWjsT9NeHqHufuSNkm1a1cL15hMNmtbS9",
+      "username": "artemisjpl"
+    },
+    {
+      "chain": "solana",
+      "address": "7NPLMWgrFWEADvHu4BwzgpAKcyD42TWdgJAHWW2iYTJS",
+      "username": "arangotrades"
+    },
+    {
+      "chain": "solana",
+      "address": "HbPEA8hC6QnuxEfcQhfepY3s5akxuKMGa2T97WZVWB4a",
+      "username": "artvandehlay"
+    },
+    {
+      "chain": "solana",
+      "address": "9AxMXDVYMiqsoSBE3EHGCrbDCXZ1a382SY9WUTugvopt",
+      "username": "ari_salzberg"
+    },
+    {
+      "chain": "solana",
+      "address": "HN6WATxETsdWshwBTaUc3Xfbk18nmnn4dDDmwF6TjGpL",
+      "username": "ArenaRewards"
+    },
+    {
+      "chain": "solana",
+      "address": "DAFHQdTch5Wn8EH4KwSrWDqfL8yH1ro3pQGNLLMaJnjP",
+      "username": "Areyoutiltedd"
+    },
+    {
+      "chain": "solana",
+      "address": "7eiTuokXZB6KpjZMWtv6BGVTSVWns8Pim3q4etQRBE6q",
+      "username": "ArthurMoregains"
+    },
+    {
+      "chain": "solana",
+      "address": "u9dwaVUvZnT9BhyqYVNMoVFc8DjLSVxCaCbraVX6BL7",
+      "username": "Arzen"
+    }
+  ],
+  "tokens": [
+    {
+      "identifier": {
+        "pricingID": "museum-of-crypto-art"
+      },
+      "name": "Museum of Crypto Art",
+      "symbol": "moca",
+      "price": 0.04154111,
+      "price24hAgo": 0.04242817,
+      "deployments": [
+        {
+          "chain": "ethereum",
+          "address": "0x9Ac07635DDBDE5db18648c360DEFb00F5f22537e"
+        },
+        {
+          "chain": "polygon",
+          "address": "0xcE899f26928a2B21c6a2Fddd393EF37c61dbA918"
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "pricingID": "dragon-crypto-argenti"
+      },
+      "name": "Dragon Crypto Argenti",
+      "symbol": "dcar",
+      "price": 0.00799861,
+      "price24hAgo": 0.00799861,
+      "deployments": [
+        {
+          "chain": "avalanche",
+          "address": "0x250bdca7D1845cd543BB55E7D82dcA24D48E9f0F"
+        }
+      ]
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x29CF0305960e3632796A7aDb14283Fe5456557bA",
+      "displayName": "\"Arypto\" Polymarket Account"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x29CF0305960e3632796A7aDb14283Fe5456557bA",
+    "displayName": "\"Arypto\" Polymarket Account"
+  }
+}

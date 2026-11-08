@@ -1,0 +1,62 @@
+{
+  "target": "arzpaya-com",
+  "entity_id": "arzpaya-com",
+  "entity_name": "ArzPaya.com",
+  "summary": {
+    "entityId": "arzpaya-com",
+    "numAddresses": 176,
+    "volumeUsd": 11588188.459999999,
+    "balanceUsd": 106.1369472676801,
+    "firstTx": "2019-12-31T08:18:23Z",
+    "lastTx": "2026-10-29T18:01:06Z"
+  },
+  "top_address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8\"",
+  "wallets": [
+    {
+      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "ArzPaya.com",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x5De94c24C874b6e11eE7Cf7C885C49343D3496b6",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya.com",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x0CCd5eC29C5212b4c26Fb6b808B7E10e0d36aFAc",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya.com",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xe465D1854146E7759D6fdC2892fe5bb9C5E570b4",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya.com",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xeDc3a3af5C48C4138A60096FFD8180394b396A0E",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya.com",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "ArzPaya.com",
+      "source": "transfers"
+    }
+  ]
+}

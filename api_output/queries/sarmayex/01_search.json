@@ -1,0 +1,619 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "@sarmadei",
+      "note": "",
+      "id": "sarmadei",
+      "type": "individual",
+      "service": false,
+      "twitter": "sarmadei"
+    },
+    {
+      "name": "@saraalexart",
+      "note": "",
+      "id": "saraalexart",
+      "type": "individual",
+      "service": false,
+      "twitter": "saraalexart"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "7hc6hXjDPcFnhGBPBGTKUtViFsQuyWw8ph4ePHF1aTYG",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Saros",
+        "note": "",
+        "id": "saros",
+        "type": "dex",
+        "service": null,
+        "website": "https://dex.saros.xyz",
+        "twitter": "https://x.com/saros_xyz"
+      }
+    },
+    {
+      "address": "9VAPorNsoCbCpSYNDxQsQaBJDvRVFc9VqaUczW2YYynQ",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Saros",
+        "note": "",
+        "id": "saros",
+        "type": "dex",
+        "service": null,
+        "website": "https://dex.saros.xyz",
+        "twitter": "https://x.com/saros_xyz"
+      }
+    },
+    {
+      "address": "3YqR5apHmVu5CgEHuRQ33EWZp5xT5yiytSWN4bALSgRW",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Saros",
+        "note": "",
+        "id": "saros",
+        "type": "dex",
+        "service": null,
+        "website": "https://dex.saros.xyz",
+        "twitter": "https://x.com/saros_xyz"
+      },
+      "arkhamLabel": {
+        "name": "Pool Authority",
+        "address": "3YqR5apHmVu5CgEHuRQ33EWZp5xT5yiytSWN4bALSgRW",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "DQiSLoagGRKF4qBzVCBG57gp8X8t5n6UoJoqXEf5xeS9",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Saros",
+        "note": "",
+        "id": "saros",
+        "type": "dex",
+        "service": null,
+        "website": "https://dex.saros.xyz",
+        "twitter": "https://x.com/saros_xyz"
+      }
+    },
+    {
+      "address": "GMHPeJLJcVe52iYnw5CAbGzsXYR2Jfe9cyD5x8k7fPGc",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Saros",
+        "note": "",
+        "id": "saros",
+        "type": "dex",
+        "service": null,
+        "website": "https://dex.saros.xyz",
+        "twitter": "https://x.com/saros_xyz"
+      },
+      "arkhamLabel": {
+        "name": "Upgrade Authority",
+        "address": "GMHPeJLJcVe52iYnw5CAbGzsXYR2Jfe9cyD5x8k7fPGc",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "AvQ94H2R6jKzgnzc2urmiBjEWB441un28v6o1wfW5ot3",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@SaraLangby",
+        "note": "",
+        "id": "saralangby",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/SaraLangby"
+      }
+    },
+    {
+      "address": "35UcVCWnNa8mCDjuTNpq7EtnLNhBmRsdpadTWhkbwtaV",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@Sartoshi914",
+        "note": "",
+        "id": "sartoshi914",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Sartoshi914"
+      }
+    },
+    {
+      "address": "0x95866222e5eFE81Ba69B7536fabAb8A48814B1D8",
+      "chain": "avalanche",
+      "arkhamEntity": {
+        "name": "@sarmadei",
+        "note": "",
+        "id": "sarmadei",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/sarmadei"
+      }
+    },
+    {
+      "address": "0xB618EA54b56Ac57De44066660757Bb699D9412ef",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@saraportmann",
+        "note": "",
+        "id": "saraportmann",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/saraportmann"
+      }
+    },
+    {
+      "address": "Dj3jHpwvuKTGex41jt6Wvx4t3xb6kCJ2k2n1uG8ZegLK",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@sarmassp",
+        "note": "",
+        "id": "sarmassp",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/sarmassp"
+      }
+    },
+    {
+      "address": "0x2122c04a618747EEC8C33F0a3119361880219aAa",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "@sarmassp",
+        "note": "",
+        "id": "sarmassp",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/sarmassp"
+      }
+    },
+    {
+      "address": "0xFc5A0ab845fB95cf465822F67007AFe64d1cFB1A",
+      "chain": "avalanche",
+      "arkhamEntity": {
+        "name": "@sarmassp",
+        "note": "",
+        "id": "sarmassp",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/sarmassp"
+      }
+    },
+    {
+      "address": "0x07Ff80106B61a2e9A58C2e1205860A377cC6490D",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@sarin_skn",
+        "note": "",
+        "id": "sarin-skn",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/sarin_skn"
+      },
+      "arkhamLabel": {
+        "name": "murku.eth",
+        "address": "0x07Ff80106B61a2e9A58C2e1205860A377cC6490D",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x20B4Bb05514634A3B653Ca9c90d66Dc2411A31f7",
+      "chain": "avalanche",
+      "arkhamEntity": {
+        "name": "@sarmand315",
+        "note": "",
+        "id": "sarmand315",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/sarmand315"
+      }
+    },
+    {
+      "address": "0x1915AaBBfD9dc2C57Db2916641A067b910e1d0A5",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "@sarma_ramu",
+        "note": "",
+        "id": "sarma-ramu",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/sarma_ramu"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "sarsh.eth",
+      "address": "0xfd490cf856122BE05AD6255be836E46A41F6d63C"
+    },
+    {
+      "name": "sarmat.eth",
+      "address": "0xd69401E5B2F93EB66E585711ec4CEFD6e8C8346D"
+    },
+    {
+      "name": "sarmayesignal.eth",
+      "address": "0x3F0aeaDAad7156EB2F735E2Ed380B30C4E686380"
+    },
+    {
+      "name": "sarth.eth",
+      "address": "0xdE6e5e0390194A59933166EfC04B50C77F6dcA89"
+    },
+    {
+      "name": "sarob.eth",
+      "address": "0x69D7B56e48F4A6E60fe51D4CB16e4d44ac2d3fc0"
+    },
+    {
+      "name": "sardi.eth",
+      "address": "0xde22Ab38d99b212838F4e12cd26246BE95c3777B"
+    },
+    {
+      "name": "saroz.eth",
+      "address": "0xc8c090BE0CF73A1F9b6f66782fd385a37515C7B5"
+    },
+    {
+      "name": "saraya.eth",
+      "address": "0x7D9632c43F6b5d1eAD848B3BF35AccbCB56beb47"
+    },
+    {
+      "name": "sarpat.eth",
+      "address": "0xCBB2D45f51D3181DD459FE13bDA2d13408bEaAf8"
+    },
+    {
+      "name": "sarego.eth",
+      "address": "0x3D351469f537723eAFdcce6b236f4DdF51e2597a"
+    },
+    {
+      "name": "sarada.eth",
+      "address": "0x761A3d78ae9da76469857472161273EdF40c1a02"
+    },
+    {
+      "name": "sarcfg.eth",
+      "address": "0x693a10f33974FdA182e34d0d179c5247874897A3"
+    },
+    {
+      "name": "sarvesh.eth",
+      "address": "0x16E110beD33c0445BE68B957cbbef5cd7e1BBD4f"
+    },
+    {
+      "name": "sarazin.eth",
+      "address": "0x30efdd1c95b56b3d545FefBc8169650287c7f0a0"
+    },
+    {
+      "name": "sarut31.eth",
+      "address": "0xf578CB0BAEB867e3464F57e4EB7359bd4fcBa64A"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "@sarmadei",
+      "note": "",
+      "id": "sarmadei",
+      "type": "individual",
+      "service": false,
+      "twitter": "sarmadei"
+    },
+    {
+      "name": "@saraalexart",
+      "note": "",
+      "id": "saraalexart",
+      "type": "individual",
+      "service": false,
+      "twitter": "saraalexart"
+    },
+    {
+      "name": "@Samalex87",
+      "note": "",
+      "id": "samalex87",
+      "type": "individual",
+      "service": false,
+      "twitter": "Samalex87"
+    },
+    {
+      "name": "@sermayeyonetimi",
+      "note": "",
+      "id": "sermayeyonetimi",
+      "type": "individual",
+      "service": false,
+      "twitter": "sermayeyonetimi"
+    },
+    {
+      "name": "@sarmex3",
+      "note": "",
+      "id": "sarmex3",
+      "type": "individual",
+      "service": false,
+      "twitter": "sarmex3"
+    },
+    {
+      "name": "@salmanexpert420",
+      "note": "",
+      "id": "salmanexpert420",
+      "type": "individual",
+      "service": false,
+      "twitter": "salmanexpert420"
+    },
+    {
+      "name": "@samalex97",
+      "note": "",
+      "id": "samalex97",
+      "type": "individual",
+      "service": false,
+      "twitter": "samalex97"
+    },
+    {
+      "name": "@samalexgregg",
+      "note": "",
+      "id": "samalexgregg",
+      "type": "individual",
+      "service": false,
+      "twitter": "samalexgregg"
+    },
+    {
+      "name": "@saraexpedite",
+      "note": "",
+      "id": "saraexpedite",
+      "type": "individual",
+      "service": false,
+      "twitter": "saraexpedite"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x4Ef2584191b618b1Fc7fAE636fB5cE622E161a26",
+      "username": "Sarmadaali",
+      "profileImage": "https://i2c.seadn.io/profiles/0x4ef2584191b618b1fc7fae636fb5ce622e161a26/avatar/c3aaa774069cac5795f5d4061c27aa/b8c3aaa774069cac5795f5d4061c27aa.jpeg"
+    },
+    {
+      "address": "0x69D7B56e48F4A6E60fe51D4CB16e4d44ac2d3fc0",
+      "username": "sarob",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/24.png"
+    },
+    {
+      "address": "0x1367f8730178BabE8cF3dD1f437f87986c72d0C9",
+      "username": "Sarga",
+      "profileImage": "https://i.seadn.io/gae/2ENcJ49rvNTC2nIGYk6tWAptj4sM3CSe-nBaSGoVyMoqkNdz9Nfa2CWbrkA2DJXqJOZTZ_uDEPDpMaO4A2ScbPizqdSQ-npNWLtj0A?w=500&auto=format"
+    },
+    {
+      "address": "0x8B3a3981d4ce1D93004BEfaB95D95Bb6615C433D",
+      "username": "SARiX",
+      "profileImage": "https://i.seadn.io/gae/GxyXlQ1KeHdloiCk2LDoez-EYQ9b4HdRQWpoqC9u_lmLGizx4Yc8_NMafF3xEkPJsF14Pl6_dQjlw9wnYUfO5DTvMeEL7-GeEKKybQ?w=500&auto=format"
+    },
+    {
+      "address": "0x4e9DE58087884013D20462fc2Fe0D5a16c921C7E",
+      "username": "saraa",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/26.png"
+    },
+    {
+      "address": "0x05394d76c3122F0759eb3C6E4D1b19EDC456dD53",
+      "username": "SARIT",
+      "profileImage": "https://i2c.seadn.io/profiles/0x05394d76c3122f0759eb3c6e4d1b19edc456dd53/avatar/283fb089454e86d9bce3612fded92b/fe283fb089454e86d9bce3612fded92b.jpeg"
+    },
+    {
+      "address": "0x5Cfa6254dc991cA0EFAAfC84Ce92d960E6d4b911",
+      "username": "Sargos",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png"
+    },
+    {
+      "address": "0xD65C4Ad25a4B79f47d3971e4bFcb3D7be64aD007",
+      "username": "sari92",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png"
+    },
+    {
+      "address": "0xBD7d8103cBA79da8F79E61C140793686d2ef23E2",
+      "username": "sarasr",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png"
+    },
+    {
+      "address": "0xb2d2EEC78c6624BB26c9d65df2A2CC27f7B2e71A",
+      "username": "SARATH",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png"
+    },
+    {
+      "address": "0x478739Ea730bcF17D524A149e9f49b5F2F082E9e",
+      "username": "Sarai29",
+      "profileImage": "https://i.seadn.io/gae/5jOGby2ti1SS3kSGwonPugmi3wGrbq9RtikENNoTiiuh7zDVVuN4sFnHvFUhMWCnw0cD-QfTPxS8D4uNdk15Vfio0Ukp4a15jNVnzkw?w=500&auto=format"
+    },
+    {
+      "address": "0xd67471a73711583A31DEC7757Dc12F7dAEEFa78A",
+      "username": "SarChus",
+      "profileImage": null
+    },
+    {
+      "address": "0xb495023D8Eb9526D8EC346703f2CFf12F2A6963d",
+      "username": "SargeOG",
+      "profileImage": "https://i.seadn.io/gcs/files/be5886cc2a6053dd9864888d03f532f7.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x1692d2f230a7b4c8C08e6d7fF2FF3f624aedc7Ac",
+      "username": "Sarafyn",
+      "profileImage": "https://i.seadn.io/gcs/files/a65df4de259a6e35916ccd2f5c52663d.png?w=500&auto=format"
+    },
+    {
+      "address": "0xE9F6711b7C92581856e0419399bC4Fb9C36Ec7E3",
+      "username": "sargrass",
+      "profileImage": "https://i.seadn.io/gae/i4zhFh6TSOwWUVKUwCzcKhtxuL2MCtlwFz6i_ldJ8zJpRReu_U4P4rcoIvDyLby-jvSTSItr1XyEX7xFqmGjEwHRMvwOOD9c-JZ5Bpo?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "DjHf7aYm3NmKk5y4JQkxSKt2DgBTQB2tnDu6epHWSVap",
+      "username": "Sarmadaxa",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Green-glass~Face-2~Blush~Cap-back-red~Empty~Bowtie-Red.webp"
+    },
+    {
+      "address": "5Pfb8vPqCBdCeCqphjDBixHDvZ94mga1n3qxcmMY8SQv",
+      "username": "sarmatar",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Emerald-glass~Face-8~Empty+2~Winter-Hat-Blue~Watch~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "DSZ3XUdUcnPNFKCYqHHSxfw84m4jxt71tUTM5mV5k6GF",
+      "username": "sarmasikli",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Emerald-wand~Face-8~Glasses~Graduation-hat~Bracelet-green~Empty.webp"
+    },
+    {
+      "address": "3tnW2m8bpM79TKGGduuBuNLFVUG9RkeptBpnkpEiPNtt",
+      "username": "Sarso",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Green-glass~Face-8~Glasses~Crown~Bracelet-orange~Bowtie-Indigo.webp"
+    },
+    {
+      "address": "7cTUhpTPbC6F4Q6gQ3jkurQ5Hz5sQ7tXRWTbq7U4n8hj",
+      "username": "SarmariTopG",
+      "profileImage": "https://socialimages.pump.fun/profile-images/7cTUhpTPbC6F4Q6gQ3jkurQ5Hz5sQ7tXRWTbq7U4n8hj/3e486a13-03f4-4af6-bb25-5207d7e32dfe"
+    },
+    {
+      "address": "richb5CkVbs5kX1MNneB93TcJLfN3AiABMGYz5hEzTz",
+      "username": "sarcle",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Emerald-glass~Face-8~Glasses~Winter-Hat-Blue~Watch~Tie-Green.webp"
+    },
+    {
+      "address": "DRNSNZLDCu39nTWRtjJnJDciKpK2dv1Th1PZMBPJcuXB",
+      "username": "sarion",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-Blue~Face-5~Empty~Durag-Yellow~Bracelet-orange~Necklace-Yellow.webp"
+    },
+    {
+      "address": "5nKz9sC5iXtih1c6cq9DtKHkFYd21H7RhGZgJ7jtWaoZ",
+      "username": "sarkyz",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Red-wand~Face-9~Glasses-brown~Cap-Green~Empty~Bowtie-Green.webp"
+    },
+    {
+      "address": "B5DDFEus5qaitohfVmUApzBBBAuxTq7Ctq7MXLGHXT5c",
+      "username": "saraaa",
+      "profileImage": "https://socialimages.pump.fun/profile-images/3e905913-78e6-4a3f-92db-7f61be322107/c3f0deb4164e7f93f4b89ec16a39c27e"
+    },
+    {
+      "address": "5jnsejL1T6WBwuq4D8Ed83xjZFVWtHi7QHRFrUKPXgs8",
+      "username": "sarinda",
+      "profileImage": "https://socialimages.pump.fun/profile-images/39ca3797-4ec5-4569-ba8d-9f2c9618b3be/4b8f57182327ef315653ff76e309defc"
+    },
+    {
+      "address": "Hg6bkAKMtxWkq5VKwBsJP8fPGow4fvaJ5F9Uomhx2S2S",
+      "username": "Sarah08",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/bafkreic73cv6av6y3dvl34fgq5u7xl6k5xkrgfccqwnwvowm5xhhqizrji"
+    },
+    {
+      "address": "4EsDP2YwBdwWzDTynwpu74ZmQPf2AZD8aZuvJdi2Yr47",
+      "username": "Saralzar",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/bafkreifwe3y6jrbgzs4eq6i4luimjwpes2u5pnolfdnjyc5udpgg2ugbhq"
+    },
+    {
+      "address": "Auh2DLaxXjFAetZSTfZcMbZv8HPSmv1yziZPmaqnT7Qa",
+      "username": "sariellau",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Green-glass~Face-9~Glasses-black~Hairstyle-3~Bracelet-orange~Winter-Scarf.webp"
+    },
+    {
+      "address": "7p23oxC288Vt5oiEyoFn11hed8K8pWAFytbse4TjtpeD",
+      "username": "sargant99",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Indigo-wand~Face-10~Glasses~Cap-Red~Bracelet-green~Scarf-Red.webp"
+    },
+    {
+      "address": "FLuKCS255vGrAWuP5guDxUHQMgrdKCMzbaFjPeGF6XBW",
+      "username": "sarkasm11",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-2-Indigo~Face-11~Glasses-black~Empty+2~Bracelet-orange~Winter-Scarf-Green.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "3NZbvqYDniSqXKoXV7xwYhPaxez2qh6heHuGKnsdCMJy",
+      "username": "sarp"
+    },
+    {
+      "chain": "solana",
+      "address": "2sMiY2RA6CbCQjXjwjx6agaaasd3kDTLwK8B3Jzn4fNf",
+      "username": "sarrr"
+    },
+    {
+      "chain": "solana",
+      "address": "HqtCGFrUEp14NbP9hoWHQsq88UTn8EJenRdTLfFXxpfs",
+      "username": "Sarya"
+    },
+    {
+      "chain": "solana",
+      "address": "9j3tnnXgkhxYKHBTTLYf8gmxWmVWhBx5Z8C89ADgc2R2",
+      "username": "sarkiss"
+    },
+    {
+      "chain": "solana",
+      "address": "6QeRMff3a3r6uK1dwdjpg5KF6BRk7nfa7498PsWA7esw",
+      "username": "samwow"
+    },
+    {
+      "chain": "solana",
+      "address": "Hm9G1x5JRwAbbR5VEBVcjdrE2a3rxTjGFmfej3fv3DoB",
+      "username": "sardornv"
+    },
+    {
+      "chain": "solana",
+      "address": "32uw5MRrH9pqWiYLfHLjSEj4CY33o1bJWhetFxRzY9Mp",
+      "username": "samptsd"
+    },
+    {
+      "chain": "solana",
+      "address": "BD4WKWKRkBieAb72HifWDJe7kk4DnZ4zbh1fcmJJWpW",
+      "username": "salvino"
+    },
+    {
+      "chain": "solana",
+      "address": "6iJ7Ax3fwNwBYRHyAf9F6WzdKKR2Y6GiuQnvtGcCZzvC",
+      "username": "Sanda0x"
+    },
+    {
+      "chain": "solana",
+      "address": "qmNDRd5gDVegd23PchUUDeLywLkCHNVotNN6cXkE6BP",
+      "username": "saivSOL"
+    },
+    {
+      "chain": "solana",
+      "address": "CttRr6et6TryhMzCgZyKk9YyXp4TWXeYBkgZUg22Bxnt",
+      "username": "sackman"
+    },
+    {
+      "chain": "solana",
+      "address": "4DHvPZ3Zf7RR5Fv8aZ3345aCt9Me8zJkMfp4gQf5hXjH",
+      "username": "Samurai"
+    },
+    {
+      "chain": "solana",
+      "address": "5SsAfgiddTRzejm5c7f8k295TwiDFWBybyW4egDTjuhK",
+      "username": "sara42103"
+    },
+    {
+      "chain": "solana",
+      "address": "2T8LwniwRN8ZsJzWhbDVgKeE4FcC25E1YTgdUk3expfj",
+      "username": "saran5420"
+    },
+    {
+      "chain": "solana",
+      "address": "iN512Cep2ZHnDdFBFeNWV1U345vwVReaU25A3HujVMd",
+      "username": "sagemode"
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0xaCDa4fEe49e8DFec45BCD28281C1df2352241FdB",
+      "displayName": "\"Sarmax\" Polymarket Account"
+    },
+    {
+      "address": "0x9DbC3D6d723288a63A8FBFF7B0A3fB5748817535",
+      "displayName": "\"SarnayeDigital\" Polymarket Account"
+    },
+    {
+      "address": "0x95866222e5eFE81Ba69B7536fabAb8A48814B1D8",
+      "displayName": "@sarmadei"
+    },
+    {
+      "address": "0x1915AaBBfD9dc2C57Db2916641A067b910e1d0A5",
+      "displayName": "@sarma_ramu"
+    },
+    {
+      "address": "0x96AC3b2B6e5e3D25a2FfF81a38d22DB1B3d62C21",
+      "displayName": "@SarevokSlayer"
+    },
+    {
+      "address": "0x0b01a90F118e607c25f7D26397c9F48D2D9f6a3c",
+      "displayName": "@Sarmaasinaga"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0xaCDa4fEe49e8DFec45BCD28281C1df2352241FdB",
+    "displayName": "\"Sarmax\" Polymarket Account"
+  }
+}

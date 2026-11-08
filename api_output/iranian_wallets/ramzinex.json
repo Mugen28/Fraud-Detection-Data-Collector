@@ -1,0 +1,93 @@
+{
+  "target": "ramzinex",
+  "entity_id": "ramzinex",
+  "entity_name": "Ramzinex",
+  "summary": {
+    "entityId": "ramzinex",
+    "numAddresses": 266844,
+    "volumeUsd": 9972695718.099983,
+    "balanceUsd": 134004.68458658538,
+    "firstTx": "2019-03-15T09:04:09Z",
+    "lastTx": "2026-11-02T23:54:14Z"
+  },
+  "top_address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227\"",
+  "wallets": [
+    {
+      "address": "DQVNqu7ebxgzpxmkibNnDEuWKCFFAy5fwk",
+      "chain": "dogecoin",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "DBTGMAim9PWgCwQKSiwo3jGKyiFGvDm7Av",
+      "chain": "dogecoin",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Ramzinex",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x8e8aFe1Fe20F444C6bF57C4fCd100207d6762227",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "TTQUi7ojgCXVu11JL9pgrNCywPio1gjWLb",
+      "chain": "tron",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "0xb0566e4dF2c9cfC07b8025AE651dAAe673A13307",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers"
+    }
+  ]
+}

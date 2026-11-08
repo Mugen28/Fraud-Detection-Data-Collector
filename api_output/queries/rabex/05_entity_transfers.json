@@ -1,0 +1,612 @@
+{
+  "transfers": [
+    {
+      "id": "0x974f19970edb47e35b66b6c22ac21dfb286306946291a5b6abdc36f0d99924d5",
+      "transactionHash": "0x974f19970edb47e35b66b6c22ac21dfb286306946291a5b6abdc36f0d99924d5",
+      "fromAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Celsius Network",
+          "note": "",
+          "id": "celsius-network",
+          "type": "lending-centralized",
+          "service": null,
+          "website": "https://celsius.network",
+          "twitter": "https://twitter.com/CelsiusNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/celsius-network",
+          "linkedin": "https://www.linkedin.com/company/celsiusnetwork"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2022-07-16T00:45:19Z",
+      "blockNumber": 15150554,
+      "blockHash": "0x05dab1d1bb55270aff3904705d3f9a2410db48d308f44f4a690d4e587bc74e4b",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.021024035368395155,
+      "tokenId": "ethereum",
+      "historicalUSD": 25.687797134166253,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0x1ddeffe4abd262728c35cbd327195f026d98069d7d6590a5ee2a66e290b74133_371",
+      "transactionHash": "0x1ddeffe4abd262728c35cbd327195f026d98069d7d6590a5ee2a66e290b74133",
+      "fromAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Celsius Network",
+          "note": "",
+          "id": "celsius-network",
+          "type": "lending-centralized",
+          "service": null,
+          "website": "https://celsius.network",
+          "twitter": "https://twitter.com/CelsiusNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/celsius-network",
+          "linkedin": "https://www.linkedin.com/company/celsiusnetwork"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2022-06-04T11:48:07Z",
+      "blockNumber": 14903084,
+      "blockHash": "0xbbd05cd7c0fb7d98dd2b0b540dd2bbfb77752ccc83f9e80c0414d7e8598bc254",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 5668.221718,
+      "tokenId": "usd-coin",
+      "historicalUSD": 5668.221718,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0xfa9e5c1fa0e32155224bae76b637f0764fa2702772fe466b1a668f1b6f413078_461",
+      "transactionHash": "0xfa9e5c1fa0e32155224bae76b637f0764fa2702772fe466b1a668f1b6f413078",
+      "fromAddress": {
+        "address": "0xf16E9B0D03470827A95CDfd0Cb8a8A3b46969B91",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "KuCoin",
+          "note": "",
+          "id": "kucoin",
+          "type": "cex",
+          "service": null,
+          "website": "https://kucoin.com",
+          "twitter": "https://twitter.com/kucoincom",
+          "crunchbase": "https://www.crunchbase.com/organization/kucoin",
+          "linkedin": "https://www.linkedin.com/company/kucoin/"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0xf16E9B0D03470827A95CDfd0Cb8a8A3b46969B91",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2022-06-04T11:45:19Z",
+      "blockNumber": 14903076,
+      "blockHash": "0x2a8b5166f7e24c576a553f8c60d8cfc8da6bba4679f20b715267c63f6bc23624",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 5668.221718,
+      "tokenId": "usd-coin",
+      "historicalUSD": 5668.221718,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0xaf2695cd06000640ff4344c6f183d237e5ceefc6f05083ec91b3602e1729ed6a_481",
+      "transactionHash": "0xaf2695cd06000640ff4344c6f183d237e5ceefc6f05083ec91b3602e1729ed6a",
+      "fromAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Celsius Network",
+          "note": "",
+          "id": "celsius-network",
+          "type": "lending-centralized",
+          "service": null,
+          "website": "https://celsius.network",
+          "twitter": "https://twitter.com/CelsiusNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/celsius-network",
+          "linkedin": "https://www.linkedin.com/company/celsiusnetwork"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2022-05-12T15:50:47Z",
+      "blockNumber": 14761945,
+      "blockHash": "0x60c6b201daf35f5f39f5c877cb4a32b24dcc9f4016165e3e339b18e04b11371c",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 7998.5241,
+      "tokenId": "usd-coin",
+      "historicalUSD": 8039.028576949564,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0x29d6fe3df72ffb1c86bc080fcbf6564b5459186bfd3e2875f045bc0f040c11b0",
+      "transactionHash": "0x29d6fe3df72ffb1c86bc080fcbf6564b5459186bfd3e2875f045bc0f040c11b0",
+      "fromAddress": {
+        "address": "0x0b6438F10FDae49E48815c4B5222B562789FB9F6",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Celsius Network",
+          "note": "",
+          "id": "celsius-network",
+          "type": "lending-centralized",
+          "service": null,
+          "website": "https://celsius.network",
+          "twitter": "https://twitter.com/CelsiusNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/celsius-network",
+          "linkedin": "https://www.linkedin.com/company/celsiusnetwork"
+        },
+        "arkhamLabel": {
+          "name": "Gas Supplier",
+          "address": "0x0b6438F10FDae49E48815c4B5222B562789FB9F6",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2022-05-12T15:43:42Z",
+      "blockNumber": 14761909,
+      "blockHash": "0xc205e8ae743c8f2b33fc73af0cd998800b767f648957c4bee4715918b5f9a25a",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.025,
+      "tokenId": "ethereum",
+      "historicalUSD": 49.665096492262975,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0xb93f065748e0db573e943bda87091b0b55ac958e3e8042cb06c682560074aaa8_153",
+      "transactionHash": "0xb93f065748e0db573e943bda87091b0b55ac958e3e8042cb06c682560074aaa8",
+      "fromAddress": {
+        "address": "0xAe2D4617c862309A3d75A0fFB358c7a5009c673F",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Kraken",
+          "note": "",
+          "id": "kraken",
+          "type": "cex",
+          "service": null,
+          "website": "https://kraken.com",
+          "twitter": "https://twitter.com/krakenfx",
+          "crunchbase": "https://www.crunchbase.com/organization/kraken",
+          "linkedin": "https://www.linkedin.com/company/kraken-exchange/"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0xAe2D4617c862309A3d75A0fFB358c7a5009c673F",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2022-05-12T14:21:49Z",
+      "blockNumber": 14761579,
+      "blockHash": "0xa225a21e857c587bc0d0e6a4b5431d828c883abbc88f930aa181934563401d82",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 7998.5241,
+      "tokenId": "usd-coin",
+      "historicalUSD": 7998.5241,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0x980679622d8745db1a5f9557fcf2dc89b7fd4f28bc8e99080f916d63db739b41_51",
+      "transactionHash": "0x980679622d8745db1a5f9557fcf2dc89b7fd4f28bc8e99080f916d63db739b41",
+      "fromAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Celsius Network",
+          "note": "",
+          "id": "celsius-network",
+          "type": "lending-centralized",
+          "service": null,
+          "website": "https://celsius.network",
+          "twitter": "https://twitter.com/CelsiusNetwork",
+          "crunchbase": "https://www.crunchbase.com/organization/celsius-network",
+          "linkedin": "https://www.linkedin.com/company/celsiusnetwork"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x4f6742bADB049791CD9A37ea913f2BAC38d01279",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2022-04-28T21:07:36Z",
+      "blockNumber": 14675117,
+      "blockHash": "0x74e0d9574a7dd558dde7a6e8b6434d08e1f22bb2f6101ebb7728b7ad7069a2af",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 7626.935628,
+      "tokenId": "usd-coin",
+      "historicalUSD": 7626.935628,
+      "chain": "ethereum"
+    },
+    {
+      "id": "0x20f8210f8f7cffa9cb6ea909a2fffaf5200924e57882e686d4a4975daf4ac4e2_48",
+      "transactionHash": "0x20f8210f8f7cffa9cb6ea909a2fffaf5200924e57882e686d4a4975daf4ac4e2",
+      "fromAddress": {
+        "address": "0xFfec0067F5a79CFf07527f63D83dD5462cCf8BA4",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Nexo",
+          "note": "",
+          "id": "nexo",
+          "type": "lending-centralized",
+          "service": null,
+          "website": "https://nexo.com/",
+          "twitter": "https://twitter.com/Nexo",
+          "crunchbase": "https://www.crunchbase.com/organization/nexo-0ab2",
+          "linkedin": "https://www.linkedin.com/company/nexofinance/"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0xFfec0067F5a79CFf07527f63D83dD5462cCf8BA4",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+        "chain": "ethereum",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "0x8A330515dd6e53078aF2CC5209F92F9Ae6E1e41a",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "type": "",
+      "blockTimestamp": "2022-04-28T20:27:15Z",
+      "blockNumber": 14674954,
+      "blockHash": "0x00768e940a8bb8155ec111b5a01770b786e4b7f48a3e04e0f97d6880fbcb7b0c",
+      "tokenName": "USD Coin",
+      "tokenSymbol": "USDC",
+      "tokenDecimals": 6,
+      "unitValue": 7626.935628,
+      "tokenId": "usd-coin",
+      "historicalUSD": 7626.935628,
+      "chain": "ethereum"
+    },
+    {
+      "transactionHash": "da6c14c9d1102db503cd00f1509312890c4ca708e0ffbda823a7499f8d0e6aae",
+      "txid": "da6c14c9d1102db503cd00f1509312890c4ca708e0ffbda823a7499f8d0e6aae",
+      "blockHash": "00000000000000000009f758318113ce7aa03bfa587124695e9eefb17252a17f",
+      "blockTimestamp": "2022-04-14T12:12:14Z",
+      "blockHeight": 731832,
+      "unitValue": 0.12847,
+      "historicalUSD": 5259.797110758349,
+      "fromAddress": {
+        "address": "bc1qq5w85yyckd8m4aevdrzhkpyrglvfnr9r279cgp",
+        "chain": "bitcoin",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "bc1qq5w85yyckd8m4aevdrzhkpyrglvfnr9r279cgp",
+          "chainType": "bitcoin"
+        },
+        "isUserAddress": false
+      },
+      "toAddresses": [
+        {
+          "address": {
+            "address": "bc1qa56lzf7d05ttur003zmuzwrgl3x0qau5zm2qzn",
+            "chain": "bitcoin",
+            "arkhamEntity": {
+              "name": "Celsius Network",
+              "note": "",
+              "id": "celsius-network",
+              "type": "lending-centralized",
+              "service": null,
+              "website": "https://celsius.network",
+              "twitter": "https://twitter.com/CelsiusNetwork",
+              "crunchbase": "https://www.crunchbase.com/organization/celsius-network",
+              "linkedin": "https://www.linkedin.com/company/celsiusnetwork"
+            },
+            "arkhamLabel": {
+              "name": "Hot Wallet",
+              "address": "bc1qa56lzf7d05ttur003zmuzwrgl3x0qau5zm2qzn",
+              "chainType": "bitcoin"
+            },
+            "isUserAddress": false
+          },
+          "value": 19.18426086
+        }
+      ],
+      "toValue": 19.18426086,
+      "chain": "bitcoin"
+    },
+    {
+      "transactionHash": "1d0d7b49ab4d921b95070a1233da9944a0784e78d1c3431f8f2b7c1f353a7ac1",
+      "txid": "1d0d7b49ab4d921b95070a1233da9944a0784e78d1c3431f8f2b7c1f353a7ac1",
+      "blockHash": "00000000000000000007444900d0ad0a2a9cdf9d8a8e44992a9a0eccf08b46ee",
+      "blockHeight": 731827,
+      "blockTimestamp": "2022-04-14T10:36:22Z",
+      "unitValue": 0.12847,
+      "historicalUSD": 5295.173314348748,
+      "toAddress": {
+        "address": "bc1qq5w85yyckd8m4aevdrzhkpyrglvfnr9r279cgp",
+        "chain": "bitcoin",
+        "depositServiceID": "celsius-network",
+        "arkhamEntity": {
+          "name": "Fabian Sinar Raber",
+          "note": "",
+          "id": "fabian-sinar-raber",
+          "type": "individual",
+          "service": null
+        },
+        "arkhamLabel": {
+          "name": "Celsius Network Deposit",
+          "address": "bc1qq5w85yyckd8m4aevdrzhkpyrglvfnr9r279cgp",
+          "chainType": "bitcoin"
+        },
+        "isUserAddress": false
+      },
+      "fromCoinbase": false,
+      "fromAddresses": [
+        {
+          "address": {
+            "address": "bc1qmdzn2xpxxglnv2hku2fpmqfd4g608jk899z5rrcdgsgll7gqey9s3a4n4c",
+            "chain": "bitcoin",
+            "arkhamEntity": {
+              "name": "Kraken",
+              "note": "",
+              "id": "kraken",
+              "type": "cex",
+              "service": null,
+              "website": "https://kraken.com",
+              "twitter": "https://twitter.com/krakenfx",
+              "crunchbase": "https://www.crunchbase.com/organization/kraken",
+              "linkedin": "https://www.linkedin.com/company/kraken-exchange/"
+            },
+            "arkhamLabel": {
+              "name": "Withdrawal",
+              "address": "bc1qmdzn2xpxxglnv2hku2fpmqfd4g608jk899z5rrcdgsgll7gqey9s3a4n4c",
+              "chainType": "bitcoin"
+            },
+            "isUserAddress": false
+          },
+          "value": 50.11103472
+        },
+        {
+          "address": {
+            "address": "bc1qmqymajv8ak9psgv0xr2cha87470qwad0flnygj3vpcjt49mxkutshysuq9",
+            "chain": "bitcoin",
+            "arkhamEntity": {
+              "name": "Kraken",
+              "note": "",
+              "id": "kraken",
+              "type": "cex",
+              "service": null,
+              "website": "https://kraken.com",
+              "twitter": "https://twitter.com/krakenfx",
+              "crunchbase": "https://www.crunchbase.com/organization/kraken",
+              "linkedin": "https://www.linkedin.com/company/kraken-exchange/"
+            },
+            "arkhamLabel": {
+              "name": "Withdrawal",
+              "address": "bc1qmqymajv8ak9psgv0xr2cha87470qwad0flnygj3vpcjt49mxkutshysuq9",
+              "chainType": "bitcoin"
+            },
+            "isUserAddress": false
+          },
+          "value": 50.09323651
+        }
+      ],
+      "fromValue": 100.20427123,
+      "chain": "bitcoin"
+    }
+  ],
+  "count": 101
+}

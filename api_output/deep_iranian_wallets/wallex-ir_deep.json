@@ -1,0 +1,1047 @@
+{
+  "entity_id": "wallex-ir",
+  "entity_name": "Wallex",
+  "total_wallets": 146,
+  "chain_breakdown": {
+    "evm": 13,
+    "tron": 40,
+    "arbitrum_one": 2,
+    "ethereum": 91
+  },
+  "wallets": [
+    {
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac\"",
+      "chain": "evm",
+      "label": "Primary Master Hot Wallet",
+      "entity": "Wallex",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x00681537D96C4F466f0489bf8D8b30E25339BDAb",
+      "chain": "evm",
+      "usd_balance": 1075347.49,
+      "label": "Predicted Exchange Wallet ($1,075,347.49)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x1E751D127198C734637018Fb2D3F334BAd8e725d",
+      "chain": "evm",
+      "usd_balance": 69701.85,
+      "label": "Predicted Exchange Wallet ($69,701.85)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x22a2a661410A710ec866f7f51bb2C3498C717A83",
+      "chain": "evm",
+      "usd_balance": 54978.59,
+      "label": "Predicted Exchange Wallet ($54,978.59)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xffd9c9498454C2E3D40CC517178b2cE76Dfc5497",
+      "chain": "evm",
+      "usd_balance": 21980.92,
+      "label": "Predicted Exchange Wallet ($21,980.92)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x84037FDe6aD57633B05B02E3EC945c4BeeBcFDD1",
+      "chain": "evm",
+      "usd_balance": 5768.25,
+      "label": "Predicted Exchange Wallet ($5,768.25)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x239E29406f799cBa0f94bc005bd51f1C9b50CBC0",
+      "chain": "evm",
+      "usd_balance": 3157.66,
+      "label": "Predicted Exchange Wallet ($3,157.66)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5D36960784fcae1BE04F7617BA5A3999BDDcDc2B",
+      "chain": "evm",
+      "usd_balance": 699.39,
+      "label": "Predicted Exchange Wallet ($699.39)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x7DcEFC0dA8e9E7285aAa41DD0CecA81135e14B4a",
+      "chain": "evm",
+      "usd_balance": 110.76,
+      "label": "Predicted Exchange Wallet ($110.76)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x9A055501261A17dFC35722423eCb4CAB973749f8",
+      "chain": "evm",
+      "usd_balance": 69.58,
+      "label": "Predicted Exchange Wallet ($69.58)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x080068402755D25815C7f9BFFaB9179eF8bA3555",
+      "chain": "evm",
+      "usd_balance": 3.61,
+      "label": "Predicted Exchange Wallet ($3.61)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x50B7e193d0096AF1E558BbA4c129Ad0FF2B3B7Be",
+      "chain": "evm",
+      "usd_balance": 0.05,
+      "label": "Predicted Exchange Wallet ($0.05)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xD8CbD3FA413340B6112Db79C393e8142a1ea2633",
+      "chain": "evm",
+      "usd_balance": 0.02,
+      "label": "Predicted Exchange Wallet ($0.02)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "TPpA5kWtt7RPEhyCoq43MGfYLQ9UwH5sN5",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TLckMGncg1KcXP7vH6mgNkotzZU9MdJKya",
+      "chain": "tron",
+      "label": "Hot Wallet",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x2613F11D9bcD9A82f105B64C4FF15f3A576c7846",
+      "chain": "arbitrum_one",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xd09E06cC2f2fB51AaB6Ff6663BB7A5682Bf372ac",
+      "chain": "arbitrum_one",
+      "label": "Gnosis Safe Proxy",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x864115cb04A084e33Da92f58AC2230bAE2711c67",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xd09E06cC2f2fB51AaB6Ff6663BB7A5682Bf372ac",
+      "chain": "ethereum",
+      "label": "Gnosis Safe Proxy",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TNfMrPv8qK9t27b5WLqctVUJcD4uALi5Rd",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TPnCGRw83W2AihhdVeh7YUzjraPjUKRMZ6",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TPyYaLySrHAhpdp5T9wHqr1sxSSSkAewAQ",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TLC7UDp3qK9ucX7ez7EkkZSNH7yYkRGV2D",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TNCJgMeZGpKnXx4EDFFm2ED4TmdFpbEBdR",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x49cF4f9338C90fa86BC08F5c0174486D6fbE65D4",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4ad4eAC912A128f5991C230df09c879aab6a0409",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6fBF30807A97665E9AA96798CFE204CB543F2544",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC4D8e0cB25b0B1c824A6D6dF044df94eD37e27a0",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x9F7943379623b8A5194e90c5676EDCaB12224365",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xA23b8810f8C1D9A2A0DED551A8f619849164db33",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6307c06657240E18aF6D3d2DC90141535a2e0d8A",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC5FB59C067c3580A2598dd25FcadFEfcB797CBcD",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x17eEe4C3DFcD5B033F1d0c155869B81e17a88431",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xA62226F080463D28943d20f0c8Bf5c3D930d2194",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xB8eAa0942b7F6F3a8cc63A9cF76eb33a19E7FE06",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xfB054aF3DDDdFB4605d45D2961aBCd3b471c591a",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x285F64e94F37936cC690716cbc99D511Ed46Af97",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x23b3C39209CC0AfC151D76aAf3F8a0D28Db15EBC",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x773524672cDd2Ff4B0bD7F7DDFEb1DfCB38327F3",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1Cd0d1f8Fc2994a262Ddd064F166dA3AA802c9D7",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6A8027F6d62C5b320Bdd11D710385A0cD15FAd5b",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x7fF99A37cFF396173e565F811bc81E7d27e106E2",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x93c45331915E950a4eE052a26d9d61A357656f0e",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xEFE8a50CF441b1FaCD3D171ae3f98B00D8c0E7DF",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xCeeE4fC59157E2C85fAB7462F571F4B73fFC0A83",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x9Cdb7C94A37472f488f3B829b0066A3D2fb32BD4",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x0e44489c734667De0c2218d2A54519794F841d69",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x018587D5Bd59a147569e03Be71CeD55A8422f7Cc",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x638C1c37688De295A76Bd7f9aEDA7f31C75fFFBD",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x0BE7C350BC98f812e86B58F665814788e7F4dE0D",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x0d2B53B0f82a199496506086c136Dd8d98Abc60d",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xD4b7fd1722D2307DdD42c0720d37dB10B64e501a",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x5b6ef98251A161852a988d253Ec46b87306EE32d",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xEBa6BbC713A4243e988CB7f01bd2e38B4Cc36024",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x5DE64702b1733D47d29287D17494905644b6907F",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x795501EB3Eb058B0E7E639f05B29de1317bd49E2",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4231ea40A9C639C48Bd73779A471b6FdfBf4b444",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x715AB24f625cEE7967283F0DD6131931761b32b9",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x5d45B32CF6efFCC5061726Eea5293B8156050ABC",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1a7473cd3b9C98bF475aDdC0fCf79E9221606d8D",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x9a3097bFdFA14464feACef4Df0D1F7D71c34C275",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xfCDcb039583b2c293289b5a6789c54C3820E979C",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1bE6206522b3DcA801A7E94e92b2b11c033e6476",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1FEd8d8089eeCab546790e65e7e43811B5f4C51F",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4EA010FE37328291D43a0447299be728C538a4d3",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x48651b8CAAd691D7992d6018D4EDb50FF4346338",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x3A4c70d0DEedd19b71507b26018AD175f9A5880e",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xeC9fcC4de78f138E076b697245E5411D65c9fca0",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xeF9799f1b3B713dcf752b19B37Bc5B3C6bE4690B",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC93854a38B598e102B604779546549789059CCBD",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xa759aECE53d31186f98855f45177840c5BA348Cb",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xfc999509872D942A4901dd5D29CB5d4d8DfC50B1",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x844824ea6D29F3732DBE32b4c0CAf613CC7f6046",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xd32e00Ee4ff4AC062cC97a367aC2676C07bD28f5",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xAC973C95774dC523385d3334b6fc585170662979",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xA48B0629279dE8a5Ce0028feD8a5a9A39a2f0752",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x25265632E9df7181AE16f03e119D7Eb429b1fd57",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6be452F4643de8eAfFd5BDEd3e00664b76ACde6c",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x5817b1804894c7B61072611f7deBf2D88dB16689",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x00eA8f1A9e48D9F0d547cF24f4398E37F9842C16",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x47bB37eD65101b1aDAe39e2907c059475D979a2D",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x20C2F39de7d8EE43aBd40b649fCfbf9CD7Cf0112",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x39d98e0340e7643451EAd3b6d7eb8175d01fBfc2",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xf03f0edf16764964CF6b369686e4dD1c7235ACC3",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x948406aba055Ffe2e5cf695d259621Fd5B4A8DE6",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6BeeeAF66413CeB56106C64581379653C52187Cb",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x31E546fA24763d0f995C411ee60ab989A67F327d",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xD34e1270b0a666F9F2624f1307f5c5f2408DCCFC",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x025eEA3D83f27A7aD781daC39c2BD86259D7842B",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC9E140254443d22F761e12f6E877A58dAa05c55f",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x629C24c2C138932C9FB18B0a7DE8BEC60BEDa9cE",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x2b5f44a48b4b85DdeEA31DA84D6778Ee0fb7b81C",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x25F14114F24BDD79d76862C0d6819D57A75439ab",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC9ab83359DeEEEAFecD2A42Dc40A594c3932759C",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xB318A81CF7ceD2635987Da98D56737a8Dec35f21",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x8456c66ce137f21eD0e1F0281702Be7fE599383C",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xf6eC53A750CA06DBD58867F9C5A197B4e4CA8eE2",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xF3bddDC747bfb9Fea9C937ad32BA6eD427dDf652",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x5130AB9C7a162A86a05737F0103B75A19e9CB393",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC535ebe7DCEdCDFb9fbB0B850442Cdb8753B14C0",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xc1BDF6cB327defab1012FE0f3aaBEB059d549A26",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xfaE0311ad4CD1B67E40765BC925061Db65fDC8Ac",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x9fc91558e5726F71dB6c81e17a2fa97b8cEb4D04",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x8372D5489c0042FE15F1Db56E919723012f6f1ab",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x47C78B76B460cdfa53f8767033dCCA9c586130d6",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xB4a2C18fCE3295e41b6c313fA7c1E6fD12Fc298a",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1C104c162d929562C742109Be36BF341D523748c",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xCE5Bfc0FAA4E610b19a66560dcD90a26D53bA05b",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xd01F4755C7776C8a38EF9aBd12C2F80b6738073d",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xB38C8c4CC93600FEF76dEe1D6281d985f9496d8c",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4C81C3B96431d11EB5AAe21e34E3875D0C1Dd7f7",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x638DB3265E8Fce3519D13B2e541B82A1e6a63C5a",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x57CA9746Afa1931438A545bB7c2428cfbeb8B9f9",
+      "chain": "ethereum",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TXN2aVJJwru3uD184c2b3oTkJXS6t3Xhnr",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TEVE7o2RVYggetgSaNu5c8Eg9WoC9HAbo6",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TSjWYLd2fJR7vSLneLHdHWQQPMmVZ6NiGs",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TMFRHawZahd4NmThfbBJnU6VbwZXWeFq82",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TJ1KZ32mAFEnWVuRpXG2Y6YCKa3WiPZBc8",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TRncj7PKdKwS2RoZb7zU6arY2cgUfSMS6t",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TKzjuAXRjFyXSFLaMCcVvpKyke9pfV1h3t",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TKNengqhaDYBWkvfnk1rSYyKyQgiYjVF9W",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TGWr7fztQpXJ8KH9LqbLpn7xMx57Tj7PmJ",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TCKCVY8JDFjqJvTUs8Fp25ZH6yjrS6KTbr",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TS4yuGVQSYiEZhcEP2Gdm7LJWi6ahDEDXU",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TDSKLYt5eFQzJYiGNAQMrGnvjccyGFuQbP",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TDW1wd4zL8Z4fZrHyhUsQgJyBVo6Ah7X65",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TXMdXPDQRx8vih51bJNFUqSM5TCKzKpQit",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TQXxM4UHzcrDggY3dKAH3TXn3FHdtFX8J4",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TFFqmz1Xze6HshLnhGYGX8Wwwp2jQASGME",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TSpnE3jYWvdn9pFU3n1NhFb5mgbFzskST5",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TGC5m3PNKBqXN9k5LAZahmnKGXvQEQHWN9",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TFaVyKCxYZArkNcjFAA8jnLZpXKJCfmKW2",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TAkW4vPzSbF2M6v4pDXMiRTzv4PehrdYLk",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TQd4JZnBLZfop9U3csaktv9Kijn6aZhiAG",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TYPCTfjGQ2EkN7wQH6jcJyDKooqtyuE4Fe",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TPb2w2D4ikfENzxd1WmKRLSz7HTG8B2Zfu",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TDDeYAzg2xcdr4RYfmWPu6tY7XpWf9K6hV",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TJEydjvUVeo3osrERcgLCvd4GTrqe6NLkm",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TSySBikZ8cVfH7gEUdppJshhDALrZaLadT",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TS7WbYh93yt2HJruhQWxF3TLiMmNEAyy6F",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TGoC9k1i1sPgsqAYXe6sqPxsazt3GRobmF",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TVywoa8miqVZq1iPBJPquWzvY56fCdY36G",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TTJox4yqcmf5e1NCniLXSZYmqTH7ZxCGyP",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TJWX5nSsRo2HnXp923FDdvuzk2cPR2Wvqc",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TSbyDwBpxJUBWyw7rttcTDKAtasQHPRd9t",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    },
+    {
+      "address": "TYq95qu7NEySSGk6RVuGYdV4QHg2UE61Ut",
+      "chain": "tron",
+      "label": "Wallex.ir Deposit",
+      "entity": "Wallex",
+      "source": "depth2/hot_wallet/TLckMGncg1"
+    }
+  ]
+}

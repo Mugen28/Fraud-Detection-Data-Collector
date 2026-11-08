@@ -1,0 +1,26 @@
+{
+  "name": "@ubi-tel",
+  "note": "",
+  "id": "ubi-tel",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/UBI_TEL",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "vectorfun-user",
+      "label": "\"UBI_TEL\" on Vector.fun",
+      "rank": 120,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "UBI_TEL"
+    }
+  ]
+}

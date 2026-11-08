@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "safex": {
+      "name": "Safex",
+      "note": "",
+      "id": "safex",
+      "type": "misc",
+      "service": null,
+      "website": "https://safex.org/",
+      "twitter": "https://twitter.com/safex",
+      "populatedTags": [
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "token-deployer",
+          "label": "BEP20 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "BEP20"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 0,
+        "usd": 0,
+        "price": 728.74,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.7513111239939074,
+        "priceChange24h": -12.990000000000009
+      }
+    ],
+    "dogecoin": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

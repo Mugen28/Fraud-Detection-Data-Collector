@@ -1,0 +1,154 @@
+{
+  "target": "wallex-ir",
+  "entity_id": "wallex-ir",
+  "entity_name": "Wallex.ir",
+  "summary": {
+    "entityId": "wallex-ir",
+    "numAddresses": 204157,
+    "volumeUsd": 5050647807.769983,
+    "balanceUsd": 1475562.2621778497,
+    "firstTx": "2019-10-03T21:51:55Z",
+    "lastTx": "2026-11-02T23:58:16Z"
+  },
+  "top_address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac\"",
+  "wallets": [
+    {
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Wallex.ir",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x00681537D96C4F466f0489bf8D8b30E25339BDAb",
+      "chain": "evm",
+      "usd_balance": 1024021.3,
+      "label": "Predicted Exchange Wallet ($1,024,021.30)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x1E751D127198C734637018Fb2D3F334BAd8e725d",
+      "chain": "evm",
+      "usd_balance": 69647.51,
+      "label": "Predicted Exchange Wallet ($69,647.51)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x22a2a661410A710ec866f7f51bb2C3498C717A83",
+      "chain": "evm",
+      "usd_balance": 52788.2,
+      "label": "Predicted Exchange Wallet ($52,788.20)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xffd9c9498454C2E3D40CC517178b2cE76Dfc5497",
+      "chain": "evm",
+      "usd_balance": 21887.56,
+      "label": "Predicted Exchange Wallet ($21,887.56)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x84037FDe6aD57633B05B02E3EC945c4BeeBcFDD1",
+      "chain": "evm",
+      "usd_balance": 5547.76,
+      "label": "Predicted Exchange Wallet ($5,547.76)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x239E29406f799cBa0f94bc005bd51f1C9b50CBC0",
+      "chain": "evm",
+      "usd_balance": 3066.53,
+      "label": "Predicted Exchange Wallet ($3,066.53)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5D36960784fcae1BE04F7617BA5A3999BDDcDc2B",
+      "chain": "evm",
+      "usd_balance": 654.53,
+      "label": "Predicted Exchange Wallet ($654.53)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x7DcEFC0dA8e9E7285aAa41DD0CecA81135e14B4a",
+      "chain": "evm",
+      "usd_balance": 103.99,
+      "label": "Predicted Exchange Wallet ($103.99)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x9A055501261A17dFC35722423eCb4CAB973749f8",
+      "chain": "evm",
+      "usd_balance": 68.92,
+      "label": "Predicted Exchange Wallet ($68.92)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x080068402755D25815C7f9BFFaB9179eF8bA3555",
+      "chain": "evm",
+      "usd_balance": 3.51,
+      "label": "Predicted Exchange Wallet ($3.51)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x50B7e193d0096AF1E558BbA4c129Ad0FF2B3B7Be",
+      "chain": "evm",
+      "usd_balance": 0.05,
+      "label": "Predicted Exchange Wallet ($0.05)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xD8CbD3FA413340B6112Db79C393e8142a1ea2633",
+      "chain": "evm",
+      "usd_balance": 0.02,
+      "label": "Predicted Exchange Wallet ($0.02)",
+      "entity": "Wallex.ir",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xd09E06cC2f2fB51AaB6Ff6663BB7A5682Bf372ac",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Wallex.ir",
+      "source": "transfers"
+    },
+    {
+      "address": "0xd09E06cC2f2fB51AaB6Ff6663BB7A5682Bf372ac",
+      "chain": "ethereum",
+      "label": "Gnosis Safe Proxy",
+      "entity": "Wallex.ir",
+      "source": "transfers"
+    },
+    {
+      "address": "0xd09E06cC2f2fB51AaB6Ff6663BB7A5682Bf372ac",
+      "chain": "polygon",
+      "label": "Gnosis Safe Proxy",
+      "entity": "Wallex.ir",
+      "source": "transfers"
+    },
+    {
+      "address": "TLckMGncg1KcXP7vH6mgNkotzZU9MdJKya",
+      "chain": "tron",
+      "label": "Hot Wallet",
+      "entity": "Wallex.ir",
+      "source": "transfers"
+    },
+    {
+      "address": "0xd09E06cC2f2fB51AaB6Ff6663BB7A5682Bf372ac",
+      "chain": "arbitrum_one",
+      "label": "Gnosis Safe Proxy",
+      "entity": "Wallex.ir",
+      "source": "transfers"
+    }
+  ]
+}

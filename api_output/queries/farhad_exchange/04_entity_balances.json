@@ -1,0 +1,3031 @@
+{
+  "entities": {
+    "backpack-exchange": {
+      "name": "Backpack Exchange",
+      "note": "",
+      "id": "backpack-exchange",
+      "type": "cex",
+      "service": null,
+      "website": "https://backpack.exchange",
+      "twitter": "https://x.com/Backpack",
+      "populatedTags": [
+        {
+          "id": "proof-of-reserves",
+          "label": "Backpack Exchange Proof of Reserves",
+          "rank": 20,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Backpack Exchange"
+        },
+        {
+          "id": "cex",
+          "label": "Centralized Exchange",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "opensea-user",
+          "label": "OpenSea User",
+          "rank": 110,
+          "excludeEntities": false,
+          "disablePage": true,
+          "tagParams": "OpenSea User"
+        },
+        {
+          "id": "high-transacting",
+          "label": "High Transacting",
+          "rank": 160,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "solana-token-creator",
+          "label": "Token Creator: FjgWqp38iS1ujvZn9QuvtGJNaDjj2wPDVrhD1H4NYEy1",
+          "rank": 210,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "FjgWqp38iS1ujvZn9QuvtGJNaDjj2wPDVrhD1H4NYEy1"
+        },
+        {
+          "id": "multisig",
+          "label": "MultiSig / Contract Wallet",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack USDC 5\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack USDC 5\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack USDC\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack USDC\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"USDC 6\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"USDC 6\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack USDC３\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack USDC３\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack SOL 5\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack SOL 5\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"USDC 7\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"USDC 7\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"BP\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"BP\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack SOL\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack SOL\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack UAE\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack UAE\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack SOL 4\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack SOL 4\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack SOL２\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack SOL２\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack SOL３\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack SOL３\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Backpack USDC 4\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Backpack USDC 4\""
+        },
+        {
+          "id": "squads-vault",
+          "label": "Squads Vault \"Corporate EU\"",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Squads Vault \"Corporate EU\""
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0x5a152191A59E508FA164a499e37BdF766880170B",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x5a152191A59E508FA164a499e37BdF766880170B"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0xe6892b318e0DcE2c7a5bc0db95924d5D4AD4C4Eb",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xe6892b318e0DcE2c7a5bc0db95924d5D4AD4C4Eb"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0x9648c5C5819fA6350Db858ACbA9468F45ed47d6e",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x9648c5C5819fA6350Db858ACbA9468F45ed47d6e"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0xd5Bb23D16BA5A13A91d60dD5f3925164b6eF9255",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xd5Bb23D16BA5A13A91d60dD5f3925164b6eF9255"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0xf29bB6A3c1f08d98593BFbD1314263205e75ae6b",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xf29bB6A3c1f08d98593BFbD1314263205e75ae6b"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0x094833311Ae1B30af78D0773d8E726C5A208557c",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x094833311Ae1B30af78D0773d8E726C5A208557c"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0xa5Ef16db9422Cc1cd33BaD049d5288CCff65e4cA",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xa5Ef16db9422Cc1cd33BaD049d5288CCff65e4cA"
+        },
+        {
+          "id": "gnosis-safe-signer",
+          "label": "Signer: 0x27929a64E21f815643eEe9dE223ba3127b5C7811",
+          "rank": 260,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x27929a64E21f815643eEe9dE223ba3127b5C7811"
+        },
+        {
+          "id": "gnosis-safe-signer-prev",
+          "label": "Prev. Signer: 0x4380AcB30d72AaA1eB1076969a1E5Da06D9f2314",
+          "rank": 280,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x4380AcB30d72AaA1eB1076969a1E5Da06D9f2314"
+        },
+        {
+          "id": "gnosis-safe-signer-prev",
+          "label": "Prev. Signer: 0x8edDD896C22202ff06F26dA30883BaE9eeD813CD",
+          "rank": 280,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0x8edDD896C22202ff06F26dA30883BaE9eeD813CD"
+        },
+        {
+          "id": "gnosis-safe-signer-prev",
+          "label": "Prev. Signer: 0xA8689aC594F27a97018e1399c9D3Ba315b23A9F3",
+          "rank": 280,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xA8689aC594F27a97018e1399c9D3Ba315b23A9F3"
+        },
+        {
+          "id": "gnosis-safe-signer-prev",
+          "label": "Prev. Signer: 0xD3a70109F8D3fCFfBEdDcdD5FF0Ca0f48Ca9390b",
+          "rank": 280,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xD3a70109F8D3fCFfBEdDcdD5FF0Ca0f48Ca9390b"
+        },
+        {
+          "id": "solana-stake-account",
+          "label": "Solana Stake Account",
+          "rank": 500,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"linkhash\",\"symbol\":\"LHX\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"linkhash\",\"symbol\":\"LHX\"}"
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"btc25\",\"symbol\":\"$BTC25\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"btc25\",\"symbol\":\"$BTC25\"}"
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"kamino\",\"symbol\":\"KMNO\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"kamino\",\"symbol\":\"KMNO\"}"
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"motacoin\",\"symbol\":\"MOTA\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"motacoin\",\"symbol\":\"MOTA\"}"
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"potcoin\",\"symbol\":\"POT\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"potcoin\",\"symbol\":\"POT\"}"
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"centric-swap\",\"symbol\":\"CNS\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"centric-swap\",\"symbol\":\"CNS\"}"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 1003361.1575352456,
+    "avalanche": 1135.0146485164375,
+    "base": 849523.4065727073,
+    "bitcoin": 36984127.998568915,
+    "bsc": 1020759.398989984,
+    "dogecoin": 613192.9063916954,
+    "ethereum": 14421879.32749895,
+    "flare": 0.00027424026,
+    "hypercore": 0.012497999999999999,
+    "hyperevm": 9586953.53261056,
+    "optimism": 858781.2069484456,
+    "polygon": 470244.27410799975,
+    "robinhood": 109406.83303137524,
+    "solana": 465468314.44437546,
+    "tron": 552076.0317139018,
+    "zcash": 3528957.155505361
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 1005078.0324000933,
+    "avalanche": 1157.970000958343,
+    "base": 862654.6870616203,
+    "bitcoin": 37359370.56693152,
+    "bsc": 1034310.4289225582,
+    "dogecoin": 631370.9547719939,
+    "ethereum": 14761536.621161858,
+    "flare": 0.00028844172,
+    "hypercore": 0.012497999999999999,
+    "hyperevm": 9754645.69037579,
+    "optimism": 861457.7512227134,
+    "polygon": 470244.27410799975,
+    "robinhood": 112219.97058326249,
+    "solana": 479493246.47004193,
+    "tron": 552569.5764338917,
+    "zcash": 3652680.3688695994
+  },
+  "balances": {
+    "arbitrum_one": [
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 546530.2994629925,
+        "usd": 546530.2994629925,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "USDT0",
+        "symbol": "USDT0",
+        "id": "usdt0",
+        "balance": 389783.1593750003,
+        "usd": 389783.1593750003,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 28.562972358868286,
+        "usd": 66761.3778132772,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.506840630005335,
+        "priceChange24h": -60.09999999999991
+      },
+      {
+        "name": "Arbitrum Bridged USDC (Arbitrum)",
+        "symbol": "USDC.E",
+        "id": "usd-coin-ethereum-bridged",
+        "balance": 282.75,
+        "usd": 282.75,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Arbitrum",
+        "symbol": "ARB",
+        "id": "arbitrum",
+        "balance": 21,
+        "usd": 3.5269289999999995,
+        "price": 0.167949,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.365719446720976,
+        "priceChange24h": -0.011418000000000011
+      },
+      {
+        "name": "MakerDAO Arbitrum Bridged DAI (Arbitrum One)",
+        "symbol": "DAI",
+        "id": "makerdao-arbitrum-bridged-dai-arbitrum-one",
+        "balance": 0.02,
+        "usd": 0.02,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Arbitrum Bridged WBTC (Arbitrum One)",
+        "symbol": "WBTC",
+        "id": "arbitrum-bridged-wbtc-arbitrum-one",
+        "balance": 2e-07,
+        "usd": 0.016066,
+        "price": 80330,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.07873802428392,
+        "priceChange24h": -876
+      },
+      {
+        "name": "Chainlink",
+        "symbol": "LINK",
+        "id": "chainlink",
+        "balance": 0.00055816514172,
+        "usd": 0.006441225735448799,
+        "price": 11.54,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.511705685618743,
+        "priceChange24h": -0.4200000000000017
+      },
+      {
+        "name": "Everything",
+        "symbol": "EV",
+        "id": "everything",
+        "balance": 5.808192,
+        "usd": 0.00144774993792,
+        "price": 0.00024926,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.5871502266687463,
+        "priceChange24h": -6.6199999999999874e-06
+      }
+    ],
+    "avalanche": [
+      {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "id": "avalanche-2",
+        "balance": 127.52968623536377,
+        "usd": 1135.0142074947375,
+        "price": 8.9,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.9823788546255476,
+        "priceChange24h": -0.17999999999999972
+      },
+      {
+        "name": "Wrapped AVAX",
+        "symbol": "WAVAX",
+        "id": "wrapped-avax",
+        "balance": 4.9553e-05,
+        "usd": 0.0004410217,
+        "price": 8.9,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.9823788546255476,
+        "priceChange24h": -0.17999999999999972
+      }
+    ],
+    "base": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 202.22335242933397,
+        "usd": 472664.7305671795,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.506840630005335,
+        "priceChange24h": -60.09999999999991
+      },
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 363176.77836200007,
+        "usd": 363176.77836200007,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "FLOCK",
+        "symbol": "FLOCK",
+        "id": "flock-2",
+        "balance": 330872.33434664935,
+        "usd": 13676.118249163917,
+        "price": 0.04133352,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.670472085715868,
+        "priceChange24h": -0.002954200000000004
+      },
+      {
+        "name": "PREME Token",
+        "symbol": "PREME",
+        "id": "preme-token",
+        "balance": 3393.0406048500004,
+        "usd": 4.2148350393446705,
+        "price": 0.0012422,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.1838198043723973,
+        "priceChange24h": -4.0850000000000044e-05
+      },
+      {
+        "name": "Virgen",
+        "symbol": "VIRGEN",
+        "id": "virgen",
+        "balance": 8387.27,
+        "usd": 1.3114335372,
+        "price": 0.00015636,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.469564143721441,
+        "priceChange24h": -5.61999999999999e-06
+      },
+      {
+        "name": "Sekuya Multiverse",
+        "symbol": "SKYA",
+        "id": "sekuya-2",
+        "balance": 413.3,
+        "usd": 0.133057802,
+        "price": 0.00032194,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.48530184538345034,
+        "priceChange24h": -1.5700000000000002e-06
+      },
+      {
+        "name": "Based Coin",
+        "symbol": "BASED",
+        "id": "based-coin",
+        "balance": 30666,
+        "usd": 0.10641102,
+        "price": 3.47e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.469002695417796,
+        "priceChange24h": -2.4000000000000024e-07
+      },
+      {
+        "name": "Law of Attraction",
+        "symbol": "LOA",
+        "id": "law-of-attraction",
+        "balance": 30,
+        "usd": 0.0069345000000000006,
+        "price": 0.00023115,
+        "quoteTime": "2026-10-23T08:38:45Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Brett",
+        "symbol": "BRETT",
+        "id": "based-brett",
+        "balance": 1.000127189080839,
+        "usd": 0.004700107726357293,
+        "price": 0.00469951,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.2237647653441375,
+        "priceChange24h": -0.00020724999999999997
+      },
+      {
+        "name": "L2 Standard Bridged USDT (Base)",
+        "symbol": "USDT",
+        "id": "l2-standard-bridged-usdt-base",
+        "balance": 0.001932,
+        "usd": 0.001932,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "The Nation Token",
+        "symbol": "NATO",
+        "id": "the-nation-token",
+        "balance": 2000,
+        "usd": 5.9856000000000004e-05,
+        "price": 2.9928e-08,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.180094786729843,
+        "priceChange24h": -6.669999999999953e-10
+      },
+      {
+        "name": "Cypher",
+        "symbol": "CYPR",
+        "id": "cypher-2",
+        "balance": 0.13160230227671765,
+        "usd": 1.7703141702264058e-05,
+        "price": 0.00013452,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 14.416943097729018,
+        "priceChange24h": 1.6950000000000005e-05
+      },
+      {
+        "name": "SHIBA ON BASE",
+        "symbol": "SHIB",
+        "id": "shiba-on-base",
+        "balance": 17776,
+        "usd": 1.2790258624000001e-05,
+        "price": 7.19524e-10,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.878528956378736,
+        "priceChange24h": -2.9032999999999976e-11
+      },
+      {
+        "name": "Vader",
+        "symbol": "VADER",
+        "id": "vaderai-by-virtuals",
+        "balance": 8.399999999999e-06,
+        "usd": 8.297939999999012e-09,
+        "price": 0.00098785,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9159132007233355,
+        "priceChange24h": -2.9670000000000087e-05
+      },
+      {
+        "name": "L2 Standard Bridged WETH (Base)",
+        "symbol": "WETH",
+        "id": "l2-standard-bridged-weth-base",
+        "balance": 1.31e-16,
+        "usd": 3.0595312e-13,
+        "price": 2335.52,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.573814668657855,
+        "priceChange24h": -61.69999999999982
+      }
+    ],
+    "bitcoin": [
+      {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "id": "bitcoin",
+        "balance": 459.29322933,
+        "usd": 36984127.998568915,
+        "price": 80524,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.004413518397856,
+        "priceChange24h": -817
+      }
+    ],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 1013.5400050059579,
+        "usd": 738850.3928492432,
+        "price": 728.98,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.8010372465818016,
+        "priceChange24h": -13.370000000000005
+      },
+      {
+        "name": "Binance Bridged USDT (BNB Smart Chain)",
+        "symbol": "BSC-USD",
+        "id": "binance-bridged-usdt-bnb-smart-chain",
+        "balance": 281909.00202468963,
+        "usd": 281909.00202468963,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "MELEGA",
+        "symbol": "MARCO",
+        "id": "melega",
+        "balance": 14.61588883,
+        "usd": 0.0032374193758449997,
+        "price": 0.0002215,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.237080075138706,
+        "priceChange24h": -7.410000000000012e-06
+      },
+      {
+        "name": "Slimex",
+        "symbol": "SLX",
+        "id": "slimex",
+        "balance": 4.28,
+        "usd": 0.0004990908,
+        "price": 0.00011661,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 10.352985710229962,
+        "priceChange24h": 1.094e-05
+      },
+      {
+        "name": "Wrapped BNB",
+        "symbol": "WBNB",
+        "id": "wbnb",
+        "balance": 3e-07,
+        "usd": 0.000218214,
+        "price": 727.38,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.8552750529596695,
+        "priceChange24h": -13.75
+      },
+      {
+        "name": "Giggle Panda",
+        "symbol": "GIGL",
+        "id": "giggle-panda",
+        "balance": 3.0016,
+        "usd": 7.5009984e-05,
+        "price": 2.499e-05,
+        "quoteTime": "2026-10-24T18:41:22Z",
+        "priceChange24hPercent": -0.319106501794971,
+        "priceChange24h": -7.999999999999923e-08
+      },
+      {
+        "name": "Lemon",
+        "symbol": "LEMX",
+        "id": "lemon-2",
+        "balance": 1e-05,
+        "usd": 5.980000000000001e-05,
+        "price": 5.98,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0.33557046979866545,
+        "priceChange24h": 0.020000000000000462
+      },
+      {
+        "name": "EYED",
+        "symbol": "EYED",
+        "id": "eyed",
+        "balance": 138,
+        "usd": 1.9139082000000002e-05,
+        "price": 1.38689e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.159435626102295,
+        "priceChange24h": -3.0610000000000034e-09
+      },
+      {
+        "name": "MM72",
+        "symbol": "MM72",
+        "id": "mm72",
+        "balance": 14.602681376016953,
+        "usd": 4.902587423732924e-06,
+        "price": 3.35732e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.046369855695222,
+        "priceChange24h": -1.0548999999999971e-08
+      },
+      {
+        "name": "MSV Protocol",
+        "symbol": "MSVP",
+        "id": "msv-protocol",
+        "balance": 1.6501247484892179,
+        "usd": 2.4751871227338267e-06,
+        "price": 1.5e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 30.434782608695656,
+        "priceChange24h": 3.5000000000000004e-07
+      }
+    ],
+    "dogecoin": [
+      {
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "id": "dogecoin",
+        "balance": 7955382.22332536,
+        "usd": 613192.9063916954,
+        "price": 0.077079,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.8791391562925375,
+        "priceChange24h": -0.0022850000000000092
+      }
+    ],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 4004.83027498349,
+        "usd": 9360649.994929912,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.506840630005335,
+        "priceChange24h": -60.09999999999991
+      },
+      {
+        "name": "PAX Gold",
+        "symbol": "PAXG",
+        "id": "pax-gold",
+        "balance": 375.992251336989,
+        "usd": 1502972.625881913,
+        "price": 3997.35,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.19823783046920584,
+        "priceChange24h": -7.940000000000055
+      },
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 682529.530075006,
+        "usd": 682529.530075006,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 516540.9783199995,
+        "usd": 516540.9783199995,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "World Liberty Financial",
+        "symbol": "WLFI",
+        "id": "world-liberty-financial",
+        "balance": 7036983.577028626,
+        "usd": 374367.5262979229,
+        "price": 0.0532,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.6628699467836825,
+        "priceChange24h": -0.00035500000000000115
+      },
+      {
+        "name": "Shuffle",
+        "symbol": "SHFL",
+        "id": "shuffle-2",
+        "balance": 806520.4341602118,
+        "usd": 367391.0272912646,
+        "price": 0.455526,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.298646811782676,
+        "priceChange24h": -0.020461000000000007
+      },
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "id": "uniswap",
+        "balance": 49806.32154915639,
+        "usd": 337188.79688778875,
+        "price": 6.77,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.647887323943664,
+        "priceChange24h": -0.33000000000000007
+      },
+      {
+        "name": "LayerZero",
+        "symbol": "ZRO",
+        "id": "layerzero",
+        "balance": 151441.26076111777,
+        "usd": 265022.2063319561,
+        "price": 1.75,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Ethena",
+        "symbol": "ENA",
+        "id": "ethena",
+        "balance": 1320176.7009115196,
+        "usd": 249248.04095539398,
+        "price": 0.188799,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -9.723862576804454,
+        "priceChange24h": -0.020335999999999993
+      },
+      {
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "id": "ondo-finance",
+        "balance": 482654.69471161556,
+        "usd": 195955.39277944237,
+        "price": 0.405995,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.100779071425401,
+        "priceChange24h": -0.021822000000000008
+      },
+      {
+        "name": "Chainlink",
+        "symbol": "LINK",
+        "id": "chainlink",
+        "balance": 15790.980318205375,
+        "usd": 182227.91287209,
+        "price": 11.54,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.511705685618743,
+        "priceChange24h": -0.4200000000000017
+      },
+      {
+        "name": "Shiba Inu",
+        "symbol": "SHIB",
+        "id": "shiba-inu",
+        "balance": 17126651721.992228,
+        "usd": 83920.59343776191,
+        "price": 4.9e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.1620553359683825,
+        "priceChange24h": -1.6000000000000016e-07
+      },
+      {
+        "name": "Lido DAO",
+        "symbol": "LDO",
+        "id": "lido-dao",
+        "balance": 201627.576235648,
+        "usd": 75143.77487695872,
+        "price": 0.372686,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.140602493929792,
+        "priceChange24h": -0.016098
+      },
+      {
+        "name": "Pepe",
+        "symbol": "PEPE",
+        "id": "pepe",
+        "balance": 14354218629.572866,
+        "usd": 63876.27290159925,
+        "price": 4.45e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.91966173361522,
+        "priceChange24h": -2.7999999999999986e-07
+      },
+      {
+        "name": "Starknet",
+        "symbol": "STRK",
+        "id": "starknet",
+        "balance": 1128842.8108319228,
+        "usd": 53522.162842817204,
+        "price": 0.0474133,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.807987892367868,
+        "priceChange24h": -0.0034637
+      },
+      {
+        "name": "Lighter",
+        "symbol": "LIT",
+        "id": "lighter",
+        "balance": 15167.999379753264,
+        "usd": 48537.598015210446,
+        "price": 3.2,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.4390243902438913,
+        "priceChange24h": -0.07999999999999963
+      },
+      {
+        "name": "Worldcoin",
+        "symbol": "WLD",
+        "id": "worldcoin-wld",
+        "balance": 73525.01303239679,
+        "usd": 34295.52175392239,
+        "price": 0.466447,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -11.351524965030709,
+        "priceChange24h": -0.05972899999999998
+      },
+      {
+        "name": "Capricorn",
+        "symbol": "APR",
+        "id": "apriori",
+        "balance": 653202.5804735182,
+        "usd": 16913.844722058748,
+        "price": 0.02589372,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 7.1321383754746055,
+        "priceChange24h": 0.0017238299999999991
+      },
+      {
+        "name": "POL (ex-MATIC)",
+        "symbol": "POL",
+        "id": "polygon-ecosystem-token",
+        "balance": 80304.17316333523,
+        "usd": 7187.785627330647,
+        "price": 0.089507,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.7658808551736243,
+        "priceChange24h": -0.0016089999999999993
+      },
+      {
+        "name": "MON Protocol",
+        "symbol": "MON",
+        "id": "mon-protocol",
+        "balance": 313517.1581242988,
+        "usd": 2133.1644735345667,
+        "price": 0.00680398,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 3156.427682588303,
+        "priceChange24h": 0.00659504
+      },
+      {
+        "name": "ApeCoin",
+        "symbol": "APE",
+        "id": "apecoin",
+        "balance": 7405.793295756852,
+        "usd": 952.6294090130912,
+        "price": 0.128633,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.638594410260221,
+        "priceChange24h": -0.0062570000000000126
+      },
+      {
+        "name": "Polyhedra Network",
+        "symbol": "ZKJ",
+        "id": "polyhedra-network",
+        "balance": 133747.0861412973,
+        "usd": 737.0253554193715,
+        "price": 0.00551059,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.557791211765773,
+        "priceChange24h": -3.091000000000031e-05
+      },
+      {
+        "name": "Blur",
+        "symbol": "BLUR",
+        "id": "blur",
+        "balance": 47225.759178275875,
+        "usd": 372.92812476068286,
+        "price": 0.00789671,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -7.592615563206085,
+        "priceChange24h": -0.0006488300000000013
+      },
+      {
+        "name": "Unagi Token",
+        "symbol": "UNA",
+        "id": "unagi-token",
+        "balance": 404646.4076482501,
+        "usd": 96.97755805697962,
+        "price": 0.00023966,
+        "quoteTime": "2026-10-23T06:29:22Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Movement",
+        "symbol": "MOVE",
+        "id": "movement",
+        "balance": 5339.274493070021,
+        "usd": 37.29408483566507,
+        "price": 0.00698486,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.026831805197361,
+        "priceChange24h": -0.0002930700000000003
+      },
+      {
+        "name": "Animecoin",
+        "symbol": "ANIME",
+        "id": "anime",
+        "balance": 10158.017644039923,
+        "usd": 35.80183160624227,
+        "price": 0.00352449,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 23.7288314095543,
+        "priceChange24h": 0.0006759299999999999
+      },
+      {
+        "name": "Arkham",
+        "symbol": "ARKM",
+        "id": "arkham",
+        "balance": 69.133270025,
+        "usd": 8.68244738243975,
+        "price": 0.12559,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -10.007452205566228,
+        "priceChange24h": -0.013966000000000006
+      },
+      {
+        "name": "EigenCloud (prev. EigenLayer)",
+        "symbol": "EIGEN",
+        "id": "eigenlayer",
+        "balance": 26.2,
+        "usd": 5.325412,
+        "price": 0.20326,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.996938551350546,
+        "priceChange24h": -0.010691000000000006
+      },
+      {
+        "name": "Wrapped Fantom",
+        "symbol": "WFTM",
+        "id": "wrapped-fantom",
+        "balance": 75.43846612181005,
+        "usd": 3.7569344372567604,
+        "price": 0.04980131,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -9.272357945747027,
+        "priceChange24h": -0.005089690000000001
+      },
+      {
+        "name": "Undeads Games",
+        "symbol": "UDS",
+        "id": "undeads-games",
+        "balance": 20.7029,
+        "usd": 1.9637528765999999,
+        "price": 0.094854,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.7171626943846805,
+        "priceChange24h": -0.0036620000000000125
+      },
+      {
+        "name": "HEX",
+        "symbol": "HEX",
+        "id": "hex",
+        "balance": 1898,
+        "usd": 1.0733569600000001,
+        "price": 0.00056552,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.2927141104718487,
+        "priceChange24h": -1.3270000000000014e-05
+      },
+      {
+        "name": "Peezy",
+        "symbol": "PEEZY",
+        "id": "peezy-eth",
+        "balance": 972875.7863864,
+        "usd": 0.8727065496684835,
+        "price": 8.97038e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.960894707065222,
+        "priceChange24h": -4.6823999999999943e-08
+      },
+      {
+        "name": "ZIK coin",
+        "symbol": "ZIK",
+        "id": "zik-coin",
+        "balance": 1820,
+        "usd": 0.2207296,
+        "price": 0.00012128,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.098805295447214,
+        "priceChange24h": -2.600000000000009e-06
+      },
+      {
+        "name": "RigoBlock",
+        "symbol": "GRG",
+        "id": "rigoblock",
+        "balance": 0.05,
+        "usd": 0.0140643,
+        "price": 0.281286,
+        "quoteTime": "2026-10-23T16:54:53Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Handy",
+        "symbol": "HANDY",
+        "id": "handy",
+        "balance": 3.92612,
+        "usd": 0.0090436603752,
+        "price": 0.00230346,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -11.283228445320868,
+        "priceChange24h": -0.0002929600000000001
+      },
+      {
+        "name": "WETH",
+        "symbol": "WETH",
+        "id": "weth",
+        "balance": 4e-07,
+        "usd": 0.000934208,
+        "price": 2335.52,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.573814668657855,
+        "priceChange24h": -61.69999999999982
+      },
+      {
+        "name": "USDtb",
+        "symbol": "USDTB",
+        "id": "usdtb",
+        "balance": 0.0002,
+        "usd": 0.0002,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "MOO DENG",
+        "symbol": "MOODENG",
+        "id": "moo-deng-2",
+        "balance": 60,
+        "usd": 0.00017940000000000002,
+        "price": 2.99e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.079365079365071,
+        "priceChange24h": -1.5999999999999974e-07
+      },
+      {
+        "name": "TrueUSD",
+        "symbol": "TUSD",
+        "id": "true-usd",
+        "balance": 0.0001,
+        "usd": 0.0001,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "flare": [
+      {
+        "name": "BUGO",
+        "symbol": "BUGO",
+        "id": "bugo",
+        "balance": 2.142,
+        "usd": 0.00027424026,
+        "price": 0.00012803,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.92351106490419,
+        "priceChange24h": -6.629999999999982e-06
+      }
+    ],
+    "hypercore": [
+      {
+        "name": "MAX",
+        "symbol": "MAX",
+        "id": "",
+        "balance": 124980,
+        "usd": 0.012497999999999999,
+        "price": 1e-07,
+        "quoteTime": "0001-01-01T00:00:00Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "hyperevm": [
+      {
+        "name": "Hyperliquid",
+        "symbol": "HYPE",
+        "id": "hyperliquid",
+        "balance": 117267.2431888957,
+        "usd": 8941627.293153297,
+        "price": 76.25,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.8408856848609767,
+        "priceChange24h": -1.4300000000000068
+      },
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 471493.8064570011,
+        "usd": 471493.8064570011,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "USDT0",
+        "symbol": "USDT0",
+        "id": "usdt0",
+        "balance": 173832.4326770006,
+        "usd": 173832.4326770006,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "LILLY",
+        "symbol": "$LILLY",
+        "id": "lilly",
+        "balance": 1,
+        "usd": 0.00032326,
+        "price": 0.00032326,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.556171392027273,
+        "priceChange24h": -5.109999999999956e-06
+      }
+    ],
+    "optimism": [
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 456762.00192700105,
+        "usd": 456762.00192700105,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "USDT0",
+        "symbol": "USDT0",
+        "id": "usdt0",
+        "balance": 297926.12691799994,
+        "usd": 297926.12691799994,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 44.53484649364004,
+        "usd": 104093.07810344461,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.506840630005335,
+        "priceChange24h": -60.09999999999991
+      }
+    ],
+    "polygon": [
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 248769.22844400047,
+        "usd": 248769.22844400047,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "USDT0",
+        "symbol": "USDT0",
+        "id": "usdt0",
+        "balance": 221475.04566399925,
+        "usd": 221475.04566399925,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Wrapped POL",
+        "symbol": "WPOL",
+        "id": "wmatic",
+        "balance": 2e-18,
+        "usd": 1.7883e-19,
+        "price": 0.089415,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.804344483735647,
+        "priceChange24h": -0.0016430000000000056
+      },
+      {
+        "name": "Sponge",
+        "symbol": "SPONGE",
+        "id": "sponge-2",
+        "balance": 1e-18,
+        "usd": 1.1200000000000001e-24,
+        "price": 1.12e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -7.438016528925619,
+        "priceChange24h": -8.999999999999999e-08
+      }
+    ],
+    "robinhood": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 46.80764550128575,
+        "usd": 109405.38213597523,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.506840630005335,
+        "priceChange24h": -60.09999999999991
+      },
+      {
+        "name": "Potatchi",
+        "symbol": "POTATCHI",
+        "id": "potatchi",
+        "balance": 8685,
+        "usd": 1.3836942,
+        "price": 0.00015932,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 2.0823989235599574,
+        "priceChange24h": 3.2500000000000248e-06
+      },
+      {
+        "name": "Zoki",
+        "symbol": "ZOKI",
+        "id": "zoki",
+        "balance": 99,
+        "usd": 0.0672012,
+        "price": 0.0006788,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -28.11530356140592,
+        "priceChange24h": -0.00026548999999999995
+      }
+    ],
+    "solana": [
+      {
+        "name": "Backpack",
+        "symbol": "BP",
+        "id": "backpack",
+        "balance": 205027180.7313627,
+        "usd": 199320864.2372474,
+        "price": 0.972168,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.246783625730993,
+        "priceChange24h": -0.05383199999999999
+      },
+      {
+        "name": "PayPal USD",
+        "symbol": "PYUSD",
+        "id": "paypal-usd",
+        "balance": 135508079.65423203,
+        "usd": 135508079.65423203,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "id": "solana",
+        "balance": 550425.170584974,
+        "usd": 55714035.76661107,
+        "price": 101.22,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.701143900797849,
+        "priceChange24h": -2.8100000000000023
+      },
+      {
+        "name": "Coinbase Wrapped BTC",
+        "symbol": "CBBTC",
+        "id": "coinbase-wrapped-btc",
+        "balance": 618.61434744,
+        "usd": 49768761.48024288,
+        "price": 80452,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.0661714974360237,
+        "priceChange24h": -867
+      },
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 7893893.592514,
+        "usd": 7893893.592514,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Meteora",
+        "symbol": "MET",
+        "id": "meteora",
+        "balance": 20464257.498177,
+        "usd": 6273277.207551163,
+        "price": 0.306548,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -7.764612431323227,
+        "priceChange24h": -0.025805999999999996
+      },
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 4820198.426465001,
+        "usd": 4820198.426465001,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Jupiter",
+        "symbol": "JUP",
+        "id": "jupiter-exchange-solana",
+        "balance": 8320059.156607,
+        "usd": 2410387.698142301,
+        "price": 0.289708,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.677430277457611,
+        "priceChange24h": -0.017437999999999954
+      },
+      {
+        "name": "Wormhole",
+        "symbol": "W",
+        "id": "wormhole",
+        "balance": 76418705.711175,
+        "usd": 941454.0003758484,
+        "price": 0.01231968,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -7.186875642250357,
+        "priceChange24h": -0.0009539600000000002
+      },
+      {
+        "name": "Pump.fun",
+        "symbol": "PUMP",
+        "id": "pump-fun",
+        "balance": 180114537.478719,
+        "usd": 767507.6693950669,
+        "price": 0.00426122,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.489153216773764,
+        "priceChange24h": -0.0002474900000000004
+      },
+      {
+        "name": "Jito",
+        "symbol": "JTO",
+        "id": "jito-governance-token",
+        "balance": 1716552.171756973,
+        "usd": 735827.5532583746,
+        "price": 0.428666,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.580220546571939,
+        "priceChange24h": -0.030194
+      },
+      {
+        "name": "Pyth Network",
+        "symbol": "PYTH",
+        "id": "pyth-network",
+        "balance": 4175458.648,
+        "usd": 292929.30145043996,
+        "price": 0.070155,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.8458662235147503,
+        "priceChange24h": -0.0020550000000000013
+      },
+      {
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "id": "pudgy-penguins",
+        "balance": 27011409.887166,
+        "usd": 204691.92389674622,
+        "price": 0.00757798,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.010228537619952,
+        "priceChange24h": -0.00039969999999999936
+      },
+      {
+        "name": "Official Trump",
+        "symbol": "TRUMP",
+        "id": "official-trump",
+        "balance": 98402.252662,
+        "usd": 164331.76194554,
+        "price": 1.67,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.649717514124299,
+        "priceChange24h": -0.10000000000000009
+      },
+      {
+        "name": "dogwifhat",
+        "symbol": "WIF",
+        "id": "dogwifcoin",
+        "balance": 633208.2717169999,
+        "usd": 115266.7009502758,
+        "price": 0.182036,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.7772827367235084,
+        "priceChange24h": -0.013233999999999996
+      },
+      {
+        "name": "Kamino",
+        "symbol": "KMNO",
+        "id": "kamino",
+        "balance": 1829900.174885,
+        "usd": 73465.7159821763,
+        "price": 0.04014739,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.422695788492602,
+        "priceChange24h": -0.00185776
+      },
+      {
+        "name": "Render",
+        "symbol": "RENDER",
+        "id": "render-token",
+        "balance": 38636.55647677,
+        "usd": 65682.146010509,
+        "price": 1.7,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.4090909090909123,
+        "priceChange24h": -0.06000000000000005
+      },
+      {
+        "name": "DoubleZero",
+        "symbol": "2Z",
+        "id": "doublezero",
+        "balance": 2185737.49686453,
+        "usd": 64395.6954129985,
+        "price": 0.02946177,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.4735950944204763,
+        "priceChange24h": -0.001060209999999999
+      },
+      {
+        "name": "Raydium",
+        "symbol": "RAY",
+        "id": "raydium",
+        "balance": 27211.104269999996,
+        "usd": 48707.87664329999,
+        "price": 1.79,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.1857923497267775,
+        "priceChange24h": -0.040000000000000036
+      },
+      {
+        "name": "Bonk",
+        "symbol": "BONK",
+        "id": "bonk",
+        "balance": 15912209456.92421,
+        "usd": 48691.36093818808,
+        "price": 3.06e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.134969325153381,
+        "priceChange24h": -2.000000000000002e-07
+      },
+      {
+        "name": "Sanctum",
+        "symbol": "SANC",
+        "id": "sanctum-2",
+        "balance": 676794.3316304381,
+        "usd": 33573.26942110232,
+        "price": 0.04960631,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.62693169198336,
+        "priceChange24h": -0.00352069
+      },
+      {
+        "name": "EURC",
+        "symbol": "EURC",
+        "id": "euro-coin",
+        "balance": 25951.482890000003,
+        "usd": 29065.660836800005,
+        "price": 1.12,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Seeker",
+        "symbol": "SKR",
+        "id": "seeker",
+        "balance": 1857211.749356,
+        "usd": 27208.653575237728,
+        "price": 0.01465027,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.3773480965894995,
+        "priceChange24h": -0.0006706500000000001
+      },
+      {
+        "name": "Wen",
+        "symbol": "WEN",
+        "id": "wen-4",
+        "balance": 3649905477.81559,
+        "usd": 20548.967840101774,
+        "price": 5.63e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -12.713178294573641,
+        "priceChange24h": -8.199999999999998e-07
+      },
+      {
+        "name": "io.net",
+        "symbol": "IO",
+        "id": "io",
+        "balance": 132665.52699944,
+        "usd": 19560.603297378428,
+        "price": 0.147443,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -7.216618106990709,
+        "priceChange24h": -0.011468000000000006
+      },
+      {
+        "name": "Tensor",
+        "symbol": "TNSR",
+        "id": "tensor",
+        "balance": 619293.872661675,
+        "usd": 18518.583657795174,
+        "price": 0.02990274,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.52049252693855,
+        "priceChange24h": -0.0014157499999999969
+      },
+      {
+        "name": "Helium",
+        "symbol": "HNT",
+        "id": "helium",
+        "balance": 38489.49496506,
+        "usd": 15102.70048186507,
+        "price": 0.392385,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.322711057684106,
+        "priceChange24h": -0.01772800000000002
+      },
+      {
+        "name": "Jito Staked SOL",
+        "symbol": "JITOSOL",
+        "id": "jito-staked-sol",
+        "balance": 99.569491335,
+        "usd": 13155.1211951802,
+        "price": 132.12,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.7528337994994914,
+        "priceChange24h": -3.740000000000009
+      },
+      {
+        "name": "Pipe Network",
+        "symbol": "PIPE",
+        "id": "pipe-network",
+        "balance": 521966.374066655,
+        "usd": 11236.625898056174,
+        "price": 0.02152749,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.021469494311762,
+        "priceChange24h": -0.0004441500000000008
+      },
+      {
+        "name": "Drift Protocol",
+        "symbol": "DRIFT",
+        "id": "drift-protocol",
+        "balance": 756603.508685,
+        "usd": 10411.810033891456,
+        "price": 0.01376125,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.75067830008918,
+        "priceChange24h": -0.0009962300000000007
+      },
+      {
+        "name": "Parcl",
+        "symbol": "PRCL",
+        "id": "parcl",
+        "balance": 1472316.104222,
+        "usd": 8648.532027810452,
+        "price": 0.0058741,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.7302657779540427,
+        "priceChange24h": -0.00022760999999999962
+      },
+      {
+        "name": "Helium Mobile",
+        "symbol": "MOBILE",
+        "id": "helium-mobile",
+        "balance": 137975308.908466,
+        "usd": 7303.033100525106,
+        "price": 5.293e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.441234879942227,
+        "priceChange24h": -2.46e-06
+      },
+      {
+        "name": "Moo Deng",
+        "symbol": "MOODENG",
+        "id": "moo-deng",
+        "balance": 132931.321218,
+        "usd": 5286.597556733917,
+        "price": 0.03976939,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.4867142340229447,
+        "priceChange24h": -0.0014367399999999989
+      },
+      {
+        "name": "BOOK OF MEME",
+        "symbol": "BOME",
+        "id": "book-of-meme",
+        "balance": 8233470.632997,
+        "usd": 5049.83454333605,
+        "price": 0.00061333,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.9525815493994303,
+        "priceChange24h": -2.523999999999994e-05
+      },
+      {
+        "name": "cat in a dogs world",
+        "symbol": "MEW",
+        "id": "cat-in-a-dogs-world",
+        "balance": 3853105.73729,
+        "usd": 1819.0126875172361,
+        "price": 0.00047209,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.398452846236413,
+        "priceChange24h": -2.172000000000003e-05
+      },
+      {
+        "name": "Sonic SVM",
+        "symbol": "SONIC",
+        "id": "sonic-svm",
+        "balance": 82601.978689951,
+        "usd": 1813.1580373129173,
+        "price": 0.02195054,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 3.085878521329341,
+        "priceChange24h": 0.0006570900000000025
+      },
+      {
+        "name": "Magic Eden",
+        "symbol": "ME",
+        "id": "magic-eden",
+        "balance": 21528.675361,
+        "usd": 1321.128692203126,
+        "price": 0.061366,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.7248949829595075,
+        "priceChange24h": -0.0017190000000000052
+      },
+      {
+        "name": "Melania Meme",
+        "symbol": "MELANIA",
+        "id": "melania-meme",
+        "balance": 15359.954054,
+        "usd": 1298.100437011648,
+        "price": 0.084512,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.160760254476579,
+        "priceChange24h": -0.0036689999999999917
+      },
+      {
+        "name": "deBridge",
+        "symbol": "DBR",
+        "id": "debridge",
+        "balance": 73042.069141,
+        "usd": 1202.3024053092079,
+        "price": 0.01646041,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.5039166269327575,
+        "priceChange24h": -0.00042273999999999784
+      },
+      {
+        "name": "Goatseus Maximus",
+        "symbol": "GOAT",
+        "id": "goatseus-maximus",
+        "balance": 66836.273583,
+        "usd": 945.6229913480381,
+        "price": 0.01414835,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.495309597913888,
+        "priceChange24h": -0.0005124399999999994
+      },
+      {
+        "name": "Habibi (Sol)",
+        "symbol": "HABIBI",
+        "id": "habibi-sol",
+        "balance": 8612167.423808,
+        "usd": 537.8298556168096,
+        "price": 6.245e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9073383084577022,
+        "priceChange24h": -1.869999999999994e-06
+      },
+      {
+        "name": "Act I The AI Prophecy",
+        "symbol": "ACT",
+        "id": "act-i-the-ai-prophecy",
+        "balance": 35707.489165,
+        "usd": 303.1912192753401,
+        "price": 0.00849097,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.097121831762785,
+        "priceChange24h": -0.00045603999999999957
+      },
+      {
+        "name": "MANEKI",
+        "symbol": "MANEKI",
+        "id": "maneki",
+        "balance": 1100085.68522,
+        "usd": 292.2047597081364,
+        "price": 0.00026562,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.827876349003113,
+        "priceChange24h": -7.730000000000009e-06
+      },
+      {
+        "name": "Zeta",
+        "symbol": "ZEX",
+        "id": "zeta",
+        "balance": 268965.90108599997,
+        "usd": 289.52027524699207,
+        "price": 0.00107642,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -9.047739754964095,
+        "priceChange24h": -0.00010708000000000007
+      },
+      {
+        "name": "WalletConnect Token",
+        "symbol": "WCT",
+        "id": "connect-token-wct",
+        "balance": 7504.33995239,
+        "usd": 277.0442467981402,
+        "price": 0.03691787,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 1.063002127591999,
+        "priceChange24h": 0.0003883099999999959
+      },
+      {
+        "name": "Hivemapper",
+        "symbol": "HONEY",
+        "id": "hivemapper",
+        "balance": 143973.067991773,
+        "usd": 259.6727048913216,
+        "price": 0.00180362,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -13.202789260672688,
+        "priceChange24h": -0.00027435000000000024
+      },
+      {
+        "name": "Zeus Network",
+        "symbol": "ZEUS",
+        "id": "zeus-network",
+        "balance": 36183.036242,
+        "usd": 247.2781261510898,
+        "price": 0.00683409,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -14.077889617818862,
+        "priceChange24h": -0.0011197300000000002
+      },
+      {
+        "name": "Nyan Heroes",
+        "symbol": "NYAN",
+        "id": "nyan",
+        "balance": 387947.405815858,
+        "usd": 186.20699584349552,
+        "price": 0.00047998,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0.3638340582134536,
+        "priceChange24h": 1.7400000000000206e-06
+      },
+      {
+        "name": "Jeo Boden",
+        "symbol": "BODEN",
+        "id": "jeo-boden",
+        "balance": 143487.058579649,
+        "usd": 163.41167153401906,
+        "price": 0.00113886,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.869083155650314,
+        "priceChange24h": -3.363999999999993e-05
+      },
+      {
+        "name": "Mother Iggy",
+        "symbol": "MOTHER",
+        "id": "mother-iggy",
+        "balance": 153683.332658,
+        "usd": 43.547709141970884,
+        "price": 0.00028336,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.247174514289601,
+        "priceChange24h": -9.509999999999955e-06
+      },
+      {
+        "name": "ROAM Token",
+        "symbol": "ROAM",
+        "id": "roam-token",
+        "balance": 3375.519803,
+        "usd": 39.807268750392794,
+        "price": 0.01179293,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.030432703882157592,
+        "priceChange24h": -3.5899999999994964e-06
+      },
+      {
+        "name": "Jambo",
+        "symbol": "J",
+        "id": "jambo",
+        "balance": 85743.637567407,
+        "usd": 27.850390918269465,
+        "price": 0.00032481,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9113734867732775,
+        "priceChange24h": -9.739999999999998e-06
+      },
+      {
+        "name": "POGAI (SOL)",
+        "symbol": "POGAI",
+        "id": "pogai-sol",
+        "balance": 5060000,
+        "usd": 17.963,
+        "price": 3.55e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.0054644808743225,
+        "priceChange24h": -1.1000000000000022e-07
+      },
+      {
+        "name": "Doodles",
+        "symbol": "DOOD",
+        "id": "doodles",
+        "balance": 9996,
+        "usd": 15.28128504,
+        "price": 0.00152874,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -12.456836571664178,
+        "priceChange24h": -0.00021753000000000007
+      },
+      {
+        "name": "American Coin",
+        "symbol": "USA",
+        "id": "american-coin",
+        "balance": 123456789,
+        "usd": 14.841110976057,
+        "price": 1.20213e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.667005027835495,
+        "priceChange24h": -5.885000000000003e-09
+      },
+      {
+        "name": "LADYBUG",
+        "symbol": "LADYBUG",
+        "id": "ladybug",
+        "balance": 77000,
+        "usd": 14.698530000000002,
+        "price": 0.00019089,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.969150543398799,
+        "priceChange24h": -1.4299999999999995e-05
+      },
+      {
+        "name": "Doge Head Coin",
+        "symbol": "DHC",
+        "id": "doge-head-coin",
+        "balance": 5,
+        "usd": 10,
+        "price": 2,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9126213592233037,
+        "priceChange24h": -0.06000000000000005
+      },
+      {
+        "name": "Bridged USD Coin (Wormhole Ethereum)",
+        "symbol": "USDCET",
+        "id": "usd-coin-wormhole-from-ethereum",
+        "balance": 10,
+        "usd": 10,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Boba Oppa",
+        "symbol": "BOBAOPPA",
+        "id": "boba-oppa",
+        "balance": 221516.740354,
+        "usd": 9.545156341853861,
+        "price": 4.309e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9285875197116416,
+        "priceChange24h": -1.2999999999999977e-06
+      },
+      {
+        "name": "SpaceX (Backpack Securities)",
+        "symbol": "SPCX",
+        "id": "spacex-backpack-securities",
+        "balance": 0.057,
+        "usd": 8.35278,
+        "price": 146.54,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0.33550154056828524,
+        "priceChange24h": 0.4899999999999807
+      },
+      {
+        "name": "Just a chill guy",
+        "symbol": "CHILLGUY",
+        "id": "chill-guy",
+        "balance": 749.89744,
+        "usd": 7.271732978756799,
+        "price": 0.00969697,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.5945610342664422,
+        "priceChange24h": -0.00036156000000000035
+      },
+      {
+        "name": "Wrapped BTC (Wormhole)",
+        "symbol": "WBTC",
+        "id": "wrapped-btc-wormhole",
+        "balance": 7.494e-05,
+        "usd": 6.02195358,
+        "price": 80357,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -1.0393960665509046,
+        "priceChange24h": -844
+      },
+      {
+        "name": "Sharky",
+        "symbol": "SHARK",
+        "id": "sharky-fi",
+        "balance": 3514.9995999999996,
+        "usd": 2.9236712172919996,
+        "price": 0.00083177,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.6715726259294654,
+        "priceChange24h": -1.4139999999999943e-05
+      },
+      {
+        "name": "JustAnEgg",
+        "symbol": "EGG",
+        "id": "justanegg-2",
+        "balance": 2853.23,
+        "usd": 2.550216974,
+        "price": 0.0008938,
+        "quoteTime": "2026-10-24T14:53:08Z",
+        "priceChange24hPercent": -3.3813291823409823,
+        "priceChange24h": -3.127999999999996e-05
+      },
+      {
+        "name": "Ethereum (Wormhole)",
+        "symbol": "ETH",
+        "id": "ethereum-wormhole",
+        "balance": 0.00066867,
+        "usd": 1.5621267939,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.5471064520300493,
+        "priceChange24h": -61.059999999999945
+      },
+      {
+        "name": "xstok",
+        "symbol": "XSTOK",
+        "id": "xstok",
+        "balance": 18579,
+        "usd": 1.2512956499999999,
+        "price": 6.735e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.620492272467093,
+        "priceChange24h": -2.5300000000000046e-06
+      },
+      {
+        "name": "TYTAN",
+        "symbol": "TYTAN",
+        "id": "tytan",
+        "balance": 8000,
+        "usd": 1.06992,
+        "price": 0.00013374,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.614141119930084,
+        "priceChange24h": -3.5899999999999843e-06
+      },
+      {
+        "name": "PMCoin",
+        "symbol": "$PM",
+        "id": "pmcoin",
+        "balance": 1500,
+        "usd": 0.81138,
+        "price": 0.00054092,
+        "quoteTime": "2026-10-24T14:30:14Z",
+        "priceChange24hPercent": -3.6926254317558658,
+        "priceChange24h": -2.0739999999999995e-05
+      },
+      {
+        "name": "SolCex",
+        "symbol": "SOLCEX",
+        "id": "solcex",
+        "balance": 291.699815,
+        "usd": 0.5292659783323,
+        "price": 0.00181442,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.639500753913102,
+        "priceChange24h": -4.9189999999999954e-05
+      },
+      {
+        "name": "catwifhat",
+        "symbol": "$CWIF",
+        "id": "catwifhat-2",
+        "balance": 19200000,
+        "usd": 0.48873599999999995,
+        "price": 2.5455e-08,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 2.2248102485843924,
+        "priceChange24h": 5.539999999999995e-10
+      },
+      {
+        "name": "Elon4AfD",
+        "symbol": "ELON4AFD",
+        "id": "elon4afd",
+        "balance": 1000,
+        "usd": 0.47108,
+        "price": 0.00047108,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.8002021563342284,
+        "priceChange24h": -3.799999999999984e-06
+      },
+      {
+        "name": "SachiCoin",
+        "symbol": "SACHI",
+        "id": "sachicoin",
+        "balance": 8000,
+        "usd": 0.3332,
+        "price": 4.165e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.3194057567316575,
+        "priceChange24h": -1.4299999999999982e-06
+      },
+      {
+        "name": "TIME",
+        "symbol": "TIME",
+        "id": "time",
+        "balance": 1081744.797003,
+        "usd": 0.201199123518573,
+        "price": 1.85995e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.7222803347280333,
+        "priceChange24h": -5.204999999999999e-09
+      },
+      {
+        "name": "Peepo (SOL)",
+        "symbol": "PEEP",
+        "id": "peepo-sol",
+        "balance": 195000,
+        "usd": 0.19007390999999998,
+        "price": 9.74738e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -12.185765765765767,
+        "priceChange24h": -1.35262e-07
+      },
+      {
+        "name": "Pockemy",
+        "symbol": "PKM",
+        "id": "pockemy",
+        "balance": 6000,
+        "usd": 0.17238,
+        "price": 2.873e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9391891891891895,
+        "priceChange24h": -8.700000000000001e-07
+      },
+      {
+        "name": "MamaBull",
+        "symbol": "MAMA",
+        "id": "mamabull",
+        "balance": 1156,
+        "usd": 0.159239,
+        "price": 0.00013775,
+        "quoteTime": "2026-10-24T09:54:12Z",
+        "priceChange24hPercent": -3.068045879952163,
+        "priceChange24h": -4.360000000000019e-06
+      },
+      {
+        "name": "Blaze",
+        "symbol": "BLZE",
+        "id": "solblaze",
+        "balance": 1647.980996227,
+        "usd": 0.14444553431929658,
+        "price": 8.765e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -9.37758478081058,
+        "priceChange24h": -9.069999999999993e-06
+      },
+      {
+        "name": "AGENDA 47",
+        "symbol": "A47",
+        "id": "agenda-47",
+        "balance": 150,
+        "usd": 0.112482,
+        "price": 0.00074988,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.087821692976617,
+        "priceChange24h": -1.5990000000000015e-05
+      },
+      {
+        "name": "Waffles",
+        "symbol": "WAFFLES",
+        "id": "waffles",
+        "balance": 180,
+        "usd": 0.0907218,
+        "price": 0.00050401,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.3797254811747424,
+        "priceChange24h": -1.7629999999999924e-05
+      },
+      {
+        "name": "A Gently Used 2001 Honda",
+        "symbol": "USEDCAR",
+        "id": "a-gently-used-2001-honda",
+        "balance": 200,
+        "usd": 0.086316,
+        "price": 0.00043158,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.5426790714479326,
+        "priceChange24h": -1.1260000000000024e-05
+      },
+      {
+        "name": "$BTC25",
+        "symbol": "$BTC25",
+        "id": "btc25",
+        "balance": 4000,
+        "usd": 0.06668,
+        "price": 1.667e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.571595558153122,
+        "priceChange24h": -4.399999999999992e-07
+      },
+      {
+        "name": "catownkimono",
+        "symbol": "COK",
+        "id": "catownkimono",
+        "balance": 500000,
+        "usd": 0.065752,
+        "price": 1.31504e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 3.024842725413858,
+        "priceChange24h": 3.8610000000000106e-09
+      },
+      {
+        "name": "Whyyoutouzhele",
+        "symbol": "LI",
+        "id": "whyyoutouzhele",
+        "balance": 100,
+        "usd": 0.061748,
+        "price": 0.00061748,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.603097289871359,
+        "priceChange24h": -2.3079999999999976e-05
+      },
+      {
+        "name": "Magic Internet Money (Meme)",
+        "symbol": "MIM",
+        "id": "magic-internet-money-meme",
+        "balance": 2000,
+        "usd": 0.06094,
+        "price": 3.047e-05,
+        "quoteTime": "2026-10-23T23:28:23Z",
+        "priceChange24hPercent": -1.263771872974718,
+        "priceChange24h": -3.8999999999999796e-07
+      },
+      {
+        "name": "X Community",
+        "symbol": "X",
+        "id": "x-community",
+        "balance": 1210,
+        "usd": 0.0605121,
+        "price": 5.001e-05,
+        "quoteTime": "2026-10-23T07:28:45Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Shadow Token",
+        "symbol": "SHDW",
+        "id": "genesysgo-shadow",
+        "balance": 2,
+        "usd": 0.04838354,
+        "price": 0.02419177,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.273011120499906,
+        "priceChange24h": -0.0016191199999999982
+      },
+      {
+        "name": "67COIN",
+        "symbol": "67",
+        "id": "67coin",
+        "balance": 1340,
+        "usd": 0.047703999999999996,
+        "price": 3.56e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.599179206566355,
+        "priceChange24h": -9.500000000000028e-07
+      },
+      {
+        "name": "Parabolic",
+        "symbol": "PARAX",
+        "id": "parabolic-3",
+        "balance": 216,
+        "usd": 0.03342816,
+        "price": 0.00015476,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -15.639138729899155,
+        "priceChange24h": -2.8689999999999998e-05
+      },
+      {
+        "name": "Conan Meme",
+        "symbol": "CONAN",
+        "id": "conan-meme",
+        "balance": 142,
+        "usd": 0.0281941,
+        "price": 0.00019855,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.81971023092518,
+        "priceChange24h": -3.679999999999992e-06
+      },
+      {
+        "name": "TDCCP",
+        "symbol": "TDCCP",
+        "id": "tdccp",
+        "balance": 1,
+        "usd": 0.02527652,
+        "price": 0.02527652,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 8.212387486220072,
+        "priceChange24h": 0.0019182699999999997
+      },
+      {
+        "name": "GME",
+        "symbol": "GME",
+        "id": "gme",
+        "balance": 46,
+        "usd": 0.02001276,
+        "price": 0.00043506,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.134879992875267,
+        "priceChange24h": -1.4079999999999974e-05
+      },
+      {
+        "name": "Antscoin",
+        "symbol": "ANTS",
+        "id": "antscoin",
+        "balance": 1584,
+        "usd": 0.014826240000000001,
+        "price": 9.36e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -8.771929824561402,
+        "priceChange24h": -8.999999999999999e-07
+      },
+      {
+        "name": "Crypto Twitter",
+        "symbol": "CT",
+        "id": "crypto-twitter-2",
+        "balance": 1020.9,
+        "usd": 0.013445252999999999,
+        "price": 1.317e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.909747292418774,
+        "priceChange24h": -6.800000000000003e-07
+      },
+      {
+        "name": "Solzilla",
+        "symbol": "SOLZILLA",
+        "id": "solzilla",
+        "balance": 333333333,
+        "usd": 0.012620999987378999,
+        "price": 3.7863e-11,
+        "quoteTime": "2026-10-24T01:01:31Z",
+        "priceChange24hPercent": -1.8304856231688693,
+        "priceChange24h": -7.060000000000012e-13
+      },
+      {
+        "name": "SpiderSwap",
+        "symbol": "SPDR",
+        "id": "spiderswap",
+        "balance": 5,
+        "usd": 0.011633800000000001,
+        "price": 0.00232676,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.7342244141349809,
+        "priceChange24h": -1.7209999999999708e-05
+      },
+      {
+        "name": "Lamas Finance",
+        "symbol": "LMF",
+        "id": "lamas-finance",
+        "balance": 5,
+        "usd": 0.01043455,
+        "price": 0.00208691,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.4465073678486036,
+        "priceChange24h": -9.359999999999924e-06
+      },
+      {
+        "name": "catwifmask",
+        "symbol": "MASK",
+        "id": "catwifmask",
+        "balance": 10,
+        "usd": 0.0098189,
+        "price": 0.00098189,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 4.723762798634812,
+        "priceChange24h": 4.429e-05
+      },
+      {
+        "name": "CAT Terminal",
+        "symbol": "CAT",
+        "id": "cat-terminal",
+        "balance": 276,
+        "usd": 0.00967932,
+        "price": 3.507e-05,
+        "quoteTime": "2026-10-24T14:36:25Z",
+        "priceChange24hPercent": -4.44141689373296,
+        "priceChange24h": -1.6299999999999963e-06
+      },
+      {
+        "name": "CatwifHat",
+        "symbol": "CIF",
+        "id": "catwifhat",
+        "balance": 750,
+        "usd": 0.009135,
+        "price": 1.218e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.395604395604393,
+        "priceChange24h": -5.599999999999997e-07
+      },
+      {
+        "name": "Toad (SOL)",
+        "symbol": "$TOAD",
+        "id": "toad-sol",
+        "balance": 12000000,
+        "usd": 0.008695152000000001,
+        "price": 7.24596e-10,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0.6183494111586236,
+        "priceChange24h": 4.4530000000000466e-12
+      },
+      {
+        "name": "Deep AI",
+        "symbol": "DEEPAI",
+        "id": "deep-ai",
+        "balance": 222,
+        "usd": 0.00605616,
+        "price": 2.728e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.011494252873568,
+        "priceChange24h": -5.600000000000014e-07
+      },
+      {
+        "name": "Project MIRAI",
+        "symbol": "MIRAI",
+        "id": "project-mirai",
+        "balance": 14.129687,
+        "usd": 0.00587342829216,
+        "price": 0.00041568,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.873828178071648,
+        "priceChange24h": -2.5940000000000013e-05
+      },
+      {
+        "name": "Spike",
+        "symbol": "SPIKE",
+        "id": "spike",
+        "balance": 70,
+        "usd": 0.004263,
+        "price": 6.09e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.5304906725191945,
+        "priceChange24h": -2.8899999999999944e-06
+      },
+      {
+        "name": "Honk",
+        "symbol": "HONK",
+        "id": "honk",
+        "balance": 11.3333,
+        "usd": 0.004023094834,
+        "price": 0.00035498,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.4593418547729056,
+        "priceChange24h": -1.2719999999999973e-05
+      },
+      {
+        "name": "POPDOG",
+        "symbol": "POPDOG",
+        "id": "popdog",
+        "balance": 10,
+        "usd": 0.0039066,
+        "price": 0.00039066,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.526448362720411,
+        "priceChange24h": -1.4280000000000033e-05
+      },
+      {
+        "name": "LEEK",
+        "symbol": "LEEK",
+        "id": "leek",
+        "balance": 10,
+        "usd": 0.0037453,
+        "price": 0.00037453,
+        "quoteTime": "2026-10-24T06:31:41Z",
+        "priceChange24hPercent": -1.824425279823856,
+        "priceChange24h": -6.960000000000028e-06
+      },
+      {
+        "name": "The Professor",
+        "symbol": "LAB",
+        "id": "the-professor",
+        "balance": 278,
+        "usd": 0.0036223400000000004,
+        "price": 1.303e-05,
+        "quoteTime": "2026-10-22T22:01:41Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Sock Inu",
+        "symbol": "SINU",
+        "id": "sock-inu",
+        "balance": 71,
+        "usd": 0.00322695,
+        "price": 4.545e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.8223220012828754,
+        "priceChange24h": -1.320000000000001e-06
+      },
+      {
+        "name": "Myra",
+        "symbol": "MYRA",
+        "id": "myra",
+        "balance": 50,
+        "usd": 0.002504,
+        "price": 5.008e-05,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -3.543913713405231,
+        "priceChange24h": -1.839999999999996e-06
+      },
+      {
+        "name": "XNET Mobile",
+        "symbol": "XNET",
+        "id": "xnet-mobile-2",
+        "balance": 1,
+        "usd": 0.00183779,
+        "price": 0.00183779,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.48194336894660467,
+        "priceChange24h": -8.900000000000054e-06
+      },
+      {
+        "name": "analoS",
+        "symbol": "ANALOS",
+        "id": "analos",
+        "balance": 2024,
+        "usd": 0.001503714608,
+        "price": 7.42942e-07,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.0728184789202735,
+        "priceChange24h": -2.3552999999999946e-08
+      },
+      {
+        "name": "Shibwifhatcoin",
+        "symbol": "SHIB",
+        "id": "shibwifhatcoin",
+        "balance": 3.193,
+        "usd": 0.00113265289,
+        "price": 0.00035473,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.1612568589446153,
+        "priceChange24h": -1.1580000000000021e-05
+      },
+      {
+        "name": "Silly Dragon",
+        "symbol": "SILLY",
+        "id": "silly-dragon",
+        "balance": 15,
+        "usd": 0.0010463999999999998,
+        "price": 6.976e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.6106380008376484,
+        "priceChange24h": -1.8700000000000075e-06
+      },
+      {
+        "name": "Shark Cat",
+        "symbol": "SC",
+        "id": "shark-cat",
+        "balance": 0.888,
+        "usd": 0.00079285968,
+        "price": 0.00089286,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.6932369755150525,
+        "priceChange24h": -3.424000000000005e-05
+      },
+      {
+        "name": "Nyxia AI",
+        "symbol": "NYXC",
+        "id": "nyxia-ai",
+        "balance": 0.069,
+        "usd": 0.0007737080400000001,
+        "price": 0.01121316,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.2009487584939538,
+        "priceChange24h": -0.00025235000000000014
+      },
+      {
+        "name": "sealwifhat",
+        "symbol": "SI",
+        "id": "sealwifhat",
+        "balance": 30,
+        "usd": 0.0006234000000000001,
+        "price": 2.078e-05,
+        "quoteTime": "2026-10-23T10:00:23Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "PrivacyDex",
+        "symbol": "PRIVACY",
+        "id": "privacydex",
+        "balance": 97.536,
+        "usd": 0.0005510784,
+        "price": 5.65e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.2237762237762269,
+        "priceChange24h": -7.000000000000018e-08
+      },
+      {
+        "name": "MELEGA",
+        "symbol": "MARCO",
+        "id": "melega",
+        "balance": 1.879456352,
+        "usd": 0.000416299581968,
+        "price": 0.0002215,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.237080075138706,
+        "priceChange24h": -7.410000000000012e-06
+      },
+      {
+        "name": "Centric Swap",
+        "symbol": "CNS",
+        "id": "centric-swap",
+        "balance": 0.03328196,
+        "usd": 0.00037585317428,
+        "price": 0.011293,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.441013847028206,
+        "priceChange24h": -0.0007774600000000007
+      },
+      {
+        "name": "LessFnGas",
+        "symbol": "LFG",
+        "id": "lessfngas",
+        "balance": 14546.3327118,
+        "usd": 0.0003260269550695734,
+        "price": 2.2413e-08,
+        "quoteTime": "2026-10-24T18:28:57Z",
+        "priceChange24hPercent": -3.1710372834492526,
+        "priceChange24h": -7.339999999999985e-10
+      },
+      {
+        "name": "EGG",
+        "symbol": "EGG",
+        "id": "egg",
+        "balance": 69,
+        "usd": 0.00031464000000000004,
+        "price": 4.56e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.5641025641025577,
+        "priceChange24h": -1.199999999999997e-07
+      },
+      {
+        "name": "Samoyedcoin",
+        "symbol": "SAMO",
+        "id": "samoyedcoin",
+        "balance": 1,
+        "usd": 0.00029301,
+        "price": 0.00029301,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -6.58058345289335,
+        "priceChange24h": -2.0639999999999992e-05
+      },
+      {
+        "name": "HODL",
+        "symbol": "HODL",
+        "id": "hodl-5",
+        "balance": 10,
+        "usd": 0.0002885,
+        "price": 2.885e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -17.3352435530086,
+        "priceChange24h": -6.050000000000001e-06
+      },
+      {
+        "name": "XPi",
+        "symbol": "XPI",
+        "id": "xpi",
+        "balance": 6.28,
+        "usd": 0.0002485624,
+        "price": 3.958e-05,
+        "quoteTime": "2026-10-23T21:57:44Z",
+        "priceChange24hPercent": -0.47774704551170044,
+        "priceChange24h": -1.9000000000000326e-07
+      },
+      {
+        "name": "BABA",
+        "symbol": "BABA",
+        "id": "baba",
+        "balance": 12,
+        "usd": 0.00020315999999999997,
+        "price": 1.693e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.589182968929809,
+        "priceChange24h": -4.500000000000008e-07
+      },
+      {
+        "name": "Curly",
+        "symbol": "CURLY",
+        "id": "curly",
+        "balance": 20,
+        "usd": 0.0001918,
+        "price": 9.59e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.9427402862985672,
+        "priceChange24h": -1.8999999999999987e-07
+      },
+      {
+        "name": "Shrimp Paste",
+        "symbol": "SHRIMP",
+        "id": "shrimp-paste",
+        "balance": 10,
+        "usd": 0.0001908,
+        "price": 1.908e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.4040654437283004,
+        "priceChange24h": -1.089999999999998e-06
+      },
+      {
+        "name": "Pajamas Cat",
+        "symbol": "PAJAMAS",
+        "id": "pajamas-cat",
+        "balance": 1,
+        "usd": 0.00011903,
+        "price": 0.00011903,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.1489015459723366,
+        "priceChange24h": -3.870000000000002e-06
+      },
+      {
+        "name": "MEOW",
+        "symbol": "MEOW",
+        "id": "meow",
+        "balance": 25,
+        "usd": 0.00010025,
+        "price": 4.01e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9055690072639355,
+        "priceChange24h": -1.2000000000000055e-07
+      },
+      {
+        "name": "Moon Rocks",
+        "symbol": "MROCKS",
+        "id": "moon-rocks",
+        "balance": 1,
+        "usd": 7.549e-05,
+        "price": 7.549e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.993386748060537,
+        "priceChange24h": -3.1400000000000004e-06
+      },
+      {
+        "name": "OSOL",
+        "symbol": "OSOL",
+        "id": "osol",
+        "balance": 1,
+        "usd": 6.907e-05,
+        "price": 6.907e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.088357439495918,
+        "priceChange24h": -7.599999999999995e-07
+      },
+      {
+        "name": "Smart Pocket",
+        "symbol": "SP",
+        "id": "smart-pocket",
+        "balance": 7,
+        "usd": 6.377e-05,
+        "price": 9.11e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -5.1041666666666705,
+        "priceChange24h": -4.900000000000004e-07
+      },
+      {
+        "name": "Holy Coin",
+        "symbol": "HOLY",
+        "id": "holy-coin",
+        "balance": 1,
+        "usd": 3.632e-05,
+        "price": 3.632e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -4.6468889472302575,
+        "priceChange24h": -1.770000000000005e-06
+      },
+      {
+        "name": "APES [OLD]",
+        "symbol": "APES",
+        "id": "apes-2",
+        "balance": 2,
+        "usd": 3.142e-05,
+        "price": 1.571e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.6641883519207,
+        "priceChange24h": -4.3000000000000097e-07
+      },
+      {
+        "name": "$KEK",
+        "symbol": "$KEK",
+        "id": "kek-2",
+        "balance": 3,
+        "usd": 2.802e-05,
+        "price": 9.34e-06,
+        "quoteTime": "2026-10-23T16:56:19Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Chedda",
+        "symbol": "CHEDDA",
+        "id": "chedda-2",
+        "balance": 2,
+        "usd": 2.2e-05,
+        "price": 1.1e-05,
+        "quoteTime": "2026-10-24T12:58:41Z",
+        "priceChange24hPercent": -1.2567324955116728,
+        "priceChange24h": -1.4000000000000035e-07
+      },
+      {
+        "name": "Prick",
+        "symbol": "PRICK",
+        "id": "prick",
+        "balance": 1,
+        "usd": 2.061e-05,
+        "price": 2.061e-05,
+        "quoteTime": "2026-10-24T05:56:53Z",
+        "priceChange24hPercent": -1.9038553069966662,
+        "priceChange24h": -3.9999999999999956e-07
+      },
+      {
+        "name": "Smog",
+        "symbol": "SMOG",
+        "id": "smog",
+        "balance": 0.42,
+        "usd": 2.01012e-05,
+        "price": 4.786e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.861782017454844,
+        "priceChange24h": -1.4100000000000017e-06
+      },
+      {
+        "name": "jeo rogen",
+        "symbol": "ROGEN",
+        "id": "jeo-rogen",
+        "balance": 1,
+        "usd": 1.957e-05,
+        "price": 1.957e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.83292383292383,
+        "priceChange24h": -7.799999999999993e-07
+      },
+      {
+        "name": "Mongy",
+        "symbol": "MONGY",
+        "id": "mongy",
+        "balance": 0.69,
+        "usd": 1.12677e-05,
+        "price": 1.633e-05,
+        "quoteTime": "2026-10-24T06:53:45Z",
+        "priceChange24hPercent": -3.1435349940688013,
+        "priceChange24h": -5.3e-07
+      },
+      {
+        "name": "SNAP",
+        "symbol": "$NAP",
+        "id": "snap-kero",
+        "balance": 1,
+        "usd": 2.06e-06,
+        "price": 2.06e-06,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.8301886792452757,
+        "priceChange24h": -5.999999999999985e-08
+      },
+      {
+        "name": "FREEdom coin",
+        "symbol": "FREE",
+        "id": "freedom-coin",
+        "balance": 7,
+        "usd": 1.49359e-07,
+        "price": 2.1337e-08,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.9332342835917894,
+        "priceChange24h": -2.0099999999999962e-10
+      },
+      {
+        "name": "dog with apple in mouth",
+        "symbol": "APPLE",
+        "id": "dog-with-apple-in-mouth",
+        "balance": 0.001,
+        "usd": 6.634000000000001e-08,
+        "price": 6.634e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.9407461594732833,
+        "priceChange24h": -2.0099999999999892e-06
+      }
+    ],
+    "tron": [
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 331981.16822999873,
+        "usd": 331981.16822999873,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "TRON",
+        "symbol": "TRX",
+        "id": "tron",
+        "balance": 668759.7831840002,
+        "usd": 220094.86348390311,
+        "price": 0.329109,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.2237400976816574,
+        "priceChange24h": -0.0007380000000000164
+      }
+    ],
+    "zcash": [
+      {
+        "name": "Zcash",
+        "symbol": "ZEC",
+        "id": "zcash",
+        "balance": 2964.14023393,
+        "usd": 3528957.155505361,
+        "price": 1190.55,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -3.387189703722339,
+        "priceChange24h": -41.74000000000001
+      }
+    ]
+  }
+}

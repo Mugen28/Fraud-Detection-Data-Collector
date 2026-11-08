@@ -1,0 +1,121 @@
+{
+  "entities": {
+    "fabian-sinar-raber": {
+      "name": "Fabian Sinar Raber",
+      "note": "",
+      "id": "fabian-sinar-raber",
+      "type": "individual",
+      "service": null,
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0.0021852090058698363,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0.002241985896818305,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [
+      {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "id": "bitcoin",
+        "balance": 0,
+        "usd": 0,
+        "price": 80509,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": -1.0277214334009466,
+        "priceChange24h": -836
+      }
+    ],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 9.350607863211775e-07,
+        "usd": 0.002185209005809002,
+        "price": 2336.97,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": -2.5324374710659114,
+        "priceChange24h": -60.720000000000255
+      },
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "id": "uniswap",
+        "balance": 8.881784197001252e-15,
+        "usd": 6.004086117172846e-14,
+        "price": 6.76,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": -4.788732394366195,
+        "priceChange24h": -0.33999999999999986
+      },
+      {
+        "name": "Celsius Network",
+        "symbol": "CEL",
+        "id": "celsius-degree-token",
+        "balance": 1.1368683772161603e-13,
+        "usd": 7.932908374641556e-16,
+        "price": 0.00697786,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": -3.2521677883428866,
+        "priceChange24h": -0.00023455999999999998
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "addresses": {
+    "arbitrum_one": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "avalanche": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "avalanche",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "base": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "bsc": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "ethereum": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "arkhamLabel": {
+          "name": "Proxy",
+          "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      }
+    },
+    "flare": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "flare",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "hypercore": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "hypercore",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false
+      }
+    },
+    "hyperevm": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "optimism": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "optimism",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "polygon": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "polygon",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "robinhood": {
+      "0x722122dF12D4e14e13Ac3b6895a86e84145b6967": {
+        "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "Tornado.Cash",
+          "note": "",
+          "id": "tornado-cash",
+          "type": "privacy",
+          "service": null,
+          "website": "https://tornado.cash",
+          "twitter": "https://twitter.com/TornadoCash",
+          "crunchbase": "https://www.crunchbase.com/organization/tornado-cash"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0.1,
+    "bsc": 0.014916,
+    "ethereum": 0.9,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 7.623848215129955,
+    "robinhood": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0.1,
+    "bsc": 0.0146104,
+    "ethereum": 0.9,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 7.3439914760357885,
+    "robinhood": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [
+      {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "ethereumAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "balance": 0.1,
+        "balanceExact": "100000",
+        "usd": 0.1,
+        "price": 1,
+        "quoteTime": "2026-10-21T13:29:55Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 2e-05,
+        "balanceExact": "20000000000000",
+        "usd": 0.014916,
+        "price": 745.8,
+        "quoteTime": "2026-10-21T13:28:55Z",
+        "priceChange24hPercent": 2.0916607348190293,
+        "priceChange24h": 15.279999999999973
+      }
+    ],
+    "ethereum": [
+      {
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "id": "tether",
+        "ethereumAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "balance": 0.9,
+        "balanceExact": "900000",
+        "usd": 0.9,
+        "price": 1,
+        "quoteTime": "2026-10-21T13:29:55Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [
+      {
+        "name": "Polygon Ecosystem Token",
+        "symbol": "POL",
+        "id": "polygon-ecosystem-token",
+        "balance": 79.57257295825023,
+        "balanceExact": "79572572958250244000",
+        "usd": 7.623848215129955,
+        "price": 0.09581,
+        "quoteTime": "2026-10-21T13:29:55Z",
+        "priceChange24hPercent": 3.810689868137352,
+        "priceChange24h": 0.0035170000000000062
+      }
+    ],
+    "robinhood": []
+  }
+}

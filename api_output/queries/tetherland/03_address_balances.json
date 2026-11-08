@@ -1,0 +1,87 @@
+{
+  "addresses": {
+    "solana": {
+      "A3znyaRYUvi7GbQv1pp9CqqiVo7anddU9rPKFH55V28R": {
+        "address": "A3znyaRYUvi7GbQv1pp9CqqiVo7anddU9rPKFH55V28R",
+        "chain": "solana",
+        "arkhamEntity": {
+          "name": "Tether",
+          "note": "",
+          "id": "tether",
+          "type": "stablecoin",
+          "service": null,
+          "website": "https://tether.to/",
+          "twitter": "https://twitter.com/Tether_to"
+        },
+        "arkhamLabel": {
+          "name": "Treasury",
+          "address": "A3znyaRYUvi7GbQv1pp9CqqiVo7anddU9rPKFH55V28R",
+          "chainType": "solana"
+        },
+        "isUserAddress": false,
+        "program": false
+      }
+    }
+  },
+  "totalBalance": {
+    "solana": 932550538.3848126
+  },
+  "totalBalance24hAgo": {
+    "solana": 932550553.973408
+  },
+  "balances": {
+    "solana": [
+      {
+        "name": "USDT",
+        "symbol": "USDT",
+        "id": "tether",
+        "ethereumAddress": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "balance": 932550053.822362,
+        "balanceExact": "932550053822362",
+        "usd": 932550053.822362,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "id": "solana",
+        "balance": 4.197910019,
+        "balanceExact": "4197910019",
+        "usd": 424.70255662222996,
+        "price": 101.17,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.6275264677574626,
+        "priceChange24h": -2.730000000000004
+      },
+      {
+        "name": "AISM FAITH TOKEN",
+        "symbol": "AISM",
+        "id": "aism-faith-token",
+        "ethereumAddress": "9ZFfZwZDfoSqj7HFD7BNGy57XVNkd1BR2UrNYKsnpump",
+        "balance": 8024,
+        "balanceExact": "8024000000",
+        "usd": 59.375594,
+        "price": 0.00739975,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -6.458145558571189,
+        "priceChange24h": -0.00051088
+      },
+      {
+        "name": "OFFICIAL TRUMP",
+        "symbol": "TRUMP",
+        "id": "official-trump",
+        "ethereumAddress": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        "balance": 0.29,
+        "balanceExact": "290000",
+        "usd": 0.4843,
+        "price": 1.67,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -5.649717514124299,
+        "priceChange24h": -0.10000000000000009
+      }
+    ]
+  }
+}

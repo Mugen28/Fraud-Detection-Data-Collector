@@ -1,0 +1,275 @@
+{
+  "entity_id": "ramzinex",
+  "entity_name": "Ramzinex",
+  "total_wallets": 37,
+  "chain_breakdown": {
+    "evm": 1,
+    "dogecoin": 2,
+    "ethereum": 11,
+    "tron": 4,
+    "bsc": 6,
+    "arbitrum_one": 6,
+    "polygon": 7
+  },
+  "wallets": [
+    {
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227\"",
+      "chain": "evm",
+      "label": "Primary Master Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "DQVNqu7ebxgzpxmkibNnDEuWKCFFAy5fwk",
+      "chain": "dogecoin",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "DBTGMAim9PWgCwQKSiwo3jGKyiFGvDm7Av",
+      "chain": "dogecoin",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x8e8aFe1Fe20F444C6bF57C4fCd100207d6762227",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TTQUi7ojgCXVu11JL9pgrNCywPio1gjWLb",
+      "chain": "tron",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TGecxkhepZThKmCZzHUomN6hRfdBYE8p1d",
+      "chain": "tron",
+      "label": "Ourbit Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "TLHYepfu6TyDs1GPf7xmh5g7WfqiwJcUNs",
+      "chain": "tron",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xdCDe5Fcdd42F69C89787306B2147aBC86Ffd4849",
+      "chain": "ethereum",
+      "label": "Nobitex.ir Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xD55124B1B8ff0973bab6379FaAbFeFFd90da1568",
+      "chain": "ethereum",
+      "label": "Ourbit Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xb0566e4dF2c9cfC07b8025AE651dAAe673A13307",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "THQujC8Z1tAYphnJ7DnqL5k9sPFqP2c9XB",
+      "chain": "tron",
+      "label": "Ourbit Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6d3876Df2a81B507299492F95C8b334beFc043B7",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xD4dAB46D064c581314F78f143b8Da4808cDd54c4",
+      "chain": "ethereum",
+      "label": "LBank Deposit",
+      "entity": "Ramzinex",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x6752ec83"
+    },
+    {
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x6752ec83"
+    },
+    {
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x83c2C126"
+    },
+    {
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x83c2C126"
+    },
+    {
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x83c2C126"
+    },
+    {
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x4a124570"
+    },
+    {
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x4a124570"
+    },
+    {
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x4a124570"
+    },
+    {
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x232A760887ABda5e4D37821e09c81702842aF7b2",
+      "chain": "bsc",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x37166c589ba234F6b2265b79460b487398de77eA",
+      "chain": "bsc",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x232A760887ABda5e4D37821e09c81702842aF7b2",
+      "chain": "ethereum",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x37166c589ba234F6b2265b79460b487398de77eA",
+      "chain": "ethereum",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x232A760887ABda5e4D37821e09c81702842aF7b2",
+      "chain": "arbitrum_one",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x37166c589ba234F6b2265b79460b487398de77eA",
+      "chain": "arbitrum_one",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x232A760887ABda5e4D37821e09c81702842aF7b2",
+      "chain": "polygon",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    },
+    {
+      "address": "0x37166c589ba234F6b2265b79460b487398de77eA",
+      "chain": "polygon",
+      "label": "Ramzinex Deposit",
+      "entity": "Ramzinex",
+      "source": "depth2/hot_wallet/0x371661da"
+    }
+  ]
+}

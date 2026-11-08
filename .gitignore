@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Authentication & Sensitive Session Credentials
+storage_state.json
+captured_requests.json
+.env
+*.pem
+*.key
+
+# Browser Profiles & Playwright Cache
+chrome_profile/
+.playwright/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+tmp.txt
+*.tmp
+*.log
+.probe/
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "tableland-2": {
+      "name": "@tableland__2",
+      "note": "",
+      "id": "tableland-2",
+      "type": "individual",
+      "service": null,
+      "twitter": "https://twitter.com/tableland__2",
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0.13265958493919744,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0.13623734723056447,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 5.681693332328166e-05,
+        "usd": 0.13265958493919744,
+        "price": 2334.86,
+        "quoteTime": "2026-10-24T19:01:50Z",
+        "priceChange24hPercent": -2.626124454193992,
+        "priceChange24h": -62.9699999999998
+      }
+    ],
+    "bitcoin": [],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

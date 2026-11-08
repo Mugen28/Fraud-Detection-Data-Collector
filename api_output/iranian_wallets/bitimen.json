@@ -1,0 +1,84 @@
+{
+  "target": "bitimen",
+  "entity_id": "bitmen",
+  "entity_name": "@BITMEN_",
+  "summary": {
+    "entityId": "bitmen",
+    "numAddresses": 1,
+    "volumeUsd": 5873.31,
+    "balanceUsd": 2.4528619026264327,
+    "firstTx": "2022-03-18T00:00:00Z",
+    "lastTx": "2024-03-04T00:00:00Z"
+  },
+  "top_address": "0x11a2715e16b6024ed92587b030948d5aa45af3a2\"",
+  "wallets": [
+    {
+      "address": "0x11a2715e16b6024ed92587b030948d5aa45af3a2\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "@BITMEN_",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x9301091b64F469B0e560623CdB3bBF96C26568Bf",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "@BITMEN_",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x9f83fb114DbeDb3A25a35F916190e32CC0eE1C7F",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "@BITMEN_",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xE083a9F7130d67084f3c4C7aE40Ad1c27595fAa3",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "@BITMEN_",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xce6FAfdEfe8A89293f65C38c22B21f53ACe9f32E",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "@BITMEN_",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x89c277891aD100c21Da648EFac448bFC83b2D7BF",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "@BITMEN_",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x11a2715E16B6024ED92587b030948D5AA45Af3a2",
+      "chain": "ethereum",
+      "label": "\"BITMEN_TW\" on OpenSea",
+      "entity": "@BITMEN_",
+      "source": "transfers"
+    },
+    {
+      "address": "0x11a2715E16B6024ED92587b030948D5AA45Af3a2",
+      "chain": "optimism",
+      "label": "\"BITMEN_TW\" on OpenSea",
+      "entity": "@BITMEN_",
+      "source": "transfers"
+    },
+    {
+      "address": "0x11a2715E16B6024ED92587b030948D5AA45Af3a2",
+      "chain": "polygon",
+      "label": "\"BITMEN_TW\" on OpenSea",
+      "entity": "@BITMEN_",
+      "source": "transfers"
+    }
+  ]
+}

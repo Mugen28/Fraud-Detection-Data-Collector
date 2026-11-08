@@ -1,0 +1,669 @@
+{
+  "arkhamAddresses": [
+    {
+      "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Kittenswap",
+        "note": "",
+        "id": "kittenswap",
+        "type": "dex",
+        "service": null,
+        "website": "https://kittenswap.finance",
+        "twitter": "https://x.com/kittenswaphype"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x12Df9913E9E08453440e3C4B1aE73819160b513E",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Kittenswap",
+        "note": "",
+        "id": "kittenswap",
+        "type": "dex",
+        "service": null,
+        "website": "https://kittenswap.finance",
+        "twitter": "https://x.com/kittenswaphype"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x12Df9913E9E08453440e3C4B1aE73819160b513E",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x393D0B87Ed38fc779FD9611144aE649BA6082109",
+      "chain": "hypercore",
+      "arkhamEntity": {
+        "name": "Kinetiq",
+        "note": "",
+        "id": "kinetiq",
+        "type": "liquid-staking",
+        "service": null,
+        "website": "https://kinetiq.xyz",
+        "twitter": "https://x.com/Kinetiq_xyz"
+      }
+    },
+    {
+      "address": "0x71F0019cC7fa79E4f42587FB7b9a817D8d2429EC",
+      "chain": "hypercore",
+      "arkhamEntity": {
+        "name": "Kinetiq",
+        "note": "",
+        "id": "kinetiq",
+        "type": "liquid-staking",
+        "service": null,
+        "website": "https://kinetiq.xyz",
+        "twitter": "https://x.com/Kinetiq_xyz"
+      }
+    },
+    {
+      "address": "0xC63d9F0040d35F328274312fc8771a986fc4bA86",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Kiln",
+        "note": "",
+        "id": "kiln",
+        "type": "miner-validator",
+        "service": null,
+        "website": "https://www.kiln.fi/",
+        "twitter": "https://twitter.com/Kiln_finance"
+      },
+      "arkhamLabel": {
+        "name": "Cub",
+        "address": "0xC63d9F0040d35F328274312fc8771a986fc4bA86",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x2D5e65Ff87D986D18ac224E725DC654bEC3A04CD",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Kiln",
+        "note": "",
+        "id": "kiln",
+        "type": "miner-validator",
+        "service": null,
+        "website": "https://www.kiln.fi/",
+        "twitter": "https://twitter.com/Kiln_finance"
+      },
+      "arkhamLabel": {
+        "name": "Cub",
+        "address": "0x2D5e65Ff87D986D18ac224E725DC654bEC3A04CD",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xCC650b486f723C924370656b509a82bD69526739",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Kinza Finance",
+        "note": "",
+        "id": "kinza-finance",
+        "type": "yield",
+        "service": null,
+        "website": "https://kinza.finance/",
+        "twitter": "https://twitter.com/kinzafinance"
+      },
+      "arkhamLabel": {
+        "name": "WrappedTokenGatewayV3",
+        "address": "0xCC650b486f723C924370656b509a82bD69526739",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x298e94D5494E7c461a05903DcF41910e0125D019",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "KiloEx",
+        "note": "",
+        "id": "kiloex",
+        "type": "derivatives",
+        "service": null,
+        "website": "https://kiloex.io/",
+        "twitter": "https://x.com/KiloEx_perp"
+      },
+      "arkhamLabel": {
+        "name": "TransparentUpgradeableProxy",
+        "address": "0x298e94D5494E7c461a05903DcF41910e0125D019",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x8659EEFF31CFcff580D37AF8e7Af250F8998aA83",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Kiln",
+        "note": "",
+        "id": "kiln",
+        "type": "miner-validator",
+        "service": null,
+        "website": "https://www.kiln.fi/",
+        "twitter": "https://twitter.com/Kiln_finance"
+      },
+      "arkhamLabel": {
+        "name": "Factory",
+        "address": "0x8659EEFF31CFcff580D37AF8e7Af250F8998aA83",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x38355ab2667eD167CaDcD132603bc6236c8295de",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Kibo",
+        "note": "",
+        "id": "kibo",
+        "type": "gambling",
+        "service": null,
+        "twitter": "https://x.com/kibo_platform"
+      }
+    },
+    {
+      "address": "0x80aa81029DF9Afdc70A621C86d7a81D7E9ed7e3A",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Kibo",
+        "note": "",
+        "id": "kibo",
+        "type": "gambling",
+        "service": null,
+        "twitter": "https://x.com/kibo_platform"
+      }
+    },
+    {
+      "address": "0x3CF44Ef1500C1d559c8e81dfFD6Baeb0966b2712",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Kittenswap",
+        "note": "",
+        "id": "kittenswap",
+        "type": "dex",
+        "service": null,
+        "website": "https://kittenswap.finance",
+        "twitter": "https://x.com/kittenswaphype"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x3CF44Ef1500C1d559c8e81dfFD6Baeb0966b2712",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xAaA10c4CF5bbb39Df6Aa7C9995E1505c96E45a8b",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Kittenswap",
+        "note": "",
+        "id": "kittenswap",
+        "type": "dex",
+        "service": null,
+        "website": "https://kittenswap.finance",
+        "twitter": "https://x.com/kittenswaphype"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0xAaA10c4CF5bbb39Df6Aa7C9995E1505c96E45a8b",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x299E9f369A2FE22C70155Bd8e367E260A033e51b",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Kittenswap",
+        "note": "",
+        "id": "kittenswap",
+        "type": "dex",
+        "service": null,
+        "website": "https://kittenswap.finance",
+        "twitter": "https://x.com/kittenswaphype"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x299E9f369A2FE22C70155Bd8e367E260A033e51b",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x7A37621a2A490214f03E6Ce7199aecA9b7c565cC",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Kittenswap",
+        "note": "",
+        "id": "kittenswap",
+        "type": "dex",
+        "service": null,
+        "website": "https://kittenswap.finance",
+        "twitter": "https://x.com/kittenswaphype"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x7A37621a2A490214f03E6Ce7199aecA9b7c565cC",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "kifa777.eth",
+      "address": "0x09daB14be3194AD8413211a295C95b0a03dB6257"
+    },
+    {
+      "name": "kiffancevault.eth",
+      "address": "0x35c2B145F5D2BEe917f1309C9a501c08dB60E224"
+    },
+    {
+      "name": "kifpol.eth",
+      "address": "0x36c023243a4f8483EBA8c4A387646f7C60B0856D"
+    },
+    {
+      "name": "kiki.eth",
+      "address": "0x4515957DAF1c5a1Cd2E24D000E909A0Ff6bE1975"
+    },
+    {
+      "name": "kifepool.eth",
+      "address": "0xE05c69494e5530beFeCef7D135272f80A3e6788b"
+    },
+    {
+      "name": "kirilm.eth",
+      "address": "0x83664B8a83b9845Ac7b177DF86d0F5BF3b7739AD"
+    },
+    {
+      "name": "kisama.eth",
+      "address": "0xF24A872344d7E78e6f9895a57B672d93f29D3100"
+    },
+    {
+      "name": "kirito.eth",
+      "address": "0x10890742A1a20A936132072C20Ae77b081486190"
+    },
+    {
+      "name": "kingmupi.eth",
+      "address": "0x6b7ada3Fe5CcF3aB10a8E7aE7f4593B88b3BF385"
+    },
+    {
+      "name": "kimdamyun.eth",
+      "address": "0xbb257625458a12374daf2AD0c91d5A215732F206"
+    },
+    {
+      "name": "kimdohoon.eth",
+      "address": "0x0e17D43B80EB87a5EDaaC7fc4c672FeCa2bBA85A"
+    },
+    {
+      "name": "kingalfred.eth",
+      "address": "0x3630220f243288E3EAC4C5676fC191CFf5756431"
+    },
+    {
+      "name": "kirbyongeo.eth",
+      "address": "0x6Cd68E8f04490Cd1A5A21cc97CC8BC15b47Dc9eb"
+    },
+    {
+      "name": "kingtrippy.eth",
+      "address": "0x519e19Eac9EAd404343c68224dD2A22C5c25F992"
+    },
+    {
+      "name": "kiff.eth",
+      "address": "0x57b98117cDb2021aAd13CdE1A0B1025a31B55F81"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "InfinityPools",
+      "note": "",
+      "id": "infinitypools",
+      "type": "derivatives",
+      "service": false,
+      "twitter": "Infpools"
+    },
+    {
+      "name": "K1 Pool",
+      "note": "",
+      "id": "k1pool",
+      "type": "miner-validator",
+      "service": false,
+      "twitter": "K1Pool"
+    },
+    {
+      "name": "@kipolevs",
+      "note": "",
+      "id": "kipolevs",
+      "type": "individual",
+      "service": false,
+      "twitter": "kipolevs"
+    },
+    {
+      "name": "@Kinpoogmi",
+      "note": "",
+      "id": "kinpoogmi",
+      "type": "individual",
+      "service": false,
+      "twitter": "Kinpoogmi"
+    },
+    {
+      "name": "@kimpoohboyy",
+      "note": "",
+      "id": "kimpoohboyy",
+      "type": "individual",
+      "service": false,
+      "twitter": "kimpoohboyy"
+    },
+    {
+      "name": "@kofrool",
+      "note": "",
+      "id": "kofrool",
+      "type": "individual",
+      "service": false,
+      "twitter": "kofrool"
+    },
+    {
+      "name": "@KipKoolCrypto",
+      "note": "",
+      "id": "kipkoolcrypto",
+      "type": "individual",
+      "service": false,
+      "twitter": "KipKoolCrypto"
+    },
+    {
+      "name": "@kidcool3000",
+      "note": "",
+      "id": "kidcool3000",
+      "type": "individual",
+      "service": false,
+      "twitter": "kidcool3000"
+    },
+    {
+      "name": "@KimpoSlicee",
+      "note": "",
+      "id": "kimposlicee",
+      "type": "individual",
+      "service": false,
+      "twitter": "KimpoSlicee"
+    },
+    {
+      "name": "@kimpolxyz",
+      "note": "",
+      "id": "kimpolxyz",
+      "type": "individual",
+      "service": false,
+      "twitter": "kimpolxyz"
+    },
+    {
+      "name": "@kipoli9",
+      "note": "",
+      "id": "kipoli9",
+      "type": "individual",
+      "service": false,
+      "twitter": "kipoli9"
+    },
+    {
+      "name": "@kipolj1",
+      "note": "",
+      "id": "kipolj1",
+      "type": "individual",
+      "service": false,
+      "twitter": "kipolj1"
+    },
+    {
+      "name": "METAVERSE",
+      "note": "",
+      "id": "aipool-tee",
+      "type": "ai",
+      "service": false,
+      "twitter": "aipool_tee"
+    },
+    {
+      "name": "@kimpoli666",
+      "note": "",
+      "id": "kimpoli666",
+      "type": "individual",
+      "service": false,
+      "twitter": "kimpoli666"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0xaE545300740D789791e998c2e655fdAFE6341690",
+      "username": "Kirei",
+      "profileImage": "https://i.seadn.io/gae/KzP4z3B899NyqyCIHrkM_nxzl8tzobgA2JFh9HXBqRnLz0LGYielTmS4Kn0lt5wbeKVXecOXN5hc6rgKWT3mjhdjVlUVyYSTzuw_KQ?w=500&auto=format"
+    },
+    {
+      "address": "0xC49fec8e567Cb9acE07c07748b63A93434beA86d",
+      "username": "killuar",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/29.png"
+    },
+    {
+      "address": "0xf7411A3F727b36f56ff3A871163c21E56D672656",
+      "username": "Kinfolk",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/27.png"
+    },
+    {
+      "address": "0x98A6769b451e6625b9D8487f0d2bbE1Cf6Dbc7b3",
+      "username": "kimuchi",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/9.png"
+    },
+    {
+      "address": "0x6Cd68E8f04490Cd1A5A21cc97CC8BC15b47Dc9eb",
+      "username": "kirbyong",
+      "profileImage": "https://i.seadn.io/gcs/files/5009971f9d6506624fb043e5a6084eb7.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x4515957DAF1c5a1Cd2E24D000E909A0Ff6bE1975",
+      "username": "kiki_eth",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png"
+    },
+    {
+      "address": "0x0000000dBf80f29c9Ed7D52116F3037f8DEB1902",
+      "username": "kidmilli",
+      "profileImage": "https://i2c.seadn.io/profiles/0x0000000dbf80f29c9ed7d52116f3037f8deb1902/avatar/5f6f7a29dbd88eb17da77acd633e0f/ff5f6f7a29dbd88eb17da77acd633e0f.jpeg"
+    },
+    {
+      "address": "0xD31e459Ac72E2ccAD9A35b5b3367cfB4BaB0274F",
+      "username": "Kingswap",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/10.png"
+    },
+    {
+      "address": "0xbb257625458a12374daf2AD0c91d5A215732F206",
+      "username": "KimDamyun",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png"
+    },
+    {
+      "address": "0x4c180462A051ab67D8237EdE2c987590DF2FbbE6",
+      "username": "Kingcooom",
+      "profileImage": "https://i.seadn.io/gae/G5eqG4nHLPzVtlrnf8NzniWCUuRlamN1KLzw5yoluHe_fCBFdsaDaPxXpNawcJmtxdQ5d9x23gNTrlxrMI1eSATe3Awd0551Qwcap1o?w=500&auto=format"
+    },
+    {
+      "address": "0xF41E1e7FE4958d34f8742aC1Af07eC2201ec3e10",
+      "username": "KID",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png"
+    },
+    {
+      "address": "0x7cEec4d52d270BC1c0dBF11D7e0174f762d489Ca",
+      "username": "kir",
+      "profileImage": "https://i.seadn.io/gcs/files/5142bd58b91ce0598c43f336d697bb68.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x57b98117cDb2021aAd13CdE1A0B1025a31B55F81",
+      "username": "Kiff69",
+      "profileImage": "https://i.seadn.io/gae/ozUIdxa_7N_qMDS2S2O13BdoVnC5DmEb_RF0JMeLusg8s7T4XJv8WvVzkS8rIeP4jKcPzzlAmdK0vALPpvq-_iEcWJaOguzMG7CD?w=500&auto=format"
+    },
+    {
+      "address": "0x17D2960e8178a6c1d35B93110431Ee0315aaC3F6",
+      "username": "kifzer",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/19.png"
+    },
+    {
+      "address": "0x29b179E0C704687fcDEAF399b1e26b7Fb8993965",
+      "username": "kiff62",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "GTiCQZHknSenLbpbhjrztxDGwWr2fUPJDkefjKRZTwVa",
+      "username": "Kindev",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Indigo-glass~Face-5~Glasses-black~Hairstyle-1---Red~Watch~Empty.webp"
+    },
+    {
+      "address": "ELtP2ZFjsvyPyJ2LircdhJtKao8rHvNANyLe31VLLdVT",
+      "username": "kif",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-3-Green~Face-2~Blush~Headphones-Maroon~Empty~Winter-Scarf.webp"
+    },
+    {
+      "address": "67Bt68G3uB55m3zBUZBAha6bsHVQRVyKWaVVQrJVannv",
+      "username": "kingulik",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-2-Indigo~Face-5~Blush~Hairstyle-3-grey~Bracelet-orange~Bowtie-Orange.webp"
+    },
+    {
+      "address": "G8M6vpr4we1px5b4YY5GpJfsin4gePX9WVWj5FxNmqpa",
+      "username": "Kif0",
+      "profileImage": "https://socialimages.pump.fun/profile-images/8b02e301-eb63-4957-ae02-5f6cfa0d40f2/4ba643c113d30a530ef58132776da0a5"
+    },
+    {
+      "address": "3Kiy1gAH8Gjhb5td1qn1UZyvwfnGVbVbRVSNMsczL17S",
+      "username": "Kiff",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Blue~Face-4~Blush~Cap-Red~Empty~Tie-Green.webp"
+    },
+    {
+      "address": "3BLWGrSbHqAZtNzQz7j4sdWYsgixE6yyxBB7iGFtMGVb",
+      "username": "kiffy",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-Green~Face-5~Blush~Hairstyle-1---Black~Empty~Necklace-Yellow.webp"
+    },
+    {
+      "address": "DYoWGdkBG1srEgUh3SrHskzTC5MVHV5roDZtBqbgQD5X",
+      "username": "KiFal",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Orange-wand~Face-6~Sunglasses~Winter-Hat-Blue~Bracelet-green~Tie-Green.webp"
+    },
+    {
+      "address": "HEQcwre3mSBfg9mWp1biZMeX4x3H8tLECNoJCTksgYHq",
+      "username": "kino",
+      "profileImage": "https://socialimages.pump.fun/profile-images/aa73acc3-2350-4a4e-b8e0-ced29432eb5c/f38617895f0b0f20f9736ae16bdbfa22"
+    },
+    {
+      "address": "DAdKJrozC9zB3EGt4i5fh139pAg3jGbZKTd8rYk2sfdH",
+      "username": "Kisl",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-Red~Face-10~Glasses-brown~Graduation-hat~Bracelet-green~Tie-Red.webp"
+    },
+    {
+      "address": "Btpd8sPfPkSjCchgXys7qyNbzQDJEwa9jrXd5jBMZ8QT",
+      "username": "Kith",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-2-Cyan~Face-1~Sunglasses~Hairstyle-3-blue~Empty~Winter-Scarf.webp"
+    },
+    {
+      "address": "5u2enwbi5aJcoJVZ6eTMXkZs4y515uk2JUNa5CZmEPUV",
+      "username": "kirt",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Cyan-glass~Face-5~Glasses~Empty+2~Watch~Scarf-Green.webp"
+    },
+    {
+      "address": "BgKvqWZbH9ErZe2UesvbSaKKuPHx62usCgMRoneWNGXH",
+      "username": "kids",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-2-Emerald~Face-9~Empty+2~Hairstyle-1---Green~Bracelet-orange~Buckle.webp"
+    },
+    {
+      "address": "6AArnicpRGP25peewKJNSuLtubbQ4bNfC8TWp3vpwjPM",
+      "username": "kila",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-2-Emerald~Face-4~Empty~Winter-Hat-Blue~Bracelet-orange~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "ETB3mDatMdTDWnUsJWq9jZZa69ASSncGB9Bu5HiGc348",
+      "username": "kita",
+      "profileImage": "https://socialimages.pump.fun/profile-images/566847e0-f5b1-4e9f-875a-292eb3f01513/7c01401aab64cb3c1f8cd74c45e7980a"
+    },
+    {
+      "address": "9oucEFphe8tMn3fajyWrSYbq3FDbad3cJf6NLn3bWbPT",
+      "username": "kif316",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Cyan~Face-3~Blush~Hairstyle-1---Black~Empty~Tie-Yellow.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "6K3KqNrWrfCnZJPhn143QhfKBvwiWejpsDesF2p7aNjY",
+      "username": "kioto"
+    },
+    {
+      "chain": "solana",
+      "address": "F7rRX1Yg7XSWRYRSmMuuSSdhjefTh83DorBcUC7U2Hrb",
+      "username": "KIDSKI"
+    },
+    {
+      "chain": "solana",
+      "address": "FKZVCNAnFNkzPyLBeMMhRvtRzYjT8ejisp9HaMM8Nyza",
+      "username": "king421"
+    },
+    {
+      "chain": "solana",
+      "address": "4zVx6LrYzDZrPR4RwNGZfep5YRd9wPbCgnNcfAqfoGPd",
+      "username": "KingFomo"
+    },
+    {
+      "chain": "solana",
+      "address": "7KUN7A6bBPJPRhwgWxtLrrUmaXyo5RZWvhug6jX5pCR4",
+      "username": "KingGoat"
+    },
+    {
+      "chain": "solana",
+      "address": "E1j8EYvd8vPL4qHCLzKCAAHvGhxURbCe47CD457JB9Dz",
+      "username": "kiyanadz"
+    },
+    {
+      "chain": "solana",
+      "address": "G4uHQ85j65KBsypPH6qVqoiSYUBuH9YTAqRpuhjLRJBq",
+      "username": "kinderjoy"
+    },
+    {
+      "chain": "solana",
+      "address": "5jR9yPfKpMn1LC8mhdvPvvi85a4CBpPy6yisamvYL4oy",
+      "username": "kikcharts"
+    },
+    {
+      "chain": "solana",
+      "address": "kmjkNqtXcVFqNzExVGHkw8wTaGY1uDU4UpRqJyLURX1",
+      "username": "kikikilis"
+    },
+    {
+      "chain": "solana",
+      "address": "2djudVDwv7J1uzJb9HeaseMkRkd45Xde7TnsLRj4bWUw",
+      "username": "kimjongun"
+    },
+    {
+      "chain": "solana",
+      "address": "6gN2SNYXN8gzM9yDy9A9mSsGSykLJbvfYWKkpPs3xfBq",
+      "username": "kippahxbt"
+    },
+    {
+      "chain": "solana",
+      "address": "C6MJSEbVuKe2fv7DYwXA1coMaxQLg2n7daz6ezos4SGP",
+      "username": "KingChaim"
+    },
+    {
+      "chain": "solana",
+      "address": "7JX9AiR71NTRuX8EEq3XqdJxPfrFq2wV1EmXpbombpMw",
+      "username": "KingKadooo"
+    },
+    {
+      "chain": "solana",
+      "address": "2PfVSNDVzi9Fo4fWdu6HWdvLyrM22U4xb7o2vCXGgnb6",
+      "username": "kikaka10000"
+    },
+    {
+      "chain": "solana",
+      "address": "7PCPjVkV1ZDNqjtYBMNLKymEXXF4ebwznWth4qrbY75g",
+      "username": "kingdomcozy"
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x211640fF61bF91f84744f587b1c8c67Cc08013A3",
+      "displayName": "\"Wirpool96\" Polymarket Account"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x211640fF61bF91f84744f587b1c8c67Cc08013A3",
+    "displayName": "\"Wirpool96\" Polymarket Account"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "target": "wallex",
+  "entity_id": "wallex",
+  "entity_name": "Wallex",
+  "summary": {
+    "entityId": "wallex",
+    "numAddresses": 16,
+    "volumeUsd": 8514502666.4400015,
+    "balanceUsd": 0.2001273928875824,
+    "firstTx": "2021-08-07T12:36:33Z",
+    "lastTx": "2026-09-25T05:44:35Z"
+  },
+  "top_address": "DNNwK8nvg4Fnwp1otTZNDskKKXTiF3AD2X\"",
+  "wallets": [
+    {
+      "address": "DNNwK8nvg4Fnwp1otTZNDskKKXTiF3AD2X",
+      "chain": "dogecoin",
+      "label": "Hot Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x6926408F55C4f322EBe1A3CC7e4ffF380c5543DF",
+      "chain": "ethereum",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Wallex.ir",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x14bC9d4eD7Ac51FF1556AB62ae0FEb0F6b89D707",
+      "chain": "bsc",
+      "label": "\"wallex0720\" on Polymarket",
+      "entity": "@wallex0720",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xb0cAb79aaD20CF622B8131289EAdb647df8e9A11",
+      "chain": "polygon",
+      "label": "\"wallex0720\" Polymarket Account",
+      "entity": "@wallex0720",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xC473a4bB4ffA97ACa3F87d546A8EDC380FD6abFA",
+      "chain": "base",
+      "label": "\"wallex04\" on Farcaster",
+      "entity": "@blessing2207",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x2C95Ea7367DEb5d35d0BC4729cD6F241CD7a5374",
+      "chain": "ethereum",
+      "label": "Deployer",
+      "entity": "Wallex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xb0cAb79aaD20CF622B8131289EAdb647df8e9A11",
+      "chain": "optimism",
+      "label": "Hot Wallet / Deposit",
+      "entity": "@wallex0720",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xE0613349De15de3A96421474FFd0d329a576db3a",
+      "chain": "bsc",
+      "label": "WLXT Token",
+      "entity": "Wallex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "BCxgac6dZyVQoJQcBkc71Uimr3UL4bLtMNyTPx1jbvkV",
+      "chain": "solana",
+      "label": "\"wallexdot\" on Vector.fun",
+      "entity": "@wallexdot",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xE0613349De15de3A96421474FFd0d329a576db3a",
+      "chain": "avalanche",
+      "label": "Hot Wallet / Deposit",
+      "entity": "Wallex",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "DNNwK8nvg4Fnwp1otTZNDskKKXTiF3AD2X\"",
+      "chain": "dogecoin",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Wallex",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x4A2D518AdAF5299050B8647FE8F970567Bb3c64B",
+      "chain": "evm",
+      "usd_balance": 10.35,
+      "label": "Predicted Exchange Wallet ($10.35)",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xBCEBF07A4017eA16d7F6adb8343365381b58E98d",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x365881EF7B672CC5dFBF5d755B9Df9CEFdbAFC03",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x2C8dbE51Abbb1a66E75606aCe6C4053594C1BD1B",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xA5F8468c8eBe578eceF04bDB44cbc0C6F0bFFa74",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x314c0d77C0eC40eeD4f078Ea26f3A8c81b879AFD",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x1d8B7201a2A15eCF91c46D037e4156b108112c8d",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Wallex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x2C95Ea7367DEb5d35d0BC4729cD6F241CD7a5374",
+      "chain": "bsc",
+      "label": "Deployer",
+      "entity": "Wallex",
+      "source": "transfers"
+    }
+  ]
+}

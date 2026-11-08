@@ -1,0 +1,4886 @@
+{
+  "generated_at": "2026-11-03T12:48:48.564638+00:00",
+  "method": "Hybrid On-Chain Gateway Sweeper (TronGrid + Blockstream)",
+  "total_swept_wallets": 488,
+  "wallets": [
+    {
+      "address": "TT5bkt3PL2CKNfAkBHKUz4NH1im8GjUcS1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "SUNDOG",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534481+00:00"
+    },
+    {
+      "address": "TF5317iayo2C2XpLf9kjwAG48888888888",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "Shou NengLiang",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534509+00:00"
+    },
+    {
+      "address": "TFp4V3S9JqJyQAMMCewyn4aAaLueJwzS7H",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534513+00:00"
+    },
+    {
+      "address": "TT1DyeqXaaJkt6UhVYFWUXBXknaXnBudTK",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "hash777.fun",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534516+00:00"
+    },
+    {
+      "address": "THVQzdmuyWwtYUuGoSj8vH3BWE9CXDCMSD",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "UNO",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534519+00:00"
+    },
+    {
+      "address": "TCC6EBxtUVnkemoyPuaLgj7em2La6XyUj9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "NPT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534521+00:00"
+    },
+    {
+      "address": "TYPw2EfzwN2agBaRimD7zcUnsimkHnocbr",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "nasdex.fi",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534525+00:00"
+    },
+    {
+      "address": "TSXhG6FYYpiCJyju7B5PwGKwyDcAK3pCNZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534534+00:00"
+    },
+    {
+      "address": "TDyjg96ZcUuzV4Tg3VNoGLY6FJRcQ41RGW",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "nasdex.cloud",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534538+00:00"
+    },
+    {
+      "address": "TUpHuDkiCCmwaTZBHZvQdwWzGNm5t8J2b9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534541+00:00"
+    },
+    {
+      "address": "TWh31LoznfinsbnwXhKtwiDxJg3QCe1iWR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534545+00:00"
+    },
+    {
+      "address": "TNKvFwuNRDxzBQS1h5UXxeZRNezA9wEfVb",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534548+00:00"
+    },
+    {
+      "address": "TH7uuW4ffQ89eTWcYFji4UN8JLoPEaNQhT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534550+00:00"
+    },
+    {
+      "address": "TPS5dWc6XUbUBJfVWEHVL5kxpLjubM9NqW",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534553+00:00"
+    },
+    {
+      "address": "TJS1TLUhY9xNfJzgni5xFq648b6snZgxKd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534559+00:00"
+    },
+    {
+      "address": "TLyibFqLRiq16RAXtyUdsGMqjzUeoy2YQx",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534562+00:00"
+    },
+    {
+      "address": "TLEvAhgJtsxcx1EQeK86KzViAmDXsujaVV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534565+00:00"
+    },
+    {
+      "address": "TKwUkxyn2GHCb2vwE4a6iGBDBwcUV1Egxc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "NFT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534569+00:00"
+    },
+    {
+      "address": "TBGakWmLDQvk1rUk1CQ7BPcCZTifDZBPJP",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534577+00:00"
+    },
+    {
+      "address": "TUKZWG8iqGDe166i1BVzu2B77JvymP5MQ1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534581+00:00"
+    },
+    {
+      "address": "TGBU1BaknZFRFtgT7Js6uC1fJM4waMHTBH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534587+00:00"
+    },
+    {
+      "address": "TWbYbmcKZnpAfvWjAvq4MZBTpqAiNEtYzC",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:17.534590+00:00"
+    },
+    {
+      "address": "TMiG8fEQEcuS2qY13dYvYkQaAjx9WSMLjB",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832262+00:00"
+    },
+    {
+      "address": "TBu6e74risQyYoM4sF44bjAtemAQh48NBL",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832306+00:00"
+    },
+    {
+      "address": "THt8646Kan5z2MMrd3VdqrDqxhYUoQoA6C",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832312+00:00"
+    },
+    {
+      "address": "TVenFVD76zwH3DoTfs77nySsvmVxRx6woZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832317+00:00"
+    },
+    {
+      "address": "TCPmZYZWf23wyKq1ptG3ZFNTUJGrpYq3EK",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832322+00:00"
+    },
+    {
+      "address": "TBwKxa8L47ruaajaQ6t9tkaer4vEEBnmSq",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832328+00:00"
+    },
+    {
+      "address": "TAdYv3dSFupBsiewsurgtKUthskuFWYda9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832332+00:00"
+    },
+    {
+      "address": "TZBLHGzdH682hQSysB5m5UfsGu7cSfDooL",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832336+00:00"
+    },
+    {
+      "address": "TNXoiAJ3dct8Fjg4M9fkLFh9S2v9TXc32G",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832340+00:00"
+    },
+    {
+      "address": "TKWjsLQuDqi54noUG8TNoMYkZYrXtZ2WYm",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832344+00:00"
+    },
+    {
+      "address": "TMT7YcWiWpfKNCSNoH2vQWzTjyxvJaNm5n",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832349+00:00"
+    },
+    {
+      "address": "TV9nVxPwEnnPTR5ESMSzdV3Q9Kea3nxhGH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832353+00:00"
+    },
+    {
+      "address": "TWdt6Y45b8nYSMG77BwwXvsjCoLHqTzoNG",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832358+00:00"
+    },
+    {
+      "address": "TPgTaBj4XE1cH3pJnZJd5iC4kUP1Lsc44i",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832362+00:00"
+    },
+    {
+      "address": "TKy1EZzGXose65HJNEJMbAxkbzRF3rievd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832367+00:00"
+    },
+    {
+      "address": "TH83fghYFdXQHfdKmGA7QA5o1RtoHCq1Uc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832371+00:00"
+    },
+    {
+      "address": "TYi1vFRnsrFVgmCeozjGPr3FRckEqTzoNG",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832375+00:00"
+    },
+    {
+      "address": "TCKfjH8dy6HM4vcLWnoSSpfb412ErFgye7",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832379+00:00"
+    },
+    {
+      "address": "TRAyxX5VYTjKuJqosXpasGEYL3dkL1248N",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832383+00:00"
+    },
+    {
+      "address": "TBm9jaE1vSiRifST5gZHm5sEcfAuVBcP64",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832387+00:00"
+    },
+    {
+      "address": "TLhEFHXcqMvphG6BQPqbT6c5exPFnxhvAT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832391+00:00"
+    },
+    {
+      "address": "TDMgSjttPwTmri6BksKAC3Drj6CEasv2MA",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832398+00:00"
+    },
+    {
+      "address": "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "tzb.one",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832402+00:00"
+    },
+    {
+      "address": "TVZajoUnFdmULtRWSkhQmdFfW8dyZrGWRn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832405+00:00"
+    },
+    {
+      "address": "TWA1uoSaCcPSacYTVE9EUEra9UZevUs2GE",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832410+00:00"
+    },
+    {
+      "address": "TYT1njNbegYQYiRe9XMdGG5CWiAdJyBSJf",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832414+00:00"
+    },
+    {
+      "address": "TQERXhtwunoHsqeimRaQk81LcpBipZHbqa",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832418+00:00"
+    },
+    {
+      "address": "THyrP1pr8VYNcj6QQQgMYGhzrAL9cozVxk",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832422+00:00"
+    },
+    {
+      "address": "TWKRzSCRx9uJTthRPNzT3DHNsUTycFYPYh",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832425+00:00"
+    },
+    {
+      "address": "TLHbU4EknYcDqQMzbDKinnzZJW1sVtMozJ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832430+00:00"
+    },
+    {
+      "address": "TLg9DKDczdUAWrkPH8SLdt1neDoCr57Hmh",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832434+00:00"
+    },
+    {
+      "address": "TXcp2r2WARFuEL9SYXYHQ2qJsSe9G4mCBD",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832438+00:00"
+    },
+    {
+      "address": "TJj5E4wV27ng5AFZ6yAnwDf6fvire5zKAi",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "OSE",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832445+00:00"
+    },
+    {
+      "address": "TWuV7bNmZpLB39r4DfbsEQCE45LCUCGAYC",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDDOLD",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832449+00:00"
+    },
+    {
+      "address": "TBKijPjU4j9hXZvZuiAbAK9ocoxgaCiyxf",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDDOLD",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:22.832454+00:00"
+    },
+    {
+      "address": "TUL8DBE5ckU3KeWTnfTrfRtKx8anqeKKvd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "ANTI",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631644+00:00"
+    },
+    {
+      "address": "TTrXNozqYeAehqT3JttpmuXHB58kSYqJNj",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "98hx.vip",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631653+00:00"
+    },
+    {
+      "address": "TG1b7oR9AWH5AtGXAv2U1aeZmstiFn1Sse",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "haxi66.com",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631655+00:00"
+    },
+    {
+      "address": "TG1PjN7kR2bBUuKHtvwBWs8STaB28N5Hif",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631658+00:00"
+    },
+    {
+      "address": "TW4Fgvh2R6sfNjKzJ2xueZSLWyNQ7RrUuy",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "hash6.cn",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631659+00:00"
+    },
+    {
+      "address": "TTGyhRZxZRcDz4M1bBwrsiKkZNS2GRYfWn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "NFT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631660+00:00"
+    },
+    {
+      "address": "TD7QTq2e7n7RrAK9Pz5qvFxFDKkcfc8kzc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "199bei.com",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631661+00:00"
+    },
+    {
+      "address": "TZByf4GeqTTGQ8VfQE5RreubWC1ZPSxqym",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "HIDEU.PRO",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631663+00:00"
+    },
+    {
+      "address": "TCzAevsyCrgEHbvZsjfJQrG5frkE1vJJY3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "STAR",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631664+00:00"
+    },
+    {
+      "address": "TEn5oKHhRCxBcJY9uBuWFWwU4BorXy6UQh",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "HASHH8.COM",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631665+00:00"
+    },
+    {
+      "address": "TMctVBTQ1AsyqYpmts2LXu1ajyFFkwhC98",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "DY",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631667+00:00"
+    },
+    {
+      "address": "TMpu7bdd2aEeExi3ofA8bPNBiSqAUVJdUR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "haxi66.com",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631668+00:00"
+    },
+    {
+      "address": "TEMBQUNL1kFreEKoPKKbPVJYEyk3Mimn67",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "haxi66.com",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631670+00:00"
+    },
+    {
+      "address": "TAif4FgikREk136jtzR7ZTor6pYijHrTwd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631671+00:00"
+    },
+    {
+      "address": "TQrY8tryqsYVCYS3MFbtffiPp2ccyn4STm",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631672+00:00"
+    },
+    {
+      "address": "TPsMqm9dspj4vUmdgr7Uy4PycyogrdcqTQ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631673+00:00"
+    },
+    {
+      "address": "TPAmQYNv25PYH5eKu5Jcr6nC96ewr895eV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "LAX",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631675+00:00"
+    },
+    {
+      "address": "TDj8jtT4Wm9TycKbBhoATofHMekzWZYijG",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631676+00:00"
+    },
+    {
+      "address": "TW6VYLMCAxfkArWF5PQpKYqhVKYztwCf4X",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631678+00:00"
+    },
+    {
+      "address": "TC2YdnWQJRmJzy7tD7C7e3S29SiMKuS95G",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631680+00:00"
+    },
+    {
+      "address": "TDjXXA4tTkPBXCFUC2J76LZEa4x9AeSUN7",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "PUFFS",
+      "target_hot_wallet": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:25.631682+00:00"
+    },
+    {
+      "address": "TRRYfGVrzuUvJYRe9UaA8KqxjgVSwU9m6L",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "BTT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:29.885669+00:00"
+    },
+    {
+      "address": "TPAFGMnfPzDifKA1zX9ycyFBjkjXoWTqfF",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:29.885686+00:00"
+    },
+    {
+      "address": "TSgQAea3HLykYJgWMkYyHMvUnwCFdGkvUf",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "NFT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:34.923837+00:00"
+    },
+    {
+      "address": "TD1FfjjU5nBU4MBkCG669v3EbvJNfAAHyG",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:34.923851+00:00"
+    },
+    {
+      "address": "TMpuZs3TD51P4WA6tGEsVAaGwwPUZPEryW",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:34.923860+00:00"
+    },
+    {
+      "address": "TSeZZPUtFjAwika2Pq6GNRahoDio9KaRCq",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:34.923863+00:00"
+    },
+    {
+      "address": "TQyo878LQZuvHWQ86K6oMadB8BG3JQJSyy",
+      "chain": "tron",
+      "label": "Bitpin User Deposit / Sweeper Wallet",
+      "exchange": "Bitpin",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:39.403829+00:00"
+    },
+    {
+      "address": "TNVNBGgWmgTiaL24pGd1mxTTThLKEMpd23",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348499+00:00"
+    },
+    {
+      "address": "TGQxyRoQfF1kjqPUvuNnrWEWsgKHuJWH5V",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348516+00:00"
+    },
+    {
+      "address": "TXw2k77D8pcpHUDizrn7MXdcK9nNSe7izS",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348520+00:00"
+    },
+    {
+      "address": "TNtyBABe6GDuygCKXZ3zLJCrh5R8hadrih",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348523+00:00"
+    },
+    {
+      "address": "TGfXdMjt8njkcny17f7W1nePgY1bLfuxBT",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348526+00:00"
+    },
+    {
+      "address": "TDzv7qDqxbjmZgurWMZ3iq9eEUWJ2tE8j3",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348528+00:00"
+    },
+    {
+      "address": "TLaHAWsDNZgPNKAcxgBWPcRJxsZB7UiJVo",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348531+00:00"
+    },
+    {
+      "address": "TVfauv4ZqAeQjuRvoB3RZ4gzubpttLmkTa",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348534+00:00"
+    },
+    {
+      "address": "TMfpgUH7PdC7pyfEM8zUvS8mf8EFz6Kv2Q",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348537+00:00"
+    },
+    {
+      "address": "TGjekaJzQm4oWnhTuQW1mwmQWTKetFB78g",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348539+00:00"
+    },
+    {
+      "address": "THf81NoGKScmPAFcydHcw8JhEqbiiX2Fu7",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348542+00:00"
+    },
+    {
+      "address": "TR2dP94hvmgPmHcvsLSv8CLX1oohD2NGZH",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348544+00:00"
+    },
+    {
+      "address": "TQFiYcdqTGtUCh6wHr4BUdgHWDhqDEpmcu",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348546+00:00"
+    },
+    {
+      "address": "TVmiWjs2yWb6vWBjfRwHyPLrqoKicE3bNx",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348549+00:00"
+    },
+    {
+      "address": "TN3uDEK2KAJoHn6YQAJ7RrGnTGUe7x4ZvT",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348551+00:00"
+    },
+    {
+      "address": "TGNkNdH3eENJfKFBpg82kkN87TsdEtj5Uu",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348554+00:00"
+    },
+    {
+      "address": "TCkYhCfuJDskWAziPMqfvxACxTM8Xn6RjK",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348562+00:00"
+    },
+    {
+      "address": "TTyg6rzS9om4oXxKKFaruhQhvz17MqL8QE",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348564+00:00"
+    },
+    {
+      "address": "TRey3byT9Vou1cUTruQvUms4EVwL5yi4Rh",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348567+00:00"
+    },
+    {
+      "address": "TVfVNj3aCvH9FmDcoQpSUhQsMSypegzW5s",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348569+00:00"
+    },
+    {
+      "address": "TNbnmXKSAfgkTyxewR4pUmntvibjY9sjTY",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348572+00:00"
+    },
+    {
+      "address": "TLn3fYmrS4ck8TacYfCaVrJFcqpXVjizMv",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348574+00:00"
+    },
+    {
+      "address": "TEu3cxq9eJcTJ4DaHCf7Rs7v13TF8k1AXg",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348577+00:00"
+    },
+    {
+      "address": "TGCxVrhRbVeee91KejKPcUiFon6EH998RW",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348579+00:00"
+    },
+    {
+      "address": "TVRSrCvg8ZQwrxpXmq4eUo9crvkrHQZJua",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348582+00:00"
+    },
+    {
+      "address": "TDLzKAg1TYKNHfDFSsr285JxUzUf6TERrU",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348584+00:00"
+    },
+    {
+      "address": "TTRtTcFL1vhMGx6W2XdcqntukNNhomySvD",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348586+00:00"
+    },
+    {
+      "address": "TFn4ycPevnWdoisXe2nPDrMQtFdMZTxVK9",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "SUN",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348589+00:00"
+    },
+    {
+      "address": "TNB94tkCjNys6Nh9ZYQANM6AYs8Ge7PmAA",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348591+00:00"
+    },
+    {
+      "address": "TTuAGnjLWSRQ43HYTd6ebUntWrjidVfqCr",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348593+00:00"
+    },
+    {
+      "address": "THX3ecqj1fkzaquSKXFegjKbAs8dSxNykJ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348596+00:00"
+    },
+    {
+      "address": "TKjUHtLTvTJu23n6tdxE1eUyqqEHMP8rWz",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348598+00:00"
+    },
+    {
+      "address": "TDjvTgUXDyHkx1axzHykZ5wAhu5mU12QyL",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348600+00:00"
+    },
+    {
+      "address": "TKFQWRoH6JJhagtFhv8zJKCPWVNWK428wU",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348603+00:00"
+    },
+    {
+      "address": "TEkYNoK7ixxEt5moKNQjmWJokdHTiA13Ba",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348605+00:00"
+    },
+    {
+      "address": "TMJz3SvqrTXqmFPkjVk5NXneBfffmopKwF",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348607+00:00"
+    },
+    {
+      "address": "TCxXC1EpmUAtC4GqBnesRtJ4MDjHHdQdz2",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348609+00:00"
+    },
+    {
+      "address": "TBww7T7DrXdbFZ1KeEgGsBCeYiq88dUbGG",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348612+00:00"
+    },
+    {
+      "address": "TWM6yz7NPd21Qs1V1zFj8GL98D5NGotFLE",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348614+00:00"
+    },
+    {
+      "address": "TFBUiauxiKCvSyT7Pfar4WdWNCw6woy3J2",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348616+00:00"
+    },
+    {
+      "address": "TBs3hPGR7ZH7wKtrN4UimnabAEJzfB9HWN",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348618+00:00"
+    },
+    {
+      "address": "TGuUbq5AJX4eF6q7hLrpc3SHK35HbYRmXn",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:47.348620+00:00"
+    },
+    {
+      "address": "TTKVhs72ZE4fK9AbDDoegQqPcJVfgugnbo",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496183+00:00"
+    },
+    {
+      "address": "TUx6jfmgbwchBMbq1dEbHRmEjoueGQovBj",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496204+00:00"
+    },
+    {
+      "address": "TYFKu6iproqqC2x87dDatf7NafeuywP8YC",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496208+00:00"
+    },
+    {
+      "address": "TG45vSHcxAh2SfAUVp2AuWjVYz8Ldr7sp2",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496211+00:00"
+    },
+    {
+      "address": "TKkQyeJQk1YyCwagcCvKmsBAttjYhBTMwr",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496217+00:00"
+    },
+    {
+      "address": "TRLLv1zEBqCFqBCfYb65uW9Qp528hpQzNQ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496220+00:00"
+    },
+    {
+      "address": "TUXCVUPtbYq2XwogtTvTHoycjz2zSa38bE",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496223+00:00"
+    },
+    {
+      "address": "TWJU9YYNvNxagWRToGf5NVuxygYRFF9tAY",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496227+00:00"
+    },
+    {
+      "address": "TP3VxzJU2MVyU1K7GKwMx2uPmYvQ5M91ma",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496230+00:00"
+    },
+    {
+      "address": "TTUUuj3fyozdBE8U2eseNYGe5siwaGpwg8",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496233+00:00"
+    },
+    {
+      "address": "TAgTdFAEfFZvNNwuSh5a5tkstRKps8Brvi",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496236+00:00"
+    },
+    {
+      "address": "TMY9MrJmuRUN93X8kGvihwrnuCfBBS9S88",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496240+00:00"
+    },
+    {
+      "address": "TForcNZpX19NWwVf5WiihBNU33GiduZZbi",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496243+00:00"
+    },
+    {
+      "address": "TPdoDR6RL8DhQAbVorST7EtemFUotzyFxX",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496256+00:00"
+    },
+    {
+      "address": "TK5KFZYrBB7j8Gpww3WzNu7M4wyVJtUw5M",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496259+00:00"
+    },
+    {
+      "address": "THh5Z6NKXfYCaXmvxc3HdAhYuo9Y4ECoQt",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496262+00:00"
+    },
+    {
+      "address": "TFu3f8tZHNm6QrKVs2Qh6gmn7FYvNRibNt",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496265+00:00"
+    },
+    {
+      "address": "TCTqa369ERxJnfoSnhh98n2gYKCDSZDE5q",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496267+00:00"
+    },
+    {
+      "address": "TAsezLjMrzbr2WsqdeNKnd2ZWKrYNBhemH",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "WIN",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496270+00:00"
+    },
+    {
+      "address": "TRsLUzu9bXrzd4dr8aH9K1nsuVjTHiYok3",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496273+00:00"
+    },
+    {
+      "address": "TKrQzUknpVvXGgY2BjG84Np7Ya8rzT8r2S",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496276+00:00"
+    },
+    {
+      "address": "TKVS8wDdoMXB8NagLLvExXnKAi2dNUcqXT",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496278+00:00"
+    },
+    {
+      "address": "TMAuxocgYTChARf24MtLrH6os23rTXdW26",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496281+00:00"
+    },
+    {
+      "address": "TFAfDFmGnU4vwAPQ1JyDp68UxPuSh24PXt",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496285+00:00"
+    },
+    {
+      "address": "TAD68XMhoL1ML6WzjSquevACnQCvJxVw5U",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496288+00:00"
+    },
+    {
+      "address": "TFKM8PvKbkZj5RkWw2Px221WysUTf3viDu",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496291+00:00"
+    },
+    {
+      "address": "TMdST9NYukesbnnLcMENY8TEqZwHZKxXSg",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496294+00:00"
+    },
+    {
+      "address": "TXFmAYYaWSFcHSurSgbQMyQxN2vT7hA49D",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496297+00:00"
+    },
+    {
+      "address": "TKJPcqAxXN3QHSL4KwjekmCddhria3uUVt",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496301+00:00"
+    },
+    {
+      "address": "TGYVgF2NC1TC1Ty8FhSzpsceU5mUJMP246",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496304+00:00"
+    },
+    {
+      "address": "TEnRGJC7JjSaNdatEmaM9PjWUjigBZggXF",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496307+00:00"
+    },
+    {
+      "address": "TQxEcCx5MvSUN3BLdezuazVP9Azx1LPsuJ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496310+00:00"
+    },
+    {
+      "address": "TPLawV9RBPw9xCqwft813R1UeQPLkrTYPQ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496312+00:00"
+    },
+    {
+      "address": "TKFVMGevQE61dvrte57eKnpuob5Hvq36us",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496315+00:00"
+    },
+    {
+      "address": "TT7UvYJF3xkATBnCziksfrQRd7X1oPgXPq",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496318+00:00"
+    },
+    {
+      "address": "TNbyhWzEynaULfQwqPHcbjWxyFQLc8r4t3",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496321+00:00"
+    },
+    {
+      "address": "TB7socZuxUcZTHcGJNYAWnT2mGDYQJtYxB",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496324+00:00"
+    },
+    {
+      "address": "TYERLWcmFbLtqXiy9MYYxP5z1QJvY9c4dk",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496327+00:00"
+    },
+    {
+      "address": "TLupL27BzB3S9JRXHsDzmCsVwNhvCvXsjH",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496330+00:00"
+    },
+    {
+      "address": "TUKPeEDZX5XfeBQPsRTAoKqbHt52vBfgh2",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496334+00:00"
+    },
+    {
+      "address": "TX7aBPRPXRzDCyAagnoUJx1Aoe3q1cXwvs",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496337+00:00"
+    },
+    {
+      "address": "TWqWneDK97DXHaP4fREGMC7Tjy7EztrL3T",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496340+00:00"
+    },
+    {
+      "address": "TBLwdyMcRBgRhFRsBvztADFjimRT7RcbSQ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496345+00:00"
+    },
+    {
+      "address": "TH9MM6cohfpU1grmMmQxhsvQSkUww1N88o",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496347+00:00"
+    },
+    {
+      "address": "TAkWecUd7tCM6URU1uMZga1S1RPCVmNwhT",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496354+00:00"
+    },
+    {
+      "address": "TNazaZ12CstASH4cxtsWNipuw3t1uHKTHX",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496363+00:00"
+    },
+    {
+      "address": "TBmLQ9g8NoXDTS3Zav1kS1WZgwDrom6dUZ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496367+00:00"
+    },
+    {
+      "address": "TYbpuBmALbDpsYnokWPBDocioVQm46Tci5",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496369+00:00"
+    },
+    {
+      "address": "TCoeVUXMH1GhdKd2eL8aYcEQQrECVrvTKA",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:47:54.496372+00:00"
+    },
+    {
+      "address": "TQnwbFhFinjvX6cxoANTGGQD3NxnuMQY5X",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.425976+00:00"
+    },
+    {
+      "address": "TNDSTUJuhYgoqrY4UE83T9fVbBbvbXXGN5",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.425991+00:00"
+    },
+    {
+      "address": "TQUBxA5mrFYjnWfALZ1Mj8x1TDGQcyu96D",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.425994+00:00"
+    },
+    {
+      "address": "TFJ5jrjip4KXPB9UYd3vvvskPVg3xNYW8r",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.425999+00:00"
+    },
+    {
+      "address": "TVUfVX3QD7g5ST3wBjCiioznfUFU88RYhY",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426001+00:00"
+    },
+    {
+      "address": "TNR1RsqxxB7KU1W86ha1yPyBhCHdB47TWw",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426004+00:00"
+    },
+    {
+      "address": "TLqvxXdH5SKVHJaKAK6S2oxuMQhghCHu92",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426006+00:00"
+    },
+    {
+      "address": "TUk3JLTbKBRpp1LTa9Ncu7KQwhXsUhTCjt",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426009+00:00"
+    },
+    {
+      "address": "TWQW6jMLwzaU2vc9KcA7iT515gUWfeSGxN",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426012+00:00"
+    },
+    {
+      "address": "TQr4d4ibiYbo1Pzkz58YNCuAn3wEBrzh9k",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426015+00:00"
+    },
+    {
+      "address": "TVZtFgxBk955VgcX2vzMhrfeEge7pWz51U",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426018+00:00"
+    },
+    {
+      "address": "TKH9QrK3f168zxfFe2a8vYxifsWKNwNgED",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426020+00:00"
+    },
+    {
+      "address": "TYMukfTBynz9adWeYwsixWAM3fjje2t95j",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426023+00:00"
+    },
+    {
+      "address": "TXsCnGwCztc6SRiuS2njLPPMtS6up7xtGQ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426026+00:00"
+    },
+    {
+      "address": "TBZV97LCbnz9BbDVo4DjwwCmqskK6Mo6MZ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426028+00:00"
+    },
+    {
+      "address": "TVJaMPBepeqeqYnFPj1r8giy5sjUW46n7v",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426030+00:00"
+    },
+    {
+      "address": "TLuLQEMVpnVUC68EoFShLZAgmCsrXrGiok",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426033+00:00"
+    },
+    {
+      "address": "TW2bhBiRtCnFvGwCcFLwxxWJ8KaSExXTwN",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426035+00:00"
+    },
+    {
+      "address": "TP2a97mMdNPwbPjRHhkBrKhUsLzSSyFEjD",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426038+00:00"
+    },
+    {
+      "address": "TEzFgie3ekAvu6BbHN6xLkUbUXHVD7jEud",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426040+00:00"
+    },
+    {
+      "address": "TLMgWaxNEgZQBfKTTG9n1gtcKiL4pVTmvY",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426042+00:00"
+    },
+    {
+      "address": "TCFwLMNkgVBggnw8bTwvUsjwsPmxPEozVW",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426045+00:00"
+    },
+    {
+      "address": "TMA3B5PSTh9YnqZ3DZZVZ6mug6DJqJJoW9",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426047+00:00"
+    },
+    {
+      "address": "TSiVcxsYd7BXNxaJei5zbd7EA29x9rTKVj",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426049+00:00"
+    },
+    {
+      "address": "TKK3yATy4ZutoLVztgFJNALxda1uTKLB2x",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "WIN",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426051+00:00"
+    },
+    {
+      "address": "THLk1LKgEfUSqxWx34DNqBCavTqw4eeYtr",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426053+00:00"
+    },
+    {
+      "address": "TEsKyLczk7o8SBxi3PV2yECSBi5BNY1w1v",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426055+00:00"
+    },
+    {
+      "address": "TBPqVdsoVontqGyn5cHa44PSmNnUjmFmxQ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426057+00:00"
+    },
+    {
+      "address": "TDybSmbyCDVUfy88MmTDv9y3UuQumYj2KP",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426071+00:00"
+    },
+    {
+      "address": "TVwzS5vHX8cxRXVmhaAJNXe3E7q63i85T8",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426073+00:00"
+    },
+    {
+      "address": "TEtta49n6zrqp5dDNuXe5JiNk56RPkRZ6T",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "WIN",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426076+00:00"
+    },
+    {
+      "address": "TXPgGyVAd1hTTimhprM3yXFRHpPDGtLsaV",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426078+00:00"
+    },
+    {
+      "address": "TMJ3hTzp6BA9GAzypoDSKMMw6p23zST85K",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426081+00:00"
+    },
+    {
+      "address": "TFQGLU9WtwWgkx49Jf6oMNFYEFyVqbhCtL",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426084+00:00"
+    },
+    {
+      "address": "TMvwVEpYSMYU3hLQkUMjrwyXKEqyneFv1T",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426086+00:00"
+    },
+    {
+      "address": "TBhA4C15gJiD7TcjhwoqT9SyYKwditYuhN",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426089+00:00"
+    },
+    {
+      "address": "TYiTEeuBzB1VBEtXRu7dGaWEgA3LxLH3gt",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426096+00:00"
+    },
+    {
+      "address": "TFGcUHWRNXyXGwqcxbkkhQZLPsrcTd5ssd",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426099+00:00"
+    },
+    {
+      "address": "TVFCS4HYGAiiZj2otFZPzPazrBpsJ8k2aX",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426101+00:00"
+    },
+    {
+      "address": "TR2TgT9dQvx3wbPSnth4ySMhvGdcokSCwT",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426103+00:00"
+    },
+    {
+      "address": "TSQ3QDULs2TaJiMfEybsxEHgJWEUP8YXaZ",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426106+00:00"
+    },
+    {
+      "address": "TWUREcVuQmQXbA9QCjZi8iRbJUhbP4hz5L",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426109+00:00"
+    },
+    {
+      "address": "TJ9joc1n2wUq1tNffncaXpAkaCimxqD1jd",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426112+00:00"
+    },
+    {
+      "address": "TUSQ9yRC2rMeb37tzeZjMReTXK3bFB2iT9",
+      "chain": "tron",
+      "label": "Bit24 User Deposit / Sweeper Wallet",
+      "exchange": "Bit24",
+      "token_transferred": "WIN",
+      "target_hot_wallet": "TGfVBoUwvVR7dMsNFWYThUjyPKwMV28UpK",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:01.426114+00:00"
+    },
+    {
+      "address": "TAr6KMWnkCM7XEMvLW7C1WHWm8f6666666",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "Gas15 Com",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921853+00:00"
+    },
+    {
+      "address": "TCFnNHJw3Pg3zr3H1gEazwXnpu2J9zfwir",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDCOLD",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921868+00:00"
+    },
+    {
+      "address": "TWafh8bLWDYXBEp8hSETNCYWvSVaQ4T4ai",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "BENJAMIN",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921872+00:00"
+    },
+    {
+      "address": "THPz2RR1LvYLVGfaU6DfVT1m8zWxXDDK5n",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "$SEN",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921875+00:00"
+    },
+    {
+      "address": "TSNqZL7Jg9rF5sd2FcD8TwwnUPAUF6j1if",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "ACHIVX",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921878+00:00"
+    },
+    {
+      "address": "TYSX53WjLBwwBME53HigSQd2uLv3FNxedf",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921881+00:00"
+    },
+    {
+      "address": "TCoBcxezNdMrqQ4c2kFEeppLCwg15yupxV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "BTT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921883+00:00"
+    },
+    {
+      "address": "TWvpxq7beH9pGieTez9V8odGAKQgg6HeKH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921886+00:00"
+    },
+    {
+      "address": "TRCHNHDxAU7A3zfaYPZoy5DNqVyjCxiC2z",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921889+00:00"
+    },
+    {
+      "address": "TTT6LCXfYo26qQg8L2Sj6kndwxCunUoiSC",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921892+00:00"
+    },
+    {
+      "address": "TZ3jJpWLh7MGTYzVrD4xuDdsNMCfCwgXq3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921895+00:00"
+    },
+    {
+      "address": "TKCWS7rXGkTFy4vFw3UGGWpAUU2KhCynww",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921899+00:00"
+    },
+    {
+      "address": "TNjUdZEfoghuVNwj8DsQBp7Qv2PdCdY2CG",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921902+00:00"
+    },
+    {
+      "address": "TBU4vCgP2QZwf9oUqminNL7sNCwS5rBT9z",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "JST",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921905+00:00"
+    },
+    {
+      "address": "TXUwee84RypJJYwvvMTFegiPpb9DGv2JJ8",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921908+00:00"
+    },
+    {
+      "address": "TGGMwn1V3rhwcNTtPboq1rnm6HmEfmU567",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "U567. C0M",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921911+00:00"
+    },
+    {
+      "address": "TZ744eK3SFp6gKZn3VDS5GedrHdjHsF8dc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921915+00:00"
+    },
+    {
+      "address": "TELijT9orj46uZuuSQ85xkhncpBoK31Bsn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921917+00:00"
+    },
+    {
+      "address": "TELem5ZYiMpErUweURNvSy6o64dPXHsLfN",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921919+00:00"
+    },
+    {
+      "address": "TELWecbDsWgC6J1ddAL5JCoekGsA9jbzdZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:08.921921+00:00"
+    },
+    {
+      "address": "TELPHuEH7t7Wcvnr5ttLRLFfBaRRRJAspD",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160010+00:00"
+    },
+    {
+      "address": "TEL3q7nwkYxtdi3g6c2hmv7npeFQ2d88hR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160030+00:00"
+    },
+    {
+      "address": "TEL1rqYSAvLUvaW1BoBWMowA5DsugrFF7v",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160034+00:00"
+    },
+    {
+      "address": "TEKzraxAgazzg19y4TDX6y4uBNcsVpcChc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160041+00:00"
+    },
+    {
+      "address": "TEKyiAwYhJiosCHXiCiAQEedFVCHSfFBet",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160044+00:00"
+    },
+    {
+      "address": "TEKxhcUkfuvgfn6M3eBiAdhaRiRWtKoxoU",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160049+00:00"
+    },
+    {
+      "address": "TEKc3CGTKB1SqdVqyPSZF8VV8AyAmuf86G",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160053+00:00"
+    },
+    {
+      "address": "TEKbR7reRmoKNp5zaErt99LhgMEtVVNTuR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160057+00:00"
+    },
+    {
+      "address": "TEKaosSF2hcb2xvQ5fvLEAfcQMNs1nHdYF",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160060+00:00"
+    },
+    {
+      "address": "TEKa5F27nEuiWQu9pBSV7rfHFkkHBnDaAV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160064+00:00"
+    },
+    {
+      "address": "TEKZzoGzvp8MSjCBkeRpbpSmccYhpkqVxc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160067+00:00"
+    },
+    {
+      "address": "TEHSjRnAQZScMNpD7aSo96bUk2PpwbCq52",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160071+00:00"
+    },
+    {
+      "address": "TEHP1FpXc6SKRADktrDUnVaz9LyU3iyTwC",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160075+00:00"
+    },
+    {
+      "address": "TEHNfAbBFmCgUtVgfHTRGBzzSJphMsf3kZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160077+00:00"
+    },
+    {
+      "address": "TEHL6M7gtpt8DgKcTZ9HMgDB7ghwdnBSbi",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160081+00:00"
+    },
+    {
+      "address": "TEHCfWunicgN6PgmhWyZhKJnpba9jbKKn1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160084+00:00"
+    },
+    {
+      "address": "TEHA39jD7CMtMXzZzQ2CDwC4WaBVLZZXq8",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160087+00:00"
+    },
+    {
+      "address": "TEH9cbwWzYDfAWuD41yK6CPzggPa3F4ow9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160090+00:00"
+    },
+    {
+      "address": "TEH8B5vcHGoYSEEvpdg13BtTUga61MS4mC",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160093+00:00"
+    },
+    {
+      "address": "TEH3VJQakB69UVQPxZbLdkARB5JjL2ywiG",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160096+00:00"
+    },
+    {
+      "address": "TEGzejsRt8c5kpUTiankPFxsydWtD5CbJq",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160099+00:00"
+    },
+    {
+      "address": "TEGvrh49EaVQw9LJLBLtEFxv2X4Lz8MgfK",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160102+00:00"
+    },
+    {
+      "address": "TEGvA6C1Vz3yceNPMaq8Z1R2ruyWmv6eUM",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160105+00:00"
+    },
+    {
+      "address": "TEGrd7f9MMi8TUSx6cRrGms7FcHvxQBCxj",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160109+00:00"
+    },
+    {
+      "address": "TEGiE2NDKctGW7SAteUvP9ShAFS96FD3Jg",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160111+00:00"
+    },
+    {
+      "address": "TEGe4ZHuPVmEsRNGo5FMZ1jkKL1uPwkcEX",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160114+00:00"
+    },
+    {
+      "address": "TEGSFAVToXURACXpCLVhMcj6fsDgWKSuS2",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160117+00:00"
+    },
+    {
+      "address": "TEGM4ToktyYjdPs2EPby3JNoqT74jHPUVQ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160120+00:00"
+    },
+    {
+      "address": "TEGLSLnn3iPg8k6yLR3gEVNVyYUhYFnyoE",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160122+00:00"
+    },
+    {
+      "address": "TEETy1VZDLAPafbWvCXhQmdpJddZxw9jMk",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160125+00:00"
+    },
+    {
+      "address": "TEE8H7dUDLi17uURAQcyRLz1yBotd6Gjsz",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160128+00:00"
+    },
+    {
+      "address": "TEE5Gszp7riZJ8TeZYhu3PR4kUx2Hwq4TN",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160131+00:00"
+    },
+    {
+      "address": "TEE4XtmCMY522euD6gQ7uAhvW9yxNNP2NS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160134+00:00"
+    },
+    {
+      "address": "TEE1eEEgLr6eSngLgEjwin5cgMKoZdQ4EP",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160136+00:00"
+    },
+    {
+      "address": "TEDzFgTG8A1s962CQrwxzLSXJ1JYZG76MR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160139+00:00"
+    },
+    {
+      "address": "TEDmdR6BByXLCKWjB4fpx8L3cPzrn5kFV1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160142+00:00"
+    },
+    {
+      "address": "TEDkE2xXF22dUmrJ9kdHAyRL5M3mwPoWz5",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160145+00:00"
+    },
+    {
+      "address": "TEDkC8YKYNMKJDPNa2Hek1Zdf4wPmxbn65",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160147+00:00"
+    },
+    {
+      "address": "TEDj5AJ5GnDDcUmE6YdiXdG1uNkbdJwhBW",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160150+00:00"
+    },
+    {
+      "address": "TEDZepMTBtmpgBQgJNRDDYKXxwYWS1Bnfi",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160153+00:00"
+    },
+    {
+      "address": "TEDX16E9de7RGaSvL8qWUydxCgoZ7SEkLN",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160155+00:00"
+    },
+    {
+      "address": "TEBKdP6vekmFC3UkVCPtpXj9X89GZqLQKe",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160158+00:00"
+    },
+    {
+      "address": "TE9ZJpR3MfY5gz7pWbyG1wydftbCHaeEPR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160161+00:00"
+    },
+    {
+      "address": "TE5Xfem67HMahbe9rRkBbH8pPDmVsLhfhX",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160163+00:00"
+    },
+    {
+      "address": "TE3K2uCPdsr4tKRaDpXVw66FFSPACtNAr9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160166+00:00"
+    },
+    {
+      "address": "TE3HvtHNSBqMUv8nbcYMBzkkB8hNgzgiHy",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160169+00:00"
+    },
+    {
+      "address": "TE1ud9Mo4bAMwvT87U4wD1xb7yaZhN2G6t",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160187+00:00"
+    },
+    {
+      "address": "TDzdCY6NuhBLdhZMGeUDDad1MWNt9Uf472",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160190+00:00"
+    },
+    {
+      "address": "TDyhDgK9shBFgGLrdQVURYKrPSEJXQ8bsW",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160193+00:00"
+    },
+    {
+      "address": "TDyfcNjrvB13kuGxJ6oGq4c5w4wxJzWhHR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:16.160197+00:00"
+    },
+    {
+      "address": "TDyaWLerg3nJthVQF6swRohTJehic8z6ZW",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112024+00:00"
+    },
+    {
+      "address": "TDyVBXYBbm5MgfLZGCcmg7ARk1H5AT2cV1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112044+00:00"
+    },
+    {
+      "address": "TDySwGNNetB23jddF5xkAAttbTcSkUXYY8",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112048+00:00"
+    },
+    {
+      "address": "TDyMtpL6jVUyaAJRkZGZ84sPYJsexN2SMo",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112052+00:00"
+    },
+    {
+      "address": "TDxeMczTVW6h79consdwnPTmaugsqBcqd1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112056+00:00"
+    },
+    {
+      "address": "TDxbSdU3nfEJ79dxsm51WQz6Xr7oRaqDxZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112060+00:00"
+    },
+    {
+      "address": "TDxVtbCW8B64nHLKKGeJvRvJoSuDP2m2Gd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112064+00:00"
+    },
+    {
+      "address": "TDxNY2VpEn5ihzA2j7faUosUdCe88A7SaF",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112067+00:00"
+    },
+    {
+      "address": "TDx3kGUxAXeqRjmpRn8KKWHnj62q1SmzB5",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112071+00:00"
+    },
+    {
+      "address": "TDx3bUwM3nD2RegX59h9A72RYaPBDRN24X",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112074+00:00"
+    },
+    {
+      "address": "TDvu1v1PoWA44EnCXYpLafggchYfbviu3U",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112078+00:00"
+    },
+    {
+      "address": "TDvfco8J2StitLj5VavB7N9a7j7CAVYsLS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112081+00:00"
+    },
+    {
+      "address": "TDvbjLLYnrxKyqTw2vUGb9bcHCsxTscA1d",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112085+00:00"
+    },
+    {
+      "address": "TDvYvNSM2hLyyhC28PyrfM8tobwAtsaSRv",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112089+00:00"
+    },
+    {
+      "address": "TDvVg4opvg7QjwLkQkgsNCz3DTsb9W43Kp",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112092+00:00"
+    },
+    {
+      "address": "TDvV433b9pM3yupK3EmczTixtor1bw4nYc",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112095+00:00"
+    },
+    {
+      "address": "TDvRQSXg8aARRKeK6LNb4u5FTptcnMvSBz",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112099+00:00"
+    },
+    {
+      "address": "TDvLN1GadPUupouRsA2hkq3PxJ3JnZqu3q",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112102+00:00"
+    },
+    {
+      "address": "TDvJ5sUGZYNn7WtBUusULqj6pSJfptx9C3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112106+00:00"
+    },
+    {
+      "address": "TDvGceSNemrPYJGQY4BjwM4gGKBAdZYkPM",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112109+00:00"
+    },
+    {
+      "address": "TDvEvWS1th4YhUWcUV8NuiM3dRpuvBF6uD",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112112+00:00"
+    },
+    {
+      "address": "TDuuusjcQ8sU7HzuQjhbdtcvNpZS7dCr55",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112116+00:00"
+    },
+    {
+      "address": "TDuuSTmgRTKVsTwNya6i8b5Lu3GNTq2vJF",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112119+00:00"
+    },
+    {
+      "address": "TDut7BFN4fuerLjLKBRXKWHyqj4qRkPmaw",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112123+00:00"
+    },
+    {
+      "address": "TDtdvbSSZcpZ8ddALqhqbc73ipWKjjjpip",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112126+00:00"
+    },
+    {
+      "address": "TDtU8r8V2U9AfA3RC5j9d5pnth5DboqAKv",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112130+00:00"
+    },
+    {
+      "address": "TDtR1ohn1soj84CGUjMX7iBfzgoG6dGG2R",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112133+00:00"
+    },
+    {
+      "address": "TDtQ46Zkc9J5bKbuhaE176qNVYYaxC1tnC",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112136+00:00"
+    },
+    {
+      "address": "TDtFve6qzkU6vu1f6EdFzZJPYfu5YppsDs",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112140+00:00"
+    },
+    {
+      "address": "TDtFXYFr13HCnPmT4dZ2njmywSxngRcjFn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112143+00:00"
+    },
+    {
+      "address": "TDtCnmFA1VYV15tV2y6LUw6AN3WdYVMJSB",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112146+00:00"
+    },
+    {
+      "address": "TDtC5CXVC1hkzDULWg9QRirC546rwarN4P",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112149+00:00"
+    },
+    {
+      "address": "TDtAdCJB8YbLE3sz9LgU41gi8q6LD8h38i",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "BTT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112153+00:00"
+    },
+    {
+      "address": "TDt1fdhPvaBiCCmGoyyz3RdrW9Atf6twqb",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112156+00:00"
+    },
+    {
+      "address": "TDsj1oLzTa2guPArKc4pxoQF5bCBoMJXHX",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112160+00:00"
+    },
+    {
+      "address": "TDsg3rq1vMP28EH8VrUN4AHmJGmMgEK33f",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112163+00:00"
+    },
+    {
+      "address": "TDsbqNjQ4B3ufFJVj9eoNHPXuxYwayGLva",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112167+00:00"
+    },
+    {
+      "address": "TDsbGDgJ9t9XpgWKM5W91yKFXJzf2Wof9j",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112170+00:00"
+    },
+    {
+      "address": "TDsairCk1MVh7ACNRzNnGKC1JVcjg7hRKX",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112174+00:00"
+    },
+    {
+      "address": "TDsYXkhpgVtG4FsktSj5HdM5gsfzEywRwS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112177+00:00"
+    },
+    {
+      "address": "TDsYNA7iqTc8MLsZUdFMiQjVXF3qe7QLcT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112180+00:00"
+    },
+    {
+      "address": "TDsQt56cmRTC7MC1cwG6PLxE1Xf1Yv1kxg",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112183+00:00"
+    },
+    {
+      "address": "TDsBhbMPM25Hr8b39keCwUVE6EVjuhoatz",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112187+00:00"
+    },
+    {
+      "address": "TDsBaN2wKqN7LZAeiDBzSNPxK74H2ZUyAe",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112190+00:00"
+    },
+    {
+      "address": "TDs62Wz7TJ6Zwe6gn9h2KfjgdkbYEwEUhq",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112194+00:00"
+    },
+    {
+      "address": "TDrt19rdRh8vQGpQsi76R5jCRxJUg6TWY7",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112197+00:00"
+    },
+    {
+      "address": "TDrotciwJARwoLRhHgwqAoyiPKyDfBkQBV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112200+00:00"
+    },
+    {
+      "address": "TDrkSCoQrjSiWXFiVYspsRE1jbcWqyPWRe",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112204+00:00"
+    },
+    {
+      "address": "TDreytNHTNa7CfzR1MWSiok5PGjayyDaYR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112207+00:00"
+    },
+    {
+      "address": "TDrcMbbdz2AbhVWEgPyh6719i17JpfrpUm",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:20.112211+00:00"
+    },
+    {
+      "address": "TJwT1J97d2cZjqyhVuQRQ4YtmymFvMyPxB",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697767+00:00"
+    },
+    {
+      "address": "TMYM9KfhpCQjUmZSr1EXk7Nc2gAh5isNrk",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "HX28com",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697781+00:00"
+    },
+    {
+      "address": "TDqSquXBgUCLYvYC4XZgrprLK589dkhSCf",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "HX28com",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697789+00:00"
+    },
+    {
+      "address": "TRLxX5kR2XzWTfdWhkovhKg4v5aP1hBtHu",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697792+00:00"
+    },
+    {
+      "address": "TXazRaJAAdoXhkxG4eJuCaofKRp8Ghzvm3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "$SEN",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697795+00:00"
+    },
+    {
+      "address": "TCYmd1U4xrvuw24RHS6CbJR1zk6i8MEEDP",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697798+00:00"
+    },
+    {
+      "address": "TMphjNt1QjQx3yozu3diXJnRDHAbgkAx9m",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697800+00:00"
+    },
+    {
+      "address": "TDE89ravBACZVqNhWxA61hUhLE6cc6SxCH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697803+00:00"
+    },
+    {
+      "address": "TXipTgQBsSWNoXXADkidfxxvxwLLcJNNEM",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697805+00:00"
+    },
+    {
+      "address": "TT2XDU6zMppbLur4fzPP13f32ZNoSjZyyX",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697807+00:00"
+    },
+    {
+      "address": "TRRRdnBR2opws5Xh6QNgZYHnrUuvLUZQtA",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697811+00:00"
+    },
+    {
+      "address": "TVUgKUUAaavy8zYTLqPBb9uvAAijPyHZ8u",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697813+00:00"
+    },
+    {
+      "address": "TX43N5FM52r7jJxoPC3EpQ9YNiztgsWKUM",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697815+00:00"
+    },
+    {
+      "address": "TH9ysRXMtefjTUFhi6xxuvJNRAWVGEFuXL",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697818+00:00"
+    },
+    {
+      "address": "TYLEM4ms9jU6aD9txnwew5PfcPGyaygWfF",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697820+00:00"
+    },
+    {
+      "address": "TQvT7PQwfWxfmDtEHcQzqed1aUmd7DsS7j",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697822+00:00"
+    },
+    {
+      "address": "TXHoKCb8fFZ1xpiidENNsuSXnWFSSLH9Lf",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "ACHIVX",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697825+00:00"
+    },
+    {
+      "address": "TBAjNMmneLD34tsX4fcKuZtvYgCQSyrByT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "TG :@VIPHF8",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697828+00:00"
+    },
+    {
+      "address": "TTJQ2hyFn4yNA9TThNS2CrxMCrfH1vh7wk",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697830+00:00"
+    },
+    {
+      "address": "TEqTwBRkgw2mEAv6TSgVftYUqmCiG5SSer",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697833+00:00"
+    },
+    {
+      "address": "TJoG94osC9G54YUeAGm5SFpv8TubYHkKfP",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "DCT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697835+00:00"
+    },
+    {
+      "address": "TTh5Kdgs7JtLVgSwUohZ94YKFcm3qzNrPy",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697841+00:00"
+    },
+    {
+      "address": "TWwYx9LxEviaAzfW2ZUf5vUZGFFeAkZbMA",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697844+00:00"
+    },
+    {
+      "address": "TZ7CSx1QRAnryjAL9Rrkk6wmicNHrkHfhy",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697846+00:00"
+    },
+    {
+      "address": "TYG4xphv4CAgKfNdSQw2n5NpU322bo2ZPi",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697849+00:00"
+    },
+    {
+      "address": "TGa5DgVMSSDZRfcbKwHUv1b3bTvmMpo3wV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697851+00:00"
+    },
+    {
+      "address": "TU8K3Qat9K3uR9NePitP4CfkpBfZKwUDBe",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697854+00:00"
+    },
+    {
+      "address": "TRRgGpPdZAwamQNQaarR2u5wQyLwPXEZof",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697856+00:00"
+    },
+    {
+      "address": "TC3SijWw3xSSYJhmRE6J4MabmS5o8t3eEv",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697858+00:00"
+    },
+    {
+      "address": "TWFSbiV1Z5LEThmCiLRtfUwbQBLpqBqGEV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697861+00:00"
+    },
+    {
+      "address": "TLseE2HvutGYnjB6aqPEsnY5HP2W9jrVPp",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "333CC.CC",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697863+00:00"
+    },
+    {
+      "address": "TTWML7UcAM6KQMba8B9bt6CA2xpd47TUkE",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697865+00:00"
+    },
+    {
+      "address": "TDmdUsq7masUPTfksvSBsWivfdxzUgs3Zh",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697867+00:00"
+    },
+    {
+      "address": "TUrz16k66TCVqspNqGmU53Wto7pPjj8j4u",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697870+00:00"
+    },
+    {
+      "address": "TSg3J91rwAjMzHG1TUeD9x7WdusAQk4uM7",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697872+00:00"
+    },
+    {
+      "address": "TG4nSi9q19JV35fZvk4k7yUmHTuQTKNa7B",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697874+00:00"
+    },
+    {
+      "address": "TThwQqntp7MErz1uLxuyqKBwfHkkaDjvgE",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697876+00:00"
+    },
+    {
+      "address": "TRzYSn1EDEEYJpmexMcwBN42mCf1RXwxi2",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697878+00:00"
+    },
+    {
+      "address": "TN8CwnWmouFByTBHxE7ZRkauikPDmjsbuZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697881+00:00"
+    },
+    {
+      "address": "TAPjhqxU4qa9Gurh86mP9jVdwxhxsQy4Zj",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697883+00:00"
+    },
+    {
+      "address": "TK3HEBy9kR47moB7e3X3SodcnrovjEoNWw",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697885+00:00"
+    },
+    {
+      "address": "TXhzVrCib8uVi9BABU2QxXCjwvN9ktLnjx",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697887+00:00"
+    },
+    {
+      "address": "TKbRp8kF1BdyKz3MfBtoR2YkxCZc8Pnpq4",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697898+00:00"
+    },
+    {
+      "address": "TJZc5NuBf8Z6GErNdwFTmoxZYHaea563TN",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697902+00:00"
+    },
+    {
+      "address": "TN2pi72jsvfJhNFexkGEThbpP48bv4J7xS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697904+00:00"
+    },
+    {
+      "address": "TBDRXP1ArD8vWinvWzGGQTwV2bngQHxSwZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697906+00:00"
+    },
+    {
+      "address": "TGk7vskWYWSrmJXw3ut2MWu4T5HkEsJWH7",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:27.697908+00:00"
+    },
+    {
+      "address": "TSKuqWbmSdEU525RSwpWwWj4NTffSTDY73",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408333+00:00"
+    },
+    {
+      "address": "TJByAnqDFghVu1Nd4caaTL9QRETJLxf7CL",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408345+00:00"
+    },
+    {
+      "address": "TXwHVrcUeQsSknQ6mC3yed25qcHxGM2qhV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408349+00:00"
+    },
+    {
+      "address": "TQf4ZWRWLnuWmuyqfkatkpkh1iaSc4Axud",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408351+00:00"
+    },
+    {
+      "address": "TRjocRxJdqtPeqVWTFNve7dSA9V3GKP68r",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408354+00:00"
+    },
+    {
+      "address": "TUFa7RSmJnPYo3ZRfw73ttGATnxVJtvyeD",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408356+00:00"
+    },
+    {
+      "address": "TASoFoWjNd8JWJUPTbmFABtUu4ck7QgM1K",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408359+00:00"
+    },
+    {
+      "address": "TYCFAJ3AxbgKSCCBEZa5eHeUkYsq1UhRK4",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408361+00:00"
+    },
+    {
+      "address": "TJzpbrmbHqttqfXqt1m4LBGsMRGeMqpcka",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408363+00:00"
+    },
+    {
+      "address": "TTKHD1wjaACVk9J79w11jLBKtUc5XWq47p",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408366+00:00"
+    },
+    {
+      "address": "TY9M7Q6BQQf6aEDgSsYghiQ66682MomRBY",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408368+00:00"
+    },
+    {
+      "address": "TSzNZ75ocQsuxfyQGjkaLmzQphnMvC7Gcd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408371+00:00"
+    },
+    {
+      "address": "TSbQsNxtj2KoxxAJ9mRmP6Uy84d2tNKx4j",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408373+00:00"
+    },
+    {
+      "address": "TKycZSEmmSJmdKXYkymKDU2MFMhDtutRDH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408376+00:00"
+    },
+    {
+      "address": "TNJ8pCjG34hVj1b8res7Y1FsUHn3Qc2azV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408378+00:00"
+    },
+    {
+      "address": "TDHbR8JV2PBWwMyJ2KBjSpVkmcFZt3dWJ9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408380+00:00"
+    },
+    {
+      "address": "TCBtSbD82uUD93jddKNjtQv1RmgGHM8Nqz",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408383+00:00"
+    },
+    {
+      "address": "TXDL8rSivUkRq5jjaAVg4r6VJ8j5nQza4m",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408385+00:00"
+    },
+    {
+      "address": "TPcC3cg4ePPxAxbLTQU3FVaLKjDsNba38W",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408387+00:00"
+    },
+    {
+      "address": "TFgJE49Rkh2WQ12UZwoeApgjaPjj1VUruS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408390+00:00"
+    },
+    {
+      "address": "TRopUPSSGbwQBA9LUqPVcv7gu1GYpkstqG",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408392+00:00"
+    },
+    {
+      "address": "TEGAcn2YSnxz8YoL2dXgPmETpg9u5C5RqY",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408394+00:00"
+    },
+    {
+      "address": "TFmQpsMQHC7utQygxP6QS2NGFyVDrNLaDa",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408397+00:00"
+    },
+    {
+      "address": "TD7dbiduC8bXBWYJzgW4UBacZf7pazanfx",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408400+00:00"
+    },
+    {
+      "address": "TTHpTTzDxi92EfBLopMSLaqm3iKf5yyNSN",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408402+00:00"
+    },
+    {
+      "address": "TEUZ1XX5Frwyb1Q29iyE4XnBpudcpTq1dZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408404+00:00"
+    },
+    {
+      "address": "TKjzY64Hrdr9NfCmbriPeDNEQSTMUg2sWe",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408407+00:00"
+    },
+    {
+      "address": "TCTNWZchFdjGQjBfFyGrBsJFjE5EsdKmhZ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408410+00:00"
+    },
+    {
+      "address": "TYYtQcLZwXuZa5szN8694JGucvX5qUphEw",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408412+00:00"
+    },
+    {
+      "address": "TFLEiVTiBjttG1sZAwdcrBzbBjYweRvLSd",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408414+00:00"
+    },
+    {
+      "address": "TMnq2Qz8NMRQ7KQB5n7AJUQVoXe9Hr8AyT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408416+00:00"
+    },
+    {
+      "address": "TCToQu5pVi14E8Aqe4d6GzZt9jgbj7DM1w",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408419+00:00"
+    },
+    {
+      "address": "TH1ZR1eQgDPwcFEoHyjkinKN5NXxELXsR7",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408421+00:00"
+    },
+    {
+      "address": "TYf7kLiScKXjp3ibnb1YiZ7tBkgACiMC92",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408423+00:00"
+    },
+    {
+      "address": "THMsdkFYEC7c6HKdtymCYM752VhZMNbkZx",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408425+00:00"
+    },
+    {
+      "address": "TL7NrkxR1BUb4ahaPFttJrBx5yG1aT7bSM",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408428+00:00"
+    },
+    {
+      "address": "TQVCiSzCTQ4yB4F6SVBSXK7TUnLYopXCqH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408432+00:00"
+    },
+    {
+      "address": "TXChxba4wG1EsUHS66YmTeyacD9UD3pFoF",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408435+00:00"
+    },
+    {
+      "address": "TQFLPW9fV7tjzJwu7gacLiVmUEq3umACKW",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408437+00:00"
+    },
+    {
+      "address": "TRGuFd4jtSaRMqGqCQVaAqXHNNTP2ni6HP",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408440+00:00"
+    },
+    {
+      "address": "TYhCvAniPoMb3Z7ydK6EjjxQfUtNkuxdZh",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408442+00:00"
+    },
+    {
+      "address": "TSGi7o3dbkW5CdACRYyHqJ3RtMZADXopKy",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408444+00:00"
+    },
+    {
+      "address": "TMU4NXWtR6ZpggAtVrS7q43jtmoAZy61ZS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408447+00:00"
+    },
+    {
+      "address": "TB1Q4ttC9iPtpPz1sHys2toHk7Jg2X3cqQ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408449+00:00"
+    },
+    {
+      "address": "TWAcxmjZ1C1xaYTQwhn1dBW2Jba7HRhkGx",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408451+00:00"
+    },
+    {
+      "address": "TRvvZxK8FjgrkPGzecsx4tjVbUZmV49uYu",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408453+00:00"
+    },
+    {
+      "address": "TEvgAkXydLwcbinLzsGcezbDLDERMwJL61",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408455+00:00"
+    },
+    {
+      "address": "TJyYsz7di3qsx3C83s8HFup5r4L5wGdPzp",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408458+00:00"
+    },
+    {
+      "address": "TNCchdJksvwoH5M5A1hkh1Q8ktbbK3Porr",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408460+00:00"
+    },
+    {
+      "address": "TGUpaxq3n3np6zaT8QoUHCgutt6tKyu2A4",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:30.408462+00:00"
+    },
+    {
+      "address": "TMLe7XXc9SsEE1j5C5pYtkwbEZmbnjnqJe",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032783+00:00"
+    },
+    {
+      "address": "TL9734SXBEqrb4bVqZc9AYt16jbuL8SzBa",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032801+00:00"
+    },
+    {
+      "address": "TEzRZtwwrqq3en6KBSPBm5foC5w437GE6T",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032805+00:00"
+    },
+    {
+      "address": "TRfboofWCAfBBag6nnKM2iaaKsd1isqLr3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032809+00:00"
+    },
+    {
+      "address": "TGhkoq8N9p5r98kZa6KZrFNMsZkqwePrXV",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032815+00:00"
+    },
+    {
+      "address": "TT5tRCQxhWVeDK8vvyBBa4ahqkXpmaSym3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032819+00:00"
+    },
+    {
+      "address": "TVRvRooRWZ5a4iGbca7WwP4UajNxBzVRLH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032822+00:00"
+    },
+    {
+      "address": "TYPJwX2xVjhwsPZaM8gpCqPaEHkGnRAkEE",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032826+00:00"
+    },
+    {
+      "address": "TCikMUnenFMnncvaMTxruuRbZ2UTPkkeUo",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032829+00:00"
+    },
+    {
+      "address": "THutLK14kJLLUyPXMjKfXhDV91nYqXZDQr",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032832+00:00"
+    },
+    {
+      "address": "TSJwtu1Qc9khtb8uhMoNXk3NczHLqR6Jat",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032835+00:00"
+    },
+    {
+      "address": "TYmas9aGXkhTc7E2GqVKsjhhy5XHBw5reD",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032838+00:00"
+    },
+    {
+      "address": "THrF2NXExWrrFB6hR2gRLy29T6j8nXnjoU",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032841+00:00"
+    },
+    {
+      "address": "TBGaLoVnnPJmxMuRpjpuEQCwXqH3o3HhUQ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032844+00:00"
+    },
+    {
+      "address": "TQo65ZAcpmWynjtytWhNTm7XfJZ2oXU6kn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032848+00:00"
+    },
+    {
+      "address": "TF4uqKcFEiD36SP66ut2LR8v3dHE6qyrMi",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032851+00:00"
+    },
+    {
+      "address": "TChJVXCFLGXJM4KHSXwuugi7mY3Emp2gVS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032854+00:00"
+    },
+    {
+      "address": "TV6HYkZzwbLjJsxzxhVH7WetV5mJTD9SJ8",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032857+00:00"
+    },
+    {
+      "address": "TGXcokXNM5EW77DY41KEUGXb2k85SM83iX",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032860+00:00"
+    },
+    {
+      "address": "TJvcFudNYK4ySGLhWi2oqS3sxRQxWMNnP6",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032863+00:00"
+    },
+    {
+      "address": "TJSKz1dt2dmxbhZzexXgWmouc6ekZsVUnS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032866+00:00"
+    },
+    {
+      "address": "THNdEvDtDrCz7RsCh8gVdW5TPfA2yEk7W9",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032869+00:00"
+    },
+    {
+      "address": "TYVnAosWSVHzbaN9mjKij321bmNttCvPj2",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032872+00:00"
+    },
+    {
+      "address": "TJCqJKGufCGew3g7iPDCmSxdt6PBbDo4jm",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032875+00:00"
+    },
+    {
+      "address": "TM8DrxpiYXitzsdhN1LYpD9an9HVjLtqGQ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032877+00:00"
+    },
+    {
+      "address": "TSYfD2fZGfp2t1JSPwJiXvBNfPrYvSzKXF",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032880+00:00"
+    },
+    {
+      "address": "TCh3FtWKKdyJ7JA4hri2ojPRuQugTD6Jic",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032883+00:00"
+    },
+    {
+      "address": "TCj2L9Z95ijXiXGwivu9ypW2zyrt4qejXv",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032885+00:00"
+    },
+    {
+      "address": "TBE3B6KXrAg1VCadfhtBm74msbvzyaF1DT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032888+00:00"
+    },
+    {
+      "address": "TBdVy2FtdstrJEhHje4Ht7xnPn4zHkPLHv",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032891+00:00"
+    },
+    {
+      "address": "TXgfGURY2DfmzGbX4R6em7A6evXHWYu2ei",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032894+00:00"
+    },
+    {
+      "address": "TJy7d2yDLu5UbWwPDDXm6aXX6hSEAEZ3FH",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032897+00:00"
+    },
+    {
+      "address": "TKMYgAvizVrfr88BZYMYpAu2Cz6JrWhBjQ",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032899+00:00"
+    },
+    {
+      "address": "TVqvFJKVe36FacgYm2WubJxjEbBkqMx141",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032902+00:00"
+    },
+    {
+      "address": "TBQj3FTYg4z74ZSZ7NLMKRKE9WYYbqcZCT",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032905+00:00"
+    },
+    {
+      "address": "TYVh2TVVTtyU41ZGgtSunUBuvtJcG9HUBn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032908+00:00"
+    },
+    {
+      "address": "TLuGUJgWRz46DG2krK4D9cQuxK5ezjDuue",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032910+00:00"
+    },
+    {
+      "address": "TFapmsuj7PwcoEnpZ494YEkW36pcArDUcm",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032913+00:00"
+    },
+    {
+      "address": "TP3ozJtakHwhLdUf2c7vahFtijxUCKyn7J",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032916+00:00"
+    },
+    {
+      "address": "TAf5YBYfEZ9kcf85QxEJojB6X2Bio9rbGm",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032918+00:00"
+    },
+    {
+      "address": "TVUiCHwpXdrSrApaS3DRrXEu79RuWp5EHR",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032921+00:00"
+    },
+    {
+      "address": "TJ8CADadMJL4665vEkadKcELMZvy1gAQk6",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032924+00:00"
+    },
+    {
+      "address": "TZBGXGMz6pCYXVFVwAq3Uiz13oBNhwxnEM",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032927+00:00"
+    },
+    {
+      "address": "THJt5uRbr1ksYQ4SuDHNaFedkLpUJQFhpS",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032930+00:00"
+    },
+    {
+      "address": "TKyxm6N75TcX6yt6qGmdnpQWkdXkHb7Hi3",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032933+00:00"
+    },
+    {
+      "address": "TYydFHNvvLkBF22Q1BemtW1CPVugabcdLL",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032936+00:00"
+    },
+    {
+      "address": "TMj8hStZkQXyC3h9NAz7ed8mupg5JSPLpn",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032938+00:00"
+    },
+    {
+      "address": "TRSrEgVPxSA5gjuxc6vSxP6qz78A7oRcs1",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032941+00:00"
+    },
+    {
+      "address": "TE3yenES1MLRuTqguGizcR9DiFnbJaiXQh",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032944+00:00"
+    },
+    {
+      "address": "TXeezrYZbeNWiJ2yKFqykLeovgrc3trws6",
+      "chain": "tron",
+      "label": "Nobitex.ir User Deposit / Sweeper Wallet",
+      "exchange": "Nobitex.ir",
+      "token_transferred": "USDT",
+      "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "source": "onchain/trongrid",
+      "first_seen": "2026-11-03T12:48:36.032947+00:00"
+    },
+    {
+      "address": "bc1q8v7yw3ftthxxlm87f2yskv3g6dqedlu5qtgqdz",
+      "chain": "bitcoin",
+      "label": "Nobitex.ir User BTC Depositor / Associated Wallet",
+      "exchange": "Nobitex.ir",
+      "target_hot_wallet": "bc1qgr3d2uwesguppck3mmdzk63p2n42788a87pczr",
+      "source": "onchain/blockstream",
+      "first_seen": "2026-11-03T12:48:37.968481+00:00"
+    }
+  ]
+}

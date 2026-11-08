@@ -1,0 +1,534 @@
+{
+  "entities": {
+    "bitmine": {
+      "name": "Bitmine",
+      "note": "",
+      "id": "bitmine",
+      "type": "fund",
+      "service": null,
+      "website": "https://bitminetech.io/",
+      "twitter": "https://x.com/BitMNR",
+      "populatedTags": [
+        {
+          "id": "note-entity",
+          "label": "Note: Bitmine has staked a large portion of its ETH holdings",
+          "rank": 15,
+          "excludeEntities": false,
+          "disablePage": true,
+          "tagParams": "Note: Bitmine has staked a large portion of its ETH holdings"
+        },
+        {
+          "id": "treasury-company",
+          "label": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"} Treasury Company",
+          "rank": 39,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"}"
+        },
+        {
+          "id": "fund",
+          "label": "Fund",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "validator",
+          "label": "Validator",
+          "rank": 70,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "whale",
+          "label": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"} Whale",
+          "rank": 130,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"ethereum\",\"symbol\":\"ETH\"}"
+        },
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "multisig-deployer",
+          "label": "MultiSig Deployer",
+          "rank": 190,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "multisig",
+          "label": "MultiSig / Contract Wallet",
+          "rank": 230,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "coinbase-prime-custody",
+          "label": "Coinbase Prime Custody",
+          "rank": 240,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "ens-owner",
+          "label": "discordkitten.eth Owner",
+          "rank": 310,
+          "excludeEntities": false,
+          "disablePage": true,
+          "tagParams": "discordkitten.eth"
+        },
+        {
+          "id": "ens-manager",
+          "label": "discordkitten.eth Manager",
+          "rank": 320,
+          "excludeEntities": false,
+          "disablePage": true,
+          "tagParams": "discordkitten.eth"
+        },
+        {
+          "id": "beacon-depositor",
+          "label": "Beacon Depositor",
+          "rank": 480,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "mev-fee-recipient",
+          "label": "MEV Fee Recipient",
+          "rank": 490,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "ethereum"
+        },
+        {
+          "id": "early-token-holder",
+          "label": "Early {\"pricing_id\":\"imagen-ai\",\"symbol\":\"IMAGE\"} Holder",
+          "rank": 540,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "{\"pricing_id\":\"imagen-ai\",\"symbol\":\"IMAGE\"}"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0.004127593766899649,
+    "avalanche": 4.74014e-05,
+    "base": 8.350968838728198,
+    "bitcoin": 0,
+    "bsc": 9.8572875,
+    "dogecoin": 0,
+    "ethereum": 1186855203.3444207,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0.021666,
+    "robinhood": 9.81e-06,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0.0042368024590574045,
+    "avalanche": 4.836008e-05,
+    "base": 8.627885029087242,
+    "bitcoin": 0,
+    "bsc": 9.8574231,
+    "dogecoin": 0,
+    "ethereum": 1218257255.0510437,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0.021666,
+    "robinhood": 9.86e-06,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 1.767130941064e-06,
+        "usd": 0.004127593766899649,
+        "price": 2335.76,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.577620580923928,
+        "priceChange24h": -61.79999999999973
+      }
+    ],
+    "avalanche": [
+      {
+        "name": "Wrapped AVAX",
+        "symbol": "WAVAX",
+        "id": "wrapped-avax",
+        "balance": 5.326e-06,
+        "usd": 4.74014e-05,
+        "price": 8.9,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.9823788546255476,
+        "priceChange24h": -0.17999999999999972
+      }
+    ],
+    "base": [
+      {
+        "name": "PREME Token",
+        "symbol": "PREME",
+        "id": "preme-token",
+        "balance": 6722.94901309,
+        "usd": 8.350104362728175,
+        "price": 0.00124203,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -3.2091395796479003,
+        "priceChange24h": -4.117999999999982e-05
+      },
+      {
+        "name": "Nemesis",
+        "symbol": "NEMESIS",
+        "id": "nemesis-2",
+        "balance": 1,
+        "usd": 0.0006309,
+        "price": 0.0006309,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -8.54798730195544,
+        "priceChange24h": -5.8969999999999986e-05
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 1e-07,
+        "usd": 0.00023357600000000001,
+        "price": 2335.76,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.577620580923928,
+        "priceChange24h": -61.79999999999973
+      },
+      {
+        "name": "L2 Standard Bridged WETH (Base)",
+        "symbol": "WETH",
+        "id": "l2-standard-bridged-weth-base",
+        "balance": 1e-17,
+        "usd": 2.3344600000000003e-14,
+        "price": 2334.46,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.6208760725652684,
+        "priceChange24h": -62.82999999999993
+      }
+    ],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "Binance Bridged USDT (BNB Smart Chain)",
+        "symbol": "BSC-USD",
+        "id": "binance-bridged-usdt-bnb-smart-chain",
+        "balance": 9.85,
+        "usd": 9.85,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 1e-05,
+        "usd": 0.007287500000000001,
+        "price": 728.75,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -1.8267300723417368,
+        "priceChange24h": -13.559999999999945
+      }
+    ],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 508123.54665911826,
+        "usd": 1186854655.3445022,
+        "price": 2335.76,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.577620580923928,
+        "priceChange24h": -61.79999999999973
+      },
+      {
+        "name": "BitMine Immersion Technologies (Ondo Tokenized Stock)",
+        "symbol": "BMNRON",
+        "id": "bitmine-immersion-technologies-ondo-tokenized-stocks",
+        "balance": 11.17630878866839,
+        "usd": 247.33171349323146,
+        "price": 22.13,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -1.337494427106557,
+        "priceChange24h": -0.3000000000000007
+      },
+      {
+        "name": "Elmo",
+        "symbol": "ELMO",
+        "id": "elmoerc",
+        "balance": 100000,
+        "usd": 81.822,
+        "price": 0.00081822,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -3.3351054403685945,
+        "priceChange24h": -2.8229999999999965e-05
+      },
+      {
+        "name": "IMPT",
+        "symbol": "IMPT",
+        "id": "impt",
+        "balance": 24000,
+        "usd": 51.67704,
+        "price": 0.00215321,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.6089041064910536,
+        "priceChange24h": -5.768000000000006e-05
+      },
+      {
+        "name": "believe in somETHing",
+        "symbol": "SOMETHING",
+        "id": "believe-in-something-3",
+        "balance": 102482078.0271,
+        "usd": 36.33799274477109,
+        "price": 3.54579e-07,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -11.793416205001646,
+        "priceChange24h": -4.740799999999997e-08
+      },
+      {
+        "name": "HEX",
+        "symbol": "HEX",
+        "id": "hex",
+        "balance": 56962,
+        "usd": 32.229669220000005,
+        "price": 0.00056581,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.2476763069693395,
+        "priceChange24h": -1.3009999999999931e-05
+      },
+      {
+        "name": "Maker",
+        "symbol": "MKR",
+        "id": "maker",
+        "balance": 0.019733821251378753,
+        "usd": 31.267845096384608,
+        "price": 1584.48,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -4.610883346276793,
+        "priceChange24h": -76.58999999999992
+      },
+      {
+        "name": "Apu Apustaja",
+        "symbol": "APU",
+        "id": "apu-s-club",
+        "balance": 1910000,
+        "usd": 22.538,
+        "price": 1.18e-05,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -3.986981285598037,
+        "priceChange24h": -4.899999999999987e-07
+      },
+      {
+        "name": "KiboShib",
+        "symbol": "KIBSHI",
+        "id": "kiboshib",
+        "balance": 8888888,
+        "usd": 14.75555408,
+        "price": 1.66e-06,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -4.046242774566472,
+        "priceChange24h": -6.999999999999997e-08
+      },
+      {
+        "name": "Steamboat Willie",
+        "symbol": "MICKEY",
+        "id": "steamboat-willie",
+        "balance": 150000,
+        "usd": 13.416,
+        "price": 8.944e-05,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -1.9513264634948475,
+        "priceChange24h": -1.78e-06
+      },
+      {
+        "name": "America Party",
+        "symbol": "AMERICA",
+        "id": "america-party-5",
+        "balance": 100000000,
+        "usd": 8.3142,
+        "price": 8.3142e-08,
+        "quoteTime": "2026-10-24T03:59:15Z",
+        "priceChange24hPercent": -0.8325381679389282,
+        "priceChange24h": -6.979999999999974e-10
+      },
+      {
+        "name": "Gondola",
+        "symbol": "GONDOLA",
+        "id": "gondola",
+        "balance": 10000000,
+        "usd": 4.29963,
+        "price": 4.29963e-07,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.6781652123722592,
+        "priceChange24h": -1.1832000000000023e-08
+      },
+      {
+        "name": "Kohenoor",
+        "symbol": "KEN",
+        "id": "kohenoor-2",
+        "balance": 0.060000000000000005,
+        "usd": 2.2734,
+        "price": 37.89,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -0.8115183246073358,
+        "priceChange24h": -0.3100000000000023
+      },
+      {
+        "name": "Solv Protocol BTC",
+        "symbol": "SOLVBTC",
+        "id": "solv-btc",
+        "balance": 1.0210297712431e-05,
+        "usd": 0.8192538678500386,
+        "price": 80238,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.1153149378258138,
+        "priceChange24h": -905
+      },
+      {
+        "name": "Wrapped Pulse",
+        "symbol": "WPLS",
+        "id": "wrapped-pulse-wpls",
+        "balance": 27775,
+        "usd": 0.36357475,
+        "price": 1.309e-05,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 136.2815884476534,
+        "priceChange24h": 7.55e-06
+      },
+      {
+        "name": "PinLink",
+        "symbol": "PIN",
+        "id": "pinlink",
+        "balance": 4,
+        "usd": 0.22346,
+        "price": 0.055865,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -6.992424873054196,
+        "priceChange24h": -0.004200000000000002
+      },
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 0.18999999999999997,
+        "usd": 0.18999999999999997,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Wrapped MistCoin",
+        "symbol": "WMC",
+        "id": "wrapped-mistcoin",
+        "balance": 0.05,
+        "usd": 0.08900000000000001,
+        "price": 1.78,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.1978021978021998,
+        "priceChange24h": -0.040000000000000036
+      },
+      {
+        "name": "WETH",
+        "symbol": "WETH",
+        "id": "weth",
+        "balance": 1.310000000000001e-05,
+        "usd": 0.030581426000000023,
+        "price": 2334.46,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.6208760725652684,
+        "priceChange24h": -62.82999999999993
+      },
+      {
+        "name": "Block",
+        "symbol": "BLOCK",
+        "id": "block-4",
+        "balance": 15,
+        "usd": 0.014881050000000002,
+        "price": 0.00099207,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -5.785430061064198,
+        "priceChange24h": -6.09199999999999e-05
+      },
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 0.0061,
+        "usd": 0.0061,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Hokkaidu Inu",
+        "symbol": "HOKK",
+        "id": "hokkaidu-inu-2",
+        "balance": 1,
+        "usd": 2.266e-05,
+        "price": 2.266e-05,
+        "quoteTime": "2026-10-23T06:31:41Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [
+      {
+        "name": "USDT0",
+        "symbol": "USDT0",
+        "id": "usdt0",
+        "balance": 0.021666,
+        "usd": 0.021666,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "robinhood": [
+      {
+        "name": "Dih",
+        "symbol": "DIH",
+        "id": "dih",
+        "balance": 1,
+        "usd": 9.81e-06,
+        "price": 9.81e-06,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -0.5070993914807426,
+        "priceChange24h": -5.0000000000001215e-08
+      }
+    ],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

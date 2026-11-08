@@ -1,0 +1,19 @@
+{
+  "address": "0xCD88b774cC42242d49A1DBa5AF599EDc2E378a43",
+  "chain": "ethereum",
+  "arkhamEntity": {
+    "name": "@ompi25",
+    "note": "",
+    "id": "ompi25",
+    "type": "individual",
+    "service": null,
+    "twitter": "https://x.com/ompi25"
+  },
+  "arkhamLabel": {
+    "name": "airdropcamp.eth",
+    "address": "0xCD88b774cC42242d49A1DBa5AF599EDc2E378a43",
+    "chainType": "evm"
+  },
+  "isUserAddress": false,
+  "contract": false
+}

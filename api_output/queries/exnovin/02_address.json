@@ -1,0 +1,14 @@
+{
+  "address": "TDBeRLDTdhVJSYytwhDBFH5vLdiY4b9aVn",
+  "chain": "tron",
+  "arkhamEntity": {
+    "name": "Exnode",
+    "note": "",
+    "id": "exnode",
+    "type": "cex",
+    "service": null,
+    "website": "https://exnode.ru"
+  },
+  "isUserAddress": false,
+  "contract": false
+}

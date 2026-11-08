@@ -1,0 +1,81 @@
+{
+  "entity_id": "arzpaya-com",
+  "entity_name": "ArzPaya",
+  "total_wallets": 9,
+  "chain_breakdown": {
+    "evm": 5,
+    "ethereum": 1,
+    "bsc": 1,
+    "arbitrum_one": 1,
+    "polygon": 1
+  },
+  "wallets": [
+    {
+      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8\"",
+      "chain": "evm",
+      "label": "Primary Master Hot Wallet",
+      "entity": "ArzPaya",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x5De94c24C874b6e11eE7Cf7C885C49343D3496b6",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x0CCd5eC29C5212b4c26Fb6b808B7E10e0d36aFAc",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xe465D1854146E7759D6fdC2892fe5bb9C5E570b4",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xeDc3a3af5C48C4138A60096FFD8180394b396A0E",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "ArzPaya",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "ArzPaya",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "ArzPaya",
+      "source": "depth2/hot_wallet/0x82a403c1"
+    },
+    {
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "ArzPaya",
+      "source": "depth2/hot_wallet/0x82a403c1"
+    },
+    {
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "ArzPaya",
+      "source": "depth2/hot_wallet/0x82a403c1"
+    }
+  ]
+}

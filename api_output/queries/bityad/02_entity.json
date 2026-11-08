@@ -1,0 +1,26 @@
+{
+  "name": "@bit_yaa",
+  "note": "",
+  "id": "bit-yaa",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/bit_yaa",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "farcaster-user",
+      "label": "\"bityaa\" on Farcaster",
+      "rank": 105,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "\"bityaa\" on Farcaster"
+    }
+  ]
+}

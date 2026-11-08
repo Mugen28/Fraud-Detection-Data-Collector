@@ -1,0 +1,15 @@
+{
+  "target": "ompfinex",
+  "entity_id": "ompfinex",
+  "entity_name": null,
+  "summary": {
+    "entityId": "ompfinex",
+    "numAddresses": 1,
+    "volumeUsd": 0,
+    "balanceUsd": 0,
+    "firstTx": null,
+    "lastTx": null
+  },
+  "top_address": null,
+  "wallets": []
+}

@@ -1,0 +1,20 @@
+{
+  "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+  "chain": "ethereum",
+  "arkhamEntity": {
+    "name": "ArzPaya.com",
+    "note": "",
+    "id": "arzpaya-com",
+    "type": "cex",
+    "service": null,
+    "website": "https://arzpaya.com/",
+    "twitter": "https://twitter.com/ArzPaya"
+  },
+  "arkhamLabel": {
+    "name": "Hot Wallet",
+    "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+    "chainType": "evm"
+  },
+  "isUserAddress": false,
+  "contract": false
+}

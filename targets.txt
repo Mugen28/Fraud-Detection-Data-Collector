@@ -1,0 +1,49 @@
+# Iranian Cryptocurrency Exchanges Targets for Arkham Intelligence Crawler
+# Usage: python api_generator.py search --from-file targets.txt --limit 5
+
+# Tier 1 - Major Iranian Crypto Exchanges
+nobitex
+wallex
+bitpin
+tabdeal
+ramzinex
+abantether
+ompfinex
+exir
+
+# Tier 2 - OTC & Fast Swap Platforms
+bit24
+tetherland
+tetherfa
+kifpool
+sarmayex
+pooleno
+rabex
+ok-exchange
+arzpaya
+bitbarg
+excoino
+
+# Tier 3 - Additional Active Platforms
+pingi
+bitimen
+exnovin
+ubitex
+bitestan
+arzplus
+arzypto
+hamtapa
+changeto
+farhad exchange
+iranicard
+pay98
+mihanpayment
+titann
+bitbaan
+bitland
+arzjoo
+ramzali
+nikpardakht
+safeex
+bityad
+dideban sarmaye

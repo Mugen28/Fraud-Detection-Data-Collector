@@ -1,0 +1,675 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "Excoino",
+      "note": "",
+      "id": "excoino",
+      "type": "cex",
+      "service": true,
+      "twitter": "excoino"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "0xf1dA173228fcf015F43f3eA15aBBB51f0d8f1123",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "eXch.cx",
+        "note": "",
+        "id": "exch",
+        "type": "cex",
+        "service": null,
+        "website": "https://exch.cx/"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0xf1dA173228fcf015F43f3eA15aBBB51f0d8f1123",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "1Ks5aLkREyVUba3QiS64ZL5PPdcgXDXhBp",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Exchanging.ir",
+        "note": "",
+        "id": "exchanging-ir",
+        "type": "cex",
+        "service": null,
+        "website": "https://echanging.ir",
+        "twitter": "https://twitter.com/ExchangingCC"
+      }
+    },
+    {
+      "address": "3Q2ffuXf2KVShJ9dasV3viFzAHYSLijC6a",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "EXMO",
+        "note": "",
+        "id": "exmo",
+        "type": "cex",
+        "service": null,
+        "website": "https://exmo.me",
+        "twitter": "https://twitter.com/Exmo_Com",
+        "crunchbase": "https://www.crunchbase.com/organization/exmo"
+      }
+    },
+    {
+      "address": "TDBeRLDTdhVJSYytwhDBFH5vLdiY4b9aVn",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Exnode",
+        "note": "",
+        "id": "exnode",
+        "type": "cex",
+        "service": null,
+        "website": "https://exnode.ru"
+      }
+    },
+    {
+      "address": "0xd7B9A9b2F665849C4071Ad5af77d8c76aa30fb32",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "EXMO",
+        "note": "",
+        "id": "exmo",
+        "type": "cex",
+        "service": null,
+        "website": "https://exmo.me",
+        "twitter": "https://twitter.com/Exmo_Com",
+        "crunchbase": "https://www.crunchbase.com/organization/exmo"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0xd7B9A9b2F665849C4071Ad5af77d8c76aa30fb32",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "1Q7PTybd4ybhKAi8a9pph6NjVCEMVfUhBt",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Exchange-Credit.ru",
+        "note": "",
+        "id": "exchange-credit-ru",
+        "type": "misc",
+        "service": null,
+        "website": "https://exchange-credit.ru"
+      }
+    },
+    {
+      "address": "8EC8D6FG4ATRTScZvziTgtrcMv9Edvwv3hHmZNdnTCg",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Exponent",
+        "note": "",
+        "id": "exponent",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.exponent.finance",
+        "twitter": "https://x.com/ExponentFinance"
+      }
+    },
+    {
+      "address": "BmLiVHRb9ppTrEA5jhTgNJ2WFtjUZEkfzJZGswEidxzu",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Exponent",
+        "note": "",
+        "id": "exponent",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.exponent.finance",
+        "twitter": "https://x.com/ExponentFinance"
+      }
+    },
+    {
+      "address": "3Accj9QYomUPWKP6Fj48xumFeABbsqqABn",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Exp Asset",
+        "note": "",
+        "id": "exp-asset",
+        "type": "ponzi",
+        "service": null,
+        "website": "https://expasset.com"
+      }
+    },
+    {
+      "address": "32PRUAsEW9AiTgLrdgg98q4qt1Huqd6tQP",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Exp Asset",
+        "note": "",
+        "id": "exp-asset",
+        "type": "ponzi",
+        "service": null,
+        "website": "https://expasset.com"
+      }
+    },
+    {
+      "address": "0x81D86fAf587daEA18497103666dCFD8F369d61c8",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@exclusible",
+        "note": "",
+        "id": "exclusible",
+        "type": "misc",
+        "service": null,
+        "website": "https://exclusible.com",
+        "twitter": "https://twitter.com/exclusible"
+      },
+      "arkhamLabel": {
+        "name": "exclusible.eth",
+        "address": "0x81D86fAf587daEA18497103666dCFD8F369d61c8",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x9ac5C8496Bc84F642BAc181499bF64405a5C6A3d",
+      "chain": "polygon",
+      "arkhamEntity": {
+        "name": "@Exchangetrader1",
+        "note": "",
+        "id": "exchangetrader1",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Exchangetrader1"
+      },
+      "arkhamLabel": {
+        "name": "\"JuniorB\" Polymarket Account",
+        "address": "0x9ac5C8496Bc84F642BAc181499bF64405a5C6A3d",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x44eEF0439Ea9076F24B9586B591a07cC6BCaA7A3",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ExcelenteEntmt",
+        "note": "",
+        "id": "excelenteentmt",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ExcelenteEntmt"
+      },
+      "arkhamLabel": {
+        "name": "\"Excelente\" on OpenSea",
+        "address": "0x44eEF0439Ea9076F24B9586B591a07cC6BCaA7A3",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x32e49Dda638696B15ea3199DBc7441d18431bE46",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@exchange_check",
+        "note": "",
+        "id": "exchange-check",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/exchange_check"
+      },
+      "arkhamLabel": {
+        "name": "patronov.eth",
+        "address": "0x32e49Dda638696B15ea3199DBc7441d18431bE46",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xBB505c54D71E9e599cB8435b4F0cEEc05fC71cbD",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "Extra Finance",
+        "note": "",
+        "id": "extra-finance",
+        "type": "yield",
+        "service": null,
+        "website": "https://extrafi.io",
+        "twitter": "https://twitter.com/ExtraFi_io"
+      },
+      "arkhamLabel": {
+        "name": "LendingPool",
+        "address": "0xBB505c54D71E9e599cB8435b4F0cEEc05fC71cbD",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "excoino.eth",
+      "address": "0x058FA7A78D81E4590E686BCe7B97AF586A4862a2"
+    },
+    {
+      "name": "excoin.eth",
+      "address": "0xC0553A677edCFEA471Ef01c9664Dc5865a469883"
+    },
+    {
+      "name": "excelsior.eth",
+      "address": "0x188C30E9A6527F5F0c3f7fe59B72ac7253C62F28"
+    },
+    {
+      "name": "exclaim.eth",
+      "address": "0xDdA5459eb8945908471eF76A59c38B4921c53411"
+    },
+    {
+      "name": "excidium.eth",
+      "address": "0xC02D68B1287534d8D12a9bE01A5B4ef5A1771bA3"
+    },
+    {
+      "name": "excuseme.eth",
+      "address": "0xfb534Ad1287F51e9154A9E7A9C31911469d794f4"
+    },
+    {
+      "name": "excisi0n.eth",
+      "address": "0x4dEC353Aad4BF88583C1eA234958387641843B15"
+    },
+    {
+      "name": "exclusible.eth",
+      "address": "0x81D86fAf587daEA18497103666dCFD8F369d61c8"
+    },
+    {
+      "name": "excelsiorr.eth",
+      "address": "0xA0a7A7CD980070728a0EcF83D3769477e64D1605"
+    },
+    {
+      "name": "excaliburp.eth",
+      "address": "0x29D6c8BB01ed030cC920745AE0C2D516c10F2F50"
+    },
+    {
+      "name": "exceloliva.eth",
+      "address": "0x10994c5775c2A825e15bc016fB03Dec068a650AC"
+    },
+    {
+      "name": "excryptopunk.eth",
+      "address": "0x1E29Ea8DBeb92219e6cA9Fa0C2E460bDE6950621"
+    },
+    {
+      "name": "excalibar752.eth",
+      "address": "0x37e8640870512943d7E491Df50Be50cb9b8431f3"
+    },
+    {
+      "name": "excelsior-tony.eth",
+      "address": "0xE30c44c07F7B5c094826e0C8E5C8f56F3b451aa5"
+    },
+    {
+      "name": "excobar.eth",
+      "address": "0xB89ed450499CD227503B21e48501715B4C11B4f7"
+    }
+  ],
+  "services": [
+    {
+      "name": "Excoino",
+      "note": "",
+      "id": "excoino",
+      "type": "cex",
+      "service": true,
+      "twitter": "excoino"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "Excoino",
+      "note": "",
+      "id": "excoino",
+      "type": "cex",
+      "service": true,
+      "twitter": "excoino"
+    },
+    {
+      "name": "Escoin",
+      "note": "",
+      "id": "escoin",
+      "type": "cex",
+      "service": false,
+      "twitter": "EsCoinICO"
+    },
+    {
+      "name": "Mu",
+      "note": "",
+      "id": "mu",
+      "type": "misc",
+      "service": false,
+      "twitter": "mucoinofficial"
+    },
+    {
+      "name": "@0xcoinn",
+      "note": "",
+      "id": "0xcoinn",
+      "type": "individual",
+      "service": false,
+      "twitter": "0xcoinn"
+    },
+    {
+      "name": "@0xCoinAv",
+      "note": "",
+      "id": "0xcoinav",
+      "type": "individual",
+      "service": false,
+      "twitter": "0xCoinAv"
+    },
+    {
+      "name": "REX NFT",
+      "note": "",
+      "id": "rex-nft",
+      "type": "nft",
+      "service": false,
+      "twitter": "REXCoinNFT"
+    },
+    {
+      "name": "@escoinor",
+      "note": "",
+      "id": "escoinor",
+      "type": "individual",
+      "service": false,
+      "twitter": "escoinor"
+    },
+    {
+      "name": "@Elcoin7",
+      "note": "",
+      "id": "elcoin7",
+      "type": "individual",
+      "service": false,
+      "twitter": "Elcoin7"
+    },
+    {
+      "name": "@encoinx",
+      "note": "",
+      "id": "encoinx",
+      "type": "individual",
+      "service": false,
+      "twitter": "encoinx"
+    },
+    {
+      "name": "@ercoin50",
+      "note": "",
+      "id": "ercoin50",
+      "type": "individual",
+      "service": false,
+      "twitter": "ercoin50"
+    },
+    {
+      "name": "EDCOIN",
+      "note": "",
+      "id": "edcoin",
+      "type": "lending-decentralized",
+      "service": false,
+      "twitter": "edcoinofficial"
+    },
+    {
+      "name": "Ecoin",
+      "note": "",
+      "id": "ecoin",
+      "type": "misc",
+      "service": false,
+      "twitter": "EcoinOfficial"
+    },
+    {
+      "name": "@0xcoinbot",
+      "note": "",
+      "id": "0xcoinbot",
+      "type": "individual",
+      "service": false,
+      "twitter": "0xcoinbot"
+    },
+    {
+      "name": "IHC Official",
+      "note": "",
+      "id": "inflation-hedging-coin",
+      "type": "misc",
+      "service": false,
+      "twitter": "IHCoinofficial"
+    },
+    {
+      "name": "Pexcoin",
+      "note": "",
+      "id": "pexcoin",
+      "type": "misc",
+      "service": false,
+      "twitter": "PexCoinProject"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x6d16749cEfb3892A101631279A8fe7369A281D0E",
+      "username": "exn",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/23.png"
+    },
+    {
+      "address": "0x0587E41B6aA2302B2Cc3B6E53e3CC50e3698FcA2",
+      "username": "exceptme2",
+      "profileImage": "https://i.seadn.io/gcs/files/5cf983bde3b9c2d75bbc80e0b1afd668.png?w=500&auto=format"
+    },
+    {
+      "address": "0x44eEF0439Ea9076F24B9586B591a07cC6BCaA7A3",
+      "username": "Excelente",
+      "profileImage": "https://i.seadn.io/gae/vch2bHpVI0j9klW-3uwLpchAsToY3dmkiXK4KVZhrMlFlXaTvviK5fgrIioic1CuBwtcSahqqdLZAy3O0TZilVZCv4aYgL18F8xh?w=500&auto=format"
+    },
+    {
+      "address": "0xa83544d6065e2B4d0f8F6C0AA2247f3baBF28136",
+      "username": "Excession",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/18.png"
+    },
+    {
+      "address": "0x05677703F48ceFa20F4c1F59643E7ab2577E618C",
+      "username": "excalance",
+      "profileImage": null
+    },
+    {
+      "address": "0x81D86fAf587daEA18497103666dCFD8F369d61c8",
+      "username": "Exclusible",
+      "profileImage": "https://i.seadn.io/gcs/files/5e84925001b01845f5169d8cf2786af4.png?w=500&auto=format"
+    },
+    {
+      "address": "0x481C380726e699142903Ac04958f0A81946b3467",
+      "username": "excalander",
+      "profileImage": "https://i.seadn.io/gae/N3q1aNEaxGqr3_1PA6modNBGri-6QJ3MD1UtW9qbpTIT5dBqkt4jdUW4L9EKGezrJxB9z2wuELAscWr-_e11Vv4z_QNt6LwlMsE8dA?w=500&auto=format"
+    },
+    {
+      "address": "0xE2Ce48f29f4007FaE876113F1Fb43103CefcD856",
+      "username": "Excellence",
+      "profileImage": "https://i.seadn.io/gcs/files/b87ce9943369c8fca66e70dc5dfd45b3.png?w=500&auto=format"
+    },
+    {
+      "address": "0x1930Ab0C18A9747CC5CcB7017A85ee1842cC9e6c",
+      "username": "excoin00",
+      "profileImage": null
+    },
+    {
+      "address": "0x01581F1dF7A8196098f688580C7353cc11044B32",
+      "username": "ExcelBaller",
+      "profileImage": null
+    },
+    {
+      "address": "0x9b9e7F56f05Da982Eeea0c0a17899D904588A98c",
+      "username": "Exchange2022",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/9.png"
+    },
+    {
+      "address": "0x37e8640870512943d7E491Df50Be50cb9b8431f3",
+      "username": "Excalibar0075",
+      "profileImage": "https://i2c.seadn.io/profiles/0x37e8640870512943d7e491df50be50cb9b8431f3/avatar/34443518ccd778ab80cd492fbd0c26/3834443518ccd778ab80cd492fbd0c26.jpeg"
+    },
+    {
+      "address": "0x92bc3c29C8FbB9eeBA47952770A298E50F29326e",
+      "username": "Exclusive_Sales",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png"
+    },
+    {
+      "address": "0xcB5c0D33d92E4910daA24825dB8AF9b64E17C33C",
+      "username": "ex",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png"
+    },
+    {
+      "address": "0x85d8210157642DB771E4b7A57b1B08D83C61bE90",
+      "username": "excessivephotons",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "GXytYpvAkEcXzWGdQhPB6VanYfL2YmqvNmacqoZR2Zgv",
+      "username": "excoinbas",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Green-glass~Face-1~Empty~Leafs-Yellow~Bracelet-orange~Necklace-Red.webp"
+    },
+    {
+      "address": "9jJZmY7wSwwFAFxi9cMHfJFq99USfBihBARnMJecumX4",
+      "username": "exce1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/1cb417e3-af32-45dd-ab60-6aafef79103b/8f0320dda7d0e4224e6aa7c67c0c4bdc"
+    },
+    {
+      "address": "9VCyTx7WSF2AMyHk918yfhmLurgKJQZxw1eKCMdWmWZt",
+      "username": "Exceed",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Indigo-wand~Face-11~Glasses-brown~Cap-back-green~Empty~Necklace-Red.webp"
+    },
+    {
+      "address": "EXCsaLLjnsMKAXD2D1kBDZC1jSeR6KvSpfsikyL41Jz3",
+      "username": "EXCsaL",
+      "profileImage": "https://socialimages.pump.fun/profile-images/39440100-f3e9-4550-b6eb-92e3f0763b6d/d7f3a1e52e7ed1b0f3e671395bb25da6"
+    },
+    {
+      "address": "ExCsisSuZuXmnuPMNVUiR7zTejfN3kmZdVidSExQE1vc",
+      "username": "ExCsisa",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-Orange~Face-6~Glasses-brown~Hairstyle-5~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "FDG13NSURbzif7MA3f7QbXn8LectzPTThmdDZ56ug5v5",
+      "username": "excidos",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Green-glass~Face-3~Glasses-brown~Winter-Hat-Yellow~Empty~Scarf-Green.webp"
+    },
+    {
+      "address": "BYyhWsbwfPPHjkD7g6rv3wUxPZuGYJLAtaKKvMuyw8o1",
+      "username": "Exco",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Cyan-glass~Face-11~Empty~Graduation-hat~Empty+2~Tie-Red.webp"
+    },
+    {
+      "address": "9WVHndCisp6iB4yaRpV2aSZcWwY6h1PBdDrZbziPgbxT",
+      "username": "excalibur",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Green-wand~Face-7~Blush~Headphones-Grey~Watch~Scarf-Red.webp"
+    },
+    {
+      "address": "ARAJRicw5zeWVdVaT5RQqEbHky1Lu8Y8xunWo1a4G5xw",
+      "username": "excoin",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Emerald-wand~Face-11~Sunglasses~Hairstyle-4---Green~Watch~Bowtie-Green.webp"
+    },
+    {
+      "address": "HkyCAe4dAVu6bhYRmfoxctw22CC7vvJ36cs75NipX4z2",
+      "username": "excommu",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Blue~Face-7~Glasses-brown~Empty+2~Bracelet-green~Necklace-Yellow.webp"
+    },
+    {
+      "address": "GfKDFFYfsAyiqQEjFixjgoE4mZokjknYYNi15vnDgNbZ",
+      "username": "excaliberart",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-3-Yellow~Face-7~Glasses~Hairstyle-3~Empty~Tie-Green.webp"
+    },
+    {
+      "address": "HFZFnURaMTsjYzdnULH2AJuYcP94Jh8oPTyGawNaqo4b",
+      "username": "excomander",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Orange-glass~Face-3~Glasses~Leafs~Empty+2~Scarf-Green.webp"
+    },
+    {
+      "address": "8LobQGwZBWo8g9gBZ3mckcvpioMtG4goRiGRaR5hGEV7",
+      "username": "excitedmanta358",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Emerald-glass~Face-2~Sunglasses~Winter-Hat-Blue~Empty+2~Bowtie-Green.webp"
+    },
+    {
+      "address": "9jR83JMTcju2Epvc3nxtdPFVMoZuHimtd5t87RzLMA78",
+      "username": "excitedfish4065",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Cyan~Face-1~Sunglasses~Cap-Orange~Empty~Scarf-Red.webp"
+    },
+    {
+      "address": "A71kSiEvF8cUYjWAWhnXjouGgaUx7j3DxMJ2y6mfYBkh",
+      "username": "excessfish74310",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-2-Green~Face-9~Blush~Cap-back-green~Bracelet-green~Bowtie-Indigo.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "433SQkt1DBrMQ2bNZJMto9Ki9Gy2XXCrFMfcwMdXVyEo",
+      "username": "ExcitingVitreousBobolink"
+    },
+    {
+      "chain": "solana",
+      "address": "GHExVNkuiWDRpmhPVVRrd7Kqz9WPMVunkfzr49hCRP6e",
+      "username": "exuro"
+    },
+    {
+      "chain": "solana",
+      "address": "6oc6HMxqAYmaViJvjXqWaPvZdXMMHNGy7be9rURxPgwE",
+      "username": "Exhuma"
+    },
+    {
+      "chain": "solana",
+      "address": "ATTcGfaxq93t2MXFAVx8zyRkigm625DEGboQafz1TAsV",
+      "username": "exploit"
+    },
+    {
+      "chain": "solana",
+      "address": "64rY3jB9i1wZy1VMMfxGJ8CpkGfdTzP32pFquth2ATLw",
+      "username": "externalkid"
+    },
+    {
+      "chain": "solana",
+      "address": "5VjeALacsgRGFYSvTYSMzEa9PbzMA4iLdU2hEZdVRwtU",
+      "username": "exe_plata93"
+    },
+    {
+      "chain": "solana",
+      "address": "7yypUieHXh9PHDjrwpQTS2g1TgxxpPoY3Rr3V8aXZp4J",
+      "username": "exitliquid1ty"
+    },
+    {
+      "chain": "solana",
+      "address": "4uZwFCFC3wQGdqsi9SxfyMHoPgtRGvz2D9R64bdfFYFe",
+      "username": "ExactTealNewt"
+    },
+    {
+      "chain": "solana",
+      "address": "ETppPwAsUqDsBjnGx9xtryStDZ3nRZu1Z4GZT3E1F3fN",
+      "username": "ExtraClearCrow"
+    },
+    {
+      "chain": "solana",
+      "address": "2wLY7QAQAzU8cDV34rhzroR2pSksGRqpNdUzKEmjdMVF",
+      "username": "ExitLiquidity92"
+    },
+    {
+      "chain": "solana",
+      "address": "Dsx7sf8hWBdqCfoFEobVHfiv64fvBLtCiAqtSjy97RjH",
+      "username": "ExclusiveDome"
+    },
+    {
+      "chain": "solana",
+      "address": "68ixyKSLZxfsv6ZXJ4fYAUD4cjTLBXYseArQZKewPkKD",
+      "username": "Excalibar_752"
+    },
+    {
+      "chain": "solana",
+      "address": "2i5pAqctomyBwk3AqNpxvuxPc9rWyeiQ7ntNEq9Fqb4g",
+      "username": "ExtendedGreenFish"
+    },
+    {
+      "chain": "solana",
+      "address": "2S1z3yDiyHv4apJ2mdbfxpQcPvjmVP8nP4jbxLP7WX2C",
+      "username": "exchangedharpy"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x65d9494882bDe46c9A3e12C403d42416871cB123",
+      "username": "ExcoPablo69"
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x9ac5C8496Bc84F642BAc181499bF64405a5C6A3d",
+      "displayName": "@Exchangetrader1"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x9ac5C8496Bc84F642BAc181499bF64405a5C6A3d",
+    "displayName": "@Exchangetrader1"
+  }
+}

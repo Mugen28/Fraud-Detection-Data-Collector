@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "bit0art": {
+      "name": "@Bit0art",
+      "note": "",
+      "id": "bit0art",
+      "type": "individual",
+      "service": null,
+      "twitter": "https://x.com/Bit0art",
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "vectorfun-user",
+          "label": "\"Bit0art\" on Vector.fun",
+          "rank": 120,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "Bit0art"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0.24401815200000002,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0.250892922,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "id": "solana",
+        "balance": 0.0024122,
+        "usd": 0.24401815200000002,
+        "price": 101.16,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.7401211421978733,
+        "priceChange24h": -2.8500000000000085
+      }
+    ],
+    "tron": [],
+    "zcash": []
+  }
+}

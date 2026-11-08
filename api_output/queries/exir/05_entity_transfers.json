@@ -1,0 +1,556 @@
+{
+  "transfers": [
+    {
+      "id": "0xab55d1bf24de6abf6ec1ed9d90081b90611764e2b697e16ab392efaadd150782_1161",
+      "transactionHash": "0xab55d1bf24de6abf6ec1ed9d90081b90611764e2b697e16ab392efaadd150782",
+      "fromAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x542AD3049442ADb5514c0A2627C9e5DdE0970c36",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2026-10-15T14:07:29Z",
+      "blockNumber": 127799804,
+      "blockHash": "0x08978d162f3fd0bf674b4ee7435cdbb8c729aeccf5f93d567759eeb6fccb3c96",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 275.53,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 137.67738146,
+      "chain": "bsc",
+      "seq": 8365572137
+    },
+    {
+      "id": "0xb3ae8179e5a42b4e149c9a561502dbad1d7b514e3ff4757987a2ee60d7eeac5a_338",
+      "transactionHash": "0xb3ae8179e5a42b4e149c9a561502dbad1d7b514e3ff4757987a2ee60d7eeac5a",
+      "fromAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x6826821dD1dD5cC3713153A9DDf454C399Cc418C",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2026-09-25T16:46:58Z",
+      "blockNumber": 123983385,
+      "blockHash": "0x9e9c037470f4acd3d0c85de1ead5ac3b2bbc57e62e24c7100347ab4e83ee09fe",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 66.4286,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 39.8504507114,
+      "chain": "bsc",
+      "seq": 7305227814
+    },
+    {
+      "id": "0xe6482fcc9349804e817f56e95e4701242c590e5c029f96168c5e57122266fca2_247",
+      "transactionHash": "0xe6482fcc9349804e817f56e95e4701242c590e5c029f96168c5e57122266fca2",
+      "fromAddress": {
+        "address": "0x4Af8925FFED4dADC3f58891CE0C31A73aacC6Cda",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xd631d33F2c3f38d9ABDaE08ebC0B69fA636E8ec2",
+      "type": "",
+      "blockTimestamp": "2026-03-27T16:39:02Z",
+      "blockNumber": 89068128,
+      "blockHash": "0x1e077b77af65605326fb9db8bb7440f281d2e5799b2689b5c6a7ff4da8ac2b4e",
+      "tokenName": "LovePot Token",
+      "tokenSymbol": "LOVE",
+      "tokenDecimals": 18,
+      "unitValue": 44550000,
+      "tokenId": "lovepot-token",
+      "historicalUSD": 8120.1285,
+      "chain": "bsc"
+    },
+    {
+      "id": "0xd35234bc540f8a45aa1f75ec16156c4d3383cfd61aed6ac3f6a030cb59e2e5f1_94",
+      "transactionHash": "0xd35234bc540f8a45aa1f75ec16156c4d3383cfd61aed6ac3f6a030cb59e2e5f1",
+      "fromAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "bsc",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2026-03-27T16:37:28Z",
+      "blockNumber": 89067920,
+      "blockHash": "0x0a6430026a4b5ce3a425cc17ff3f21b396da2d443c1f8f6075c298276b6147eb",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 50000000,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 59499999.99999999,
+      "chain": "bsc"
+    },
+    {
+      "id": "0x6aab629b7608da7236277c4bf2a9cab70cd4677ab7a6daa0885afe99921ddb32_119",
+      "transactionHash": "0x6aab629b7608da7236277c4bf2a9cab70cd4677ab7a6daa0885afe99921ddb32",
+      "fromAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "bsc",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2025-12-12T15:48:56Z",
+      "blockNumber": 71403660,
+      "blockHash": "0x30248e5d221de63690599de14adc3829172bd639c3dff86230980bfbf0b01701",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 50000000,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 85000000,
+      "chain": "bsc"
+    },
+    {
+      "id": "0xac0a0bbe7bb3eccbd4c6a084cc887c96667e8be952efb3582a9558ad9dd1ebf0_317",
+      "transactionHash": "0xac0a0bbe7bb3eccbd4c6a084cc887c96667e8be952efb3582a9558ad9dd1ebf0",
+      "fromAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "bsc",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2025-11-05T15:17:49Z",
+      "blockNumber": 67139875,
+      "blockHash": "0xadfc37060504001f951bfe963eb7cb85137f38813028be077596c4afc1c4bfe1",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 50000000,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 125000000,
+      "chain": "bsc"
+    },
+    {
+      "id": "0xd961f2ea5a17ecd51eb5d7747d2220563178620fef4ababfc74585c3bb88aea8_192",
+      "transactionHash": "0xd961f2ea5a17ecd51eb5d7747d2220563178620fef4ababfc74585c3bb88aea8",
+      "fromAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "bsc",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2025-11-04T17:54:10Z",
+      "blockNumber": 67037201,
+      "blockHash": "0xa8f5e2836eae8a3bfa583dd246886d6a0fcdd39e8b9baeab1767e18596db834f",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 1,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 1.048,
+      "chain": "bsc"
+    },
+    {
+      "id": "0xbc46ec30e4c69c6d392114a24c8ca5d6a3268819aff3031a2544db57f2ed4c39_686",
+      "transactionHash": "0xbc46ec30e4c69c6d392114a24c8ca5d6a3268819aff3031a2544db57f2ed4c39",
+      "fromAddress": {
+        "address": "0x3FEfbD0261ad32096CB1b9E745127Da0e33A2b11",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false,
+        "predictedEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io",
+          "populatedTags": [
+            {
+              "id": "contract-deployer",
+              "label": "Contract Deployer",
+              "rank": 180,
+              "excludeEntities": false,
+              "disablePage": true
+            },
+            {
+              "id": "token-deployer",
+              "label": "BEP20 Token Deployer",
+              "rank": 200,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "BEP20"
+            },
+            {
+              "id": "pool-deployer",
+              "label": "PancakeSwap V2 Pool Deployer",
+              "rank": 210,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "PancakeSwap V2 Pool"
+            }
+          ]
+        }
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2025-07-14T14:06:56Z",
+      "blockNumber": 54005548,
+      "blockHash": "0xe048bd1b5e99a4f9e05729f67b86c0cdd236324e44265f5491c2b37c0d6a7602",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 329.3,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 556.5169999999999,
+      "chain": "bsc"
+    },
+    {
+      "id": "0x4533865033c7492a3833455a6d700a8338d92993a8c731628584e9223a460f3c_633",
+      "transactionHash": "0x4533865033c7492a3833455a6d700a8338d92993a8c731628584e9223a460f3c",
+      "fromAddress": {
+        "address": "0x3FEfbD0261ad32096CB1b9E745127Da0e33A2b11",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false,
+        "predictedEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io",
+          "populatedTags": [
+            {
+              "id": "contract-deployer",
+              "label": "Contract Deployer",
+              "rank": 180,
+              "excludeEntities": false,
+              "disablePage": true
+            },
+            {
+              "id": "token-deployer",
+              "label": "BEP20 Token Deployer",
+              "rank": 200,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "BEP20"
+            },
+            {
+              "id": "pool-deployer",
+              "label": "PancakeSwap V2 Pool Deployer",
+              "rank": 210,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "PancakeSwap V2 Pool"
+            }
+          ]
+        }
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2025-07-14T14:04:39Z",
+      "blockNumber": 54005365,
+      "blockHash": "0x84f4815c3c1969457773cbd68a2722b4616f6e10ab47c70e34bb22b3ec42ccfc",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 500,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 845,
+      "chain": "bsc"
+    },
+    {
+      "id": "0xe319e1d034d9904edd7e4030dad4de410207f858154a16eaa70f7ed647de4b87_397",
+      "transactionHash": "0xe319e1d034d9904edd7e4030dad4de410207f858154a16eaa70f7ed647de4b87",
+      "fromAddress": {
+        "address": "0x3FEfbD0261ad32096CB1b9E745127Da0e33A2b11",
+        "chain": "bsc",
+        "isUserAddress": false,
+        "contract": false,
+        "predictedEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io",
+          "populatedTags": [
+            {
+              "id": "contract-deployer",
+              "label": "Contract Deployer",
+              "rank": 180,
+              "excludeEntities": false,
+              "disablePage": true
+            },
+            {
+              "id": "token-deployer",
+              "label": "BEP20 Token Deployer",
+              "rank": 200,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "BEP20"
+            },
+            {
+              "id": "pool-deployer",
+              "label": "PancakeSwap V2 Pool Deployer",
+              "rank": 210,
+              "excludeEntities": false,
+              "disablePage": false,
+              "tagParams": "PancakeSwap V2 Pool"
+            }
+          ]
+        }
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "EXIT Labs",
+          "note": "",
+          "id": "exit-labs",
+          "type": "misc",
+          "service": null,
+          "twitter": "https://x.com/ExitLab_io"
+        },
+        "arkhamLabel": {
+          "name": "Deployer",
+          "address": "0xE59F75C0D83BC0a26450d4BD5Bc0853fB8b38C86",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xdEbd6e2da378784A69Dc6Ec99Fe254223b312287",
+      "type": "",
+      "blockTimestamp": "2025-07-09T17:49:02Z",
+      "blockNumber": 53447349,
+      "blockHash": "0x11b0339bcf8f26c76409bb0830c5043a712d1cf76a191bea91d13f1924a6b7cc",
+      "tokenName": "DESIGNER TOKEN",
+      "tokenSymbol": "EXIT",
+      "tokenDecimals": 18,
+      "unitValue": 11,
+      "tokenId": "exit-designer-token",
+      "historicalUSD": 29.15,
+      "chain": "bsc"
+    }
+  ],
+  "count": 98
+}

@@ -1,0 +1,653 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "Ramzinex",
+      "note": "",
+      "id": "ramzinex",
+      "type": "cex",
+      "service": true,
+      "twitter": "ramzinex_com"
+    },
+    {
+      "name": "@ramzinbv",
+      "note": "",
+      "id": "ramzinbv",
+      "type": "individual",
+      "service": false,
+      "twitter": "ramzinbv"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "DQVNqu7ebxgzpxmkibNnDEuWKCFFAy5fwk",
+      "chain": "dogecoin",
+      "arkhamEntity": {
+        "name": "Ramzinex",
+        "note": "",
+        "id": "ramzinex",
+        "type": "cex",
+        "service": null,
+        "website": "https://ramzinex.com",
+        "twitter": "https://x.com/ramzinex_com"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "DQVNqu7ebxgzpxmkibNnDEuWKCFFAy5fwk",
+        "chainType": "dogecoin"
+      },
+      "service": true
+    },
+    {
+      "address": "DBTGMAim9PWgCwQKSiwo3jGKyiFGvDm7Av",
+      "chain": "dogecoin",
+      "arkhamEntity": {
+        "name": "Ramzinex",
+        "note": "",
+        "id": "ramzinex",
+        "type": "cex",
+        "service": null,
+        "website": "https://ramzinex.com",
+        "twitter": "https://x.com/ramzinex_com"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "DBTGMAim9PWgCwQKSiwo3jGKyiFGvDm7Av",
+        "chainType": "dogecoin"
+      },
+      "service": true
+    },
+    {
+      "address": "0xAA277CB7914b7e5514946Da92cb9De332Ce610EF",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "Ramses V2 Positions NFT-V1 (RAM-V2-POS)",
+        "address": "0xAA277CB7914b7e5514946Da92cb9De332Ce610EF",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x46abBdfC675ffa9dDf032c64FEE363745204E63e",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x46abBdfC675ffa9dDf032c64FEE363745204E63e",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x5a177cF0EfFB7e0e7115D792E587c1A5a9CbC9D4",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x5a177cF0EfFB7e0e7115D792E587c1A5a9CbC9D4",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x705D5dDa03D170384Eb43eB1aA692a6FC548306f",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x705D5dDa03D170384Eb43eB1aA692a6FC548306f",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xeE02e3A3034e9EF3bD569B140bc9911fcf1Ba067",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0xeE02e3A3034e9EF3bD569B140bc9911fcf1Ba067",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x09a6d46284fE798B669a6aaFe2eB2d0658943a82",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "MevModule (Proxy)",
+        "address": "0x09a6d46284fE798B669a6aaFe2eB2d0658943a82",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x0D3E8f6949DCaCa02cbD1aaf7ca840F4F36216b7",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0x0D3E8f6949DCaCa02cbD1aaf7ca840F4F36216b7",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xe5B51F0519819e609447AB1239cf7D4324C76CeB",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "V3 Pool",
+        "address": "0xe5B51F0519819e609447AB1239cf7D4324C76CeB",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x1885597cA499C1B460Ef30248bdc5C28f5C75C93",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@RamZ46817427",
+        "note": "",
+        "id": "ramz46817427",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ramz46817427"
+      },
+      "arkhamLabel": {
+        "name": "\"Strengthen\" on DeBank",
+        "address": "0x1885597cA499C1B460Ef30248bdc5C28f5C75C93",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x98DB3a41bF8bF4DeD2C92A84ec0705689DdEEF8B",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Ramp Network",
+        "note": "",
+        "id": "ramp-network",
+        "type": "cex",
+        "service": null,
+        "website": "https://ramp.network",
+        "twitter": "https://twitter.com/RampNetwork",
+        "crunchbase": "https://www.crunchbase.com/organization/ramp-3b7b",
+        "linkedin": "https://www.linkedin.com/company/rampnetwork"
+      }
+    },
+    {
+      "address": "5fNTwbcEBKNBYCSSgDsSXyDZgJEM24uJNv7j1A9cFzUg",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@ramarxyz",
+        "note": "",
+        "id": "ramarxyz",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ramarxyz"
+      }
+    },
+    {
+      "address": "0xF9051E71aA3acFD4502EB69DD2d475Cc525cc5f6",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0xF9051E71aA3acFD4502EB69DD2d475Cc525cc5f6",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x5B8AFa572f6827B93a02e851c4e30D98C76d4c91",
+      "chain": "hyperevm",
+      "arkhamEntity": {
+        "name": "Ramses Exchange",
+        "note": "",
+        "id": "ramses-exchange",
+        "type": "dex",
+        "service": null,
+        "website": "https://www.ramses.exchange/",
+        "twitter": "https://twitter.com/RamsesExchange"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x5B8AFa572f6827B93a02e851c4e30D98C76d4c91",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "ramzo.eth",
+      "address": "0xB86B0d463e3C266B403Ef2B47AB675975a28240E"
+    },
+    {
+      "name": "ramzes7.eth",
+      "address": "0xf46a4Ed914984923dF8c0fe1946C1f2e8b9F50B6"
+    },
+    {
+      "name": "ramibtc.eth",
+      "address": "0xFaF5Cf83230365d10D0Cb585B8678Cdf0c96E160"
+    },
+    {
+      "name": "ramagod.eth",
+      "address": "0xbd7b65aD03e489eDA10Ad8A0823b81F67Bddb1c7"
+    },
+    {
+      "name": "rampine.eth",
+      "address": "0x4B669930F198758b1dccBD9F7322131843cB1fEE"
+    },
+    {
+      "name": "ramalinga.eth",
+      "address": "0x3CCc596a2be298ff9e94bc583Bc1dE6429CD0f0A"
+    },
+    {
+      "name": "ramenmaxi.eth",
+      "address": "0xC9A4ddBc437d2Dd5ea8a69b1d803122818a39A0A"
+    },
+    {
+      "name": "ramzil.eth",
+      "address": "0x443Eac587ad23d1517F0c82109bdb2C60DEFbb4b"
+    },
+    {
+      "name": "ramzi1.eth",
+      "address": "0xc6a11C5CF258AFb78EF682e04B3768B74EA6349c"
+    },
+    {
+      "name": "ramostrustee.eth",
+      "address": "0x04D4ffC796A9B9244cCD00459Fe2785880dcf399"
+    },
+    {
+      "name": "ram0.eth",
+      "address": "0x072243673C4CB5Effee47b2b25329D6aea5ed3aC"
+    },
+    {
+      "name": "rama.eth",
+      "address": "0xeE6d13B2Bab0a151D501CDC98E705ea37Cd7167F"
+    },
+    {
+      "name": "ramzi87dz31.eth",
+      "address": "0xfb253Ace200eC4EF067C60d29Bad63984eF9B8Fb"
+    },
+    {
+      "name": "ramtn.eth",
+      "address": "0x001A794b0973AA5384ae9B7140A767782c038af8"
+    },
+    {
+      "name": "rammy.eth",
+      "address": "0x090C847aE5623cb7c538be34fe470B0C824b181F"
+    }
+  ],
+  "services": [
+    {
+      "name": "Ramzinex",
+      "note": "",
+      "id": "ramzinex",
+      "type": "cex",
+      "service": true,
+      "twitter": "ramzinex_com"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "Ramzinex",
+      "note": "",
+      "id": "ramzinex",
+      "type": "cex",
+      "service": true,
+      "twitter": "ramzinex_com"
+    },
+    {
+      "name": "@ramzinbv",
+      "note": "",
+      "id": "ramzinbv",
+      "type": "individual",
+      "service": false,
+      "twitter": "ramzinbv"
+    },
+    {
+      "name": "@RamzinVaceslav",
+      "note": "",
+      "id": "ramzinvaceslav",
+      "type": "individual",
+      "service": false,
+      "twitter": "RamzinVaceslav"
+    },
+    {
+      "name": "@raxzine",
+      "note": "",
+      "id": "raxzine",
+      "type": "individual",
+      "service": false,
+      "twitter": "raxzine"
+    },
+    {
+      "name": "@bazinext",
+      "note": "",
+      "id": "bazinext",
+      "type": "individual",
+      "service": false,
+      "twitter": "bazinext"
+    },
+    {
+      "name": "@aminexbt",
+      "note": "",
+      "id": "aminexbt",
+      "type": "individual",
+      "service": false,
+      "twitter": "aminexbt"
+    },
+    {
+      "name": "@ramenexcellent",
+      "note": "",
+      "id": "ramenexcellent",
+      "type": "individual",
+      "service": false,
+      "twitter": "ramenexcellent"
+    },
+    {
+      "name": "@aminexton",
+      "note": "",
+      "id": "aminexton",
+      "type": "individual",
+      "service": false,
+      "twitter": "aminexton"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0xEDcF12b46f57207Ec537Eb73C4E2C103A32B233A",
+      "username": "ramzataz",
+      "profileImage": "https://i.seadn.io/gcs/files/092b76c5104be84fa954e4cc12350d32.png?w=500&auto=format"
+    },
+    {
+      "address": "0x443Eac587ad23d1517F0c82109bdb2C60DEFbb4b",
+      "username": "Ramzil",
+      "profileImage": "https://i.seadn.io/gae/BbH-cT128dsrMqrzYvKqO0zNodbn2SUJC1anqtfmZkUp7Jzty6lHfaM0VuF4-SE2euRkJeW-p8FJUlJcDyZxhE4iY4tzg-Ch69BXCA?w=500&auto=format"
+    },
+    {
+      "address": "0xDD19F3F9f53Aa1a10f6733604AF5ed049fB5B955",
+      "username": "Rami",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/15.png"
+    },
+    {
+      "address": "0x0090dC9F802E8C46F64ccF641b89af30f59fF70f",
+      "username": "Ramzine",
+      "profileImage": "https://i.seadn.io/gae/b3YiONyFIzG6JjyZPuZHS7hr1vCYzbS1hWUgj3ai2PSpzWMqcGE1hfRC8HSwjmMg4onOVA9t4R330iX9ZiVg8HDkmkoLfd6NBHgu?w=500&auto=format"
+    },
+    {
+      "address": "0xCD8a1F9CD8Fe1551e64e4604772c0E6912463b25",
+      "username": "Ramzinevix",
+      "profileImage": "https://i2c.seadn.io/profiles/0xcd8a1f9cd8fe1551e64e4604772c0e6912463b25/avatar/f0ebf22281d2d83a77a5f23c8f590e/94f0ebf22281d2d83a77a5f23c8f590e.jpeg"
+    },
+    {
+      "address": "0xbf5d3Fc4300Eae8730feC11B46376592099F4C3B",
+      "username": "rambunctious",
+      "profileImage": "https://i2c.seadn.io/profiles/0xbf5d3fc4300eae8730fec11b46376592099f4c3b/avatar/042fc845cf563ce910ad2fac591367/7b042fc845cf563ce910ad2fac591367.png"
+    },
+    {
+      "address": "0x072243673C4CB5Effee47b2b25329D6aea5ed3aC",
+      "username": "Ramo_",
+      "profileImage": "https://i.seadn.io/gcs/files/7f1215cbb14417cc3f910cd62d7e389d.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x1Ffb7D03445CF602C43ABf6E02f067DFc2b65a86",
+      "username": "RAMXL",
+      "profileImage": "https://i.seadn.io/gae/h650Vn9VXwwlxgpzjobDRxHPnVvzD4esy7trXYgcpAzXivsttzTLbVfBV7Xd9unY5OXUQ8uJxFBorYqFEwYPOstcbEAyCPX0-vH2nA?w=500&auto=format"
+    },
+    {
+      "address": "0x2c6213F3d9B091db076111C39d15abD3245b89A2",
+      "username": "RAMEK",
+      "profileImage": null
+    },
+    {
+      "address": "0xa9eE2658E4df4D3Ce5928dEAA5D71b14A4d258F5",
+      "username": "Ramik",
+      "profileImage": "https://i.seadn.io/gae/Ilywy9cfCVpsOyFSty8CST30OcKLDXbT9ktwcrUgHBlU53aZiAmQbTsh26Z3t3-NlC_ZL2J-ynKYzyEwVNhVhtHSAGykwYjJTHM-8Q?w=500&auto=format"
+    },
+    {
+      "address": "0xad997D01ad8Bc905fd48C9336c3662d05E55e3ba",
+      "username": "RAMSP",
+      "profileImage": "https://i.seadn.io/gcs/files/20d47b033004964954b3440a738f3564.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xB0Bb39Ea49d115f6d054A2dFE68B6691C3f2b805",
+      "username": "rameet",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/33.png"
+    },
+    {
+      "address": "0x06f572A2885455646B58cDF33d9804d82A72D944",
+      "username": "Rammax",
+      "profileImage": "https://i2c.seadn.io/profiles/0x06f572a2885455646b58cdf33d9804d82a72d944/avatar/7af00f842565b3eedb2027f139f142/427af00f842565b3eedb2027f139f142.jpeg"
+    },
+    {
+      "address": "0x3B7a7674A43936E9f0d4AA98Bc73f990Cd726029",
+      "username": "Ramman",
+      "profileImage": "https://i.seadn.io/gae/oCfokAdJitXF3ITOeuv6u08KjGTc7LBFZ3wsja-iSHv2SqbnROwJ5Q9p5UewxKGXX8c2lEWMJUOvJwJwp45_9rH2I5OoEsPsRBFGNOI?w=500&auto=format"
+    },
+    {
+      "address": "0xBb60F9F245505F3d132974169BE1c01Aa68F66f7",
+      "username": "ramsus",
+      "profileImage": "https://i2c.seadn.io/profiles/0xbb60f9f245505f3d132974169be1c01aa68f66f7/avatar/750159191155bf6da3f3bd7d4decfb/18750159191155bf6da3f3bd7d4decfb.png"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "5NtgBrzSe7eUJhWBoYv6ZDoQuzY9SSNez1TrT2Q3zG2F",
+      "username": "ramz17",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-Blue~Face-9~Sunglasses~Hat-Brown~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "57rXqaQsvgyBKwebP2StfqQeCBjBS4jsrZFJN5aU2V9b",
+      "username": "ram",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/QmTyPpR3hgHR6kmXEBzDbBNQDTTZe2bE2tRF4HMx3jkgCm"
+    },
+    {
+      "address": "BBkru4bPXhbZpabMjWFgKHDmy1c1hcJpGd8eaDdKf47m",
+      "username": "Ramzibrc",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Green-glass~Face-3~Empty~Headphones-Grey~Empty+2~Tie-Red.webp"
+    },
+    {
+      "address": "D8MLEEe9CUfXqaMuqRkvAq2CaKo3mArtW4JQXTkcEdmH",
+      "username": "ramzik98",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Emerald-wand~Face-4~Empty~Winter-Hat-Yellow~Bracelet-green~Necklace-Red.webp"
+    },
+    {
+      "address": "DfTUBSKcYFD61hHGW7c3o5hLkvW9S15dJFY5whPrGDFe",
+      "username": "Rams",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Green-glass~Face-7~Blush~Hairstyle-2---Brown~Empty+2~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "EURdhiLhdPG4uMTmiWNEn272i86bAbeCwgn5vWu7tngx",
+      "username": "Ramc",
+      "profileImage": "https://socialimages.pump.fun/profile-images/bcdbdeb1-1b48-4612-85b4-6da7b414e791/49df40154b6c76c29885d33f55a3ba33"
+    },
+    {
+      "address": "3pZk9ngJgBhhhL8khwKiaH4SoJjdX91vJj1M2AQW9PYT",
+      "username": "Ramcinea93",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-Indigo~Face-5~Glasses-black~Cap-back-red~Bracelet-green~Necklace-Red.webp"
+    },
+    {
+      "address": "9DVtTmDKwPa1BYXkbUczJngtsU3z1VyyuavTJa26urCo",
+      "username": "ramzi1989",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Green-glass~Face-2~Blush~Cap-Red~Empty+2~Tie-Green.webp"
+    },
+    {
+      "address": "9PKmAwPRb1dmgtqjopdhcxZNTc5H5AcbfxdrTa7N8TxP",
+      "username": "RaMag",
+      "profileImage": null
+    },
+    {
+      "address": "HEJboLv33DBvWLR4urkEXspJUVLDsLePMnWAKCZfJ19F",
+      "username": "Ram11",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Orange~Face-6~Blush~Hairstyle-1---Red~Bracelet-orange~Bowtie-Orange.webp"
+    },
+    {
+      "address": "J42CzWXxLEdpPqR6Xg3Cf2QxdZ4FrBGQvDyKZkfGgeR2",
+      "username": "Ramzibinan",
+      "profileImage": "https://socialimages.pump.fun/profile-images/3532b076-20d5-49c7-be2f-e7e901f137e3/475296bf0b7fd1dec1b44774d0286edb"
+    },
+    {
+      "address": "DPpERbzTgouMDzHmWUKqpksJiiYZHT35Gwm1h51skfHV",
+      "username": "Ramzipikoo",
+      "profileImage": "https://socialimages.pump.fun/profile-images/DPpERbzTgouMDzHmWUKqpksJiiYZHT35Gwm1h51skfHV/34492658-cbc5-488e-ac40-605c05e20bad"
+    },
+    {
+      "address": "71PCu3E4JP5RDBoY6wJteqzxkKNXLyE1byg5BTAL9UtQ",
+      "username": "ramset",
+      "profileImage": "https://pump.mypinata.cloud/ipfs/QmNfWnPRfySWw92k67pzy1uZBp7UDiwChwNkbtM7vJSq9h"
+    },
+    {
+      "address": "8xTCHKXLenudyX62Bh7Fhr58pByC3py6degYjrcswXvQ",
+      "username": "rambo1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/312c954c-1470-4fdc-b2fa-88370c51e7bf/20568c4e99d10e41e2ad5512d9b921b3"
+    },
+    {
+      "address": "Eewz9VhxZN5P7gKCKnqUyx8bpoomZ3HYib9irPZJcKpy",
+      "username": "Ramkay",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Indigo-wand~Face-5~Glasses-black~Hairstyle-3-grey~Empty+2~Bowtie-Orange.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "deziyxReMmXCSk6t8jH2fSTtssav8Tmr8E4z5G1UFSA",
+      "username": "Ramzi123"
+    },
+    {
+      "chain": "solana",
+      "address": "25T4H5mv4U74ttyZtSJ2uLTeniox2XueENPvPR8aj7vv",
+      "username": "ramzi"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x72C687632DF545aB895ADB100a2c236a2bf0049C",
+      "username": "ramzi"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2F71f333CAB4a12F0A05416063af19741ddcb2c2",
+      "username": "Ramzi123"
+    },
+    {
+      "chain": "solana",
+      "address": "4qNe1nznPoJiGayZJLbsnn515seshVSC7aE2CSEiTu5Y",
+      "username": "Rama"
+    },
+    {
+      "chain": "solana",
+      "address": "HQn9ZTCxVWBeXPm7bHv8iNZB78c8MWp6QiuF8RJTH2cK",
+      "username": "rarety"
+    },
+    {
+      "chain": "solana",
+      "address": "9T3rugeDge16uEh5qBMjFUWyzgTJV71YxWt9qBMuF2Ah",
+      "username": "racist"
+    },
+    {
+      "chain": "solana",
+      "address": "HZVEwPv8HTNndq1szU3a2PCNq5MZx2iyHda3jqZ2t3QT",
+      "username": "radiant"
+    },
+    {
+      "chain": "solana",
+      "address": "5kPizusinDYhpTwBDzQok6p29Z8YJDrDPjZcuTqMMgzG",
+      "username": "raychan"
+    },
+    {
+      "chain": "solana",
+      "address": "8kV83kkE1E89Z5ytqFdeULNG5tVWit5oUMoPPb2uuNzX",
+      "username": "Ravaelo"
+    },
+    {
+      "chain": "solana",
+      "address": "FGV4oWHXWWNBVQKdE3JGcgXuhPwR5HJAXjxCUiec6Max",
+      "username": "Razaria"
+    },
+    {
+      "chain": "solana",
+      "address": "8zfCE7AsVx15oTZcnsuyPAE2EHmEAHjmSepLpkoZJnyS",
+      "username": "Rafi_0x"
+    },
+    {
+      "chain": "solana",
+      "address": "E2gNyTDydSwjqhNT5Yw2nR9SQ5xMFgCcgzaQDbDScGnv",
+      "username": "Rambler"
+    },
+    {
+      "chain": "solana",
+      "address": "3RvGh5UdHc8R58knhNmZrPtPZdr13jfGTWiqfAWCVr8M",
+      "username": "rawberry"
+    },
+    {
+      "chain": "solana",
+      "address": "344sdDXZBvShZaSB2fiWEpED6rT3qZ63WmRUDa79c5DS",
+      "username": "RamenXBT"
+    }
+  ]
+}

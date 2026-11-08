@@ -1,0 +1,49 @@
+{
+  "name": "Wallex",
+  "note": "",
+  "id": "wallex",
+  "customized": false,
+  "type": "misc",
+  "service": null,
+  "website": "https://wallex.global/",
+  "twitter": "https://twitter.com/wallex_official",
+  "populatedTags": [
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "token-deployer",
+      "label": "ERC721 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ERC721"
+    },
+    {
+      "id": "token-deployer",
+      "label": "BEP20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "BEP20"
+    },
+    {
+      "id": "metamask-user",
+      "label": "MetaMask User",
+      "rank": 235,
+      "excludeEntities": false,
+      "disablePage": false
+    }
+  ]
+}

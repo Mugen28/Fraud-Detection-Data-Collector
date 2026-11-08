@@ -1,0 +1,1962 @@
+{
+  "entity_id": "bitpin",
+  "entity_name": "Bitpin",
+  "total_wallets": 276,
+  "chain_breakdown": {
+    "evm": 16,
+    "tron": 1,
+    "bsc": 67,
+    "ethereum": 66,
+    "arbitrum_one": 63,
+    "polygon": 63
+  },
+  "wallets": [
+    {
+      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9\"",
+      "chain": "evm",
+      "label": "Primary Master Hot Wallet",
+      "entity": "Bitpin",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x722926eb7D370F7D4335411BC394c840EdF276aD",
+      "chain": "evm",
+      "usd_balance": 43620.06,
+      "label": "Predicted Exchange Wallet ($43,620.06)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5bc7dB693Cdcb06c81Fc4ff279929BD6e48F7cf9",
+      "chain": "evm",
+      "usd_balance": 4685.56,
+      "label": "Predicted Exchange Wallet ($4,685.56)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xe0FF1AE00A7410D1f2262b20Cb089de801617117",
+      "chain": "evm",
+      "usd_balance": 154.72,
+      "label": "Predicted Exchange Wallet ($154.72)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5991028125e2b36BfFb0d131a18d3212036C1340",
+      "chain": "evm",
+      "usd_balance": 41.3,
+      "label": "Predicted Exchange Wallet ($41.30)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x710d802610bAC3798bAf5456F43B1358680c9833",
+      "chain": "evm",
+      "usd_balance": 16.27,
+      "label": "Predicted Exchange Wallet ($16.27)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5538fE3ab0CE6afF0e3Cd54b607905151E4905C1",
+      "chain": "evm",
+      "usd_balance": 8.85,
+      "label": "Predicted Exchange Wallet ($8.85)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x981F6bcD872F639DB3dfd0E0bB2A45e437AD324E",
+      "chain": "evm",
+      "usd_balance": 6.51,
+      "label": "Predicted Exchange Wallet ($6.51)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x4D7244526f991DdA37e54DF138EbF83cA3706cBD",
+      "chain": "evm",
+      "usd_balance": 6.3,
+      "label": "Predicted Exchange Wallet ($6.30)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x28cccDBC18E579BCD0F305B3C25cBf389b16250f",
+      "chain": "evm",
+      "usd_balance": 1.17,
+      "label": "Predicted Exchange Wallet ($1.17)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xa5580fb76188B58df0EE62E7168E3F9D15f8B58E",
+      "chain": "evm",
+      "usd_balance": 0.22,
+      "label": "Predicted Exchange Wallet ($0.22)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x39D298E6BcA130ed49b00CBa31dF49Df5f503EdA",
+      "chain": "evm",
+      "usd_balance": 0.22,
+      "label": "Predicted Exchange Wallet ($0.22)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x6286390A0d27766F5A3A47b594B0f121bCa383A7",
+      "chain": "evm",
+      "usd_balance": 0.22,
+      "label": "Predicted Exchange Wallet ($0.22)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0xc9922284e18b1aeCfC23D83e58D2fdc165cB95EA",
+      "chain": "evm",
+      "usd_balance": 0.06,
+      "label": "Predicted Exchange Wallet ($0.06)",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x996122768dc8284367B2500c05a2b0Ce03ac9532",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x6f4B6864C5aa45F83F7BD461EA8Cb94B4B9BF0C6",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "TPAGNcyoCkdrFA6YFHUR1GrcySMHUr88jq",
+      "chain": "tron",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x56b4A37c9f5661FCa68604333EE8cBf84c628d6D",
+      "chain": "bsc",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x7aA12683314dAc77e1864B5Bc9Ae609d91975Ac7",
+      "chain": "bsc",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xf5Ae5A12A9D93338eD65aebFD4581ED49776F694",
+      "chain": "bsc",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x8fEDE5452155C54c4fAA3877C97C7b1Bb75626F7",
+      "chain": "ethereum",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x9883e2C324cE83f0207a9c5a0Af25612f5402704",
+      "chain": "ethereum",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xa9Db8D84b920983cc6407f0Ca03763900Af08Fa5",
+      "chain": "ethereum",
+      "label": "Exchange Labeled Wallet",
+      "entity": "Bitpin",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x8Bb119faD0812cB1A766077CF4A1284e69ac8887",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xE0f98EA7686fE862b2a4554611cEe8C590B346EB",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xa311Dd4650BDB4E82b1AA3A75B3c9F51512EeB5e",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x347c6412A24A413671CEa3c3888c7dB56E7C768b",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xF030bdc7eCcC715686Fe8eAAf71aa660B1161758",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x19f78f1c946632557edeCFf1df2C946741578ca1",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC87775916E96E70E8b06e6032CA73593566e2b9F",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6dBBc655d52Ff4036174a12cd29F9B31B131Cc8a",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4B2d935e7d6C8Ab4154f5284848E92F55D459F55",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x589a21C8d3F4B0dB3d5bA52E4Ac7D26D673629e1",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xCd15E9fd5895268eD7700d718800516A06Cb54d3",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x9EBD7203E4a1BFB96AbD873fb4fBdA63b95AF638",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x41e0C82ea486E8Aa9D9A4b07775a6333698Eb428",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xAd4e6E138a19Cc1f22FD083F74Db73913A376415",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6041cbd13A66aE413e4dEC742cFE14c2CDdE5676",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xcb630fc3f3e6A955Ce79285Bc589ebfF2C867a19",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6637587EA39135988b104b45c4E36962f75F4067",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x3322F2447c6af7ED5B6274d14FBa7Ca3E87b4b89",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x210c3cB3A02f26dBFC9e5488056aF5C6bd17aAbD",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x9d7E24B9E8E6428C20532b31f2D6042E84110e9f",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x2D92308fd6224B9c58865F1e1B2C2F2C2B938E57",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x97d59816ddB5912F82B7345BaD1e6E7de0249790",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xBf0737a261b57d6f07A28B5D1427661CD395b972",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x5A5dad40949eA00a85cA697513659F869c6d753F",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xA62AD377C30B834b6EC39df213c2d47bF166eB5A",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x4b15824399B56aCaE18E6dcF3D81678145Be1543",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x16879150Cb37e01B07F7a576a8EBa4D9Cd3f7008",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x71565BA8e7D1cd71b2C5Defe14648B617115Ba23",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x6a5bBdf252fD5E155C0e347604108C4C2cbcac7B",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x79C474F6b14b89b27926519cF1934049CCe32C12",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x30B3F2Aa6f19Fc4903A547bDFD0818EaCe639965",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x0f40C2bdeBB2Dd1ba10E05261C1a2C479ED57230",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1D9761D4e068D516D248886e25271DCAB829bD0c",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x850425306aE3731974f6ec33E911fA1Bea7a1666",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x6eC1734fbaA78Db63e6623149ff2eec72b7Dc471",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x87E06A416e364bfE74895B81ba47D0fA03605b26",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xED93E325f2DA2d8552C59827197C798387B732f7",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4CA3e540e98759F3B227cF682893cea5449C8608",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xC55A23560d3Bf4B7eBc306BB7831De198E08Dee0",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xE0f98EA7686fE862b2a4554611cEe8C590B346EB",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xa311Dd4650BDB4E82b1AA3A75B3c9F51512EeB5e",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x347c6412A24A413671CEa3c3888c7dB56E7C768b",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x589a21C8d3F4B0dB3d5bA52E4Ac7D26D673629e1",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xCd15E9fd5895268eD7700d718800516A06Cb54d3",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x3322F2447c6af7ED5B6274d14FBa7Ca3E87b4b89",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x210c3cB3A02f26dBFC9e5488056aF5C6bd17aAbD",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x97d59816ddB5912F82B7345BaD1e6E7de0249790",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xA62AD377C30B834b6EC39df213c2d47bF166eB5A",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4b15824399B56aCaE18E6dcF3D81678145Be1543",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x16879150Cb37e01B07F7a576a8EBa4D9Cd3f7008",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x79C474F6b14b89b27926519cF1934049CCe32C12",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x0f40C2bdeBB2Dd1ba10E05261C1a2C479ED57230",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x1D9761D4e068D516D248886e25271DCAB829bD0c",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x850425306aE3731974f6ec33E911fA1Bea7a1666",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x6eC1734fbaA78Db63e6623149ff2eec72b7Dc471",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x87E06A416e364bfE74895B81ba47D0fA03605b26",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xED93E325f2DA2d8552C59827197C798387B732f7",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4CA3e540e98759F3B227cF682893cea5449C8608",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xC55A23560d3Bf4B7eBc306BB7831De198E08Dee0",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xE0f98EA7686fE862b2a4554611cEe8C590B346EB",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xa311Dd4650BDB4E82b1AA3A75B3c9F51512EeB5e",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x347c6412A24A413671CEa3c3888c7dB56E7C768b",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x589a21C8d3F4B0dB3d5bA52E4Ac7D26D673629e1",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xCd15E9fd5895268eD7700d718800516A06Cb54d3",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x3322F2447c6af7ED5B6274d14FBa7Ca3E87b4b89",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x210c3cB3A02f26dBFC9e5488056aF5C6bd17aAbD",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x97d59816ddB5912F82B7345BaD1e6E7de0249790",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xA62AD377C30B834b6EC39df213c2d47bF166eB5A",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4b15824399B56aCaE18E6dcF3D81678145Be1543",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x16879150Cb37e01B07F7a576a8EBa4D9Cd3f7008",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x79C474F6b14b89b27926519cF1934049CCe32C12",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x0f40C2bdeBB2Dd1ba10E05261C1a2C479ED57230",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x1D9761D4e068D516D248886e25271DCAB829bD0c",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x850425306aE3731974f6ec33E911fA1Bea7a1666",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x6eC1734fbaA78Db63e6623149ff2eec72b7Dc471",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x87E06A416e364bfE74895B81ba47D0fA03605b26",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xED93E325f2DA2d8552C59827197C798387B732f7",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4CA3e540e98759F3B227cF682893cea5449C8608",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xC55A23560d3Bf4B7eBc306BB7831De198E08Dee0",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xE0f98EA7686fE862b2a4554611cEe8C590B346EB",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xa311Dd4650BDB4E82b1AA3A75B3c9F51512EeB5e",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x347c6412A24A413671CEa3c3888c7dB56E7C768b",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x589a21C8d3F4B0dB3d5bA52E4Ac7D26D673629e1",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xCd15E9fd5895268eD7700d718800516A06Cb54d3",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x3322F2447c6af7ED5B6274d14FBa7Ca3E87b4b89",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x210c3cB3A02f26dBFC9e5488056aF5C6bd17aAbD",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x97d59816ddB5912F82B7345BaD1e6E7de0249790",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xA62AD377C30B834b6EC39df213c2d47bF166eB5A",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4b15824399B56aCaE18E6dcF3D81678145Be1543",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x16879150Cb37e01B07F7a576a8EBa4D9Cd3f7008",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x79C474F6b14b89b27926519cF1934049CCe32C12",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x0f40C2bdeBB2Dd1ba10E05261C1a2C479ED57230",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x1D9761D4e068D516D248886e25271DCAB829bD0c",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x850425306aE3731974f6ec33E911fA1Bea7a1666",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x6eC1734fbaA78Db63e6623149ff2eec72b7Dc471",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x87E06A416e364bfE74895B81ba47D0fA03605b26",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xED93E325f2DA2d8552C59827197C798387B732f7",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0x4CA3e540e98759F3B227cF682893cea5449C8608",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xC55A23560d3Bf4B7eBc306BB7831De198E08Dee0",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x4c95a643"
+    },
+    {
+      "address": "0xD66c43C7876EA5324B0a87F54a25D3715E839372",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0xD66c43C7876EA5324B0a87F54a25D3715E839372",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0xD66c43C7876EA5324B0a87F54a25D3715E839372",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0xD66c43C7876EA5324B0a87F54a25D3715E839372",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
+    },
+    {
+      "address": "0x1D2E27cC62cEE11bD9A1C3854E63fF9c5781a058",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x36227cdcD680786278e5C66d4CA830825F5E2120",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xe0c0184ed1BB6812d453f9d2aa8979D61dabc34a",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x06D5b2981e40Fe1ADD6329aE2435e637FFB8e88e",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8f03BE38988e964F47DE918B73cb928841017794",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xaC56f97cB97E5Bb036C26E3A0AD66345fd0F53FB",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xE5aeD33BA6C4124eF0b1daAa8bd5CA2Cd11F0434",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x7E3125258f005f4CaBd194dc5B32746e04826689",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xb3e5aECFE39ADB20257767F121F8830a533Ab0f1",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x706E61c01AD141dcE4aF2d5475c42AB350Da59D3",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8Bb119faD0812cB1A766077CF4A1284e69ac8887",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xF030bdc7eCcC715686Fe8eAAf71aa660B1161758",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x6dBBc655d52Ff4036174a12cd29F9B31B131Cc8a",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x41e0C82ea486E8Aa9D9A4b07775a6333698Eb428",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x9EBD7203E4a1BFB96AbD873fb4fBdA63b95AF638",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xcb630fc3f3e6A955Ce79285Bc589ebfF2C867a19",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x6637587EA39135988b104b45c4E36962f75F4067",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x5A5dad40949eA00a85cA697513659F869c6d753F",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x30B3F2Aa6f19Fc4903A547bDFD0818EaCe639965",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x1D2E27cC62cEE11bD9A1C3854E63fF9c5781a058",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x36227cdcD680786278e5C66d4CA830825F5E2120",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xe0c0184ed1BB6812d453f9d2aa8979D61dabc34a",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x06D5b2981e40Fe1ADD6329aE2435e637FFB8e88e",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8f03BE38988e964F47DE918B73cb928841017794",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xaC56f97cB97E5Bb036C26E3A0AD66345fd0F53FB",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xE5aeD33BA6C4124eF0b1daAa8bd5CA2Cd11F0434",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x7E3125258f005f4CaBd194dc5B32746e04826689",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xb3e5aECFE39ADB20257767F121F8830a533Ab0f1",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x706E61c01AD141dcE4aF2d5475c42AB350Da59D3",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8Bb119faD0812cB1A766077CF4A1284e69ac8887",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xF030bdc7eCcC715686Fe8eAAf71aa660B1161758",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x6dBBc655d52Ff4036174a12cd29F9B31B131Cc8a",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x41e0C82ea486E8Aa9D9A4b07775a6333698Eb428",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x9EBD7203E4a1BFB96AbD873fb4fBdA63b95AF638",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xcb630fc3f3e6A955Ce79285Bc589ebfF2C867a19",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x6637587EA39135988b104b45c4E36962f75F4067",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x5A5dad40949eA00a85cA697513659F869c6d753F",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x30B3F2Aa6f19Fc4903A547bDFD0818EaCe639965",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x1D2E27cC62cEE11bD9A1C3854E63fF9c5781a058",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x36227cdcD680786278e5C66d4CA830825F5E2120",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xe0c0184ed1BB6812d453f9d2aa8979D61dabc34a",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x06D5b2981e40Fe1ADD6329aE2435e637FFB8e88e",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8f03BE38988e964F47DE918B73cb928841017794",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xaC56f97cB97E5Bb036C26E3A0AD66345fd0F53FB",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xE5aeD33BA6C4124eF0b1daAa8bd5CA2Cd11F0434",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x7E3125258f005f4CaBd194dc5B32746e04826689",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xb3e5aECFE39ADB20257767F121F8830a533Ab0f1",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x706E61c01AD141dcE4aF2d5475c42AB350Da59D3",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8Bb119faD0812cB1A766077CF4A1284e69ac8887",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xF030bdc7eCcC715686Fe8eAAf71aa660B1161758",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x6dBBc655d52Ff4036174a12cd29F9B31B131Cc8a",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x41e0C82ea486E8Aa9D9A4b07775a6333698Eb428",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x9EBD7203E4a1BFB96AbD873fb4fBdA63b95AF638",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xcb630fc3f3e6A955Ce79285Bc589ebfF2C867a19",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x6637587EA39135988b104b45c4E36962f75F4067",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x5A5dad40949eA00a85cA697513659F869c6d753F",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x30B3F2Aa6f19Fc4903A547bDFD0818EaCe639965",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x1D2E27cC62cEE11bD9A1C3854E63fF9c5781a058",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x36227cdcD680786278e5C66d4CA830825F5E2120",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xe0c0184ed1BB6812d453f9d2aa8979D61dabc34a",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x06D5b2981e40Fe1ADD6329aE2435e637FFB8e88e",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x8f03BE38988e964F47DE918B73cb928841017794",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xaC56f97cB97E5Bb036C26E3A0AD66345fd0F53FB",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xE5aeD33BA6C4124eF0b1daAa8bd5CA2Cd11F0434",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x7E3125258f005f4CaBd194dc5B32746e04826689",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xb3e5aECFE39ADB20257767F121F8830a533Ab0f1",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0x706E61c01AD141dcE4aF2d5475c42AB350Da59D3",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0xF4e1039B"
+    },
+    {
+      "address": "0xa1bf8407c40272Ad0C5cA47232041560aA48969A",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x8e66eF97672dC5a448eb76969c894cd467dc16f3",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x7f2676F83736211Fe567578e4276a8705CAF18B6",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xb356E4875Be00E237c06b33E903ACA3B2C2abE13",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xc53740E4bC1ad98565C38f9378b8219e97FDeB07",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x344FE707978e8F8C1Cb42f6CDe4edbd641A477a4",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x19f78f1c946632557edeCFf1df2C946741578ca1",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xC87775916E96E70E8b06e6032CA73593566e2b9F",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x4B2d935e7d6C8Ab4154f5284848E92F55D459F55",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xAd4e6E138a19Cc1f22FD083F74Db73913A376415",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x6041cbd13A66aE413e4dEC742cFE14c2CDdE5676",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x9d7E24B9E8E6428C20532b31f2D6042E84110e9f",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x2D92308fd6224B9c58865F1e1B2C2F2C2B938E57",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xBf0737a261b57d6f07A28B5D1427661CD395b972",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x71565BA8e7D1cd71b2C5Defe14648B617115Ba23",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xa1bf8407c40272Ad0C5cA47232041560aA48969A",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x8e66eF97672dC5a448eb76969c894cd467dc16f3",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x7f2676F83736211Fe567578e4276a8705CAF18B6",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xb356E4875Be00E237c06b33E903ACA3B2C2abE13",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xc53740E4bC1ad98565C38f9378b8219e97FDeB07",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x344FE707978e8F8C1Cb42f6CDe4edbd641A477a4",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x19f78f1c946632557edeCFf1df2C946741578ca1",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xC87775916E96E70E8b06e6032CA73593566e2b9F",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x4B2d935e7d6C8Ab4154f5284848E92F55D459F55",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xAd4e6E138a19Cc1f22FD083F74Db73913A376415",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x6041cbd13A66aE413e4dEC742cFE14c2CDdE5676",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x9d7E24B9E8E6428C20532b31f2D6042E84110e9f",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x2D92308fd6224B9c58865F1e1B2C2F2C2B938E57",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xBf0737a261b57d6f07A28B5D1427661CD395b972",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x71565BA8e7D1cd71b2C5Defe14648B617115Ba23",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xa1bf8407c40272Ad0C5cA47232041560aA48969A",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x8e66eF97672dC5a448eb76969c894cd467dc16f3",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x7f2676F83736211Fe567578e4276a8705CAF18B6",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xb356E4875Be00E237c06b33E903ACA3B2C2abE13",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xc53740E4bC1ad98565C38f9378b8219e97FDeB07",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x344FE707978e8F8C1Cb42f6CDe4edbd641A477a4",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x19f78f1c946632557edeCFf1df2C946741578ca1",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xC87775916E96E70E8b06e6032CA73593566e2b9F",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x4B2d935e7d6C8Ab4154f5284848E92F55D459F55",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xAd4e6E138a19Cc1f22FD083F74Db73913A376415",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x6041cbd13A66aE413e4dEC742cFE14c2CDdE5676",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x9d7E24B9E8E6428C20532b31f2D6042E84110e9f",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x2D92308fd6224B9c58865F1e1B2C2F2C2B938E57",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xBf0737a261b57d6f07A28B5D1427661CD395b972",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x71565BA8e7D1cd71b2C5Defe14648B617115Ba23",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xa1bf8407c40272Ad0C5cA47232041560aA48969A",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x8e66eF97672dC5a448eb76969c894cd467dc16f3",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x7f2676F83736211Fe567578e4276a8705CAF18B6",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xb356E4875Be00E237c06b33E903ACA3B2C2abE13",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0xc53740E4bC1ad98565C38f9378b8219e97FDeB07",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x344FE707978e8F8C1Cb42f6CDe4edbd641A477a4",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x41c456D2"
+    },
+    {
+      "address": "0x6a5bBdf252fD5E155C0e347604108C4C2cbcac7B",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x178782C8Ab428B6099e71172Ec87c4d32A523217",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x9839025c61cfc2e66fB49e048FffDD04BE866d2c",
+      "chain": "bsc",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x178782C8Ab428B6099e71172Ec87c4d32A523217",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x9839025c61cfc2e66fB49e048FffDD04BE866d2c",
+      "chain": "ethereum",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x6a5bBdf252fD5E155C0e347604108C4C2cbcac7B",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x178782C8Ab428B6099e71172Ec87c4d32A523217",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x9839025c61cfc2e66fB49e048FffDD04BE866d2c",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x6a5bBdf252fD5E155C0e347604108C4C2cbcac7B",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x178782C8Ab428B6099e71172Ec87c4d32A523217",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    },
+    {
+      "address": "0x9839025c61cfc2e66fB49e048FffDD04BE866d2c",
+      "chain": "polygon",
+      "label": "Bitpin Deposit",
+      "entity": "Bitpin",
+      "source": "depth2/hot_wallet/0x0595DB3a"
+    }
+  ]
+}

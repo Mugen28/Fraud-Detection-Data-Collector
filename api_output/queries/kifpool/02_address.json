@@ -1,0 +1,20 @@
+{
+  "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+  "chain": "hyperevm",
+  "arkhamEntity": {
+    "name": "Kittenswap",
+    "note": "",
+    "id": "kittenswap",
+    "type": "dex",
+    "service": null,
+    "website": "https://kittenswap.finance",
+    "twitter": "https://x.com/kittenswaphype"
+  },
+  "arkhamLabel": {
+    "name": "Pool",
+    "address": "0x3c1403335d0ca7d0A73c9E775B25514537C2b809",
+    "chainType": "evm"
+  },
+  "isUserAddress": false,
+  "contract": true
+}

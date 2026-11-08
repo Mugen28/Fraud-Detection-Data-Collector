@@ -1,0 +1,30 @@
+{
+  "target": "ramzali",
+  "entity_id": "muhammad-asyraf-bin-mohd-razali",
+  "entity_name": "Muhammad Asyraf Bin Mohd Razali",
+  "summary": {
+    "entityId": "muhammad-asyraf-bin-mohd-razali",
+    "numAddresses": 1,
+    "volumeUsd": 13071.019999999997,
+    "balanceUsd": 0.0017763906882078,
+    "firstTx": "2021-11-15T00:00:00Z",
+    "lastTx": "2025-08-03T00:00:00Z"
+  },
+  "top_address": "0x144f175937792f9c3c51f3b76e9c6ff4f57b2664\"",
+  "wallets": [
+    {
+      "address": "0x144f175937792f9c3c51f3b76e9c6ff4f57b2664\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Muhammad Asyraf Bin Mohd Razali",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x144F175937792f9C3c51F3b76e9c6fF4f57B2664",
+      "chain": "ethereum",
+      "label": "Celsius Network Deposit",
+      "entity": "Muhammad Asyraf Bin Mohd Razali",
+      "source": "transfers"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "target": "excoino",
+  "entity_id": "excoino",
+  "entity_name": "Excoino",
+  "summary": {
+    "entityId": "excoino",
+    "numAddresses": 6585,
+    "volumeUsd": 45329847.19000016,
+    "balanceUsd": 97.85124324717869,
+    "firstTx": "2021-01-29T13:28:17Z",
+    "lastTx": "2026-10-31T21:11:41Z"
+  },
+  "top_address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175\"",
+  "wallets": [
+    {
+      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Excoino",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "optimism",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "optimism",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "base",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "avalanche",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers"
+    }
+  ]
+}

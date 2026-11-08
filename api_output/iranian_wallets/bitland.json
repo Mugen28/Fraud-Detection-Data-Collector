@@ -1,0 +1,16 @@
+{
+  "target": "bitland",
+  "entity_id": null,
+  "entity_name": null,
+  "summary": {},
+  "top_address": null,
+  "wallets": [
+    {
+      "address": "0xfba75b5A85100123E0687384e732a74e709A916A",
+      "chain": "polygon",
+      "label": "\"bitland\" Polymarket Account",
+      "entity": "@onza_coin",
+      "source": "intelligence/search"
+    }
+  ]
+}

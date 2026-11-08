@@ -1,0 +1,157 @@
+{
+  "entity_id": "excoino",
+  "entity_name": "Excoino",
+  "total_wallets": 20,
+  "chain_breakdown": {
+    "evm": 1,
+    "ethereum": 3,
+    "bsc": 2,
+    "optimism": 4,
+    "polygon": 3,
+    "base": 1,
+    "arbitrum_one": 4,
+    "avalanche": 2
+  },
+  "wallets": [
+    {
+      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175\"",
+      "chain": "evm",
+      "label": "Primary Master Hot Wallet",
+      "entity": "Excoino",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "optimism",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "bsc",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "optimism",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "ethereum",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "base",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "avalanche",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x250E77A657e0EdBf511c1b39d45c0fF3DA7F2F4c",
+      "chain": "avalanche",
+      "label": "Bitrue Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x286D9F92903d700CAA041e71FaAFE7755b776d1B",
+      "chain": "ethereum",
+      "label": "Bitrue Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
+      "chain": "polygon",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x53A7Db7C34089696bD701381ea6add27390C00dB",
+      "chain": "polygon",
+      "label": "Bitrue Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x16c202213F8DABaE3806e79a743BC53DC0872CcA",
+      "chain": "optimism",
+      "label": "Bitrue Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xC783561888629aD085569F595ca6E13Cf2fba430",
+      "chain": "arbitrum_one",
+      "label": "Abantether Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0xeb8A98AE80A756b6E9879cF2b3725ed398f368a4",
+      "chain": "arbitrum_one",
+      "label": "Wallex.ir Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x1Ec70D3C200DD345180FfCdA85500B82C764dfb5",
+      "chain": "optimism",
+      "label": "Excoino Deposit",
+      "entity": "Excoino",
+      "source": "transfers/chain/ethereum"
+    },
+    {
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
+      "chain": "arbitrum_one",
+      "label": "Hot Wallet",
+      "entity": "Excoino",
+      "source": "depth2/hot_wallet/0x98439001"
+    }
+  ]
+}

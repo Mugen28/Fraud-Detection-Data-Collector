@@ -1,0 +1,690 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "@ubi-tel",
+      "note": "",
+      "id": "ubi-tel",
+      "type": "individual",
+      "service": false,
+      "twitter": "UBI_TEL"
+    },
+    {
+      "name": "UBIX Network",
+      "note": "",
+      "id": "ubix-network",
+      "type": "smart-contract-platform",
+      "service": false,
+      "twitter": "UBIX_Network"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "0x700fa0B05cd310d4e2AD6Df00edEB45dDaCF48E1",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ubutoo",
+        "note": "",
+        "id": "ubutoo",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/ubutoo"
+      }
+    },
+    {
+      "address": "0x6F17E6F33FC718309E7eA6eebF646257973Aba68",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@ubit306",
+        "note": "",
+        "id": "ubit306",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/ubit306"
+      },
+      "arkhamLabel": {
+        "name": "\"tuofatafat\" on Farcaster",
+        "address": "0x6F17E6F33FC718309E7eA6eebF646257973Aba68",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xfb59342CE34e0222d9FA01825c6f202e0c78DE92",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@ubklf66355442",
+        "note": "",
+        "id": "ubklf66355442",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/ubklf66355442"
+      }
+    },
+    {
+      "address": "0x53af9B516cC5c6BdC2A500CF1ED30Ec88232B5Ec",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@UbbeNFT",
+        "note": "",
+        "id": "ubbenft",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/UbbeNFT"
+      },
+      "arkhamLabel": {
+        "name": "ubbe.eth",
+        "address": "0x53af9B516cC5c6BdC2A500CF1ED30Ec88232B5Ec",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "EaKyCix4667Z3qf6peLhGRUJMxyxHrexQHw5zt8SKPpx",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@ubit306",
+        "note": "",
+        "id": "ubit306",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/ubit306"
+      }
+    },
+    {
+      "address": "0x05c250120ce07bA6fe361B39ac344148435C25Ca",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ubuntu_08",
+        "note": "",
+        "id": "ubuntu-08",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ubuntu_08"
+      },
+      "arkhamLabel": {
+        "name": "\"ubuntu08\" on OpenSea",
+        "address": "0x05c250120ce07bA6fe361B39ac344148435C25Ca",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xaed25735d9bCCf1087e1eD33fCf8AEA1c9EE3Ee6",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@UbaldoCarlo",
+        "note": "",
+        "id": "ubaldocarlo",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/UbaldoCarlo"
+      },
+      "arkhamLabel": {
+        "name": "ubauba.eth",
+        "address": "0xaed25735d9bCCf1087e1eD33fCf8AEA1c9EE3Ee6",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x845911D40007DFB6Db4E5dB79b6C7A2F60ac1485",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@UbUbaac",
+        "note": "",
+        "id": "ububaac",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/UbUbaac"
+      },
+      "arkhamLabel": {
+        "name": "\"Ubac\" on OpenSea",
+        "address": "0x845911D40007DFB6Db4E5dB79b6C7A2F60ac1485",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "H1QNADcrnF7kgzDPKmMGEXdLeNaqyDg55fsWk2Lrz94q",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@ubutoo",
+        "note": "",
+        "id": "ubutoo",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/ubutoo"
+      },
+      "arkhamLabel": {
+        "name": "\"shinubu\" on Farcaster",
+        "address": "H1QNADcrnF7kgzDPKmMGEXdLeNaqyDg55fsWk2Lrz94q",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "0xdA11E483a7737847B6d19126B9a530df142f1BB1",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@Ubitquitas",
+        "note": "",
+        "id": "ubitquitas",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Ubitquitas"
+      }
+    },
+    {
+      "address": "3dEvK6vPFoeP4zrs2o3s9Aqw9tnbo61Ucm8mrhhU6evg",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@Ubitquitas",
+        "note": "",
+        "id": "ubitquitas",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Ubitquitas"
+      }
+    },
+    {
+      "address": "0x1c17D49E1Ba68778cB609a30553863a4C56cAEeC",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@Ubitquitas",
+        "note": "",
+        "id": "ubitquitas",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Ubitquitas"
+      }
+    },
+    {
+      "address": "4XspXDcJy3DWZsVdaXrt8pE1xhcLpXDKkhj9XyjmWWNy",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "Ubik Capital",
+        "note": "",
+        "id": "ubik-capital",
+        "type": "miner-validator",
+        "service": null,
+        "website": "https://ubik.capital",
+        "twitter": "https://x.com/ubikcapital"
+      },
+      "arkhamLabel": {
+        "name": "Validator Identity",
+        "address": "4XspXDcJy3DWZsVdaXrt8pE1xhcLpXDKkhj9XyjmWWNy",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "0x09C7c14e61A2B3Ce924AC27E6b110c46F255F536",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@ubiqland",
+        "note": "",
+        "id": "ubiqland",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/ubiqland"
+      },
+      "arkhamLabel": {
+        "name": "ubiqland.eth",
+        "address": "0x09C7c14e61A2B3Ce924AC27E6b110c46F255F536",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x4ED98b49C83e18FF0De08b2382612555205F4679",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@ubiqq00",
+        "note": "",
+        "id": "ubiqq00",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/ubiqq00"
+      },
+      "arkhamLabel": {
+        "name": "\"aksubiq\" on Farcaster",
+        "address": "0x4ED98b49C83e18FF0De08b2382612555205F4679",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "ubitel.eth",
+      "address": "0x890154e4179452858EEa60ed81B8E366010D0b8E"
+    },
+    {
+      "name": "ubica.eth",
+      "address": "0x992fA1f4459042E59734C4e38BEc152Ff119eCdB"
+    },
+    {
+      "name": "ubiva.eth",
+      "address": "0xFaeaA0bB5993cD79Bc7998b56e9E3641c9D7ED4E"
+    },
+    {
+      "name": "ubiquitydao.eth",
+      "address": "0xefC0e701A824943b469a694aC564Aa1efF7Ab7dd"
+    },
+    {
+      "name": "ubyx.eth",
+      "address": "0x2Db4283CD43073F556B3bd3d6D622713607399E5"
+    },
+    {
+      "name": "ubbe.eth",
+      "address": "0x53af9B516cC5c6BdC2A500CF1ED30Ec88232B5Ec"
+    },
+    {
+      "name": "ubtech.eth",
+      "address": "0x4d2AC93b8c27bBE5Bbeb4776CC615e775C273bCC"
+    },
+    {
+      "name": "uberox.eth",
+      "address": "0xE06Fe39AA22368791A520B8683c98F171D1E463c"
+    },
+    {
+      "name": "ubauba.eth",
+      "address": "0xaed25735d9bCCf1087e1eD33fCf8AEA1c9EE3Ee6"
+    },
+    {
+      "name": "ubergod.eth",
+      "address": "0x2b91EA7b82C3a49694cc6aD92Bf819E2eA0e7941"
+    },
+    {
+      "name": "ubivez.eth",
+      "address": "0x02e456178C294eaf0ef6Ad0C275d4Ec1a52b3eB0"
+    },
+    {
+      "name": "uberrekt.eth",
+      "address": "0xFE4B04ADe5478F3B649614221CDCc43EE31fA27e"
+    },
+    {
+      "name": "uberflux.eth",
+      "address": "0x7ebCe7aCa9eE49fC4b80400c83e658008A7d8d4B"
+    },
+    {
+      "name": "uberudder.eth",
+      "address": "0x238BB3096e27DECeb776BdA1288FB24D0c0f67be"
+    },
+    {
+      "name": "ubssplash.eth",
+      "address": "0x7DBc39272d947Bc67cB6F8c59bF2F8730a325d5d"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "Bitex.la",
+      "note": "",
+      "id": "bitex-la",
+      "type": "cex",
+      "service": false,
+      "twitter": "bitexla"
+    },
+    {
+      "name": "Bitexlive",
+      "note": "",
+      "id": "bitexlive",
+      "type": "cex",
+      "service": true,
+      "twitter": "bitexlive"
+    },
+    {
+      "name": "@bitexiaotuzi",
+      "note": "",
+      "id": "bitexiaotuzi",
+      "type": "individual",
+      "service": false,
+      "twitter": "bitexiaotuzi"
+    },
+    {
+      "name": "BitMEX",
+      "note": "",
+      "id": "bitmex",
+      "type": "cex",
+      "service": true,
+      "twitter": "BitMEX"
+    },
+    {
+      "name": "Nobitex.ir",
+      "note": "",
+      "id": "nobitex",
+      "type": "cex",
+      "service": true,
+      "twitter": "nobitexmarket"
+    },
+    {
+      "name": "BitoPro",
+      "note": "",
+      "id": "bitopro",
+      "type": "cex",
+      "service": true,
+      "twitter": "BitoEx_Official"
+    },
+    {
+      "name": "BitoEX",
+      "note": "",
+      "id": "bitoex",
+      "type": "cex",
+      "service": true,
+      "twitter": "bitoex_official"
+    },
+    {
+      "name": "Bitz",
+      "note": "",
+      "id": "bitz-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "bitzexchange"
+    },
+    {
+      "name": "@FBiteTV",
+      "note": "",
+      "id": "fbitetv",
+      "type": "individual",
+      "service": false,
+      "twitter": "FBiteTV"
+    },
+    {
+      "name": "@ubit306",
+      "note": "",
+      "id": "ubit306",
+      "type": "individual",
+      "service": false,
+      "twitter": "ubit306"
+    },
+    {
+      "name": "@ubi-tel",
+      "note": "",
+      "id": "ubi-tel",
+      "type": "individual",
+      "service": false,
+      "twitter": "UBI_TEL"
+    },
+    {
+      "name": "@bitexiaoa",
+      "note": "",
+      "id": "bitexiaoa",
+      "type": "individual",
+      "service": false,
+      "twitter": "bitexiaoa"
+    },
+    {
+      "name": "@bitexlaUR",
+      "note": "",
+      "id": "bitexlaur",
+      "type": "individual",
+      "service": false,
+      "twitter": "bitexlaUR"
+    },
+    {
+      "name": "rBitex Exchange",
+      "note": "",
+      "id": "rbitex",
+      "type": "misc",
+      "service": false,
+      "twitter": "rbitexexchange"
+    },
+    {
+      "name": "@bitnexst",
+      "note": "",
+      "id": "bitnexst",
+      "type": "individual",
+      "service": false,
+      "twitter": "bitnexst"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x845911D40007DFB6Db4E5dB79b6C7A2F60ac1485",
+      "username": "Ubac",
+      "profileImage": "https://i.seadn.io/gcs/files/85db73ebae41c377e1bdbc91e644063c.png?w=500&auto=format"
+    },
+    {
+      "address": "0x53af9B516cC5c6BdC2A500CF1ED30Ec88232B5Ec",
+      "username": "Ubbe",
+      "profileImage": "https://i.seadn.io/gae/t4fYKt4C0J2a4SysjtieG9CxMkTpbBwwi0U7sU7LaaQBttTSKdaDEjuHTBIOs_vpk2IECLNUX3mZWkrY2OFpau9eZwPNjckAlcgwKs8?w=500&auto=format"
+    },
+    {
+      "address": "0x0cb58FdEa97c1471ac5f72dbBEec027D4836b2dB",
+      "username": "UBI_Faucet_Reservoir",
+      "profileImage": null
+    },
+    {
+      "address": "0xF352cC4811F9eF75a1535564314f6DbDe8585De5",
+      "username": "Ub6rr",
+      "profileImage": "https://i.seadn.io/gae/vwAch_0Ex36pFwCHuA_Z2-3A2zUC0kJKJR1goGLb9k8rzRQcbjFYkFF14HGgFJ3r51g2BEvsHCz-_3rhqqLWTsMZFtfBCSqicdlmIvE?w=500&auto=format"
+    },
+    {
+      "address": "0xBDdbCbf7Be244e703f73855f4d98f72D323f6f82",
+      "username": "uberG",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/12.png"
+    },
+    {
+      "address": "0xE06Fe39AA22368791A520B8683c98F171D1E463c",
+      "username": "uberox",
+      "profileImage": "https://i.seadn.io/gcs/files/e6c7ee54b127337add0412b8ecbdce01.png?w=500&auto=format"
+    },
+    {
+      "address": "0xD68C599A549E8518b2E0daB9cD437C930ac2f12B",
+      "username": "ubqagle",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png"
+    },
+    {
+      "address": "0xa42B37b50Fe7f1a4850E66881C22E80a80A08240",
+      "username": "ubosora",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png"
+    },
+    {
+      "address": "0x0acEf1574ea3D4188adEB8F33eeE182a5B78dC97",
+      "username": "Ubvdevf",
+      "profileImage": null
+    },
+    {
+      "address": "0x05c250120ce07bA6fe361B39ac344148435C25Ca",
+      "username": "ubuntu08",
+      "profileImage": "https://i2c.seadn.io/profiles/0x05c250120ce07ba6fe361b39ac344148435c25ca/avatar/990a9c7b36aa03cb93c05b91cbb97e/9c990a9c7b36aa03cb93c05b91cbb97e.png"
+    },
+    {
+      "address": "0x9C8e3cc87b8AE54Acf6aCF86B9be62adEe2eD655",
+      "username": "UberGlex",
+      "profileImage": "https://i.seadn.io/gae/CmBfq5SRYcZI0v2YYnMlv4CwgB18MyNaC10lLomb7NuSlPqmjkWKGgezJLBLDrLS5WAWQYGjjcRoKJwhz-aWbaCdoP9_ocWWSEea1Q?w=500&auto=format"
+    },
+    {
+      "address": "0x810d7EC5920996907e0376Af3c63B00F1588b4fc",
+      "username": "ubalzfin",
+      "profileImage": "https://i2c.seadn.io/profiles/0x810d7ec5920996907e0376af3c63b00f1588b4fc/avatar/14f5c46d16f3ab819636aadd195d82/5014f5c46d16f3ab819636aadd195d82.jpeg"
+    },
+    {
+      "address": "0x1BfAE57a65B96FC16660baa7a9fe8b29Dc4Df327",
+      "username": "UberBurn",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/33.png"
+    },
+    {
+      "address": "0x7ebCe7aCa9eE49fC4b80400c83e658008A7d8d4B",
+      "username": "UberFlux",
+      "profileImage": "https://i.seadn.io/gcs/files/4c3699768755b7a692687689eee5eaef.png?w=500&auto=format"
+    },
+    {
+      "address": "0x1d0Ce4c1B6FcaEd710A2275BaF1DdA02209Eb39E",
+      "username": "UBLV7998",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/19.png"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "6PtnUMT7NrhEnPJWoVNFRXFyEqEbXsNguFy3J12NUKTu",
+      "username": "UbigBitch",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Red-wand~Face-10~Glasses-black~Headphones-Maroon~Empty+2~Necklace-White.webp"
+    },
+    {
+      "address": "BGTwmuWKEJ2PrUoBz5tmxxRSnnjpx7s31m5C13ouD7QE",
+      "username": "ubiquitous",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-3-Emerald-wand~Face-10~Empty~Cap-Green~Bracelet-green~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "GtfRDhTd2fjdnN6TPC8cjERsjNGceL5x4G6g7VJZFjZz",
+      "username": "Ubi",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-2-Yellow~Face-8~Glasses-black~Hairstyle-3~Bracelet-orange~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "7WUHvHQL4FwhLnnuKxvzkzVvxuATf4KVCFTaw5jPB4Q4",
+      "username": "ub4me",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Blue-glass~Face-4~Sunglasses~Cap-back-green~Watch~Bowtie-Indigo.webp"
+    },
+    {
+      "address": "2otE98TEbzM2uUJgxAsi8wMrGQof3njQGYN5u8H9yuSu",
+      "username": "uber1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/a0d5a1d7-d523-40a7-ab83-15dc95e16a74/bd6355eaecb62390f0aa762b691e820f"
+    },
+    {
+      "address": "6Xg5RGrAD3ebtKUnxhRqeU5hEVsjy9upJmwpa1iqsVoS",
+      "username": "ubert",
+      "profileImage": "https://socialimages.pump.fun/profile-images/4110ab9c-558d-4e02-9337-0868d297d37f/29f94a4061d3ff0434fbc23abca89aee"
+    },
+    {
+      "address": "Gu691AWuQbrmtqBNLLzwGKM9rNbodWHxan3QgHtwytZj",
+      "username": "ubi1",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Orange-wand~Face-4~Sunglasses~Hairstyle-3-grey~Empty+2~Necklace-White.webp"
+    },
+    {
+      "address": "56WTayNYKsUVoKScCeqDjLHxEUSeu1mzEp3Dbb6E7CWE",
+      "username": "Ubii",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Green~Face-5~Empty+2~Beret~Bracelet-orange~Scarf-Red.webp"
+    },
+    {
+      "address": "ubGVY4fiuc4tEZuo4LComxPmTzKAz92eMdyZVwhksep",
+      "username": "ubGVY4",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-Indigo~Face-8~Empty+2~Hairstyle-2---Brown~Empty~Winter-Scarf.webp"
+    },
+    {
+      "address": "3zZWdZXKR4qHXUXyc8pZpnUqi9VUCYbQuufdGi4zNwLX",
+      "username": "uberox",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Red~Face-5~Empty~Leafs-Yellow~Empty~Necklace-Red.webp"
+    },
+    {
+      "address": "DyepSvCN63ShjTTKpHXtcNmoWjUKT7Zo152DZRieBLHH",
+      "username": "ubivec",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Cyan~Face-4~Glasses~Cap-back-red~Bracelet-orange~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "9d6uiyEk4crqCdTWh9cfeRJ7uLvPFLQ42oQzkCsstNiQ",
+      "username": "ubiweb",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Green-wand~Face-11~Glasses~Hat-Brown~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "AVy6Lh85DVnMD1ehhcpKdNcTUvJ52neyNSxVjJmT74ax",
+      "username": "Ubibot",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Orange-glass~Face-1~Blush~Hat-Brown~Bracelet-orange~Scarf-Red.webp"
+    },
+    {
+      "address": "4FwLdxp4NyyXoksRJqZS6TAppr3m7H6aYPsVhLRPD6XL",
+      "username": "uberrrrr",
+      "profileImage": "https://socialimages.pump.fun/profile-images/4FwLdxp4NyyXoksRJqZS6TAppr3m7H6aYPsVhLRPD6XL/f90e9594-3ced-4e8d-8bf9-6a58806532ce"
+    },
+    {
+      "address": "uberQbFqw8v22hV289T5hSTXTxn5nMsFU4yuds9RXZL",
+      "username": "ubermanx",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Emerald~Face-3~Blush~Empty+2~Bracelet-green~Buckle.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "9Zngqm5PqjBcAmkjKhN7S8ZAojv6uidBt3wmprLJ6xJV",
+      "username": "Ubick"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x41D95a4BDDE3055868aa5f663AEC59597E419559",
+      "username": "Ubick"
+    },
+    {
+      "chain": "solana",
+      "address": "4DWU5CQWgXqaeTZv6HdjaeNcT3C9u9TGLY6hqsCHnANd",
+      "username": "Uberhuman_v2"
+    },
+    {
+      "chain": "solana",
+      "address": "9xCbBSFdXehm3qQti2qQ7uEaidZwJvgmULmiMLojCm3v",
+      "username": "user7"
+    },
+    {
+      "chain": "solana",
+      "address": "3VCx8WYeP6dmWaUgChyvNEqTqaCn9bNDsYBgBVbHTZ68",
+      "username": "UPNEXT"
+    },
+    {
+      "chain": "solana",
+      "address": "7quc7Spfny7P4pFxit213PWs1a6S5ZRahBhiJ6fBCgFQ",
+      "username": "upnext"
+    },
+    {
+      "chain": "solana",
+      "address": "AfNdN3j9uVkf5gC5KjWa5K4s5EpgPxwXxr8ujzCwrkPq",
+      "username": "urugay"
+    },
+    {
+      "chain": "solana",
+      "address": "9NVFdRNEcreYDZqJAhennP2tTzaiNC2p9h9HWTdjLBuB",
+      "username": "ugl13st"
+    },
+    {
+      "chain": "solana",
+      "address": "C7BofaQz42QFsLwXB62DNmc3ZcBuN37tzjQrjnCN3kxw",
+      "username": "uuw7718"
+    },
+    {
+      "chain": "solana",
+      "address": "4cdzCdpZpw476py42q3ChStwmHsYo4CfHroaQzsnMrSN",
+      "username": "unsocial"
+    },
+    {
+      "chain": "solana",
+      "address": "G2ifD7CHfurNdFcUj5hqerKdAtU9f79xZnbNEmMaihgs",
+      "username": "UpOnly26"
+    },
+    {
+      "chain": "solana",
+      "address": "FweLByC2RovfX9hkEmYtHmoBd8WAmEG2DbFiwV4SJ8Uy",
+      "username": "uboi"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaf2881418F0A8123e3AB406A77fB228Eb6acbB27",
+      "username": "uboi"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbEE98260B46Aa1464d08292321fB17E8901fC156",
+      "username": "ubbe"
+    },
+    {
+      "chain": "solana",
+      "address": "5R9ghcnBDJae8F5tRzxWemSRtV2eDsBRq8tb3Ty8kT73",
+      "username": "ubed"
+    }
+  ],
+  "tokens": [
+    {
+      "identifier": {
+        "pricingID": "ubitex-platform"
+      },
+      "name": "UbitEX Platform",
+      "symbol": "ub",
+      "price": 0.313898,
+      "price24hAgo": 0.313898,
+      "deployments": [
+        {
+          "chain": "bsc",
+          "address": "0x697F883b7E84ea84E0880ABC80b6a5bdF7DaA5e0"
+        }
+      ]
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x7d5Ec67e31334146eFAe2FF9cc92a2b93ba163A4",
+      "displayName": "@ubijenaaa"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x7d5Ec67e31334146eFAe2FF9cc92a2b93ba163A4",
+    "displayName": "@ubijenaaa"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "target": "exir",
+  "entity_id": "exirweb3",
+  "entity_name": "@exirweb3",
+  "summary": {
+    "entityId": "exirweb3",
+    "numAddresses": 2,
+    "volumeUsd": 54818.77999999999,
+    "balanceUsd": 0.41213928994113835,
+    "firstTx": "2025-08-24T00:00:00Z",
+    "lastTx": "2026-09-12T00:00:00Z"
+  },
+  "top_address": "0x6d720d8c4f1d17b0a5d9e408b2a0334d22aa58cd\"",
+  "wallets": [
+    {
+      "address": "0x3fA9a0f76DBCA2F78Bef63A77875B6652eeFcDEC",
+      "chain": "base",
+      "label": "\"exiros\" on Farcaster",
+      "entity": "@theexiros",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x6d720d8C4f1D17B0a5d9e408B2a0334D22aA58CD",
+      "chain": "base",
+      "label": "Hot Wallet / Deposit",
+      "entity": "@exirweb3",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "76HqccZaoqApFNPUvWWcZ99GiF7gLqg3NcmA2mUDLzYf",
+      "chain": "solana",
+      "label": "\"exiros\" on Farcaster",
+      "entity": "@theexiros",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x0F9678197d188b5898d9e47955fb8A911daD8564",
+      "chain": "bsc",
+      "label": "\"exirhm\" on Farcaster",
+      "entity": "@hmsahar147",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x72c7AbaD7e73Eda5195daC683262Fbc90f8a5d5b",
+      "chain": "base",
+      "label": "\"exiros\" on Farcaster",
+      "entity": "@theexiros",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "8yWcd6whH67A8eQLxLpLmo2u6U7TgX9Upbb4EVBExmMP",
+      "chain": "solana",
+      "label": "\"exiros\" on Farcaster",
+      "entity": "@theexiros",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xA8BFB204A2463f64908b9069D3869dBEe732DF3f",
+      "chain": "polygon",
+      "label": "\"exirhm\" on Farcaster",
+      "entity": "@hmsahar147",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x0808C05c50dcE70B136F808bCecADFC09a7369B7",
+      "chain": "ethereum",
+      "label": "\"exiros\" on Farcaster",
+      "entity": "@theexiros",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xd5EA1ae2AbB5Fa541fA87ACAdE9656570853F036",
+      "chain": "base",
+      "label": "CoinbaseSmartWallet",
+      "entity": "@exirweb3",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0xd5EA1ae2AbB5Fa541fA87ACAdE9656570853F036",
+      "chain": "polygon",
+      "label": "Hot Wallet / Deposit",
+      "entity": "@exirweb3",
+      "source": "intelligence/search"
+    },
+    {
+      "address": "0x6d720d8c4f1d17b0a5d9e408b2a0334d22aa58cd\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "@exirweb3",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "0x6d720d8C4f1D17B0a5d9e408B2a0334D22aA58CD",
+      "chain": "ethereum",
+      "label": "Exchange Active Wallet",
+      "entity": "@exirweb3",
+      "source": "transfers"
+    },
+    {
+      "address": "0x6d720d8C4f1D17B0a5d9e408B2a0334D22aA58CD",
+      "chain": "bsc",
+      "label": "Exchange Active Wallet",
+      "entity": "@exirweb3",
+      "source": "transfers"
+    },
+    {
+      "address": "0x6d720d8C4f1D17B0a5d9e408B2a0334D22aA58CD",
+      "chain": "hyperevm",
+      "label": "Exchange Active Wallet",
+      "entity": "@exirweb3",
+      "source": "transfers"
+    },
+    {
+      "address": "0x6d720d8C4f1D17B0a5d9e408B2a0334D22aA58CD",
+      "chain": "polygon",
+      "label": "Exchange Active Wallet",
+      "entity": "@exirweb3",
+      "source": "transfers"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "target": "safeex",
+  "entity_id": "safex",
+  "entity_name": "Safex",
+  "summary": {
+    "entityId": "safex",
+    "numAddresses": 2,
+    "volumeUsd": 168.02999999999997,
+    "balanceUsd": 0,
+    "firstTx": "2021-09-20T00:00:00Z",
+    "lastTx": "2026-01-19T00:00:00Z"
+  },
+  "top_address": null,
+  "wallets": [
+    {
+      "address": "0x8945f6D9B4e76a2D266E67896eb6F15767354b70",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Safex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x5Fa931cf1087B47c43C3Cde8124b63Fb5409648B",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Safex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x10BE7aa17eD33CF40EC8274dC0B677EE2bBA9e16",
+      "chain": "evm",
+      "usd_balance": 0,
+      "label": "Predicted Exchange Wallet",
+      "entity": "Safex",
+      "source": "intelligence/entity_predictions"
+    },
+    {
+      "address": "0x3CDdD609244c7339a82F9d1deAFE9D4A03c0B032",
+      "chain": "bsc",
+      "label": "Deployer",
+      "entity": "Safex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x41344d20F7EE36F23356Ef7eF4a1ab635936FFE8",
+      "chain": "polygon",
+      "label": "Exchange Active Wallet",
+      "entity": "Safex",
+      "source": "transfers"
+    },
+    {
+      "address": "0x41344d20F7EE36F23356Ef7eF4a1ab635936FFE8",
+      "chain": "bsc",
+      "label": "WSFX Token",
+      "entity": "Safex",
+      "source": "transfers"
+    }
+  ]
+}

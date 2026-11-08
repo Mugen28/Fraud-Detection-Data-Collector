@@ -1,0 +1,181 @@
+{
+  "entities": {
+    "arzoo47660036": {
+      "name": "@arzoo47660036",
+      "note": "",
+      "id": "arzoo47660036",
+      "type": "individual",
+      "service": null,
+      "twitter": "https://x.com/arzoo47660036",
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "farcaster-user",
+          "label": "\"searchers\" on Farcaster",
+          "rank": 105,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "\"searchers\" on Farcaster"
+        },
+        {
+          "id": "polymarket-user",
+          "label": "\"Searcherr\" on Polymarket",
+          "rank": 110,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "\"Searcherr\" on Polymarket"
+        },
+        {
+          "id": "gnosis-safe-signer-of-safe",
+          "label": "Signer of Gnosis Safe: 0xae3d79661587c83b74756F2a6f2f564d3ed67Fc4",
+          "rank": 270,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "0xae3d79661587c83b74756F2a6f2f564d3ed67Fc4"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0.0032175319900237032,
+    "avalanche": 0,
+    "base": 0.01581133403139241,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0.014288146222266403,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0.002361000000007607,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0.003232957292476985,
+    "avalanche": 0,
+    "base": 0.016222881629120105,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0.014660736345356962,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0.002361000000007607,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 0.002625999999999351,
+        "usd": 0.002625999999999351,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 2.5320588400003084e-07,
+        "usd": 0.0005915319900243521,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.541414798776853,
+        "priceChange24h": -60.92000000000007
+      }
+    ],
+    "avalanche": [],
+    "base": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 6.7530675321305356e-06,
+        "usd": 0.015776313776537394,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.541414798776853,
+        "priceChange24h": -60.92000000000007
+      },
+      {
+        "name": "Mint Token",
+        "symbol": "MT",
+        "id": "mint-token",
+        "balance": 0.01591591027482989,
+        "usd": 3.502025485501645e-05,
+        "price": 0.00220033,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -0.4285455697348239,
+        "priceChange24h": -9.470000000000138e-06
+      },
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 0,
+        "usd": 0,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "bitcoin": [],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 6.116055861630961e-06,
+        "usd": 0.014288146222266403,
+        "price": 2336.17,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": -2.541414798776853,
+        "priceChange24h": -60.92000000000007
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 0.002361000000007607,
+        "usd": 0.002361000000007607,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}

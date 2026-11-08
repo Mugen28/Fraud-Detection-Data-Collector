@@ -1,0 +1,17 @@
+{
+  "name": "Raznin Ramli",
+  "note": "",
+  "id": "raznin-ramli",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    }
+  ]
+}

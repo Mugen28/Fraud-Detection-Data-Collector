@@ -1,0 +1,1073 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "Backpack Exchange",
+      "note": "",
+      "id": "backpack-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "Backpack"
+    },
+    {
+      "name": "HashKey Exchange",
+      "note": "",
+      "id": "hashkey-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "HashkeyExchange"
+    },
+    {
+      "name": "Pharaoh Exchange",
+      "note": "",
+      "id": "pharoah-exchange",
+      "type": "dex",
+      "service": false,
+      "twitter": "PharaohExchange"
+    },
+    {
+      "name": "Ramses Exchange",
+      "note": "",
+      "id": "ramses-exchange",
+      "type": "dex",
+      "service": false,
+      "twitter": "RamsesExchange"
+    },
+    {
+      "name": "Kanga Exchange",
+      "note": "",
+      "id": "kanga-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "KangaExchange"
+    },
+    {
+      "name": "Bungee Exchange",
+      "note": "",
+      "id": "bungeeexchange",
+      "type": "bridge",
+      "service": false,
+      "twitter": "BungeeExchange"
+    },
+    {
+      "name": "Kuna Exchange",
+      "note": "",
+      "id": "kuna",
+      "type": "cex",
+      "service": true,
+      "twitter": "KunaExchange"
+    },
+    {
+      "name": "MAX Exchange",
+      "note": "",
+      "id": "max-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "MAX_exch"
+    },
+    {
+      "name": "Wombat Exchange",
+      "note": "",
+      "id": "wombat-exchange",
+      "type": "dex",
+      "service": false,
+      "twitter": "WombatExchange"
+    },
+    {
+      "name": "Rango Exchange",
+      "note": "",
+      "id": "rango-exchange",
+      "type": "dex-aggregator",
+      "service": false,
+      "twitter": "RangoExchange"
+    },
+    {
+      "name": "EFEX.PRO (Prev. Farhad Exchange)",
+      "note": "",
+      "id": "farhad-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "FarhadExchange"
+    },
+    {
+      "name": "Cleopatra Exchange",
+      "note": "",
+      "id": "cleopatra-exchange",
+      "type": "dex",
+      "service": false,
+      "twitter": "CleopatraDEX"
+    },
+    {
+      "name": "Mach Exchange",
+      "note": "",
+      "id": "mach",
+      "type": "dex-aggregator",
+      "service": false,
+      "twitter": "mach_exchange"
+    },
+    {
+      "name": "Wowmax Exchange",
+      "note": "",
+      "id": "wowmax-exchange",
+      "type": "dex-aggregator",
+      "service": false,
+      "twitter": "WowmaxExchange"
+    },
+    {
+      "name": "Omni Exchange",
+      "note": "",
+      "id": "omni-exchange",
+      "type": "dex",
+      "service": false,
+      "twitter": "Omni_Exchange"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "TQooBX9o8iSSprLWW96YShBogx7Uwisuim",
+      "chain": "tron",
+      "arkhamLabel": {
+        "name": "FarFuture",
+        "address": "TQooBX9o8iSSprLWW96YShBogx7Uwisuim",
+        "chainType": "tron"
+      }
+    },
+    {
+      "address": "0x00000000FC04c910A0b5feA33b03E0447AD0B0aA",
+      "chain": "optimism",
+      "arkhamEntity": {
+        "name": "Farcaster",
+        "note": "",
+        "id": "farcaster",
+        "type": "social",
+        "service": null,
+        "website": "https://www.farcaster.xyz/",
+        "twitter": "https://twitter.com/farcaster_xyz"
+      },
+      "arkhamLabel": {
+        "name": "Bundler",
+        "address": "0x00000000FC04c910A0b5feA33b03E0447AD0B0aA",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x035dd9460F0D804f5E927883174553d874082801",
+      "chain": "arbitrum_one",
+      "arkhamEntity": {
+        "name": "@farhad0x",
+        "note": "",
+        "id": "farhad0x",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/farhad0x"
+      },
+      "arkhamLabel": {
+        "name": "cyrus1.eth",
+        "address": "0x035dd9460F0D804f5E927883174553d874082801",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x00000000Fc25870C6eD6b6c7E41Fb078b7656f69",
+      "chain": "optimism",
+      "arkhamEntity": {
+        "name": "Farcaster",
+        "note": "",
+        "id": "farcaster",
+        "type": "social",
+        "service": null,
+        "website": "https://www.farcaster.xyz/",
+        "twitter": "https://twitter.com/farcaster_xyz"
+      },
+      "arkhamLabel": {
+        "name": "IdGateway",
+        "address": "0x00000000Fc25870C6eD6b6c7E41Fb078b7656f69",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "E43nJbUbQJSZx1ME7fTHUPQ2528EZjU1rQxRdNwkk4Br",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@farhad0x",
+        "note": "",
+        "id": "farhad0x",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/farhad0x"
+      },
+      "arkhamLabel": {
+        "name": "\"aryo\" on Farcaster",
+        "address": "E43nJbUbQJSZx1ME7fTHUPQ2528EZjU1rQxRdNwkk4Br",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "3fXxQRcKmfddm5iyn1CWkRqp6u1Pf4LphVYTiVdAgZYh",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@farhadshohel",
+        "note": "",
+        "id": "farhadshohel",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/farhadshohel"
+      },
+      "arkhamLabel": {
+        "name": "\"wangfeiran\" on Farcaster",
+        "address": "3fXxQRcKmfddm5iyn1CWkRqp6u1Pf4LphVYTiVdAgZYh",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "0x3c18f428A89C87fA7cbee32cE2A8e78dbba4410D",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@farhadqaiser44",
+        "note": "",
+        "id": "farhadqaiser44",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/farhadqaiser44"
+      },
+      "arkhamLabel": {
+        "name": "farhadqaiser.eth",
+        "address": "0x3c18f428A89C87fA7cbee32cE2A8e78dbba4410D",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x466fB277C6c9641B518caf8FE676593cF817BF28",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@farhadirkh55650",
+        "note": "",
+        "id": "farhadirkh55650",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/farhadirkh55650"
+      },
+      "arkhamLabel": {
+        "name": "\"farhad6687\" on Farcaster",
+        "address": "0x466fB277C6c9641B518caf8FE676593cF817BF28",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x00000000fcCe7f938e7aE6D3c335bD6a1a7c593D",
+      "chain": "optimism",
+      "arkhamEntity": {
+        "name": "Farcaster",
+        "note": "",
+        "id": "farcaster",
+        "type": "social",
+        "service": null,
+        "website": "https://www.farcaster.xyz/",
+        "twitter": "https://twitter.com/farcaster_xyz"
+      },
+      "arkhamLabel": {
+        "name": "StorageRegistry",
+        "address": "0x00000000fcCe7f938e7aE6D3c335bD6a1a7c593D",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "8w4gnrn4sNGpk7RWX9oYpMqk9uLZYpgE8TjbY598P7kE",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@fargo_miss",
+        "note": "",
+        "id": "fargo-miss",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/fargo_miss"
+      }
+    },
+    {
+      "address": "TM6RLvLJeHVeBrv4K1agm55KrJbNCaN49B",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Faucetpay.io",
+        "note": "",
+        "id": "faucetpay-io",
+        "type": "misc",
+        "service": null,
+        "website": "https://faucetpay.io",
+        "twitter": "https://twitter.com/FaucetPayio"
+      }
+    },
+    {
+      "address": "4NBdKQk4zB4jvZZZz3Zp9RH2svH3ayuNZwox5qwRku8b",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@farmercist_eth",
+        "note": "",
+        "id": "farmercist-eth",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/farmercist_eth"
+      }
+    },
+    {
+      "address": "0x336AC4CC006722eE4D445466b4730e8bb6fdD793",
+      "chain": "flare",
+      "arkhamEntity": {
+        "name": "Farhad Ahani",
+        "note": "",
+        "id": "farhad-ahani",
+        "type": "individual",
+        "service": null
+      }
+    },
+    {
+      "address": "0xc5F59709974262c4AFacc5386287820bDBC7eB3A",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@farokh",
+        "note": "",
+        "id": "farokh",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/farokh",
+        "instagram": "https://instagram.com/farokh"
+      },
+      "arkhamLabel": {
+        "name": "farokh.eth",
+        "address": "0xc5F59709974262c4AFacc5386287820bDBC7eB3A",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x59E61707677382c5a375EDF5c1b33F9D8B442222",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Faraland",
+        "note": "",
+        "id": "faraland",
+        "type": "gaming",
+        "service": null,
+        "website": "https://faraland.io/",
+        "twitter": "https://twitter.com/faraland_io"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0x59E61707677382c5a375EDF5c1b33F9D8B442222",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "farhadmzn.eth",
+      "address": "0x8f3472B06A1cD2Fc40E1d89F24484408107c2E7d"
+    },
+    {
+      "name": "farhanshah.eth",
+      "address": "0xc1A377575B1ceC54A24eBeaef559484E1008ED14"
+    },
+    {
+      "name": "farhad1.eth",
+      "address": "0x6feb077Bb627475bC7Aaf4231136104f8A548b84"
+    },
+    {
+      "name": "farhadj.eth",
+      "address": "0x8ce041B078D77df852F84124445E96e3DDF81151"
+    },
+    {
+      "name": "farhad67.eth",
+      "address": "0x0975a395deb925680abC8243bF6fC2B81C2624A9"
+    },
+    {
+      "name": "farhad22.eth",
+      "address": "0x18b0C4566D8cBA3C7d564e204266e25906bb0CD1"
+    },
+    {
+      "name": "farhad8876.eth",
+      "address": "0xF454e42f07e1A63793a32075DF92F3aCA7B094a2"
+    },
+    {
+      "name": "farhad1364.eth",
+      "address": "0x8EE61551767cD2bD9626EC9D7Cc2763a1D583Ccc"
+    },
+    {
+      "name": "farmhero.eth",
+      "address": "0x068388A1213453003D1A4788A6d282c31da74e6F"
+    },
+    {
+      "name": "farmcoins.eth",
+      "address": "0x28dB92FDF955eED69296B1F2e2811B701d726618"
+    },
+    {
+      "name": "farhadqaiser.eth",
+      "address": "0x3c18f428A89C87fA7cbee32cE2A8e78dbba4410D"
+    },
+    {
+      "name": "farmerbill.eth",
+      "address": "0xfEa350f9C980A1c73429459a10913DB29C31e277"
+    },
+    {
+      "name": "farhaan.eth",
+      "address": "0x00BEeB85D617364526a34E8402Ee082697D3bEB6"
+    },
+    {
+      "name": "farhand.eth",
+      "address": "0x211E805073A45e05BE386f61545c14864307b63F"
+    },
+    {
+      "name": "farhang.eth",
+      "address": "0x731649508c8958a893C1DedA1e7E32367FA0AdB7"
+    }
+  ],
+  "services": [
+    {
+      "name": "EFEX.PRO (Prev. Farhad Exchange)",
+      "note": "",
+      "id": "farhad-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "FarhadExchange"
+    },
+    {
+      "name": "M2 Exchange",
+      "note": "",
+      "id": "m2-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "M2Exchange"
+    },
+    {
+      "name": "ZT Exchange",
+      "note": "",
+      "id": "zt-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "ZT_exchange"
+    },
+    {
+      "name": "ACE Exchange",
+      "note": "",
+      "id": "ace-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "ACE_exchange"
+    },
+    {
+      "name": "Hoo Exchange",
+      "note": "",
+      "id": "hoo-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "hoo_exchange"
+    },
+    {
+      "name": "P2B Exchange",
+      "note": "",
+      "id": "p2pb2b",
+      "type": "cex",
+      "service": true,
+      "twitter": "p2b_exchange"
+    },
+    {
+      "name": "MAX Exchange",
+      "note": "",
+      "id": "max-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "MAX_exch"
+    },
+    {
+      "name": "VBTC Exchange",
+      "note": "",
+      "id": "vbtc-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "vbtc_vietnam"
+    },
+    {
+      "name": "COSS Exchange",
+      "note": "",
+      "id": "coss-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "COSScrypto"
+    },
+    {
+      "name": "Kuna Exchange",
+      "note": "",
+      "id": "kuna",
+      "type": "cex",
+      "service": true,
+      "twitter": "KunaExchange"
+    },
+    {
+      "name": "ABCC Exchange",
+      "note": "",
+      "id": "abcc",
+      "type": "cex",
+      "service": true,
+      "twitter": "ABCCExOfficial"
+    },
+    {
+      "name": "Panda Exchange",
+      "note": "",
+      "id": "panda-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "exchange_panda"
+    },
+    {
+      "name": "Cross Exchange",
+      "note": "",
+      "id": "cross-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "exchange_cross"
+    },
+    {
+      "name": "Catex Exchange",
+      "note": "",
+      "id": "catex-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "catexofficial"
+    },
+    {
+      "name": "Boboo Exchange",
+      "note": "",
+      "id": "boboo",
+      "type": "cex",
+      "service": true,
+      "twitter": "BobooExchange"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "Cross Exchange",
+      "note": "",
+      "id": "cross-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "exchange_cross"
+    },
+    {
+      "name": "JPEX",
+      "note": "",
+      "id": "jpex",
+      "type": "cex",
+      "service": true,
+      "twitter": "ExchangeJpex"
+    },
+    {
+      "name": "@farhad0x",
+      "note": "",
+      "id": "farhad0x",
+      "type": "individual",
+      "service": false,
+      "twitter": "farhad0x"
+    },
+    {
+      "name": "@Exchangetrader1",
+      "note": "",
+      "id": "exchangetrader1",
+      "type": "individual",
+      "service": false,
+      "twitter": "Exchangetrader1"
+    },
+    {
+      "name": "@exchange_check",
+      "note": "",
+      "id": "exchange-check",
+      "type": "individual",
+      "service": false,
+      "twitter": "exchange_check"
+    },
+    {
+      "name": "@farhadshohel",
+      "note": "",
+      "id": "farhadshohel",
+      "type": "individual",
+      "service": false,
+      "twitter": "farhadshohel"
+    },
+    {
+      "name": "Hestia Exchange",
+      "note": "",
+      "id": "hestia-exchange",
+      "type": "misc",
+      "service": false,
+      "twitter": "ExchangeHestia"
+    },
+    {
+      "name": "@ExchangeSteven",
+      "note": "",
+      "id": "exchangesteven",
+      "type": "individual",
+      "service": false,
+      "twitter": "ExchangeSteven"
+    },
+    {
+      "name": "@exchange_10",
+      "note": "",
+      "id": "exchange-10",
+      "type": "individual",
+      "service": false,
+      "twitter": "exchange_10"
+    },
+    {
+      "name": "@exchange_hoop",
+      "note": "",
+      "id": "exchange-hoop",
+      "type": "individual",
+      "service": false,
+      "twitter": "exchange_hoop"
+    },
+    {
+      "name": "Wak Classic",
+      "note": "",
+      "id": "wak-classic",
+      "type": "misc",
+      "service": false,
+      "twitter": "Exchange_Wak"
+    },
+    {
+      "name": "@exchangedharpy",
+      "note": "",
+      "id": "exchangedharpy",
+      "type": "individual",
+      "service": false,
+      "twitter": "exchangedharpy"
+    },
+    {
+      "name": "@FarhadJ69",
+      "note": "",
+      "id": "farhadj69",
+      "type": "individual",
+      "service": false,
+      "twitter": "FarhadJ69"
+    },
+    {
+      "name": "EFEX.PRO (Prev. Farhad Exchange)",
+      "note": "",
+      "id": "farhad-exchange",
+      "type": "cex",
+      "service": true,
+      "twitter": "FarhadExchange"
+    },
+    {
+      "name": "@farhadqaiser44",
+      "note": "",
+      "id": "farhadqaiser44",
+      "type": "individual",
+      "service": false,
+      "twitter": "farhadqaiser44"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x3fcE306A5E8DF328d71F54189a7555a18D2f1107",
+      "username": "farhad_ptt",
+      "profileImage": "https://i2c.seadn.io/profiles/0x3fce306a5e8df328d71f54189a7555a18d2f1107/avatar/718bff70f30edec380d905534d99ab/1b718bff70f30edec380d905534d99ab.jpeg"
+    },
+    {
+      "address": "0x8817432e09B1eD23649C76b4AA680d4d32433C69",
+      "username": "FarhanDaCrypt",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/2.png"
+    },
+    {
+      "address": "0xBFA3E81516d267fC6307a6385Acd0A535297c4E6",
+      "username": "Farhype",
+      "profileImage": "https://i.seadn.io/gae/UJN7Ow-sGja5Xmd3ryejbet7deaiHJ_KcDqo-Ucrlh5Fwm6gALGdq8s_1fsoQjDIH-bS1dQ-biPTp3cR4lP-8nQQPrceIRA3TRPKnQ?w=500&auto=format"
+    },
+    {
+      "address": "0xAD9D3A03648dBcc27AA458238474a1ff88234Acf",
+      "username": "farolo",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png"
+    },
+    {
+      "address": "0x35CB5ABD6d3B8911291B06477a61691FaA407265",
+      "username": "Farhad0",
+      "profileImage": "https://i.seadn.io/gae/DqpjjPhy4gEcsUceGFVoVJC_y-9JBDO8V7pzzIo4hl6WCcCTHQSX9uUhczJGlMusWSt36V-KoYK3lO7d3m_-ujloitvQVzOAdQqfsQ?w=500&auto=format"
+    },
+    {
+      "address": "0x24eB7162D8567452a045356bb8D82b26195F011B",
+      "username": "farhad72",
+      "profileImage": "https://i.seadn.io/gcs/files/6f74487a226af48ce1c14bd170fe90aa.png?w=500&auto=format"
+    },
+    {
+      "address": "0x231E667F7449120f363F935865850c0358aFFe18",
+      "username": "farhadhc",
+      "profileImage": "https://i.seadn.io/gcs/files/450f104866e51978acb86c6956777b09.webp?w=500&auto=format"
+    },
+    {
+      "address": "0x035dd9460F0D804f5E927883174553d874082801",
+      "username": "farhad_sh",
+      "profileImage": "https://i2c.seadn.io/profiles/0x035dd9460f0d804f5e927883174553d874082801/avatar/29994fc917171dc42abb4580900326/9229994fc917171dc42abb4580900326.jpeg"
+    },
+    {
+      "address": "0xB90745B84faf577908C1474e3CCe73746bc33390",
+      "username": "farhadv87",
+      "profileImage": "https://i.seadn.io/gae/n6G-Xb9-6osw6C8-RmR4PzO6tgPXWlGqQZRbOhNnbGLZ6gTzPDklVTQQHCxaKuG21H-sO4sCNRo83CzpnYu7pfS5y2F5f4UFhrGDKug?w=500&auto=format"
+    },
+    {
+      "address": "0x1543b1c329bbA8260Facac4105d80394ed4594d4",
+      "username": "Farhad008",
+      "profileImage": null
+    },
+    {
+      "address": "0x28fAD9180Bd564A06A09149e20d2a5FE33E474f1",
+      "username": "farhadslow",
+      "profileImage": "https://i.seadn.io/gcs/files/1f58caf0dee3bc5b5e7f15f31d62830d.png?w=500&auto=format"
+    },
+    {
+      "address": "0xb43Cf45F28011bc23cE8479248f2e4ef80ED84EE",
+      "username": "Farhad1997",
+      "profileImage": "https://openseauserdata.com/files/b3a1929959a93e18ee3fd8bfca590551.webp"
+    },
+    {
+      "address": "0xF49C06E28e4F14Ed3e8DeED1C37C2Cde0CE0F1Cc",
+      "username": "Farhad5550",
+      "profileImage": "https://i.seadn.io/s/raw/files/bfbfd49e488e7290c01ee8222263fff9.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xF454e42f07e1A63793a32075DF92F3aCA7B094a2",
+      "username": "farhad8876",
+      "profileImage": "https://i.seadn.io/gcs/files/6950fac911f03c83f11c7bb5bfe6adc3.webp?w=500&auto=format"
+    },
+    {
+      "address": "0x95727eF0F06C86833647Ced90A776a471B77A7Cf",
+      "username": "Farhad3270",
+      "profileImage": "https://i.seadn.io/s/raw/files/8b52d71f87044eb30d3b25a2ad539877.webp?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "5AwdRermYAZUNsqnesFzh9unmc1WctFE8hyt7DysFKDw",
+      "username": "farhanraja",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-Cyan~Face-8~Glasses-black~Graduation-hat~Empty~Tie-Red.webp"
+    },
+    {
+      "address": "2xwrQbci2Snm4QPdVpTJUyA8PgD36V3a8HEeihGdLE67",
+      "username": "farheath",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Red~Face-4~Empty+2~Empty+2~Bracelet-orange~Tie-Yellow.webp"
+    },
+    {
+      "address": "8E82mAcbPygHWkrdWxCVCp1MLYEVXT6nLWRce3FXmLy1",
+      "username": "Farhad1999",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Cyan-wand~Face-4~Blush~Winter-Hat-Blue~Empty+2~Bowtie-Green.webp"
+    },
+    {
+      "address": "EvRTG7kmfqU3wfFa5JxfEEutH17kpYFiP6ztu3TUXbn7",
+      "username": "farhad5550",
+      "profileImage": "https://socialimages.pump.fun/profile-images/1b465ef7-a110-4158-8939-0f5b1331ab83/1a42a560420e7474634c83e9db5bf249"
+    },
+    {
+      "address": "G4MCQbCUHeBhVZ9oPvpigw7NYQ2BXoDoFKxPuKqiHBkx",
+      "username": "farhad_dex",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Emerald-glass~Face-6~Glasses-brown~Winter-Hat-Blue~Bracelet-orange~Necklace-Red.webp"
+    },
+    {
+      "address": "C4CSXna3gTtVfxcnBGChG6LbPScco28HqmPzZDyC38bw",
+      "username": "farhan",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-Indigo~Face-11~Empty~Cap-Red~Bracelet-orange~Necklace-White.webp"
+    },
+    {
+      "address": "jDhbBtWdfy61VognQLvQU9nhLbNjfFMGCBukdH8zGaS",
+      "username": "Farhan3",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Yellow-glass~Face-8~Glasses-brown~Hat~Watch~Tie-Green.webp"
+    },
+    {
+      "address": "3tpLM5GHwPvyKTZnBYn8sJr98c65QcGk5e6LszxkgV34",
+      "username": "Farhang",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Indigo~Face-3~Empty~Hat~Empty~Scarf-Red.webp"
+    },
+    {
+      "address": "EExv42r27YnDaA2V3gmjfyhyCupRebGow51G3LwTVPHP",
+      "username": "fart",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-2-Orange~Face-1~Empty+2~Crown~Empty+2~Bowtie-Orange.webp"
+    },
+    {
+      "address": "A5MFcr5AFpSNyHueNG9LPjEdfbRGHEr97rkJfqSV39Uz",
+      "username": "farhan10",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-2-Green~Face-1~Glasses-brown~Hairstyle-1---Red~Watch~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "DVM35MBdoaA4rov5UCHfK2WKQ2BxnLZX5wnw4wtQTdxt",
+      "username": "farcz",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Indigo-glass~Face-2~Blush~Hairstyle-1---Red~Empty+2~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "5ahJdDrYq5RmHebe7rLdQQJx95jp1KEoFKBigK7jPmQ9",
+      "username": "farma",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-Emerald~Face-1~Glasses-black~Cap-Green~Bracelet-green~Necklace-White.webp"
+    },
+    {
+      "address": "CMCbVMjmFiLbmCMeeHUZmJzXdc1f5VUssczXgim1MRvZ",
+      "username": "Farby",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Indigo~Body-Green~Face-7~Glasses-brown~Durag~Bracelet-orange~Tie-Yellow.webp"
+    },
+    {
+      "address": "4cE3dUtLE8eFFXZErWqTtRUeeAx7S2wWA8GqQhRsdjeg",
+      "username": "Farhanq21",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Red~Face-11~Glasses~Cap-back-red~Empty~Empty.webp"
+    },
+    {
+      "address": "H8UyRpVMn8uJHrUZDxsycsUa1mfXDDVXXkG4iPER1WNg",
+      "username": "FarhanAli",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-Orange~Face-9~Glasses~Empty~Empty+2~Empty+2.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "9topkoYCG544JEMtg98TpizVAi8b3bsGBuer5YCC6RRg",
+      "username": "farting"
+    },
+    {
+      "chain": "solana",
+      "address": "BFGG73Z4R8S7ZQjMwnyhGzCAeFLxSqR3g78mbtUqD6GB",
+      "username": "FarGrayLark"
+    },
+    {
+      "chain": "solana",
+      "address": "2p4zFpmQjm31eEEUgut8JSWnzLXNAgXarHhiicFmXMi3",
+      "username": "FarWellHare"
+    },
+    {
+      "chain": "solana",
+      "address": "59mWSDjx5VFQz15FGJio8BJzupKorK5SVHSbaJaZGAxC",
+      "username": "FartmanSacks"
+    },
+    {
+      "chain": "solana",
+      "address": "8uKoatMcJJxUTnUnZRbHMpXb6cHCvEeY6G4CkTuv7MNU",
+      "username": "farmingfarming"
+    },
+    {
+      "chain": "solana",
+      "address": "EoLt29dTFTf54ivWQyLmoBPvdM5wX9DE18SaGdz8Suhn",
+      "username": "farhad1"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61D941E1beb4B6A3b27D4f746889792B28Fd8032",
+      "username": "farhad1"
+    },
+    {
+      "chain": "solana",
+      "address": "AZc6YxTwBQsMi9DGXtvMHA7aMqn5E7okeMvNuKZ3VJde",
+      "username": "FarGothicChicken"
+    },
+    {
+      "chain": "solana",
+      "address": "9aNeBGiM6KZ45VwNFerCN33LdwhronnsDAAh1JXm5iyr",
+      "username": "favv"
+    },
+    {
+      "chain": "solana",
+      "address": "7PFdKg9HgcjXh9fodFp6BCSGxqXcDSHAizotW6umE7aN",
+      "username": "fawk"
+    },
+    {
+      "chain": "solana",
+      "address": "9NyufDG7rWXvYQ18c8DvbowrCsKgEcu3gy12XLbX3yk",
+      "username": "fafo"
+    },
+    {
+      "chain": "solana",
+      "address": "GdEZQDsaNdoy2vQev9qbJjmTfPh2Br8UvGh3bhpyUENv",
+      "username": "favel"
+    },
+    {
+      "chain": "solana",
+      "address": "4dxUfua8SgxVKS4qL7KtJQwy6ucXNZSejtV6mp9cQC2X",
+      "username": "fauji"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7f8098Dc8499b5A86Dd2e0E20378aEe138171a3E",
+      "username": "Farhan"
+    },
+    {
+      "chain": "solana",
+      "address": "C1FoyWbGb1rPWqzfLMDgmYAr3XUTTqctKuv1Wqc8mcqS",
+      "username": "Farhan"
+    }
+  ],
+  "pools": [
+    {
+      "poolAddress": "JEJqCCBB1Am9UmaTiWMhr7qGAi2UiuA7Skiou9VYmZrR",
+      "tokenAddress": "nEE9d3PdzXBHaG5vzn9E8GatEebbpQ9cDi5DNdtpump",
+      "tokenName": "US Oil Exchange (USOE)🔥",
+      "tokenSymbol": "USOE",
+      "tokenImageUrl": "https://static.arkhamintelligence.com/token-icons/v2/65a158da1d180430d23074ff1014dcfd5c2b2ac5660e9b8b2ea666b0bade93f0.png",
+      "priceUsd": 0.0064316969975001,
+      "marketCapUsd": 6431589.665639994,
+      "liquidityUsd": 252764.98328767548,
+      "volume1h": 6902.489758000004,
+      "programAddress": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"
+    },
+    {
+      "poolAddress": "GAR83zk9aumRFNRKgWmDqZFc5PyUuonK2zwQULKncoRb",
+      "tokenAddress": "A11DnqBLgRHqxbF664T1YJbbNT4Q7bDy7tbGy4rwpump",
+      "tokenName": "United States Oil Exchange",
+      "tokenSymbol": "USOE",
+      "tokenImageUrl": "https://static.arkhamintelligence.com/token-icons/v2/e125c4c13128bb79c8d8b9a5d144fd7b98d3f0ff6daf5a5285fc291e8b6de09f.png",
+      "priceUsd": 0.0028746427896304016,
+      "marketCapUsd": 2874642.7896304014,
+      "liquidityUsd": 142053.44981416213,
+      "volume1h": 2762.358345151202,
+      "programAddress": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"
+    }
+  ],
+  "polymarketEvents": [
+    {
+      "eventId": 197091,
+      "title": "Russia x Ukraine prisoner exchange by...?",
+      "slug": "russia-x-ukraine-prisoner-exchange-by",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-prisoner-exchange-by-june-15-VXhh5_2G-bhJ.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-prisoner-exchange-by-june-15-VXhh5_2G-bhJ.jpg",
+      "marketCount": 2
+    },
+    {
+      "eventId": 308036,
+      "title": "Which exchange will SpaceX list on?",
+      "slug": "which-exchange-will-spacex-list-on",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spacex-ipo-closing-market-cap-eMcPLOPUo_Il.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spacex-ipo-closing-market-cap-eMcPLOPUo_Il.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 25798,
+      "title": "Russia x Ukraine prisoner exchange by June 15?",
+      "slug": "russia-x-ukraine-prisoner-exchange-by-june-15",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-prisoner-exchange-by-june-15-VXhh5_2G-bhJ.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-prisoner-exchange-by-june-15-VXhh5_2G-bhJ.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 60928,
+      "title": "Argentina Official USD Exchange Rate on December 31?",
+      "slug": "argentina-official-usd-exchange-rate-on-december-31",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-official-usd-exchange-rate-on-december-31-J231NtohKYGl.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-official-usd-exchange-rate-on-december-31-J231NtohKYGl.png",
+      "marketCount": 9
+    },
+    {
+      "eventId": 37556,
+      "title": "Russia x Ukraine prisoner exchange by August 31?",
+      "slug": "russia-x-ukraine-prisoner-exchange-by-august-31",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-prisoner-exchange-by-august-31-SLpIuOeTTpiK.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-prisoner-exchange-by-august-31-SLpIuOeTTpiK.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 149958,
+      "title": "Argentina Official USD Exchange Rate end of January?",
+      "slug": "argentina-official-usd-exchange-rate-end-of-january-385",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-official-usd-exchange-rate-on-december-31-J231NtohKYGl.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-official-usd-exchange-rate-on-december-31-J231NtohKYGl.png",
+      "marketCount": 6
+    },
+    {
+      "eventId": 14564,
+      "title": "Will Trump Media acquire a crypto exchange in 2024?",
+      "slug": "will-trump-media-launch-a-crypto-exchange-in-2024",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-media-launch-a-crypto-exchange-in-2024-hXjI_URElAq0.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-media-launch-a-crypto-exchange-in-2024-hXjI_URElAq0.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 10563,
+      "title": "$FRIEND major exchange listing by May 10?",
+      "slug": "friend-major-exchange-listing-by-may-10",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/friend-major-exchange-listing-in-by-may-10-4kYuG8UaFvDQ.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/friend-major-exchange-listing-in-by-may-10-4kYuG8UaFvDQ.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 64601,
+      "title": "Will Intercontinental Exchange (ICE) beat quarterly earnings?",
+      "slug": "ice-quarterly-earnings-nongaap-eps-10-30-2025-1pt61",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-10-30-2025-1pt61-MPJzNPntczxI.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-10-30-2025-1pt61-MPJzNPntczxI.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 10027,
+      "title": "Retardio major exchange listing in March?",
+      "slug": "will-retardio-be-listed-on-a-major-cex-by-march-31",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/retardio-major-exchange-listing-in-march-b28cef7b-3807-4b25-9dfa-46443f9a8945.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/retardio-major-exchange-listing-in-march-b28cef7b-3807-4b25-9dfa-46443f9a8945.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 876088,
+      "title": "Which exchange will Anthropic list on?",
+      "slug": "which-exchange-will-anthropic-list-on",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+      "marketCount": 3
+    },
+    {
+      "eventId": 184517,
+      "title": "Will Intercontinental Exchange (ICE) beat quarterly earnings?",
+      "slug": "ice-quarterly-earnings-nongaap-eps-02-05-2026-1pt67",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-02-05-2026-1pt67-6iBY8EZtJgTH.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-02-05-2026-1pt67-6iBY8EZtJgTH.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 387388,
+      "title": "Will Intercontinental Exchange (ICE) beat quarterly earnings?",
+      "slug": "ice-quarterly-earnings-nongaap-eps-04-30-2026-2pt26",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-04-30-2026-2pt26-nXpVuMoYZc-4.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-04-30-2026-2pt26-nXpVuMoYZc-4.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 178817,
+      "title": "Argentina Official USD Exchange Rate end of 2026?",
+      "slug": "argentina-official-usd-exchange-rate-end-of-2026",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-official-usd-exchange-rate-on-december-31-J231NtohKYGl.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-official-usd-exchange-rate-on-december-31-J231NtohKYGl.png",
+      "marketCount": 9
+    },
+    {
+      "eventId": 1200540,
+      "title": "Will Intercontinental Exchange (ICE) beat quarterly earnings?",
+      "slug": "ice-quarterly-earnings-nongaap-eps-10-29-2026-1pt98",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-04-30-2026-2pt26-nXpVuMoYZc-4.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ice-quarterly-earnings-nongaap-eps-04-30-2026-2pt26-nXpVuMoYZc-4.png",
+      "marketCount": 1
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x9Ee3129222C39062aCE0f905bBf92EdfA62c3Cf1",
+      "displayName": "\"Purple-Clerk\" Polymarket Account"
+    },
+    {
+      "address": "0x39717012bC3Bb444c67b4f3992b5BDbA79f28d90",
+      "displayName": "\"Farhad.zh\" Polymarket Account"
+    },
+    {
+      "address": "0x78A6Aa47cf8bD90450063c7164CB3EF2126C0DB7",
+      "displayName": "\"Crushing-Taxicab\" Polymarket Account"
+    },
+    {
+      "address": "0x857fe9Aaf97B2A39711866f5bfAE213D10AABf9F",
+      "displayName": "\"Farhad.R\" Polymarket Account"
+    },
+    {
+      "address": "0xE02390fD159620A8d640e1a2be04a921334C61a6",
+      "displayName": "@FarhanAlithegre"
+    },
+    {
+      "address": "0x8d6aCFB2D3fa82ACdD81BA78Cbda9470FfEe8BE9",
+      "displayName": "@Farhan_Cy"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x9Ee3129222C39062aCE0f905bBf92EdfA62c3Cf1",
+    "displayName": "\"Purple-Clerk\" Polymarket Account"
+  }
+}

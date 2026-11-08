@@ -1,0 +1,181 @@
+{
+  "entities": {
+    "bitsten": {
+      "name": "Bitsten",
+      "note": "",
+      "id": "bitsten",
+      "type": "cex",
+      "service": null,
+      "website": "https://exchange.bitsten.com",
+      "twitter": "https://twitter.com/BitstenExchange",
+      "populatedTags": [
+        {
+          "id": "cex",
+          "label": "Centralized Exchange",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "token-deployer",
+          "label": "BEP20 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "BEP20"
+        },
+        {
+          "id": "pool-deployer",
+          "label": "PancakeSwap V2 Pool Deployer",
+          "rank": 210,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "PancakeSwap V2 Pool"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 7.450938614,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 55.64402642285892,
+    "dogecoin": 0,
+    "ethereum": 94.90583982371027,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 94.029391303745,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 7.4605653934000005,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 56.52024704155592,
+    "dogecoin": 0,
+    "ethereum": 97.33762584844008,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 94.12566956334499,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 7,
+        "usd": 7,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "id": "avalanche-2",
+        "balance": 0.05066726000000002,
+        "usd": 0.4509386140000002,
+        "price": 8.9,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.0902090209020847,
+        "priceChange24h": -0.1899999999999995
+      }
+    ],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 0.06568370454999989,
+        "usd": 47.88210694285892,
+        "price": 728.98,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -1.7970686496389738,
+        "priceChange24h": -13.340000000000032
+      },
+      {
+        "name": "Binance Bridged USDT (BNB Smart Chain)",
+        "symbol": "BSC-USD",
+        "id": "binance-bridged-usdt-bnb-smart-chain",
+        "balance": 7.76191948,
+        "usd": 7.76191948,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 0.040604208127063356,
+        "usd": 94.90583982371027,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.4983001213900993,
+        "priceChange24h": -59.88999999999987
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 50.021,
+        "usd": 50.021,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "TRON",
+        "symbol": "TRX",
+        "id": "tron",
+        "balance": 133.71980499999998,
+        "usd": 44.00839130374499,
+        "price": 0.329109,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -0.21829493464795346,
+        "priceChange24h": -0.0007199999999999984
+      }
+    ],
+    "zcash": []
+  }
+}

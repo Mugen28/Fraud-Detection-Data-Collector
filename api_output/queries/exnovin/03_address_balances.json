@@ -1,0 +1,29 @@
+{
+  "addresses": {
+    "tron": {
+      "TDBeRLDTdhVJSYytwhDBFH5vLdiY4b9aVn": {
+        "address": "TDBeRLDTdhVJSYytwhDBFH5vLdiY4b9aVn",
+        "chain": "tron",
+        "arkhamEntity": {
+          "name": "Exnode",
+          "note": "",
+          "id": "exnode",
+          "type": "cex",
+          "service": null,
+          "website": "https://exnode.ru"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    }
+  },
+  "totalBalance": {
+    "tron": 0
+  },
+  "totalBalance24hAgo": {
+    "tron": 0
+  },
+  "balances": {
+    "tron": []
+  }
+}

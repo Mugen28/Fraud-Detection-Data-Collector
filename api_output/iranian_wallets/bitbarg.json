@@ -1,0 +1,408 @@
+{
+  "target": "bitbarg",
+  "entity_id": "bitbargain",
+  "entity_name": "Bitbargain",
+  "summary": {
+    "entityId": "bitbargain",
+    "numAddresses": 31940,
+    "volumeUsd": 320403285.3299988,
+    "balanceUsd": 72.48030894,
+    "firstTx": "2012-03-02T21:56:45Z",
+    "lastTx": "2020-08-28T13:06:39Z"
+  },
+  "top_address": "13MZDNwKWCvyAW3Lqpp3A6q4gNXkB64sUp\"",
+  "wallets": [
+    {
+      "address": "13MZDNwKWCvyAW3Lqpp3A6q4gNXkB64sUp\"",
+      "chain": "evm",
+      "label": "Primary Hot Wallet (Top Address)",
+      "entity": "Bitbargain",
+      "source": "balances/entity_top_address"
+    },
+    {
+      "address": "1PbeYK7FonjVmgWxf4ieKmvwtomZR1K1Qu",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "32mdgooSki5zThiwX4Xe8Zh9TuAAGmeJzq",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "34Scd9MLEcdKoDFAqhnpRoQ3xVQDy9PxeD",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qfnm2fz0vvtqmj0vj6l45f5wy6ggtvtt3lajlv0",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "35f1YCmCkAkdDczxvv4Pqio6toneknUkf3",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "37cvJEMrF6ERDiCv2Ye2zfHcFzH5z3SrrN",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "36nBswZik7rDQzKTxBFcrW6U8oYnHV5NhF",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3JyaunkXH2nehN9bxHKVKcDDwDzZzNS3e8",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qelz7xuq6ehns9yd3ps7rwm3k5tenqscxdascyd",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1q53lnzv48fyr5w06cu9qnv98g0thjc0mv89w663",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "36DYUTUh55WbeA3Sr12tUEFGma8hHYR6To",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3ESD5G3XwtXXGaWPDokkdSTQ4mUp63U9jW",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3FUXMXwM98rZFewyjW4qFB83YydfmGEDR4",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3Ge5PJLgLL7td9Ap11Eyk3aLRTQ4ZAh8U4",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qysgj0stqdzaj9rkp89rtqmrdgad4lvxeuez0a9",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3BvFXFaVqMh9ApjNd3tVdsRwWD8W77EbfH",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qz7zr4czc2ty3y2qrmmxutdmkewuwjctn735anl",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qpr0ppqq8gfllaxmlht64kmmasdc6kwu3nru66j",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "36jbJu43Mr1sqvoV9GK6MMSSHHK62Vqjry",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "39VNwUQi8eZeugqM4PRsAYGd9cNRUVQMoe",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1ql4wyugjy7ct8h42tk7sdshyx39329p563q7lfd",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "33AQZqxDmsb4SCMDAXhRCVkv2b6UQMckVs",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3EZUogS7sicBvCJEBovbtQy3prdn1n8JJP",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qm2ykja3ksaa82prx8z6zehq7l3j3w0p4snse4v",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1q3dt6cwy0qvz0zp7w9mcmgdcq0zlng5svec8gyk",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qp75em6k9nx42vdg7mscqy72d2fcdsp3z2jgxx5",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3PJZMRLfJ28W9rjCPDmVB4tYLby5RDJ5Dd",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "31wEUL8xXre8AfSthJARvqQ8tFvZhmNBum",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qz89r2hpdyawdce9fr59jtzyjlxcawlfrrx270m",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qxga3kds099x66q8mcqj95t095h9gdxpdrn9h28",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1q8fwvmk9ys35txeks5xqymk2n85acpry7dyjewd",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3J7Rv3BuDkUQo22SPsJDPaD8k4wWbSMRMh",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "323gCdbbLyi3Wm3KDG8VC4Z3RcCUENyhJ7",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3KGLvubTZcozSfCEhKzX4vJSyPxZn2smF8",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1q8xamf2wyz8y6llrq9ggmcwuw8nxt844e0e8x7v",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3P9kgYBMF9yQFLU3rXivzd6vgKp1KrRq92",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qws4d7qlp5gcymzc5st8undnpxapswythduh432",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "39hH7WT44KyQ1hJfmwHuTFnJwaH93YhLKz",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "35dpwdSoVLZnd39PLkFmZ5ABpMP7Kw51G1",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3MsnjixhDWd9M9ppg5iLtND72YZV3nr9kN",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "34CRFnhWsev9yDvygAkKRt7utEGBVg819d",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "33DHihd8YS1VkHUfpwahafQkzHEHxVXvQ3",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3PFxRPQPVyiikwiWX9rjyEU1AEsbPuFYEf",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3BkKUiu9cpV2xLsBFMaPMcpVmze1dvhQpH",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "32TvzSY598T7mpTfRamPP9uwJ2wRCCKyvs",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qt2f0wcfplwgjn4w6ft5v3ej2su7mwcnj2t8m68",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3K21wjKJ8EdraAvTyQojjzohWqxG2ReYyp",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qjkty9qu5er6qr4kx7rksawnueda6va8gw5dn5c",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "35F2AtkgK74VD9rmmBGnAQBprhCTkMXZ6e",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3BdJbpvj4xqx4YSrV6JoQkpcSSi1U9W29p",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3AHz2rVibCvmyaVPVDSdUfN5DfWqZhkzii",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "38j8QMhYqjeHgHxJcPAERzE4RDJv16GPDK",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qlygzqwv6czsqa63nt6769mtkhu54scwrg59evp",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "3JRWEmvjJuDCqw741rRB1pNApT6QWqUAgx",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    },
+    {
+      "address": "bc1qde7ea4gzr9hpm6aerjm6w754u4t83d4smgw7gd",
+      "chain": "bitcoin",
+      "label": "Exchange Active Wallet",
+      "entity": "Bitbargain",
+      "source": "transfers"
+    }
+  ]
+}

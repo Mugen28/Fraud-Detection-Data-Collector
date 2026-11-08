@@ -1,0 +1,504 @@
+{
+  "transfers": [
+    {
+      "id": "0xe4df7328fd933a86c2f174e60a56dca96d036d59dbb175802c3a1bf6ce62e42e_514",
+      "transactionHash": "0xe4df7328fd933a86c2f174e60a56dca96d036d59dbb175802c3a1bf6ce62e42e",
+      "fromAddress": {
+        "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "TorusCreateAndStake",
+          "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "BuyAndBurnV2",
+          "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+      "type": "",
+      "blockTimestamp": "2026-10-24T15:54:35Z",
+      "blockNumber": 26263535,
+      "blockHash": "0x914bf50e8bb86ee8652247b26c33a34ef0799061914baf93bc7f8f13ff12117a",
+      "tokenName": "TITAN X",
+      "tokenSymbol": "TITANX",
+      "tokenDecimals": 18,
+      "unitValue": 155304449.4279882,
+      "tokenId": "titanx",
+      "historicalUSD": 7.0755154114897145,
+      "chain": "ethereum",
+      "seq": 983377632
+    },
+    {
+      "id": "call_0x8125a308fbffaa15a4b07e13032559db2646accd9574ce150c24de8cc1802178_0",
+      "transactionHash": "0x8125a308fbffaa15a4b07e13032559db2646accd9574ce150c24de8cc1802178",
+      "fromAddress": {
+        "address": "0x1393ad734EA3c52865b4B541cf049dafd25c23a5",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "X28 (X28)",
+          "address": "0x1393ad734EA3c52865b4B541cf049dafd25c23a5",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x1a44076050125825900e736c501f859c50fE728c",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "LayerZero",
+          "note": "",
+          "id": "layerzero",
+          "type": "crosschain-interoperability",
+          "service": null,
+          "website": "https://layerzero.network",
+          "twitter": "http://www.x.com/LayerZero_Core"
+        },
+        "arkhamLabel": {
+          "name": "EndpointV2",
+          "address": "0x1a44076050125825900e736c501f859c50fE728c",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T09:53:43Z",
+      "blockNumber": 53023138,
+      "blockHash": "0xfd1b9838fd88b47fea1a27f30f8db37a7bfec6c9bbcbe4f984077dddc38897a9",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.001023102971485018,
+      "tokenId": "ethereum",
+      "historicalUSD": 2.415095950368674,
+      "chain": "base",
+      "seq": 2499071682
+    },
+    {
+      "id": "0x8125a308fbffaa15a4b07e13032559db2646accd9574ce150c24de8cc1802178",
+      "transactionHash": "0x8125a308fbffaa15a4b07e13032559db2646accd9574ce150c24de8cc1802178",
+      "fromAddress": {
+        "address": "0x15065100b0Ff6BD2d157DFd0F2d133867Fb173d2",
+        "chain": "base",
+        "arkhamLabel": {
+          "name": "\"beni0692\" on OpenSea",
+          "address": "0x15065100b0Ff6BD2d157DFd0F2d133867Fb173d2",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "fromIsContract": false,
+      "toAddress": {
+        "address": "0x1393ad734EA3c52865b4B541cf049dafd25c23a5",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "X28 (X28)",
+          "address": "0x1393ad734EA3c52865b4B541cf049dafd25c23a5",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-24T09:53:43Z",
+      "blockNumber": 53023138,
+      "blockHash": "0xfd1b9838fd88b47fea1a27f30f8db37a7bfec6c9bbcbe4f984077dddc38897a9",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.001023102971485018,
+      "tokenId": "ethereum",
+      "historicalUSD": 2.415095950368674,
+      "chain": "base",
+      "seq": 2499071681
+    },
+    {
+      "id": "0xd30ffcbde2601068b971d1fac4ce8d508150ba6e8c8530d16d6c675f0ef8f55d_2416",
+      "transactionHash": "0xd30ffcbde2601068b971d1fac4ce8d508150ba6e8c8530d16d6c675f0ef8f55d",
+      "fromAddress": {
+        "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "BuyAndBurnV2",
+          "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "Null Address",
+          "address": "0x0000000000000000000000000000000000000000",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+      "type": "",
+      "blockTimestamp": "2026-10-23T21:06:11Z",
+      "blockNumber": 26257908,
+      "blockHash": "0xec5a50258cd11447fef04e36ba27639159e57b50dc9a810324302609ea2de1e8",
+      "tokenName": "TITAN X",
+      "tokenSymbol": "TITANX",
+      "tokenDecimals": 18,
+      "unitValue": 431883198.9976041,
+      "tokenId": "titanx",
+      "historicalUSD": 21.48316596773782,
+      "chain": "ethereum",
+      "seq": 978733290
+    },
+    {
+      "id": "0xaed13853d1042f7c69f1ff8090b2dcc08c9111ca290c0aa41ec1286da4b0d17e_335",
+      "transactionHash": "0xaed13853d1042f7c69f1ff8090b2dcc08c9111ca290c0aa41ec1286da4b0d17e",
+      "fromAddress": {
+        "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "TorusCreateAndStake",
+          "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "BuyAndBurnV2",
+          "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+      "type": "",
+      "blockTimestamp": "2026-10-23T16:30:47Z",
+      "blockNumber": 26256533,
+      "blockHash": "0xec6593831c337987365c0cd00f76b970c7374d38fc5db7823b1358129a6a036d",
+      "tokenName": "TITAN X",
+      "tokenSymbol": "TITANX",
+      "tokenDecimals": 18,
+      "unitValue": 67179141.0806995,
+      "tokenId": "titanx",
+      "historicalUSD": 3.3347725632459233,
+      "chain": "ethereum",
+      "seq": 977629303
+    },
+    {
+      "id": "call_0x1d423e74ac6f1d5e6c0baf86c1f4e2b2948566155d39e8b9f53ee2491907ae91_0",
+      "transactionHash": "0x1d423e74ac6f1d5e6c0baf86c1f4e2b2948566155d39e8b9f53ee2491907ae91",
+      "fromAddress": {
+        "address": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "TITAN X (TITANX)",
+          "address": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x38E0120ebC8BE3F777b3015212ce59F1a549c661",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "\"Nino0Brown\" on OpenSea",
+          "address": "0x38E0120ebC8BE3F777b3015212ce59F1a549c661",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-22T23:46:59Z",
+      "blockNumber": 26251537,
+      "blockHash": "0x0017dec3843a357ef1ae0b8e9cb6a6eac036931ef2c19623b4a4924c58326291",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.013695105662991737,
+      "tokenId": "ethereum",
+      "historicalUSD": 32.61790705966068,
+      "chain": "ethereum",
+      "seq": 973715370
+    },
+    {
+      "id": "0xa69c7f26c6746e089c7427009df3c1391ca39769adaf972aaea11f262478f39d_484",
+      "transactionHash": "0xa69c7f26c6746e089c7427009df3c1391ca39769adaf972aaea11f262478f39d",
+      "fromAddress": {
+        "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "TorusCreateAndStake",
+          "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "BuyAndBurnV2",
+          "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+      "type": "",
+      "blockTimestamp": "2026-10-21T21:53:59Z",
+      "blockNumber": 26243798,
+      "blockHash": "0x045b150477fb88b0f69751ae9cfcbda40bcfff40b758b83ed34b2b50aae768d5",
+      "tokenName": "TITAN X",
+      "tokenSymbol": "TITANX",
+      "tokenDecimals": 18,
+      "unitValue": 65215765.6976444,
+      "tokenId": "titanx",
+      "historicalUSD": 3.405502068965293,
+      "chain": "ethereum",
+      "seq": 968229981
+    },
+    {
+      "id": "call_0xc5283233ac77b0be04b7b465b7f9ee98504564f7b72d4fe50e6da02d7fb668c6_0",
+      "transactionHash": "0xc5283233ac77b0be04b7b465b7f9ee98504564f7b72d4fe50e6da02d7fb668c6",
+      "fromAddress": {
+        "address": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "TITAN X (TITANX)",
+          "address": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xD97bbFE88E6A487Bdf68a338b9cbd8c955566643",
+        "chain": "ethereum",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T20:03:59Z",
+      "blockNumber": 26243250,
+      "blockHash": "0x94f2bedd703f2a80969d9ed6fc445e31024522b67361eb6ca0fae2633f0b6942",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.001318706358290855,
+      "tokenId": "ethereum",
+      "historicalUSD": 3.285398646918671,
+      "chain": "ethereum",
+      "seq": 967785237
+    },
+    {
+      "id": "call_0xfbe46ee94b08a7d461e0285ce85c9d4a8761d637aa5c425640a356b4e7081706_0",
+      "transactionHash": "0xfbe46ee94b08a7d461e0285ce85c9d4a8761d637aa5c425640a356b4e7081706",
+      "fromAddress": {
+        "address": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "TITAN X (TITANX)",
+          "address": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0xae79ec27d2bDDEAa0B20bb6d93b68d67A61E5a87",
+        "chain": "ethereum",
+        "isUserAddress": false,
+        "contract": false
+      },
+      "toIsContract": false,
+      "tokenAddress": null,
+      "type": "",
+      "blockTimestamp": "2026-10-21T18:23:47Z",
+      "blockNumber": 26242749,
+      "blockHash": "0x6a8be0568a1aff51407e062af04ea92fb17d4b6494c0d2bfadf106872df61328",
+      "tokenName": "Ethereum",
+      "tokenSymbol": "ETH",
+      "tokenDecimals": 18,
+      "unitValue": 0.003173504967945577,
+      "tokenId": "ethereum",
+      "historicalUSD": 7.98057161814114,
+      "chain": "ethereum",
+      "seq": 967338247
+    },
+    {
+      "id": "0xe9a67c64acc130354f67966649c9c036ef8011b7fd8fc63145df2142bf49ca56_468",
+      "transactionHash": "0xe9a67c64acc130354f67966649c9c036ef8011b7fd8fc63145df2142bf49ca56",
+      "fromAddress": {
+        "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+        "chain": "ethereum",
+        "arkhamLabel": {
+          "name": "TorusCreateAndStake",
+          "address": "0xc7Cc775B21f9Df85E043C7FDd9dAC60af0B69507",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "fromIsContract": true,
+      "toAddress": {
+        "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "TitanX",
+          "note": "",
+          "id": "titanx",
+          "type": "misc",
+          "service": null,
+          "website": "https://titanx.win",
+          "twitter": "https://twitter.com/TitanXCrypto"
+        },
+        "arkhamLabel": {
+          "name": "BuyAndBurnV2",
+          "address": "0x410e10C33a49279f78CB99c8d816F18D5e7D5404",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": true
+      },
+      "toIsContract": true,
+      "tokenAddress": "0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1",
+      "type": "",
+      "blockTimestamp": "2026-10-21T08:27:59Z",
+      "blockNumber": 26239775,
+      "blockHash": "0x5453c5720cdbd050877a8fc36e3b9e4f50f947cbb7c2215f129ee1a7bef024a3",
+      "tokenName": "TITAN X",
+      "tokenSymbol": "TITANX",
+      "tokenDecimals": 18,
+      "unitValue": 48870474.40054873,
+      "tokenId": "titanx",
+      "historicalUSD": 2.5312462215764215,
+      "chain": "ethereum",
+      "seq": 965253835
+    }
+  ],
+  "count": 10000
+}

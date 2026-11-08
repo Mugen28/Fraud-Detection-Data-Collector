@@ -1,0 +1,364 @@
+{
+  "bestMatches": [
+    {
+      "type": "arkhamEntity",
+      "value": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": true,
+        "twitter": "nobitexmarket"
+      }
+    }
+  ],
+  "arkhamEntities": [
+    {
+      "name": "Nobitex.ir",
+      "note": "",
+      "id": "nobitex",
+      "type": "cex",
+      "service": true,
+      "twitter": "nobitexmarket"
+    },
+    {
+      "name": "@nobittx",
+      "note": "",
+      "id": "nobittx",
+      "type": "individual",
+      "service": false,
+      "twitter": "nobittx"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "DBXmCGktWQYV89TiUYZwGh9x84DMc5vbUa",
+      "chain": "dogecoin",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "DBXmCGktWQYV89TiUYZwGh9x84DMc5vbUa",
+        "chainType": "dogecoin"
+      },
+      "service": true
+    },
+    {
+      "address": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "TPMF2n3hJLcCwoHq6bwLeVXBbNZgj73AEd",
+        "chainType": "tron"
+      },
+      "service": true
+    },
+    {
+      "address": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "TAm937jKKHTgJ8qsBuW8CwSRL9shLRQ7yn",
+        "chainType": "tron"
+      },
+      "service": true
+    },
+    {
+      "address": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
+        "chainType": "tron"
+      },
+      "service": true
+    },
+    {
+      "address": "TW6VYLMCAxfkArWF5PQpKYqhVKYztwCf4X",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "TW6VYLMCAxfkArWF5PQpKYqhVKYztwCf4X",
+        "chainType": "tron"
+      },
+      "service": true
+    },
+    {
+      "address": "bc1qgr3d2uwesguppck3mmdzk63p2n42788a87pczr",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "bc1qgr3d2uwesguppck3mmdzk63p2n42788a87pczr",
+        "chainType": "bitcoin"
+      }
+    },
+    {
+      "address": "bc1qce8pgxw6zqzsnxlsy3cjrrk7l6ddc7tm9fjjm9",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "bc1qce8pgxw6zqzsnxlsy3cjrrk7l6ddc7tm9fjjm9",
+        "chainType": "bitcoin"
+      }
+    },
+    {
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "TENFMbiv6F7DK9BuxPhGWZCnm8hW6xormu",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "TENFMbiv6F7DK9BuxPhGWZCnm8hW6xormu",
+        "chainType": "tron"
+      },
+      "service": true
+    },
+    {
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+        "chainType": "evm"
+      },
+      "service": true
+    },
+    {
+      "address": "0x641FB555527B9108a1F58eA24E0C04fF86C4Ed0d",
+      "chain": "polygon",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Withdrawals",
+        "address": "0x641FB555527B9108a1F58eA24E0C04fF86C4Ed0d",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "bc1qhh0lf8pg45qxcfxqq7rm5hlswtudlfhzpy7hpy",
+      "chain": "bitcoin",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      }
+    },
+    {
+      "address": "TPsMqm9dspj4vUmdgr7Uy4PycyogrdcqTQ",
+      "chain": "tron",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "TPsMqm9dspj4vUmdgr7Uy4PycyogrdcqTQ",
+        "chainType": "tron"
+      },
+      "service": true
+    },
+    {
+      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Nobitex.ir",
+        "note": "",
+        "id": "nobitex",
+        "type": "cex",
+        "service": null,
+        "website": "https://nobitex.ir",
+        "twitter": "https://twitter.com/nobitexmarket"
+      },
+      "arkhamLabel": {
+        "name": "Hot Wallet",
+        "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
+        "chainType": "evm"
+      },
+      "service": true
+    }
+  ],
+  "services": [
+    {
+      "name": "Nobitex.ir",
+      "note": "",
+      "id": "nobitex",
+      "type": "cex",
+      "service": true,
+      "twitter": "nobitexmarket"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "Nobitex.ir",
+      "note": "",
+      "id": "nobitex",
+      "type": "cex",
+      "service": true,
+      "twitter": "nobitexmarket"
+    },
+    {
+      "name": "@nobittx",
+      "note": "",
+      "id": "nobittx",
+      "type": "individual",
+      "service": false,
+      "twitter": "nobittx"
+    },
+    {
+      "name": "@nobitaxmonad",
+      "note": "",
+      "id": "nobitaxmonad",
+      "type": "individual",
+      "service": false,
+      "twitter": "nobitaxmonad"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x2459553C5dd41f271f6EAbaB176F7d61fB9F8963",
+      "username": "NoBiteCheck",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/19.png"
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x5b1a71b6c44a4d9cc8245Faf8C52033Bd319EfeA",
+      "displayName": "\"Nobitex\" Polymarket Account"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x5b1a71b6c44a4d9cc8245Faf8C52033Bd319EfeA",
+    "displayName": "\"Nobitex\" Polymarket Account"
+  }
+}

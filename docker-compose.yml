@@ -1,0 +1,19 @@
+services:
+  crawler:
+    build: .
+    container_name: arkm_iranian_crawler
+    # Successful one-shot runs must stay stopped. The scheduler process
+    # already loops; this only restarts a container that actually crashes.
+    restart: on-failure:3
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ARKM_NO_AUTO_LOGIN=1
+      - INTERVAL_HOURS=${INTERVAL_HOURS:-24}
+      - JITTER_HOURS=${JITTER_HOURS:-2}
+    volumes:
+      # Persist crawled datasets on host
+      - ./api_output:/app/api_output
+      # Mount session cookies generated on host
+      - ./storage_state.json:/app/storage_state.json
+    command: ${CRAWLER_CMD:-python3 run_pipeline.py}
+

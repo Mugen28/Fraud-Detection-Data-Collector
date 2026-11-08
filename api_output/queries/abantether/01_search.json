@@ -1,0 +1,575 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "Abantether",
+      "note": "",
+      "id": "abantether",
+      "type": "cex",
+      "service": true,
+      "twitter": "TetherAban"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "HrqfJcheRJimEGvhwyun9ATdq8Xu2jD6HE5Yw8mJBvwx",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@Aba6582",
+        "note": "",
+        "id": "aba6582",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Aba6582"
+      }
+    },
+    {
+      "address": "0xb4d86E837352c19dD6aF6635cA92E42bBb57e86D",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ababbtan",
+        "note": "",
+        "id": "ababbtan",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ababbtan"
+      }
+    },
+    {
+      "address": "0x3B8f034708871812375F165Cc3c359ed3B8465Ba",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@abantoab",
+        "note": "",
+        "id": "abantoab",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/abantoab"
+      },
+      "arkhamLabel": {
+        "name": "\"jamiso\" on Farcaster",
+        "address": "0x3B8f034708871812375F165Cc3c359ed3B8465Ba",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xae5b6ac72d429E5df44fD68f946A52140b88AB1b",
+      "chain": "polygon",
+      "arkhamEntity": {
+        "name": "@Abattais_fnarck",
+        "note": "",
+        "id": "abattais-fnarck",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/Abattais_fnarck"
+      },
+      "arkhamLabel": {
+        "name": "\"FnarckPalloin\" Polymarket Account",
+        "address": "0xae5b6ac72d429E5df44fD68f946A52140b88AB1b",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x175EA5B549D90b24684FF0668FF7cd478AA671a9",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ababbtan",
+        "note": "",
+        "id": "ababbtan",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ababbtan"
+      },
+      "arkhamLabel": {
+        "name": "ababbtan.eth",
+        "address": "0x175EA5B549D90b24684FF0668FF7cd478AA671a9",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x0B24Dc8537340DCF4FF89f522F32ceb6395ef396",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@ababiluk2",
+        "note": "",
+        "id": "ababiluk2",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/ababiluk2"
+      },
+      "arkhamLabel": {
+        "name": "mityakulibaba.eth",
+        "address": "0x0B24Dc8537340DCF4FF89f522F32ceb6395ef396",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "94APUeLVtLsMmSLatyJwsNXSvXHJf676oqMwb2JR6py9",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@abarths4",
+        "note": "",
+        "id": "abarths4",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/abarths4"
+      },
+      "arkhamLabel": {
+        "name": "\"abarths4\" on Fomo",
+        "address": "94APUeLVtLsMmSLatyJwsNXSvXHJf676oqMwb2JR6py9",
+        "chainType": "solana"
+      }
+    },
+    {
+      "address": "0x9F3C061270C4492bC65BF976762742a861e6236a",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "@abaricrypto",
+        "note": "",
+        "id": "abaricrypto",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/abaricrypto"
+      },
+      "arkhamLabel": {
+        "name": "abari.eth",
+        "address": "0x9F3C061270C4492bC65BF976762742a861e6236a",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x58415Cc885717052276dBAA4567584d73D6d3baC",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@abaremonoeth",
+        "note": "",
+        "id": "abaremonoeth",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/abaremonoeth"
+      },
+      "arkhamLabel": {
+        "name": "\"abaremono\" on OpenSea",
+        "address": "0x58415Cc885717052276dBAA4567584d73D6d3baC",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x42580f2F0BEff91812e15d163CB6C6C3154be06c",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "@abatasun",
+        "note": "",
+        "id": "abatasun",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://twitter.com/abatasun"
+      },
+      "arkhamLabel": {
+        "name": "\"Auss22\" on OpenSea",
+        "address": "0x42580f2F0BEff91812e15d163CB6C6C3154be06c",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x121d6990e624CFA09E3B785A2D13935941b29bfc",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@AbabihCooks",
+        "note": "",
+        "id": "ababihcooks",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/AbabihCooks"
+      },
+      "arkhamLabel": {
+        "name": "ababihcooks.eth",
+        "address": "0x121d6990e624CFA09E3B785A2D13935941b29bfc",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xe88dA42c84EC7e6b0ac68436c2525a9cb5153F89",
+      "chain": "hypercore",
+      "arkhamEntity": {
+        "name": "@abantoab",
+        "note": "",
+        "id": "abantoab",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/abantoab"
+      }
+    },
+    {
+      "address": "59rtP5pfGgfaXzNFwqCnHvqw9BD1HEN3r2cLJLji4oh5",
+      "chain": "solana",
+      "arkhamEntity": {
+        "name": "@abantor4",
+        "note": "",
+        "id": "abantor4",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/abantor4"
+      }
+    },
+    {
+      "address": "0x30E4cE7A68d45E35443cC2EEECC0d24f26c09cf3",
+      "chain": "robinhood",
+      "arkhamEntity": {
+        "name": "@abantor4",
+        "note": "",
+        "id": "abantor4",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://x.com/abantor4"
+      }
+    },
+    {
+      "address": "0x0857060fd3CD69dd317bE663e82f503c31A98966",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "@abandeali1",
+        "note": "",
+        "id": "abandeali1",
+        "type": "individual",
+        "service": null,
+        "twitter": "https://www.twitter.com/abandeali1"
+      },
+      "arkhamLabel": {
+        "name": "amirb.eth",
+        "address": "0x0857060fd3CD69dd317bE663e82f503c31A98966",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "abanbdon.eth",
+      "address": "0x2a6a1E161FF5FbccD773364C1236CBbf79A6cfDf"
+    },
+    {
+      "name": "abaoyan.eth",
+      "address": "0xB6875EC94bE06d159A28d627422b7c9388cc8861"
+    },
+    {
+      "name": "abari.eth",
+      "address": "0x9F3C061270C4492bC65BF976762742a861e6236a"
+    },
+    {
+      "name": "ababir.eth",
+      "address": "0xdC06D8EaA3dC6C68a447849EDF0897E469386E67"
+    },
+    {
+      "name": "ababab.eth",
+      "address": "0x50856959952516c0183C3570fbDDcf071A81826A"
+    },
+    {
+      "name": "abathur.eth",
+      "address": "0x70C53Ac7C6b650BdfF78dd14209918a6c7a38020"
+    },
+    {
+      "name": "abatros.eth",
+      "address": "0xd7DC3De042153778f7eC91732a2a8d2cBAf848F8"
+    },
+    {
+      "name": "abalest.eth",
+      "address": "0x0fA90d2e80b4049F37B41fc2285ba6A63704cCF2"
+    },
+    {
+      "name": "abathape.eth",
+      "address": "0xAEfA4FFAe9770ce44084dA747aF70Df0E1097801"
+    },
+    {
+      "name": "abaddeed.eth",
+      "address": "0xf3940eB383853D364F82B76f5D513feF73b06E0F"
+    },
+    {
+      "name": "ababbtan.eth",
+      "address": "0x175EA5B549D90b24684FF0668FF7cd478AA671a9"
+    },
+    {
+      "name": "abatardi.eth",
+      "address": "0x362750794b1e8e71c976fE084a72A969afF96579"
+    },
+    {
+      "name": "abacusllc.eth",
+      "address": "0xd4661D0642cd86CA5966247Eff72E64940Ce610D"
+    },
+    {
+      "name": "abarbatei.eth",
+      "address": "0xb4DEBfFe85E8790581697d7ef9ffA1cA8C3e4290"
+    },
+    {
+      "name": "ababababab.eth",
+      "address": "0xa95C1601C4a7084C90F0a5Eaa09AF75Df5D40Be8"
+    }
+  ],
+  "services": [
+    {
+      "name": "Abantether",
+      "note": "",
+      "id": "abantether",
+      "type": "cex",
+      "service": true,
+      "twitter": "TetherAban"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "@Baneether",
+      "note": "",
+      "id": "baneether",
+      "type": "individual",
+      "service": false,
+      "twitter": "Baneether"
+    },
+    {
+      "name": "quant",
+      "note": "",
+      "id": "quant",
+      "type": "meme",
+      "service": false,
+      "twitter": "quantethereum"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x6B83A1536b9d46162BCd64BBcB56F78D832bD014",
+      "username": "abandonedmrdurden",
+      "profileImage": "https://i.seadn.io/gcs/files/02b021021b377e69b20b36d08bb8f0cc.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xde6EA9A2992df0DFa3Ca5Cf09F9f7c2592930342",
+      "username": "abachi",
+      "profileImage": "https://i.seadn.io/gae/hRQJGiUOit8jYOMCs9V1AXa5EPKxHs189luhh06V5XCANLT84GIYbXWGHMFefPWlmmeaGxgT3mWK136RCIdasz8JnEAC1p97IWyH?w=500&auto=format"
+    },
+    {
+      "address": "0x02ddF94cd67f436ECA466b84788Af6C6dffB82E5",
+      "username": "abaine",
+      "profileImage": null
+    },
+    {
+      "address": "0xFaA39BB9Ec02DA01292C957F486A38Df9bA7093f",
+      "username": "Ababas",
+      "profileImage": "https://i.seadn.io/gcs/files/87b6a178d5b64f9fe88498291e55da4e.png?w=500&auto=format"
+    },
+    {
+      "address": "0xdC06D8EaA3dC6C68a447849EDF0897E469386E67",
+      "username": "ababir",
+      "profileImage": "https://i.seadn.io/gcs/files/db059911f3933b978c1594c66f395ae6.png?w=500&auto=format"
+    },
+    {
+      "address": "0x7BA3D1F7c93AF8Fb7fE8b89C8Ac22FF2B46A2c5b",
+      "username": "abarev",
+      "profileImage": "https://i.seadn.io/gae/E7S1KrANZd6QhzMELwyPhA8w7LnMP4nIc4WawXLbdQaE_etBOKTpLqMsMsGtiyINEzsbNFf_-W2ldYId5ghUJWkizEbpFMd4BaSenHs?w=500&auto=format"
+    },
+    {
+      "address": "0xc086342EbD2a7130966CdF8cD949c15cCcbA8616",
+      "username": "Abatros",
+      "profileImage": "https://i.seadn.io/gae/gcuEpqcX6QuEzhUozPYTwJLeSDXJNBVCXt1NqalvXFsrmcEWQTMkOEwviB849ZFEERANpeEHU-tfLrgCA9wZjcdER0KHREx2prOy?w=500&auto=format"
+    },
+    {
+      "address": "0x1BE3edd704be69A7f9E44b7Ad842dCa0757c1816",
+      "username": "Aba6582",
+      "profileImage": null
+    },
+    {
+      "address": "0x2a32801d13eA505Bf82EC12e2F1ED8e1D879D4FB",
+      "username": "abalest",
+      "profileImage": "https://i2c.seadn.io/profiles/0x2a32801d13ea505bf82ec12e2f1ed8e1d879d4fb/avatar/163749ec473325c0a4b44cefb4e9bf/15163749ec473325c0a4b44cefb4e9bf.png"
+    },
+    {
+      "address": "0x028189273f4337A274A7d4bA52F99c3183B0290E",
+      "username": "Abadito",
+      "profileImage": "https://i2c.seadn.io/profiles/0x028189273f4337a274a7d4ba52f99c3183b0290e/avatar/0c299d8727ca4fe96dbfff1bdb3ce0/e30c299d8727ca4fe96dbfff1bdb3ce0.jpeg"
+    },
+    {
+      "address": "0xFBCe0CBB70bD0Bf43B11f721Beaf941980C5fF4a",
+      "username": "Abaporu",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png"
+    },
+    {
+      "address": "0xC2f2A818E2dD93eB4348e52E5f3e1Ab49dE9ae5d",
+      "username": "AbandonedBullishPengu",
+      "profileImage": "https://i.seadn.io/gae/30j-wkWlmQJNoJyq2g6rb1EPuTUpuJiPd6fCR3vpfb4T3pqILw2HS1VsK_7YuywjIbAuJl5Uw7fWQW4zqxlkT4SifObc2kuzFzUVvA?w=500&auto=format"
+    },
+    {
+      "address": "0xd027e3bc1b4be983002119583d9453f7389D61FD",
+      "username": "abarths4",
+      "profileImage": "https://i.seadn.io/gae/QrHh1JhXt4oSf9ztIvY5SR0q6ijmJ4w3F7sScD995jRg7hUny6BB8tIAOm0A3xrcAZgxTU6jyNp4pfc1w6l-8YM0D-7D_jEFLykQZA?w=500&auto=format"
+    },
+    {
+      "address": "0x3EFd1fA3D4e5784648adF7396C3478999ec90249",
+      "username": "abahthen",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png"
+    },
+    {
+      "address": "0x796AB2f6aeE51B5e09800b7e20732E6247969cCE",
+      "username": "Abaceeee",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/14.png"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "ABAch5TW2BZWKbxtFPtxb2Edrcm7ZakWsMQfU4UUEjKa",
+      "username": "ABAch5",
+      "profileImage": "https://socialimages.pump.fun/profile-images/aaab6249-d551-4edb-beaa-8f1df5246813/e527fda115a23b648bff3b3db09828e9"
+    },
+    {
+      "address": "ABaDsTQ9tVUcqMWsdCRcLEDHaDc8hEvvi2fC4aHLJSug",
+      "username": "ABaDsT",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-Green~Face-7~Blush~Cap-back-yellow~Empty+2~Buckle.webp"
+    },
+    {
+      "address": "AbAckwGj27mZPB13zvby4NR354srKHDiEZTB2aXmVy4L",
+      "username": "abackwc",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Blue-glass~Face-1~Empty~Hairstyle-5~Bracelet-green~Bowtie-Orange.webp"
+    },
+    {
+      "address": "GPpkWo8wwzMbD6fS35BxMMxc96yQwdJeHfXBz2K6MeB9",
+      "username": "abaciso",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Indigo~Face-1~Blush~Hairstyle-1---Red~Empty~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "2xFkk1LZPdBPXus4R4CZQdgnE22i4ZgHLHmFfEr83eM5",
+      "username": "abaddonn",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Green-glass~Face-10~Empty~Cap-back-green~Watch~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "HaevtiYfwUrbsPGZ9mL7vZZ3pf3atTSFqB8vSFTgmAGP",
+      "username": "abani",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Red~Body-3-Green~Face-9~Glasses-black~Cap-back-yellow~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "FTYSUeQrthmXwzVAPcwWS4AN5VtUYFVXBzpxkZ8mSbyS",
+      "username": "abacus123",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-2-Red~Face-11~Glasses-black~Beret~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "AGw8CtqeVDXtXTGikcgz9qFuRKjjZJ1GYogKMXNqHtVQ",
+      "username": "abaaaaaaaa",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-3-Green-glass~Face-11~Blush~Empty~Bracelet-orange~Empty+2.webp"
+    },
+    {
+      "address": "AkkNboa44jTDRFW72KKeDoJ4REKxuPgqYzuTFuZq6EhF",
+      "username": "abacustard",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Emerald~Body-3-Blue~Face-4~Glasses~Hairstyle-4---Red~Bracelet-orange~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "6A4jQGqM5DcoFtMFkARDUXjjZwBzVnXWdJDdVp2ckU9G",
+      "username": "Abagobones",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Pink~Body-3-Cyan-glass~Face-10~Blush~Crown~Watch~Necklace-Red.webp"
+    },
+    {
+      "address": "4BWTqfYAxrgaSu6PRVqVu7aU8DypCSieqYfJDAQ2ukba",
+      "username": "AbackSunDeer",
+      "profileImage": null
+    },
+    {
+      "address": "3qAPCAY7PyBAypaccsLXKNaGggD2kmpB1zRvK7GA3aKx",
+      "username": "Abanayaz",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Indigo-wand~Face-5~Empty+2~Hairstyle-2---Orange~Watch~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "FSHLTad7eciKWF9XAZ67vCobcYo5YCYp41zo11S1knnx",
+      "username": "abanggz63",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-3-Yellow-wand~Face-6~Blush~Cap-Orange~Empty+2~Tie-Yellow.webp"
+    },
+    {
+      "address": "EVSZLYoxh1mj8FfUYa6NkPf2JdYzxMWdkjcAAchshKmp",
+      "username": "Abandz011",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-3-Blue-wand~Face-3~Sunglasses~Leafs~Bracelet-orange~Bowtie-Orange.webp"
+    },
+    {
+      "address": "4SWXTBoW3RsJL87qiW9e7nFNcWgxq5vEQBaWYJpWrwHr",
+      "username": "abanghoki",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-2-Red~Face-4~Glasses~Cap-back-green~Watch~Empty+2.webp"
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "94APUeLVtLsMmSLatyJwsNXSvXHJf676oqMwb2JR6py9",
+      "username": "abarths4"
+    },
+    {
+      "chain": "solana",
+      "address": "9N3iM1EFZu6qzj7cdQjzApLyW8Ev4AhtDT3smXTokqN2",
+      "username": "Abot"
+    },
+    {
+      "chain": "solana",
+      "address": "E3c3Rdw4qmADWpkL2EC9WTqCxcrLpUieBDyXh7u1zV5e",
+      "username": "abarris33"
+    },
+    {
+      "chain": "solana",
+      "address": "GmjmwzdF9cvYckxvhS6QkMVzdAimWyJB8F6EE3UxkLNB",
+      "username": "ab2tract"
+    },
+    {
+      "chain": "solana",
+      "address": "2WudFoiP6CxspzKt37xHmz8Pg58nqH7bTPyfiXBcNenj",
+      "username": "abrl3rnt"
+    },
+    {
+      "chain": "solana",
+      "address": "CYSoyg49Hd9iPepW5oWR6PiFdPkhMuKM8QMJJBXZJckc",
+      "username": "abc5dasar"
+    },
+    {
+      "chain": "solana",
+      "address": "BAuH8ZYFcjR37Rn9D1HjgZJveFYnjaqsnyUvDbNrs5Ve",
+      "username": "abane"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x89f4594Ace2D8eb501f770e32Ba0ab6567816B2F",
+      "username": "abani"
+    },
+    {
+      "chain": "solana",
+      "address": "3XEXfAgwhbGm1LRwghscYqAS2wFPQZ3LwksJeVARUACc",
+      "username": "abani"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5Ed609fa401BAc6a7b8A172793774CC419A37Fd9",
+      "username": "abane"
+    },
+    {
+      "chain": "solana",
+      "address": "7KJpSDMBqyM4xQw4NFGR43cAXitXP6re6Diygdf3vJyM",
+      "username": "abanbu"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x487a992e7371181DeEE2CAB2ca42895750AF8583",
+      "username": "abanbu"
+    },
+    {
+      "chain": "solana",
+      "address": "5PSZPoMq4NYbPXeNENEZTs9RaVqhj2ZfJWgGzpPshK5Z",
+      "username": "AbleLoudJay"
+    },
+    {
+      "chain": "solana",
+      "address": "8vEuRcStNUGpwjRSudp8eh8SQ9Jqz6A9wg71ePNhsBNR",
+      "username": "ABrokeTrader"
+    },
+    {
+      "chain": "solana",
+      "address": "FZcDQepRkWXrPy9zSHuZYoKXj62GL9PyLjRzh1XqYEUA",
+      "username": "AbleBasicElk"
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0xae5b6ac72d429E5df44fD68f946A52140b88AB1b",
+      "displayName": "@Abattais_fnarck"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0xae5b6ac72d429E5df44fD68f946A52140b88AB1b",
+    "displayName": "@Abattais_fnarck"
+  }
+}

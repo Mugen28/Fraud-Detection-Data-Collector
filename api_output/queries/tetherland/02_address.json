@@ -1,0 +1,20 @@
+{
+  "address": "A3znyaRYUvi7GbQv1pp9CqqiVo7anddU9rPKFH55V28R",
+  "chain": "solana",
+  "arkhamEntity": {
+    "name": "Tether",
+    "note": "",
+    "id": "tether",
+    "type": "stablecoin",
+    "service": null,
+    "website": "https://tether.to/",
+    "twitter": "https://twitter.com/Tether_to"
+  },
+  "arkhamLabel": {
+    "name": "Treasury",
+    "address": "A3znyaRYUvi7GbQv1pp9CqqiVo7anddU9rPKFH55V28R",
+    "chainType": "solana"
+  },
+  "isUserAddress": false,
+  "program": false
+}

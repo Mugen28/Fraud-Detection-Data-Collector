@@ -1,0 +1,887 @@
+{
+  "arkhamEntities": [
+    {
+      "name": "Safex",
+      "note": "",
+      "id": "safex",
+      "type": "misc",
+      "service": false,
+      "twitter": "safex"
+    },
+    {
+      "name": "SafeEarn",
+      "note": "",
+      "id": "safeearn",
+      "type": "yield",
+      "service": false,
+      "twitter": "safearnBSC"
+    },
+    {
+      "name": "SafeX Space",
+      "note": "",
+      "id": "safex-space",
+      "type": "misc",
+      "service": false,
+      "twitter": "SafeX_BSC"
+    },
+    {
+      "name": "SafeXI",
+      "note": "",
+      "id": "safexi",
+      "type": "misc",
+      "service": false,
+      "twitter": "Safe_XI"
+    }
+  ],
+  "arkhamAddresses": [
+    {
+      "address": "0x1d07fE70647C40638965Fb2b550597028e4405Fd",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "SafeEarn",
+        "note": "",
+        "id": "safeearn",
+        "type": "yield",
+        "service": null,
+        "website": "https://safearn.app/",
+        "twitter": "https://twitter.com/safearnBSC"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0x1d07fE70647C40638965Fb2b550597028e4405Fd",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x099f551eA3cb85707cAc6ac507cBc36C96eC64Ff",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "SafeEarn",
+        "note": "",
+        "id": "safeearn",
+        "type": "yield",
+        "service": null,
+        "website": "https://safearn.app/",
+        "twitter": "https://twitter.com/safearnBSC"
+      },
+      "arkhamLabel": {
+        "name": "SAFEARN Token",
+        "address": "0x099f551eA3cb85707cAc6ac507cBc36C96eC64Ff",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xE804f3C3E6DdA8159055428848fE6f2a91c2b9AF",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Swap Router",
+        "address": "0xE804f3C3E6DdA8159055428848fE6f2a91c2b9AF",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "SafeMoon (SFM)",
+        "address": "0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x37da632c6436137BD4D0CA30c98d3c615974120b",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Swap Router V2",
+        "address": "0x37da632c6436137BD4D0CA30c98d3c615974120b",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Safe",
+        "note": "",
+        "id": "gnosis-safe",
+        "type": "misc",
+        "service": null,
+        "website": "https://safe.global/",
+        "twitter": "https://twitter.com/safe"
+      },
+      "arkhamLabel": {
+        "name": "SafeTokenLock",
+        "address": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x1bde1Bae878131B919ce8316619C8409f2624E5f",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "Safe Haven",
+        "note": "",
+        "id": "safe-haven",
+        "type": "misc",
+        "service": null,
+        "website": "https://safehaven.io/",
+        "twitter": "https://twitter.com/SafeHavenio"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0x1bde1Bae878131B919ce8316619C8409f2624E5f",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Old SAFEMOON Token",
+        "address": "0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x6AC68913d8FcCD52d196B09e6bC0205735A4be5f",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Swap Router V3",
+        "address": "0x6AC68913d8FcCD52d196B09e6bC0205735A4be5f",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x9641d764fc13c8B624c04430C7356C1C7C8102e2",
+      "chain": "ethereum",
+      "arkhamEntity": {
+        "name": "Safe",
+        "note": "",
+        "id": "gnosis-safe",
+        "type": "misc",
+        "service": null,
+        "website": "https://safe.global/",
+        "twitter": "https://twitter.com/safe"
+      },
+      "arkhamLabel": {
+        "name": "MultiSendCallOnly",
+        "address": "0x9641d764fc13c8B624c04430C7356C1C7C8102e2",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x534F39c5f4DF9cB13E16B24cA07c7C8C0E2eadB7",
+      "chain": "base",
+      "arkhamEntity": {
+        "name": "Safe Haven",
+        "note": "",
+        "id": "safe-haven",
+        "type": "misc",
+        "service": null,
+        "website": "https://safehaven.io/",
+        "twitter": "https://twitter.com/SafeHavenio"
+      }
+    },
+    {
+      "address": "0x8e0301E3bDE2397449FeF72703E71284d0d149F1",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Pool",
+        "address": "0x8e0301E3bDE2397449FeF72703E71284d0d149F1",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x678ee23173dce625A90ED651E91CA5138149F590",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0x678ee23173dce625A90ED651E91CA5138149F590",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0xC95063D946242f26074A76C8A2E94c9D735dfc78",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "Safemoon",
+        "note": "",
+        "id": "safemoon",
+        "type": "meme",
+        "service": null,
+        "website": "https://safemoon.com",
+        "twitter": "https://twitter.com/safemoon",
+        "linkedin": "https://www.linkedin.com/company/safemoon",
+        "instagram": "https://www.crunchbase.com/organization/safemoon"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0xC95063D946242f26074A76C8A2E94c9D735dfc78",
+        "chainType": "evm"
+      }
+    },
+    {
+      "address": "0x2963B4311e07da3D9c50F2e1eb14659e42e3f4A9",
+      "chain": "bsc",
+      "arkhamEntity": {
+        "name": "SafeMars",
+        "note": "",
+        "id": "safemars",
+        "type": "misc",
+        "service": null,
+        "website": "https://www.safemarscrypto.com/home",
+        "twitter": "https://twitter.com/Safemartians"
+      },
+      "arkhamLabel": {
+        "name": "Deployer",
+        "address": "0x2963B4311e07da3D9c50F2e1eb14659e42e3f4A9",
+        "chainType": "evm"
+      }
+    }
+  ],
+  "ens": [
+    {
+      "name": "safefarmer.eth",
+      "address": "0x2dE9D6f84e28F3A347b97C6a3Db51D366E65bA4C"
+    },
+    {
+      "name": "safe.cryptogr.eth",
+      "address": "0x651bBd829a7cBD32F35dFC099cBde1E04789393c"
+    },
+    {
+      "name": "safe-torn.eth",
+      "address": "0x0A5B2bF3cCfB44C1D22F07Eed9553eCba752D4aD"
+    },
+    {
+      "name": "safest8.eth",
+      "address": "0xB57766cA563a9386bCbE3806a1bCe44008868538"
+    },
+    {
+      "name": "safechad.eth",
+      "address": "0x6648D39dd323adc816CADcAdA011d2c497C5257b"
+    },
+    {
+      "name": "safebyte.eth",
+      "address": "0x830D8Ee4E23850C600DB1baE08DFF389f7e8575e"
+    },
+    {
+      "name": "safeland.eth",
+      "address": "0x8D292BD248f8F756ff5aaaBacda9d465BCEaE6c3"
+    },
+    {
+      "name": "safeking.eth",
+      "address": "0x00de3A8BDEe6E682C3509d66A947d05A8Ca797af"
+    },
+    {
+      "name": "safewink.eth",
+      "address": "0x550176C0Abb1A22C257A43307D5138b98aA738f7"
+    },
+    {
+      "name": "safe.0xtrooper.eth",
+      "address": "0x260915385D24468036789843121e7c8B8c5AB8e9"
+    },
+    {
+      "name": "safeyield.eth",
+      "address": "0x11d97c407313f2581DBE86ba4B22f1f889d24767"
+    },
+    {
+      "name": "safejpegs.eth",
+      "address": "0x111818A51C4177E8980566beEA68fe334bE7B76A"
+    },
+    {
+      "name": "safetystop.eth",
+      "address": "0xaba93A3E9ACB47FdD2fd2F77DA6F0E2771c3283e"
+    },
+    {
+      "name": "safe.howdy.eth",
+      "address": "0x6Fe2397cDF0b4d5c7D03eFb2FcA428D97b2241a0"
+    },
+    {
+      "name": "safeevm.eth",
+      "address": "0x17F5994352a2b0182268FD65A6beE7423d054A6c"
+    }
+  ],
+  "twitter": [
+    {
+      "name": "@safeenvir",
+      "note": "",
+      "id": "safeenvir",
+      "type": "individual",
+      "service": false,
+      "twitter": "safeenvir"
+    },
+    {
+      "name": "SafeETH",
+      "note": "",
+      "id": "safeeth",
+      "type": "misc",
+      "service": false,
+      "twitter": "SafeEthOffical"
+    },
+    {
+      "name": "@sabrexiii",
+      "note": "",
+      "id": "sabrexiii",
+      "type": "individual",
+      "service": false,
+      "twitter": "sabrexiii"
+    },
+    {
+      "name": "FameEx",
+      "note": "",
+      "id": "fameex",
+      "type": "cex",
+      "service": true,
+      "twitter": "FameEXGlobal"
+    },
+    {
+      "name": "GAFA Token",
+      "note": "",
+      "id": "gafa",
+      "type": "gaming",
+      "service": false,
+      "twitter": "gafaExperience"
+    },
+    {
+      "name": "@SafeeB3",
+      "note": "",
+      "id": "safeeb3",
+      "type": "individual",
+      "service": false,
+      "twitter": "SafeeB3"
+    },
+    {
+      "name": "SafexDao",
+      "note": "",
+      "id": "safexdao",
+      "type": "misc",
+      "service": false,
+      "twitter": "safexdao"
+    },
+    {
+      "name": "SafeX Space",
+      "note": "",
+      "id": "safex-space",
+      "type": "misc",
+      "service": false,
+      "twitter": "SafeX_BSC"
+    },
+    {
+      "name": "@mafeexbt",
+      "note": "",
+      "id": "mafeexbt",
+      "type": "individual",
+      "service": false,
+      "twitter": "mafeexbt"
+    },
+    {
+      "name": "@safeerkhan541",
+      "note": "",
+      "id": "safeerkhan541",
+      "type": "individual",
+      "service": false,
+      "twitter": "safeerkhan541"
+    },
+    {
+      "name": "@safeerasif1115",
+      "note": "",
+      "id": "safeerasif1115",
+      "type": "individual",
+      "service": false,
+      "twitter": "safeerasif1115"
+    },
+    {
+      "name": "@hafeex_eesah",
+      "note": "",
+      "id": "hafeex-eesah",
+      "type": "individual",
+      "service": false,
+      "twitter": "hafeex_eesah"
+    },
+    {
+      "name": "@Saeeed21M",
+      "note": "",
+      "id": "saeeed21m",
+      "type": "individual",
+      "service": false,
+      "twitter": "Saeeed21M"
+    },
+    {
+      "name": "@hafeezkeyani",
+      "note": "",
+      "id": "hafeezkeyani",
+      "type": "individual",
+      "service": false,
+      "twitter": "hafeezkeyani"
+    },
+    {
+      "name": "@sabeendesideria",
+      "note": "",
+      "id": "sabeendesideria",
+      "type": "individual",
+      "service": false,
+      "twitter": "sabeendesideria"
+    }
+  ],
+  "opensea": [
+    {
+      "address": "0x00de3A8BDEe6E682C3509d66A947d05A8Ca797af",
+      "username": "SAFE",
+      "profileImage": "https://i2c.seadn.io/profiles/0x00de3a8bdee6e682c3509d66a947d05a8ca797af/avatar/2a716f8a579eaedec1d7298b753256/ac2a716f8a579eaedec1d7298b753256.jpeg"
+    },
+    {
+      "address": "0x2D5d3cc342C3a897dFB890aF6990FD8207F40b58",
+      "username": "SafeBSC",
+      "profileImage": null
+    },
+    {
+      "address": "0x2963B4311e07da3D9c50F2e1eb14659e42e3f4A9",
+      "username": "SafeMars",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png"
+    },
+    {
+      "address": "0xb738Ce8df54A6d1035d651D77816ae20AFff3bE6",
+      "username": "SafetyGuy",
+      "profileImage": "https://i.seadn.io/gcs/files/4e68282b1638a66f323cdc61cfc4c38a.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0x8e06acdDd4E4982240ACcc6cBB060Ef7A3E38B75",
+      "username": "SafeMaker",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png"
+    },
+    {
+      "address": "0xeF5e1aEcab7Ad237eF7f41B07Db5760E6b2026A0",
+      "username": "Safehous3",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png"
+    },
+    {
+      "address": "0x54a975cfa52843565f0e7d683d1A6F7F2A635761",
+      "username": "Safemoons",
+      "profileImage": "https://i.seadn.io/gcs/files/29b2ed48de65d0bfcd0e4b5cf7f73842.jpg?w=500&auto=format"
+    },
+    {
+      "address": "0xc578958DD1880cF00BFfbb7Feb9c28cbbbcaD3bF",
+      "username": "SafeHaven_",
+      "profileImage": "https://i.seadn.io/gae/-1ZCBtlyWGHfATrUFH30R0Naj3U12xKYaG490ygVKrhSTX8_u2InJoRPLQ5xMSVieKPbHqK8hE0E149EVwF4SqPXCDpt1pAXj2LN7A?w=500&auto=format"
+    },
+    {
+      "address": "0xEDB7AF625443Bec75d53544e091Ee3492ede8BC2",
+      "username": "safepaypal",
+      "profileImage": "https://i.seadn.io/gae/bXNXY2AvsmcFr8DegXhkAwNlB1589E94Lzph5bBjqM72kYCYfyZJXqYxMN7YgVRpEFFTvjUUmyEm3NjZEw6gQ6iD7ZXs7thXMWJJvPA?w=500&auto=format"
+    },
+    {
+      "address": "0xee618EbdC5395b721D618674f71007BF63625677",
+      "username": "SafetyVault",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/10.png"
+    },
+    {
+      "address": "0x9F42ED9dd4AF95c856d4bed8AC4ad6815bC72cE7",
+      "username": "SafeSweeper",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png"
+    },
+    {
+      "address": "0x24c1F4b4e7A6192B6aB1ebBBC5F44eFE7722E600",
+      "username": "SafemoonHero",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png"
+    },
+    {
+      "address": "0x69a905Fa175201A79f12046292e4E7121F81C7b9",
+      "username": "safe_Beltracci",
+      "profileImage": "https://storage.googleapis.com/opensea-static/opensea-profile/14.png"
+    },
+    {
+      "address": "0x36034Cba5413c0678b8256aCd0a87Af4E9D0873A",
+      "username": "Safi",
+      "profileImage": null
+    },
+    {
+      "address": "0x2820930e1f7BBf5aF46602b37941eE51a31e6CD9",
+      "username": "SafZ",
+      "profileImage": "https://i.seadn.io/gcs/files/4c6cffae0133364d260c682108529a3f.jpg?w=500&auto=format"
+    }
+  ],
+  "pumpfun": [
+    {
+      "address": "5oMNNJiQC2Z6qcMRSAH2NyoePTQurdeNwg7mi5wufm4v",
+      "username": "SafeMe",
+      "profileImage": "https://socialimages.pump.fun/profile-images/37351e5c-123e-4a27-ac51-5ab6b8ecc069/d1e3acb07f1e4822f296068ba4f36b0a"
+    },
+    {
+      "address": "69VRVFCFmcjWeqtf3LgMncRQSXR2YLY4SCuMrAk5eb7R",
+      "username": "safe12345",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Purple~Body-2-Emerald~Face-8~Glasses~Chef_s-Hat~Watch~Tie-Red.webp"
+    },
+    {
+      "address": "7AYQAbMpdyyMPEd6EXvpvoUonsr3GZsiH2eB46obNdxB",
+      "username": "safety389",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-Red~Face-11~Glasses-brown~Hairstyle-3-grey~Empty~Buckle.webp"
+    },
+    {
+      "address": "3iaXnGhhbo748Q1CeDDS2FhMypCyauVXGRCCiHMUHHAL",
+      "username": "safemooner",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-3-Yellow-glass~Face-11~Glasses-brown~Hairstyle-1---Green~Bracelet-orange~Tie-Red.webp"
+    },
+    {
+      "address": "31mfGGgivziwQhig5skhgTmKY5A7MFBxNVVFwDhseUWs",
+      "username": "Safelymoon",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Dark-blue~Body-3-Green-glass~Face-11~Empty+2~Hairstyle-2---Brown~Empty+2~Bowtie-Red.webp"
+    },
+    {
+      "address": "7UZoia2YqDAYfRdgm2DmdvdB8t5D5pnk2Wx6CDsNEtFN",
+      "username": "SafeTimeFrog",
+      "profileImage": null
+    },
+    {
+      "address": "GeKpP3zETXsEo5GKcbFBdxLG2vue3z5me1kYYvT62kp1",
+      "username": "safeeeeeee",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-2-Green~Face-6~Glasses~Hairstyle-3-blue~Empty+2~Winter-Scarf-Blue.webp"
+    },
+    {
+      "address": "7ZtKnFx4YnTH19XgRjzB1M3B3FWQ6cEYUBfqy234pEhR",
+      "username": "safeseal67842",
+      "profileImage": null
+    },
+    {
+      "address": "6cYCA57S5pLA8BhpnvW1HxBcGsKank76scxALNv7PKAg",
+      "username": "safefish62152",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Yellow~Face-6~Glasses~Cap-back-green~Empty+2~Tie-Green.webp"
+    },
+    {
+      "address": "CsjJ4bGSZkBkPk1gzsEudFa6niS2J1b8MccLMfVqpR3S",
+      "username": "safetuna96095",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Green~Body-3-Emerald~Face-5~Glasses-brown~Cap-back-green~Empty~Empty+2.webp"
+    },
+    {
+      "address": "7T6rme6CsZavvdvQo4dTtCamJCJTx8ocqX3NKNXWrgTW",
+      "username": "safefish04671",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Cyan~Body-Indigo~Face-1~Empty~Winter-Hat-Yellow~Bracelet-orange~Winter-Scarf-Green.webp"
+    },
+    {
+      "address": "8nR2ih74F344ishTP1zEjZ5KFbqVSUKz9FiajHVySAFg",
+      "username": "safg",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Amber~Body-3-Emerald-wand~Face-8~Glasses-black~Cap-back-green~Empty+2~Bowtie-Orange.webp"
+    },
+    {
+      "address": "G5XU2bGw38RzNZ5UAaeYP38h5Z7Hmp83ohJAncreeUtf",
+      "username": "safesquid21861",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Orange~Body-Orange~Face-11~Glasses~Graduation-hat~Empty+2~Bowtie-Indigo.webp"
+    },
+    {
+      "address": "37H3ZabqrRmbhUZn1Dt1zwk5cY1WJbUBsNLsJpqBkgvg",
+      "username": "safecornyscrap",
+      "profileImage": "https://socialimages.pump.fun/profile-images/pumpatar/2/Blue~Body-3-Blue-glass~Face-2~Empty+2~Crown~Bracelet-green~Empty+2.webp"
+    },
+    {
+      "address": "2VFFW7sEXuP6KGnpymMDVyhxVQGDgduWTpz5HW7ntdvf",
+      "username": "safemanta53808",
+      "profileImage": null
+    }
+  ],
+  "fomo": [
+    {
+      "chain": "solana",
+      "address": "EenbJ5AeARXrQcybAVxDA5dibV3WiuW7QL84A35mxanz",
+      "username": "SafeIntactCheetah"
+    },
+    {
+      "chain": "solana",
+      "address": "5mSFPzuyUwmV2PB7nrsz7RTXcpcDpdcvGb657GCVeAvb",
+      "username": "SafeEarlyDormouse"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x213b45b7c5B4baF39CAc92BC367e1854712270Ab",
+      "username": "SafeExtraBoa"
+    },
+    {
+      "chain": "solana",
+      "address": "5adLTMikmDdbm68GEiApR2AcSBxsAvSSsQxiUxPiqYwD",
+      "username": "SafeExtraBoa"
+    },
+    {
+      "chain": "solana",
+      "address": "2DZa4p4T2zKyETP935f2J7ZCU661yFjMDYfSBMdnxPii",
+      "username": "SafeExcessEarwig"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x67Ee41ac24c0815A57d8448Aa9F608ead29aa266",
+      "username": "SafeExcessEarwig"
+    },
+    {
+      "chain": "solana",
+      "address": "G7zcCRjfBcDFBF5B7VUu2PSDLvnnT8anP6igYftFvL9P",
+      "username": "SafeGoodAsp"
+    },
+    {
+      "chain": "solana",
+      "address": "CxVDFwk2ZJ6YhK2vpJHTyL6e12sjN6RQPDp1p2t4C46M",
+      "username": "SafeShakyBug"
+    },
+    {
+      "chain": "solana",
+      "address": "B4tMTBB9AB7xhkwpT7nXfzAKmiurjDoE6uMddmJ8vmG5",
+      "username": "SafeInnerPike"
+    },
+    {
+      "chain": "solana",
+      "address": "DTrt9dbxwWKdH7C4we9CoMsZT5VJ7Qr4c15uohhCMi83",
+      "username": "SafeLiveLlama"
+    },
+    {
+      "chain": "solana",
+      "address": "HhvqgjrtYpqpp4EZXxm4o1FB8yhpjka8SV5a8fSBabQ7",
+      "username": "SafeGreatSwift"
+    },
+    {
+      "chain": "solana",
+      "address": "EHeRGSotktaPFZuZwZCVMhF9P7BUVuMqWKsSquVfmA2R",
+      "username": "SafeIvoryPerch"
+    },
+    {
+      "chain": "solana",
+      "address": "7PhrzRsLr5KPiW6oo9hWb3H3zDKPdzKXrK1wfQe2e8mH",
+      "username": "SAFU"
+    },
+    {
+      "chain": "solana",
+      "address": "9e54E6Msrai3PyqfZ3ZmZpac6oiLNiRB5Ref6NcjuZc6",
+      "username": "SAFAR"
+    },
+    {
+      "chain": "solana",
+      "address": "HK3NjkPfR23eRBBtURx9BRyqL2H5ZDcz2NrQXFmuVWnq",
+      "username": "SafeFormalMollusk"
+    }
+  ],
+  "tokens": [
+    {
+      "identifier": {
+        "pricingID": "safeearth"
+      },
+      "name": "SafeEarth",
+      "symbol": "safeearth",
+      "price": 7.046e-12,
+      "price24hAgo": 7.046e-12,
+      "deployments": [
+        {
+          "chain": "ethereum",
+          "address": "0xE6F1966d04CfcB9cd1B1dC4E8256D8b501b11CbA"
+        }
+      ]
+    }
+  ],
+  "polymarketEvents": [
+    {
+      "eventId": 190681,
+      "title": "Big Game: Safety?",
+      "slug": "super-bowl-lx-safety",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super-bowl-lx-safety-zekUWjZwiVmk.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super-bowl-lx-safety-zekUWjZwiVmk.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 79075,
+      "title": "U.S. enacts AI safety bill before 2027?",
+      "slug": "us-enacts-ai-safety-bill-before-2027",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-enacts-ai-safety-bill-in-2025-BnBSEkkIK6TL.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-enacts-ai-safety-bill-in-2025-BnBSEkkIK6TL.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 12247,
+      "title": "Will California pass SB 1047 AI safety bill?",
+      "slug": "will-california-pass-sb-1047-ai-safety-bill",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-california-pass-sb-1047-ai-safety-bill-MGY6o5u5CWfu.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-california-pass-sb-1047-ai-safety-bill-MGY6o5u5CWfu.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 16794,
+      "title": "U.S. enacts AI safety bill in 2025?",
+      "slug": "us-enacts-ai-safety-bill-in-2025",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-enacts-ai-safety-bill-in-2025-BnBSEkkIK6TL.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-enacts-ai-safety-bill-in-2025-BnBSEkkIK6TL.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 31732,
+      "title": "F1 Belgian Grand Prix: Safety Car? ",
+      "slug": "f1-belgian-grand-prix-safety-car",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 29004,
+      "title": "F1 British Grand Prix: Safety Car? ",
+      "slug": "f1-british-grand-prix-safety-car",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 27706,
+      "title": "F1 Austrian Grand Prix: Safety Car? ",
+      "slug": "f1-austrian-grand-prix-safety-car",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 25906,
+      "title": "F1 Canadian Grand Prix: Safety Car? ",
+      "slug": "f1-canadian-grand-prix-safety-car",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 1028408,
+      "title": "Frontier AI lab pulls a model over safety concerns in 2026?",
+      "slug": "frontier-ai-lab-pulls-a-model-over-safety-concerns-in-2026",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/frontier-ai-lab-pulls-a-model-over-safety-concerns-in-2026-Eq9bLwfokPLJ.jpg",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/frontier-ai-lab-pulls-a-model-over-safety-concerns-in-2026-Eq9bLwfokPLJ.jpg",
+      "marketCount": 1
+    },
+    {
+      "eventId": 244449,
+      "title": "Will there be a safety car during the 2026 F1 Australian Grand Prix?",
+      "slug": "f1-australian-grand-prix-safety-car-2026-03-07",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 853099,
+      "title": "Will there be a safety car during the 2026 F1 Italian Grand Prix?",
+      "slug": "f1-italian-grand-prix-safety-car-2026-09-06",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 900140,
+      "title": "ITF W50 Oldenzaal Women: Beatrise Zeltina vs Safien Boulonois",
+      "slug": "itf-zeltina-boulono-2026-08-24",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/itf-5206dc6c54.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/itf-5206dc6c54.png",
+      "marketCount": 16
+    },
+    {
+      "eventId": 89149,
+      "title": "Will there be a safety car during the 2025 F1 Qatar Grand Prix?",
+      "slug": "f1-qatar-grand-prix-safety-car-2025-11-30",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    },
+    {
+      "eventId": 10145,
+      "title": "$SAFE Market Cap (FDV) one week after launch? ",
+      "slug": "safe-market-cap-fdv-one-week-after-launch",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/safe-market-cap-fdv-one-week-after-launch-95067e85-bd03-4968-aac7-d4365afd7442.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/safe-market-cap-fdv-one-week-after-launch-95067e85-bd03-4968-aac7-d4365afd7442.png",
+      "marketCount": 6
+    },
+    {
+      "eventId": 747431,
+      "title": "Will there be a safety car during the 2026 F1 Dutch Grand Prix?",
+      "slug": "f1-dutch-grand-prix-safety-car-2026-08-23",
+      "iconUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "imageUrl": "https://polymarket-upload.s3.us-east-2.amazonaws.com/f1-constructors-champion-2025-PULWDiyoGXZ7.png",
+      "marketCount": 1
+    }
+  ],
+  "polymarketWallets": [
+    {
+      "address": "0x96338e0101048C597626061Bc32f09Ccd8ff6A4b",
+      "displayName": "\"safeer\" Polymarket Account"
+    },
+    {
+      "address": "0xC235c0074d0e01636ae7bd2DC45234f6EE503967",
+      "displayName": "\"sameex\" Polymarket Account"
+    }
+  ],
+  "polymarketWallet": {
+    "address": "0x96338e0101048C597626061Bc32f09Ccd8ff6A4b",
+    "displayName": "\"safeer\" Polymarket Account"
+  }
+}

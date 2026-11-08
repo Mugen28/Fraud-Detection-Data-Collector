@@ -1,0 +1,58 @@
+{
+  "name": "TitanX",
+  "note": "",
+  "id": "titanx",
+  "customized": false,
+  "type": "misc",
+  "service": null,
+  "website": "https://titanx.win",
+  "twitter": "https://twitter.com/TitanXCrypto",
+  "populatedTags": [
+    {
+      "id": "opensea-user",
+      "label": "OpenSea User",
+      "rank": 110,
+      "excludeEntities": false,
+      "disablePage": true,
+      "tagParams": "OpenSea User"
+    },
+    {
+      "id": "high-transacting",
+      "label": "High Transacting",
+      "rank": 160,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "token-deployer",
+      "label": "ERC20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ERC20"
+    },
+    {
+      "id": "pool-deployer",
+      "label": "Uniswap V2 Pool Deployer",
+      "rank": 210,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Uniswap V2 Pool"
+    },
+    {
+      "id": "pool-deployer",
+      "label": "Uniswap V3 Pool Deployer",
+      "rank": 210,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Uniswap V3 Pool"
+    }
+  ]
+}

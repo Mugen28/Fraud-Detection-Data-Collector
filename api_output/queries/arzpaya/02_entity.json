@@ -1,0 +1,34 @@
+{
+  "name": "ArzPaya.com",
+  "note": "",
+  "id": "arzpaya-com",
+  "customized": false,
+  "type": "cex",
+  "service": null,
+  "website": "https://arzpaya.com/",
+  "twitter": "https://twitter.com/ArzPaya",
+  "populatedTags": [
+    {
+      "id": "cex",
+      "label": "Centralized Exchange",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "contract-deployer",
+      "label": "Contract Deployer",
+      "rank": 180,
+      "excludeEntities": false,
+      "disablePage": true
+    },
+    {
+      "id": "token-deployer",
+      "label": "ERC20 Token Deployer",
+      "rank": 200,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "ERC20"
+    }
+  ]
+}

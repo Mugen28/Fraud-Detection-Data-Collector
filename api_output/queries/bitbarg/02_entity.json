@@ -1,0 +1,26 @@
+{
+  "name": "@Bit0art",
+  "note": "",
+  "id": "bit0art",
+  "customized": false,
+  "type": "individual",
+  "service": null,
+  "twitter": "https://x.com/Bit0art",
+  "populatedTags": [
+    {
+      "id": "individual",
+      "label": "Individual",
+      "rank": 50,
+      "excludeEntities": false,
+      "disablePage": false
+    },
+    {
+      "id": "vectorfun-user",
+      "label": "\"Bit0art\" on Vector.fun",
+      "rank": 120,
+      "excludeEntities": false,
+      "disablePage": false,
+      "tagParams": "Bit0art"
+    }
+  ]
+}

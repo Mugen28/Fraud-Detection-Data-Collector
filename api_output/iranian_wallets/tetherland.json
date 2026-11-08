@@ -1,0 +1,16 @@
+{
+  "target": "tetherland",
+  "entity_id": null,
+  "entity_name": null,
+  "summary": {},
+  "top_address": null,
+  "wallets": [
+    {
+      "address": "0x9f6ab84EA1C099DC72d39D9Bc1F2012A8E94887e",
+      "chain": "ethereum",
+      "label": "\"TetherLandCom\" on OpenSea",
+      "entity": "@Behnambalood",
+      "source": "intelligence/search"
+    }
+  ]
+}

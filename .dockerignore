@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.DS_Store
+tmp.txt
+captured_requests.json
+chrome_profile
+storage_state.json
+.env
+api_output
+tests
+*.zip
+

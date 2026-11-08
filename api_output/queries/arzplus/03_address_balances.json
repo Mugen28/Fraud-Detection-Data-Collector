@@ -1,0 +1,324 @@
+{
+  "addresses": {
+    "arbitrum_one": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "arbitrum_one",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "avalanche": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "avalanche",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "base": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "base",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "bsc": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "bsc",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "ethereum": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "ethereum",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "flare": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "flare",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "hypercore": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "hypercore",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false
+      }
+    },
+    "hyperevm": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "hyperevm",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "optimism": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "optimism",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "polygon": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "polygon",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    },
+    "robinhood": {
+      "0x82a403c14483931B2fF6e4440c8373ccFEe698B8": {
+        "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+        "chain": "robinhood",
+        "arkhamEntity": {
+          "name": "ArzPaya.com",
+          "note": "",
+          "id": "arzpaya-com",
+          "type": "cex",
+          "service": null,
+          "website": "https://arzpaya.com/",
+          "twitter": "https://twitter.com/ArzPaya"
+        },
+        "arkhamLabel": {
+          "name": "Hot Wallet",
+          "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
+          "chainType": "evm"
+        },
+        "isUserAddress": false,
+        "contract": false
+      }
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bsc": 3.0837280608e-07,
+    "ethereum": 109.31856066605357,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bsc": 3.1627297296e-07,
+    "ethereum": 112.11948443902196,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bsc": [
+      {
+        "name": "DogeKing",
+        "symbol": "DogeKing",
+        "id": "dogeking",
+        "ethereumAddress": "0x641EC142E67ab213539815f67e4276975c2f8D50",
+        "balance": 88.76592,
+        "balanceExact": "88765920000000000000",
+        "usd": 3.0837280608e-07,
+        "price": 3.474e-09,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.4978950322761606,
+        "priceChange24h": -8.899999999999959e-11
+      }
+    ],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 0.046767803856543576,
+        "balanceExact": "46767803856543579",
+        "usd": 109.31225866605357,
+        "price": 2337.34,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": -2.4983001213900993,
+        "priceChange24h": -59.88999999999987
+      },
+      {
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "id": "tether",
+        "ethereumAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "balance": 0.006302,
+        "balanceExact": "6302",
+        "usd": 0.006302,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:05:58Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": []
+  }
+}

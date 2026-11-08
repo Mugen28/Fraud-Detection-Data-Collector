@@ -1,0 +1,96 @@
+{
+  "entities": {
+    "iranifarmer": {
+      "name": "@iranifarmer",
+      "note": "",
+      "id": "iranifarmer",
+      "type": "individual",
+      "service": null,
+      "twitter": "https://x.com/iranifarmer",
+      "populatedTags": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "fomo-user",
+          "label": "\"IraniFarmer\" on Fomo",
+          "rank": 120,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "IraniFarmer"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 0,
+    "dogecoin": 0,
+    "ethereum": 0,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [],
+    "dogecoin": [],
+    "ethereum": [],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [
+      {
+        "name": "USDC",
+        "symbol": "USDC",
+        "id": "usd-coin",
+        "balance": 0,
+        "usd": 0,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:06:47Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      }
+    ],
+    "tron": [],
+    "zcash": []
+  }
+}

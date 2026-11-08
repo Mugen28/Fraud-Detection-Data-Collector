@@ -1,0 +1,171 @@
+{
+  "entities": {
+    "arzpaya-com": {
+      "name": "ArzPaya.com",
+      "note": "",
+      "id": "arzpaya-com",
+      "type": "cex",
+      "service": null,
+      "website": "https://arzpaya.com/",
+      "twitter": "https://twitter.com/ArzPaya",
+      "populatedTags": [
+        {
+          "id": "cex",
+          "label": "Centralized Exchange",
+          "rank": 50,
+          "excludeEntities": false,
+          "disablePage": false
+        },
+        {
+          "id": "contract-deployer",
+          "label": "Contract Deployer",
+          "rank": 180,
+          "excludeEntities": false,
+          "disablePage": true
+        },
+        {
+          "id": "token-deployer",
+          "label": "ERC20 Token Deployer",
+          "rank": 200,
+          "excludeEntities": false,
+          "disablePage": false,
+          "tagParams": "ERC20"
+        }
+      ],
+      "description": ""
+    }
+  },
+  "totalBalance": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 3.0837381722855774e-07,
+    "dogecoin": 0,
+    "ethereum": 109.24466753591791,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "totalBalance24hAgo": {
+    "arbitrum_one": 0,
+    "avalanche": 0,
+    "base": 0,
+    "bitcoin": 0,
+    "bsc": 3.16273984989282e-07,
+    "dogecoin": 0,
+    "ethereum": 112.1409976287527,
+    "flare": 0,
+    "hypercore": 0,
+    "hyperevm": 0,
+    "optimism": 0,
+    "polygon": 0,
+    "robinhood": 0,
+    "solana": 0,
+    "tron": 0,
+    "zcash": 0
+  },
+  "balances": {
+    "arbitrum_one": [],
+    "avalanche": [],
+    "base": [],
+    "bitcoin": [],
+    "bsc": [
+      {
+        "name": "DogeKing",
+        "symbol": "DOGEKING",
+        "id": "dogeking",
+        "balance": 88.76592,
+        "usd": 3.0837280608e-07,
+        "price": 3.474e-09,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.4978950322761606,
+        "priceChange24h": -8.899999999999959e-11
+      },
+      {
+        "name": "Binance Bridged USDT (BNB Smart Chain)",
+        "symbol": "BSC-USD",
+        "id": "binance-bridged-usdt-bnb-smart-chain",
+        "balance": 9.663381206337363e-13,
+        "usd": 9.663381206337363e-13,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "BNB",
+        "symbol": "BNB",
+        "id": "binancecoin",
+        "balance": 5.80861313909109e-17,
+        "usd": 4.233026825112632e-14,
+        "price": 728.75,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -1.828052591874131,
+        "priceChange24h": -13.57000000000005
+      },
+      {
+        "name": "Chainlink",
+        "symbol": "LINK",
+        "id": "chainlink",
+        "balance": 2.1510571102112408e-16,
+        "usd": 2.4801688480735607e-15,
+        "price": 11.53,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -3.5953177257525204,
+        "priceChange24h": -0.4300000000000015
+      }
+    ],
+    "dogecoin": [],
+    "ethereum": [
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "id": "ethereum",
+        "balance": 0.04676780385652821,
+        "usd": 109.23836553592434,
+        "price": 2335.76,
+        "quoteTime": "2026-10-24T19:04:57Z",
+        "priceChange24hPercent": -2.5829027105255404,
+        "priceChange24h": -61.929999999999836
+      },
+      {
+        "name": "Tether",
+        "symbol": "USDT",
+        "id": "tether",
+        "balance": 0.006301999993572957,
+        "usd": 0.006301999993572957,
+        "price": 1,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": 0,
+        "priceChange24h": 0
+      },
+      {
+        "name": "The Sandbox",
+        "symbol": "SAND",
+        "id": "the-sandbox",
+        "balance": 0,
+        "usd": 0,
+        "price": 0.04973238,
+        "quoteTime": "2026-10-24T19:03:53Z",
+        "priceChange24hPercent": -4.883945989366177,
+        "priceChange24h": -0.0025536199999999995
+      }
+    ],
+    "flare": [],
+    "hypercore": [],
+    "hyperevm": [],
+    "optimism": [],
+    "polygon": [],
+    "robinhood": [],
+    "solana": [],
+    "tron": [],
+    "zcash": []
+  }
+}
