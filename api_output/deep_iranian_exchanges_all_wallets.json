@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T10:17:22.969587+00:00",
-  "total_unique_wallets": 3040,
+  "generated_at": "2026-11-15T11:23:24.986005+00:00",
+  "total_unique_wallets": 3152,
   "total_hot_wallets": 223,
-  "hot_wallets_in_master": 111,
+  "hot_wallets_in_master": 223,
   "total_deposit_wallets": 2929,
   "entities": {
     "abantether": {
@@ -53077,6 +53077,1126 @@
       "target_hot_wallet": "bc1qgr3d2uwesguppck3mmdzk63p2n42788a87pczr",
       "token_transferred": null,
       "category": "On-Chain Active Deposit Wallet"
+    },
+    {
+      "exchange_id": "abantether",
+      "exchange_name": "AbanTether",
+      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "chain": "avalanche",
+      "label": "AbanTether Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "abantether",
+      "exchange_name": "AbanTether",
+      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "chain": "base",
+      "label": "AbanTether Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "abantether",
+      "exchange_name": "AbanTether",
+      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "chain": "ethereum",
+      "label": "AbanTether Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "abantether",
+      "exchange_name": "AbanTether",
+      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "chain": "optimism",
+      "label": "AbanTether Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "abantether",
+      "exchange_name": "AbanTether",
+      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "chain": "polygon",
+      "label": "AbanTether Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "arzpaya-com",
+      "exchange_name": "ArzPaya",
+      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "chain": "avalanche",
+      "label": "ArzPaya Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "arzpaya-com",
+      "exchange_name": "ArzPaya",
+      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "chain": "base",
+      "label": "ArzPaya Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "arzpaya-com",
+      "exchange_name": "ArzPaya",
+      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "chain": "optimism",
+      "label": "ArzPaya Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "arbitrum_one",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "chain": "avalanche",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "avalanche",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "avalanche",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "avalanche",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "avalanche",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "avalanche",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "chain": "base",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "base",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "base",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "base",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "base",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "base",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "ethereum",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "chain": "optimism",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
+      "chain": "optimism",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
+      "chain": "optimism",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
+      "chain": "optimism",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "optimism",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
+      "chain": "optimism",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "bitpin",
+      "exchange_name": "Bitpin",
+      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
+      "chain": "polygon",
+      "label": "Bitpin Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "excoino",
+      "exchange_name": "Excoino",
+      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "chain": "avalanche",
+      "label": "Excoino Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "excoino",
+      "exchange_name": "Excoino",
+      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "chain": "base",
+      "label": "Excoino Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "farhad-exchange",
+      "exchange_name": "Farhad Exchange",
+      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
+      "chain": "arbitrum_one",
+      "label": "Farhad Exchange Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "farhad-exchange",
+      "exchange_name": "Farhad Exchange",
+      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
+      "chain": "avalanche",
+      "label": "Farhad Exchange Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "farhad-exchange",
+      "exchange_name": "Farhad Exchange",
+      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
+      "chain": "base",
+      "label": "Farhad Exchange Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "farhad-exchange",
+      "exchange_name": "Farhad Exchange",
+      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
+      "chain": "optimism",
+      "label": "Farhad Exchange Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "farhad-exchange",
+      "exchange_name": "Farhad Exchange",
+      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
+      "chain": "polygon",
+      "label": "Farhad Exchange Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "arbitrum_one",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "avalanche",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "base",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "bsc",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "bsc",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
+      "chain": "ethereum",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+      "chain": "ethereum",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+      "chain": "ethereum",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "chain": "ethereum",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "ethereum",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "optimism",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "nobitex",
+      "exchange_name": "Nobitex.ir",
+      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
+      "chain": "polygon",
+      "label": "Nobitex.ir Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "chain": "arbitrum_one",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "avalanche",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "avalanche",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "avalanche",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "avalanche",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "chain": "avalanche",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "base",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "base",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "base",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "base",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "chain": "base",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "chain": "bsc",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
+      "chain": "optimism",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
+      "chain": "optimism",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
+      "chain": "optimism",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
+      "chain": "optimism",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "chain": "optimism",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "ramzinex",
+      "exchange_name": "Ramzinex",
+      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "chain": "polygon",
+      "label": "Ramzinex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "wallex-ir",
+      "exchange_name": "Wallex",
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
+      "chain": "avalanche",
+      "label": "Wallex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "wallex-ir",
+      "exchange_name": "Wallex",
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
+      "chain": "base",
+      "label": "Wallex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "wallex-ir",
+      "exchange_name": "Wallex",
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
+      "chain": "bsc",
+      "label": "Wallex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "wallex-ir",
+      "exchange_name": "Wallex",
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
+      "chain": "optimism",
+      "label": "Wallex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
+    },
+    {
+      "exchange_id": "wallex-ir",
+      "exchange_name": "Wallex",
+      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
+      "chain": "polygon",
+      "label": "Wallex Hot Wallet",
+      "usd_balance": null,
+      "source": "cross_chain_evm_resolution",
+      "category": "Hot Wallet"
     }
   ]
 }

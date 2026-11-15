@@ -36,6 +36,21 @@ EVM_CHAINS = [
 def clean_address(addr: str) -> str:
     return addr.strip().strip('"').strip()
 
+def atomic_write_text(path: Path, content: str) -> None:
+    """Safely write content to a file via atomic rename to prevent corruption."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_suffix(path.suffix + f".tmp.{os.getpid()}")
+    try:
+        tmp_path.write_text(content, encoding="utf-8")
+        tmp_path.replace(path)
+    except Exception:
+        if tmp_path.exists():
+            try:
+                tmp_path.unlink()
+            except OSError:
+                pass
+        raise
+
 def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
@@ -257,6 +272,49 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                     "category": "Hot Wallet" if k in hot_keys else "On-Chain Active Deposit Wallet",
                 }
 
+    # Ensure all confirmed hot wallets (including cross-chain EVM expansions) are present in merged_unique_wallets
+    for hw in all_hot_wallets:
+        addr = clean_address(str(hw.get("address") or ""))
+        ch = str(hw.get("chain") or "").strip().lower()
+        if addr:
+            k = (addr.lower(), ch)
+            if k not in merged_unique_wallets:
+                merged_unique_wallets[k] = {
+                    "exchange_id": hw.get("exchange_id", "iranian_exchange"),
+                    "exchange_name": hw.get("exchange_name", "Unknown"),
+                    "address": addr,
+                    "chain": ch,
+                    "label": hw.get("label"),
+                    "usd_balance": None,
+                    "source": hw.get("source"),
+                    "category": "Hot Wallet",
+                }
+            else:
+                merged_unique_wallets[k]["category"] = "Hot Wallet"
+
+    # Preserve historical wallets from previous master database if not present
+    if isinstance(deep_data, dict) and isinstance(deep_data.get("all_wallets"), list):
+        for pw in deep_data["all_wallets"]:
+            if not isinstance(pw, dict):
+                continue
+            addr = clean_address(str(pw.get("address") or ""))
+            ch = str(pw.get("chain") or "").strip().lower()
+            if addr:
+                k = (addr.lower(), ch)
+                if k not in merged_unique_wallets:
+                    merged_unique_wallets[k] = {
+                        "exchange_id": pw.get("exchange_id", "iranian_exchange"),
+                        "exchange_name": pw.get("exchange_name", "Unknown"),
+                        "address": addr,
+                        "chain": ch,
+                        "label": pw.get("label"),
+                        "usd_balance": pw.get("usd_balance"),
+                        "source": pw.get("source", "historical_master_db"),
+                        "target_hot_wallet": pw.get("target_hot_wallet"),
+                        "token_transferred": pw.get("token_transferred"),
+                        "category": "Hot Wallet" if k in hot_keys else pw.get("category", "Deposit / User Wallet"),
+                    }
+
     hot_in_master = sum(1 for w in merged_unique_wallets.values() if w["category"] == "Hot Wallet")
     deposit_count = len(merged_unique_wallets) - hot_in_master
     print(f"Added {added_from_onchain} fresh deposit wallets from On-Chain Sweeper.")
@@ -270,8 +328,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
         "hot_wallets": all_hot_wallets,
     }
     hot_json_path = base_dir / "api_output" / "iranian_exchanges_hot_wallets.json"
-    hot_json_path.parent.mkdir(parents=True, exist_ok=True)
-    hot_json_path.write_text(json.dumps(hot_registry, indent=2, ensure_ascii=False), encoding="utf-8")
+    atomic_write_text(hot_json_path, json.dumps(hot_registry, indent=2, ensure_ascii=False))
     print(f"Saved Hot Wallets JSON to: {hot_json_path}")
 
     # 5. Save Updated Master File
@@ -286,7 +343,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
         "all_wallets": list(merged_unique_wallets.values()),
     }
     master_json_path = base_dir / "api_output" / "deep_iranian_exchanges_all_wallets.json"
-    master_json_path.write_text(json.dumps(updated_master, indent=2, ensure_ascii=False), encoding="utf-8")
+    atomic_write_text(master_json_path, json.dumps(updated_master, indent=2, ensure_ascii=False))
     print(f"Saved Master Database to: {master_json_path}")
 
     # 6. Generate Executive Markdown Report of Hot Wallets
@@ -317,7 +374,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
     ])
 
     hot_md_path = base_dir / "api_output" / "iranian_exchanges_hot_wallets.md"
-    hot_md_path.write_text("\n".join(md_lines), encoding="utf-8")
+    atomic_write_text(hot_md_path, "\n".join(md_lines))
     print(f"Saved Hot Wallets Markdown Report to: {hot_md_path}")
     print(f"\n=======================================================")
     print(f"EXTRACTION & AGGREGATION COMPLETE!")

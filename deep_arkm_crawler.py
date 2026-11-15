@@ -109,6 +109,21 @@ def log(msg: str) -> None:
 def as_dict(value: Any) -> dict:
     return value if isinstance(value, dict) else {}
 
+def atomic_write_json(path: Path, data: Any) -> None:
+    """Safely write JSON to a file via atomic rename to prevent corruption."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_suffix(path.suffix + f".tmp.{os.getpid()}")
+    try:
+        tmp_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        tmp_path.replace(path)
+    except Exception:
+        if tmp_path.exists():
+            try:
+                tmp_path.unlink()
+            except OSError:
+                pass
+        raise
+
 class DeepArkmCrawler:
     def __init__(
         self,
@@ -141,19 +156,49 @@ class DeepArkmCrawler:
         for ent in EXCHANGE_ENTITIES:
             ent_id = ent["id"]
             ent_name = ent["name"]
+            ent_file = self.out_dir / f"{ent_id}_deep.json"
+
+            if getattr(self.client, "auth_failed", False) or getattr(self.client, "cloudflare_blocked", False):
+                log(f"\n[!] Session authentication failed or blocked by Cloudflare. Halting crawl to protect dataset.")
+                for remaining in EXCHANGE_ENTITIES:
+                    r_id = remaining["id"]
+                    if r_id not in results:
+                        r_file = self.out_dir / f"{r_id}_deep.json"
+                        if r_file.exists():
+                            try:
+                                cached = json.loads(r_file.read_text(encoding="utf-8"))
+                                results[r_id] = cached
+                                for w in cached.get("wallets", []):
+                                    total_unique_all.add(w["address"].lower())
+                            except Exception:
+                                pass
+                break
+
             log(f"\n{'='*60}\n>>> Processing Entity: {ent_name} [{ent_id}]\n{'='*60}")
             
             ent_data = self._crawl_entity(ent)
-            results[ent_id] = ent_data
-            
             ent_wallets = ent_data.get("wallets", [])
+
+            # Safety check: if 0 wallets were returned but a previous non-empty cache exists, protect it!
+            if len(ent_wallets) == 0 and ent_file.exists():
+                try:
+                    cached = json.loads(ent_file.read_text(encoding="utf-8"))
+                    cached_wallets = cached.get("wallets", [])
+                    if len(cached_wallets) > 0:
+                        log(f"  [!] Preserving existing {ent_file.name} ({len(cached_wallets)} wallets) to prevent data wipe.")
+                        ent_data = cached
+                        ent_wallets = cached_wallets
+                except Exception as exc:
+                    log(f"  ! Could not read existing {ent_file.name}: {exc}")
+
+            results[ent_id] = ent_data
             for w in ent_wallets:
                 total_unique_all.add(w["address"].lower())
 
-            # Save individual entity report
-            ent_file = self.out_dir / f"{ent_id}_deep.json"
-            ent_file.write_text(json.dumps(ent_data, indent=2, ensure_ascii=False), encoding="utf-8")
-            log(f"Saved {len(ent_wallets)} wallets for {ent_name} -> {ent_file.name}")
+            # Save individual entity report atomically
+            if len(ent_wallets) > 0 or not ent_file.exists():
+                atomic_write_json(ent_file, ent_data)
+                log(f"Saved {len(ent_wallets)} wallets for {ent_name} -> {ent_file.name}")
 
         # Master report
         master_summary = {
@@ -164,8 +209,7 @@ class DeepArkmCrawler:
             "entities": results,
         }
         master_path = master_path or (BASE_DIR / "api_output" / "deep_iranian_exchanges_all_wallets.json")
-        master_path.parent.mkdir(parents=True, exist_ok=True)
-        master_path.write_text(json.dumps(master_summary, indent=2, ensure_ascii=False), encoding="utf-8")
+        atomic_write_json(master_path, master_summary)
         
         log(f"\n{'*'*60}")
         log(f"DEEP CRAWL COMPLETE!")
@@ -179,6 +223,16 @@ class DeepArkmCrawler:
         ent_name = ent["name"]
         wallets_map: Dict[Tuple[str, str], Dict[str, Any]] = {}
         hot_wallets_to_expand: Set[Tuple[str, str]] = set()
+
+        if getattr(self.client, "auth_failed", False) or getattr(self.client, "cloudflare_blocked", False):
+            log(f"  ! Skipping {ent_name}: session auth failed or blocked by Cloudflare.")
+            return {
+                "entity_id": ent_id,
+                "entity_name": ent_name,
+                "total_wallets": 0,
+                "chain_breakdown": {},
+                "wallets": [],
+            }
 
         # Phase 1: Entity Metadata, Predictions & Root Hot Wallet
         log(f"  [1/4] Querying Root Endpoints & AI Predictions for {ent_id}...")

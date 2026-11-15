@@ -21,12 +21,37 @@ INSTALL_SERVICE=false
 UNINSTALL_SERVICE=false
 STATUS_SERVICE=false
 DAEMON_MODE=false
+LOCAL_RUN=false
 PASSTHROUGH_ARGS=()
 
 for arg in "$@"; do
     case "$arg" in
+        -h|--help)
+            echo "Usage: ./run.sh [OPTIONS] [PIPELINE_ARGS...]"
+            echo ""
+            echo "Options:"
+            echo "  --login, --relogin       Open Chrome to authenticate with Arkham and update storage_state.json"
+            echo "  --local, --host          Run crawler directly on host (bypassing Docker)"
+            echo "  --daemon                 Run 24h scheduler daemon in background (Docker)"
+            echo "  --clean-env              Rebuild local Python virtual environment (.venv)"
+            echo "  --install-service        Install Linux systemd 24h crawler daemon service"
+            echo "  --status-service         Check systemd service status"
+            echo "  --uninstall-service      Uninstall Linux systemd service"
+            echo "  -h, --help               Show this help message"
+            echo ""
+            echo "Pipeline Args (passed to run_pipeline.py):"
+            echo "  --skip-arkm              Skip Arkham Intelligence crawler stage"
+            echo "  --skip-onchain           Skip on-chain sweeper stage"
+            echo "  --skip-aggregate         Skip aggregation stage"
+            echo "  --onchain-pages N        Number of pages to sweep on-chain (default: 5)"
+            echo "  --depth2-limit N         Depth-2 transfer limit (default: 50)"
+            exit 0
+            ;;
         --login|--relogin)
             FORCE_LOGIN=true
+            ;;
+        --local|--host|--no-docker)
+            LOCAL_RUN=true
             ;;
         --clean-env|--recreate-env)
             CLEAN_ENV=true
@@ -236,6 +261,56 @@ if [ "$SESSION_VALID" = false ]; then
         exit 1
     fi
     echo "✅ Authentication successful! Session saved to storage_state.json."
+
+    # If only login was requested, exit cleanly without starting Docker
+    if [ "$FORCE_LOGIN" = true ] && [ ${#PASSTHROUGH_ARGS[@]} -eq 0 ] && [ "$DAEMON_MODE" = false ] && [ "$INSTALL_SERVICE" = false ] && [ "$LOCAL_RUN" = false ]; then
+        echo ""
+        echo "======================================================================"
+        echo "🎉 Authentication complete! Valid session saved in storage_state.json."
+        echo "👉 To run the crawler now, use: ./run.sh (or ./run.sh --local)"
+        echo "======================================================================"
+        exit 0
+    fi
+fi
+
+# Ensure Python interpreter for host execution is resolved
+VENV_DIR="$SCRIPT_DIR/.venv"
+if [ -x "$VENV_DIR/bin/python" ]; then
+    VENV_PY="$VENV_DIR/bin/python"
+elif [ -x "$VENV_DIR/Scripts/python.exe" ]; then
+    VENV_PY="$VENV_DIR/Scripts/python.exe"
+else
+    VENV_PY="$HOST_PYTHON"
+fi
+
+# Handle Local Host Execution (Bypassing Docker)
+if [ "$LOCAL_RUN" = true ]; then
+    echo ""
+    echo "🚀 Launching crawler locally on host ($VENV_PY)..."
+    echo "----------------------------------------------------------------------"
+    "$VENV_PY" run_pipeline.py "${PASSTHROUGH_ARGS[@]}"
+    echo "----------------------------------------------------------------------"
+    echo "🎉 Execution finished! Results are saved in ./api_output/"
+    exit 0
+fi
+
+# Check if Docker is available for container execution
+if ! command -v docker >/dev/null 2>&1 || ! docker info >/dev/null 2>&1; then
+    DOCKER_AVAILABLE=false
+else
+    DOCKER_AVAILABLE=true
+fi
+
+# If Docker is not available and no daemon/service was requested, automatically run on host
+if [ "$DOCKER_AVAILABLE" = false ] && [ "$INSTALL_SERVICE" = false ] && [ "$DAEMON_MODE" = false ]; then
+    echo ""
+    echo "⚠️  Docker is not running or not installed."
+    echo "🔄 Running crawler locally on host ($VENV_PY)..."
+    echo "----------------------------------------------------------------------"
+    "$VENV_PY" run_pipeline.py "${PASSTHROUGH_ARGS[@]}"
+    echo "----------------------------------------------------------------------"
+    echo "🎉 Execution finished! Results are saved in ./api_output/"
+    exit 0
 fi
 
 require_docker

@@ -178,6 +178,21 @@ def http_post_json(url: str, payload: dict, timeout: float = 12.0) -> Any | None
         log(f"  ! request failed ({type(exc).__name__})")
         return None
 
+def atomic_write_json(path: Path, data: Any) -> None:
+    """Safely write JSON to a file via atomic rename to prevent corruption."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_suffix(path.suffix + f".tmp.{os.getpid()}")
+    try:
+        tmp_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        tmp_path.replace(path)
+    except Exception:
+        if tmp_path.exists():
+            try:
+                tmp_path.unlink()
+            except OSError:
+                pass
+        raise
+
 def address_problem(chain: str, address: str) -> str | None:
     """Return a reason when a root address cannot be swept, otherwise None."""
     chain = (chain or "").lower()
@@ -343,12 +358,25 @@ class OnChainSweeper:
             except ValueError:
                 log(f"  -> {chain}: unreadable block height.")
                 continue
-            start = max(0, latest - self.evm_block_span)
-            logs = self._rpc(rpc_url, "eth_getLogs", [{
-                "fromBlock": hex(start),
-                "toBlock": hex(latest),
-                "topics": [TRANSFER_TOPIC, None, padded],
-            }])
+
+            # Fall back to smaller span if public RPC limits maximum block range
+            span_candidates = [self.evm_block_span]
+            if self.evm_block_span > 1000:
+                span_candidates.append(1000)
+            if self.evm_block_span > 500:
+                span_candidates.append(500)
+
+            logs = None
+            for span in span_candidates:
+                start = max(0, latest - span)
+                logs = self._rpc(rpc_url, "eth_getLogs", [{
+                    "fromBlock": hex(start),
+                    "toBlock": hex(latest),
+                    "topics": [TRANSFER_TOPIC, None, padded],
+                }])
+                if isinstance(logs, list):
+                    break
+
             if not isinstance(logs, list):
                 log(f"  -> {chain}: no logs returned.")
                 continue
@@ -382,6 +410,19 @@ class OnChainSweeper:
         return new_wallets
 
     def run(self, summary_path: Path | None = None, targets: List[Dict[str, str]] | None = None) -> Dict[str, Any]:
+        out_file = summary_path or (BASE_DIR / "api_output" / "onchain_swept_wallets.json")
+        if out_file.exists():
+            try:
+                existing_data = json.loads(out_file.read_text(encoding="utf-8"))
+                for ew in existing_data.get("wallets", []):
+                    if isinstance(ew, dict) and ew.get("address") and ew.get("chain"):
+                        key = f"{ew['chain'].lower()}:{ew['address'].lower()}"
+                        if key not in self.discovered_wallets:
+                            self.discovered_wallets[key] = ew
+                log(f"Loaded {len(self.discovered_wallets)} historical swept wallets from {out_file.name}")
+            except Exception as exc:
+                log(f"Warning: could not load existing {out_file.name}: {exc}")
+
         selected = targets if targets is not None else ROOT_HOT_WALLETS
         log(f"Starting On-Chain Sweeper on {len(selected)} validated Iranian Hot Wallets...")
         skipped: List[Dict[str, str]] = []
@@ -423,8 +464,7 @@ class OnChainSweeper:
         }
 
         out_file = summary_path or (BASE_DIR / "api_output" / "onchain_swept_wallets.json")
-        out_file.parent.mkdir(parents=True, exist_ok=True)
-        out_file.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+        atomic_write_json(out_file, summary)
         
         log(f"\n{'*'*60}")
         log(f"ON-CHAIN SWEEP COMPLETE!")

@@ -563,6 +563,35 @@ class DeepCrawlerTests(unittest.TestCase):
                 quiet.run(master_path=root / "master-off.json")
             self.assertFalse(any("base=0x" in url for url in calls))
 
+    def test_crawler_protects_existing_cache_on_auth_failure(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            deep_dir = root / "deep_iranian_wallets"
+            cached_file = deep_dir / "nobitex_deep.json"
+            write_json(cached_file, {
+                "entity_id": "nobitex",
+                "entity_name": "Nobitex.ir",
+                "wallets": [{"address": EVM, "chain": "ethereum"}],
+            })
+
+            class FailingClient:
+                auth_failed = True
+                cloudflare_blocked = False
+
+                def _send(self, spec):
+                    return Response(401, raw="Unauthorized")
+
+            crawler = deep_arkm_crawler.DeepArkmCrawler(
+                client=FailingClient(),
+                chains=["ethereum"],
+                out_dir=deep_dir,
+            )
+            master = root / "master.json"
+            summary = crawler.run(master_path=master)
+            self.assertEqual(summary["total_unique_wallets"], 1)
+            reloaded = json.loads(cached_file.read_text(encoding="utf-8"))
+            self.assertEqual(len(reloaded["wallets"]), 1)
+
 
 class OnChainTests(unittest.TestCase):
     def setUp(self):
@@ -720,6 +749,26 @@ class OnChainTests(unittest.TestCase):
             "invalid bitcoin address",
         )
 
+    def test_onchain_sweeper_preserves_historical_wallets(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            out_file = root / "swept.json"
+            write_json(out_file, {
+                "wallets": [
+                    {
+                        "address": "T" + "X" * 33,
+                        "chain": "tron",
+                        "exchange": "Nobitex.ir",
+                        "label": "Old deposit",
+                    }
+                ]
+            })
+            sweeper = self._sweeper(root)
+            with patch("onchain_wallet_sweeper.http_get_json", return_value={"data": [], "meta": {}}):
+                summary = sweeper.run(summary_path=out_file, targets=[])
+            self.assertEqual(summary["total_swept_wallets"], 1)
+            self.assertEqual(summary["wallets"][0]["address"], "T" + "X" * 33)
+
 
 class AggregateTests(unittest.TestCase):
     def test_aggregation_repairs_counts_and_survives_corrupt_inputs(self):
@@ -815,6 +864,15 @@ class AggregateTests(unittest.TestCase):
             stats = aggregate_mod.aggregate(root)
             self.assertGreater(stats["hot"], 0)
             self.assertEqual(stats["added_from_onchain"], 0)
+
+    def test_aggregation_indexes_all_hot_wallets_in_master_registry(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            stats = aggregate_mod.aggregate(root)
+            master = json.loads((root / "api_output" / "deep_iranian_exchanges_all_wallets.json").read_text(encoding="utf-8"))
+            self.assertEqual(master["total_hot_wallets"], master["hot_wallets_in_master"])
+            self.assertGreater(master["total_hot_wallets"], 0)
+            self.assertEqual(master["total_unique_wallets"], len(master["all_wallets"]))
 
 
 class PipelineTests(unittest.TestCase):
@@ -1004,6 +1062,12 @@ class DeploymentTests(unittest.TestCase):
                 env={**os.environ, "ARKM_STORAGE_FILE": str(ready)},
             )
             self.assertEqual(spaced.returncode, 0, spaced.stderr)
+
+    def test_run_sh_supports_help_and_local(self):
+        help_res = subprocess.run(["bash", str(ROOT / "run.sh"), "--help"], capture_output=True, text=True)
+        self.assertEqual(help_res.returncode, 0)
+        self.assertIn("--local", help_res.stdout)
+        self.assertIn("--login", help_res.stdout)
 
     def test_docker_files_keep_secrets_out_and_do_not_restart_success(self):
         dockerfile = (ROOT / "Dockerfile").read_text(encoding="utf-8")
