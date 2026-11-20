@@ -30,6 +30,12 @@ ehthumbs.db
 Thumbs.db
 
 # Archives & Temporary files
+clickhouse
+access/
+preprocessed_configs/
+*.db
+*.sqlite
+*.sqlite3
 *.zip
 *.tar.gz
 *.tgz

@@ -10,6 +10,16 @@ services:
       - ARKM_NO_AUTO_LOGIN=1
       - INTERVAL_HOURS=${INTERVAL_HOURS:-24}
       - JITTER_HOURS=${JITTER_HOURS:-2}
+      - CLICKHOUSE_ENDPOINT=${CLICKHOUSE_ENDPOINT:-}
+      - CLICKHOUSE_HOST=${CLICKHOUSE_HOST:-}
+      - CLICKHOUSE_PORT=${CLICKHOUSE_PORT:-8123}
+      - CLICKHOUSE_USER=${CLICKHOUSE_USER:-default}
+      - CLICKHOUSE_PASSWORD=${CLICKHOUSE_PASSWORD:-}
+      - CLICKHOUSE_DATABASE=${CLICKHOUSE_DATABASE:-default}
+      - CLICKHOUSE_SECURE=${CLICKHOUSE_SECURE:-false}
+      - CLICKHOUSE_STRICT=${CLICKHOUSE_STRICT:-false}
+      - LOCAL_DB_PATH=${LOCAL_DB_PATH:-api_output/crawler_backup.db}
+      - ENABLE_LOCAL_DB=${ENABLE_LOCAL_DB:-true}
     volumes:
       # Persist crawled datasets on host
       - ./api_output:/app/api_output

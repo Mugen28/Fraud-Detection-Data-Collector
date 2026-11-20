@@ -106,7 +106,8 @@ sequenceDiagram
 | :--- | :--- |
 | `run.sh` | **اسکریپت هوشمند سراسری (پیشنهادی):** مدیریت خودکار ورود مرورگر، اجرای محلی/داکر با سوئیچ خودکار در صورت عدم وجود داکر |
 | `scheduler.py` | **سرویس دائم ۲۴ ساعته با جیتر:** اجرای خودکار روزانه با بازه تصادفی برای کشف والت‌های جدید |
-| `run_pipeline.py` | **پایپ‌لاین جامع پایتون:** اجرای زنجیره‌ای تمام مراحل (خزش آرکام + خزش آن‌چین + تجمیع نهایی) |
+| `run_pipeline.py` | **پایپ‌لاین جامع پایتون:** اجرای زنجیره‌ای تمام مراحل (خزش آرکام + خزش آن‌چین + تجمیع نهایی + سینک دیتابیس) |
+| `db_sync.py` | **موتور سینک دوگانه دیتابیس:** ایجاد خودکار تیبل‌ها، پشتیبان‌گیری در SQLite محلی و سینک با ClickHouse / LightHouse |
 | `extract_hot_wallets_and_aggregate.py` | **استخراج و تجمیع هات‌والت‌ها:** تحلیل همگرایی تراکنش‌ها، بسط چندزنجیره‌ای و تجمیع نهایی |
 | `deep_arkm_crawler.py` | **روش اول:** خزش پیشرفته چندزنجیره‌ای (Multi-Chain) و لایه دوم (Depth-2) در API آرکام با حفاظت خودکار از کش |
 | `onchain_wallet_sweeper.py` | **روش دوم:** جاروبگر مستقیم آن‌چین متصل به هات‌والت‌های ریشه با انباشت دائمی داده‌های تاریخی (TronGrid + Blockstream + EVM JSON-RPC) |
@@ -119,6 +120,7 @@ sequenceDiagram
 | `api_output/iranian_exchanges_hot_wallets.json` | **فهرست رسمی ۲۲۳ هات‌والت تاییدشده** صرافی‌های ایرانی به تفکیک شبکه و نقش |
 | `api_output/iranian_exchanges_hot_wallets.md` | گزارش تفصیلی تحلیلی هات‌والت‌ها به تفکیک صرافی |
 | `api_output/deep_iranian_exchanges_all_wallets.json` | پایگاه‌داده جامع تجمیعی با **۳,۱۵۲ والت یکتا** (۲۲۳ هات‌والت تاییدشده + ۲,۹۲۹ واریزی) |
+| `api_output/crawler_backup.db` | **پایگاه‌داده محلی SQLite:** نگهداری آفلاین و بلادرنگ والت‌ها، هات‌والت‌ها و تاریخچه سینک |
 | `api_output/onchain_swept_wallets.json` | خروجی والت‌های واریزی کاربران کشف‌شده از آن‌چین به همراه تجمیع تاریخی |
 | `api_output/deep_iranian_wallets/` | پوشه گزارش‌های تفکیکی هر صرافی (Nobitex, Wallex, Bitpin, ...) |
 
@@ -304,3 +306,90 @@ X-Payload   = sha256(KEY + ":" + sha256(pathname + ":" + ts + ":" + KEY))
 KEY         = NEXT_PUBLIC_WEBAPP_CLIENT_KEY
 ```
 کلاینت پایتون پروژه (`api_generator.py`) این امضا را برای تک‌تک درخواست‌ها به‌صورت بلادرنگ تولید کرده و با استفاده از کتابخانه `curl_cffi` با اثر انگشت مرورگر واقعی کروم (`impersonate="chrome"`) فایروال Cloudflare را مدیریت می‌کند.
+
+---
+
+## 🗄️ اتصال به دیتابیس لوکال و ClickHouse / LightHouse (Dual Database Sync)
+
+این پروژه به یک موتور همگام‌سازی دوگانه (`db_sync.py`) مجهز شده است که خروجی خزش را هم‌زمان در **دیتابیس پشتیبان محلی (SQLite)** و **دیتابیس سریع و تحلیلی ClickHouse** (با پشتیبانی کامل از رابط گرافیکی تحت‌وب **LightHouse** یا همان `VKCOM/lighthouse`) ذخیره می‌کند.
+
+```mermaid
+flowchart LR
+    A["خروجی‌های خزش و تجمیع (JSON)"] --> B["موتور همگام‌سازی دوگانه (db_sync.py)"]
+    B -->|بکاپ محلی خودکار| C[("SQLite Database\napi_output/crawler_backup.db")]
+    B -->|سینک تحلیلی از راه دور| D[("ClickHouse Cluster\nHTTP 8123 / HTTPS 8443")]
+    D --> E["رابط وب گرافیکی LightHouse (VKCOM/lighthouse)"]
+```
+
+### ✨ ویژگی‌های کلیدی:
+1. **ایجاد خودکار جداول (Auto-DDL):** در صورتی که جداول در دیتابیس لوکال یا کلیک‌هاوس وجود نداشته باشند، بلافاصله و به طور خودکار با ساختار ستونی بهینه‌سازی‌شده ایجاد می‌شوند.
+2. **الحاق و به‌روزرسانی امن (Append & Upsert):** در صورت وجود قبلی جداول، رکوردهای جدید الحاق (Append) شده و داده‌های تغییریافته به‌صورت اتمیک و بدون ایجاد ردیف‌های تکراری به‌روزرسانی می‌شوند (`ReplacingMergeTree` در ClickHouse و `ON CONFLICT DO UPDATE` در SQLite).
+3. **پایداری داده‌ها (Fault-Tolerant):** در صورت عدم دسترسی به سرور ClickHouse، پایپ‌لاین قطع نمی‌شود و بکاپ در دیتابیس لوکال SQLite ذخیره شده و هشدار مناسب ثبت می‌گردد.
+4. **تنظیمات پویا از محیط (.env):** بدون تغییر در کد، می‌توان از متغیرهای محیطی یا فایل `.env` برای تنظیم Endpoint، پورت، نام کاربری، کلمه عبور و دیتابیس استفاده کرد.
+
+---
+
+### ⚙️ متغیرهای محیطی دیتابیس (`.env`)
+
+| متغیر | مقدار پیش‌فرض | توضیح |
+| :--- | :--- | :--- |
+| `LOCAL_DB_PATH` | `api_output/crawler_backup.db` | مسیر فایل دیتابیس محلی SQLite |
+| `ENABLE_LOCAL_DB` | `true` | فعال یا غیرفعال‌سازی بکاپ لوکال SQLite |
+| `CLICKHOUSE_HOST` | *(خالی)* | آدرس هاست یا دامنه کلیک‌هاوس (در صورت پر بودن، سینک کلیک‌هاوس فعال می‌شود) |
+| `CLICKHOUSE_PORT` | `8123` | پورت HTTP کلیک‌هاوس (پورت `8443` برای HTTPS/Cloud) |
+| `CLICKHOUSE_USER` | `default` | نام کاربری دیتابیس کلیک‌هاوس |
+| `CLICKHOUSE_PASSWORD` | *(خالی)* | کلمه عبور کاربر کلیک‌هاوس |
+| `CLICKHOUSE_DATABASE` | `default` | نام دیتابیس مورد نظر (در صورت نبودن، خودکار ساخته می‌شود) |
+| `CLICKHOUSE_SECURE` | `false` | استفاده از ارتباط امن SSL/TLS (برای کلیک‌هاوس کلود روی `true` تنظیم شود) |
+| `CLICKHOUSE_ENDPOINT` | *(خالی)* | آدرس کامل به جای فیلدهای تفکیکی (مثال: `https://user:pass@ch.example.com:8443/dbname`) |
+| `CLICKHOUSE_STRICT` | `false` | در صورت `true`، اگر سینک به کلیک‌هاوس ناموفق باشد کل پایپ‌لاین خطا داده و متوقف می‌شود |
+
+> [!NOTE]
+> برای سهولت، می‌توانید به جای پیشوند `CLICKHOUSE_` از پیشوند `LIGHTHOUSE_` نیز استفاده کنید (مانند `LIGHTHOUSE_HOST`، `LIGHTHOUSE_PORT` و `LIGHTHOUSE_ENDPOINT`).
+
+---
+
+### 📋 ساختار جداول پایگاه داده
+
+#### ۱. جدول `wallets` (بانک جامع تمام والت‌های کشف‌شده)
+| ستون | نوع داده (ClickHouse) | نوع داده (SQLite) | توضیح |
+| :--- | :--- | :--- | :--- |
+| `address` | `String` | `TEXT` | آدرس بلاک‌چینی والت (پاکسازی‌شده) |
+| `exchange_id` | `String` | `TEXT` | شناسه صرافی (مانند `nobitex`) |
+| `exchange_name` | `String` | `TEXT` | نام رسمی صرافی (مانند `Nobitex.ir`) |
+| `chain` | `String` | `TEXT` | شبکه بلاک‌چین (`ethereum`, `bsc`, `tron`, ...) |
+| `wallet_type` | `String` | `TEXT` | نوع والت (`hot_wallet`, `deposit_wallet`, `deposit_sweeper`, ...) |
+| `role` | `String` | `TEXT` | نقش ساختاری والت (مثلاً `Master Hot Wallet`) |
+| `label` | `String` | `TEXT` | برچسب انتسابی آرکام یا پویشگر آن‌چین |
+| `source` | `String` | `TEXT` | مبدأ کشف والت |
+| `balance_usd` | `Float64` | `REAL` | موجودی دلاری (در صورت استخراج) |
+| `target_hot_wallet` | `String` | `TEXT` | آدرس هات‌والتی که واریز به آن منتقل شده است |
+| `token_transferred` | `String` | `TEXT` | رمزارز واریز شده (`USDT`, `TRX`, ...) |
+| `first_seen` | `DateTime` | `TEXT` | تاریخ و زمان اولین مشاهده |
+| `updated_at` | `DateTime` | `TEXT` | تاریخ و زمان آخرین به‌روزرسانی |
+
+*موتور کلیک‌هاوس:* `ReplacingMergeTree(updated_at) ORDER BY (exchange_id, chain, address)`
+
+#### ۲. جدول `hot_wallets` (فهرست ۲۲۳ هات‌والت رسمی تاییدشده)
+*موتور کلیک‌هاوس:* `ReplacingMergeTree(updated_at) ORDER BY (exchange_id, chain, address)`
+
+#### ۳. جدول `sync_history` (تاریخچه و وضعیت هر دوره همگام‌سازی)
+*موتور کلیک‌هاوس:* `MergeTree() ORDER BY (synced_at, sync_id)`
+
+---
+
+### 💻 دستورات اجرا و بررسی دیتابیس
+
+```bash
+# ۱. تست وضعیت اتصال و مشاهده تعداد رکوردهای ثبت‌شده
+python3 db_sync.py --check
+
+# ۲. اجرای دستی سینک (هم لوکال و هم کلیک‌هاوس بر اساس کانفیگ .env)
+python3 db_sync.py
+
+# ۳. اجبار به اجرای فقط دیتابیس لوکال SQLite
+python3 db_sync.py --local-only
+
+# ۴. سینک با خروج خطا در صورت بروز مشکل در اتصال به کلیک‌هاوس
+python3 db_sync.py --strict
+```

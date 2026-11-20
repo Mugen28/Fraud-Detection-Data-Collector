@@ -43,6 +43,8 @@ for arg in "$@"; do
             echo "  --skip-arkm              Skip Arkham Intelligence crawler stage"
             echo "  --skip-onchain           Skip on-chain sweeper stage"
             echo "  --skip-aggregate         Skip aggregation stage"
+            echo "  --skip-db                Skip dual database sync (SQLite + ClickHouse)"
+            echo "  --db-strict              Fail pipeline if ClickHouse sync fails"
             echo "  --onchain-pages N        Number of pages to sweep on-chain (default: 5)"
             echo "  --depth2-limit N         Depth-2 transfer limit (default: 50)"
             exit 0

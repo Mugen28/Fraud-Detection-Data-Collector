@@ -878,7 +878,7 @@ class AggregateTests(unittest.TestCase):
 class PipelineTests(unittest.TestCase):
     def test_skip_all_stages_exits_clean(self):
         with patch("run_pipeline.subprocess.run", side_effect=AssertionError("should not run")):
-            self.assertEqual(run_pipeline.main(["--skip-arkm", "--skip-onchain", "--skip-aggregate"]), 0)
+            self.assertEqual(run_pipeline.main(["--skip-arkm", "--skip-onchain", "--skip-aggregate", "--skip-db"]), 0)
 
     def test_invalid_cli_and_delay(self):
         self.assertEqual(run_pipeline.main(["--onchain-pages", "0"]), 2)
@@ -887,7 +887,7 @@ class PipelineTests(unittest.TestCase):
     def test_missing_session_skips_arkham_without_spawning_it(self):
         with patch("run_pipeline.arkham_session_ready", return_value=False), \
              patch("run_pipeline.subprocess.run", side_effect=AssertionError("should not run")):
-            self.assertEqual(run_pipeline.main(["--skip-onchain", "--skip-aggregate"]), 0)
+            self.assertEqual(run_pipeline.main(["--skip-onchain", "--skip-aggregate", "--skip-db"]), 0)
 
     def test_stage_failures_and_command_wiring(self):
         calls = []
@@ -904,13 +904,14 @@ class PipelineTests(unittest.TestCase):
              patch("run_pipeline.subprocess.run", side_effect=fake_run):
             code = run_pipeline.main(["--onchain-pages", "3", "--depth2-limit", "7", "--delay", "0.5"])
         self.assertEqual(code, 0)
-        self.assertEqual(len(calls), 3)
+        self.assertEqual(len(calls), 4)
         self.assertIn("--depth2-limit", calls[0])
         self.assertIn("7", calls[0])
         self.assertIn("0.5", calls[0])
         self.assertIn("--pages", calls[1])
         self.assertIn("3", calls[1])
         self.assertTrue(calls[2][1].endswith("extract_hot_wallets_and_aggregate.py"))
+        self.assertTrue(calls[3][1].endswith("db_sync.py"))
 
         with patch("run_pipeline.arkham_session_ready", return_value=True), \
              patch("run_pipeline.subprocess.run", side_effect=subprocess.CalledProcessError(1, ["agg"])):

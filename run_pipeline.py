@@ -56,6 +56,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--skip-arkm", action="store_true", help="Skip Arkham Multi-Chain/Depth-2 crawling step.")
     parser.add_argument("--skip-onchain", action="store_true", help="Skip direct TronGrid/Blockstream on-chain sweeping step.")
     parser.add_argument("--skip-aggregate", action="store_true", help="Skip hot wallet extraction and aggregation step.")
+    parser.add_argument("--skip-db", action="store_true", help="Skip dual database synchronization step (Local SQLite + ClickHouse).")
+    parser.add_argument("--db-strict", action="store_true", help="Fail pipeline if ClickHouse database sync fails.")
     parser.add_argument("--onchain-pages", type=positive_int, default=5, help="Number of pages per hot wallet in on-chain sweeper.")
     parser.add_argument("--depth2-limit", type=positive_int, default=50, help="Limit of incoming transfers in depth-2 scraping.")
     parser.add_argument("--delay", type=float, default=1.2, help="Delay between Arkham API requests (seconds).")
@@ -119,6 +121,19 @@ def main(argv: list[str] | None = None) -> int:
         if not run_step("3. Hot Wallet Convergence & Master Aggregation", cmd_agg):
             return 1
 
+    # Stage 4: Dual Database Synchronization (Local SQLite + ClickHouse/LightHouse)
+    if not args.skip_db:
+        cmd_db = [
+            python_bin,
+            str(BASE_DIR / "db_sync.py"),
+        ]
+        if args.db_strict:
+            cmd_db.append("--strict")
+        if not run_step("4. Dual Database Sync (Local SQLite + ClickHouse/LightHouse)", cmd_db):
+            if args.db_strict:
+                return 1
+            print("Warning: Database synchronization encountered non-fatal errors. Continuing...")
+
     log("PIPELINE EXECUTION COMPLETE")
     print("""
 All stages have finished. Datasets are written under api_output/:
@@ -126,6 +141,7 @@ All stages have finished. Datasets are written under api_output/:
   - iranian_exchanges_hot_wallets.md
   - deep_iranian_exchanges_all_wallets.json
   - onchain_swept_wallets.json
+  - crawler_backup.db (Local SQLite Database Backup)
 """)
     return 0
 
