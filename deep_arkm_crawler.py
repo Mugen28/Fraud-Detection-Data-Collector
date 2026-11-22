@@ -10,7 +10,7 @@ Features:
 2. Depth-2 Hot Wallet Traversal: Scrapes transfers of discovered exchange Hot Wallets to
    extract proprietary deposit addresses labeled by Arkham (e.g. 'Nobitex.ir Deposit').
 3. Entity Predictions & Balances: Ingests all AI-predicted wallets and current balances.
-4. Cross-Chain Address Resolution: Validates multi-chain presence for EVM addresses.
+4. Chain-Specific Observations: Keeps the network supplied by Arkham when available.
 """
 
 import argparse
@@ -144,21 +144,38 @@ class DeepArkmCrawler:
         self.out_dir = out_dir or (BASE_DIR / "api_output" / "deep_iranian_wallets")
         self.out_dir.mkdir(parents=True, exist_ok=True)
         self.seen_wallets: Set[Tuple[str, str]] = set()
+        self.failed_requests = 0
+
+    def _session_failed(self) -> bool:
+        return getattr(self.client, "auth_failed", False) or getattr(self.client, "cloudflare_blocked", False)
+
+    def _fetch(self, url: str) -> Any:
+        if self._session_failed():
+            return None
+        response = self.client._send({"method": "GET", "url": url, "headers": _API_HEADERS, "body": None, "body_json": None})
+        if response is None or response.status_code != 200:
+            self.failed_requests += 1
+            status = response.status_code if response is not None else "no response"
+            log(f"  ! Arkham request failed ({status}): {url}")
+            return None
+        return response
 
     def run(self, master_path: Path | None = None) -> Dict[str, Any]:
         log(f"Starting Deep Arkham Crawler across {len(EXCHANGE_ENTITIES)} Iranian entities...")
         log(f"Active Chains ({len(self.chains)}): {', '.join(self.chains)}")
         log(f"Depth-2 Hot Wallet Traversal: {'Enabled' if self.enable_depth2 else 'Disabled'}")
 
+        self.failed_requests = 0
         results: Dict[str, Any] = {}
         total_unique_all = set()
 
+        completed_entities = 0
         for ent in EXCHANGE_ENTITIES:
             ent_id = ent["id"]
             ent_name = ent["name"]
             ent_file = self.out_dir / f"{ent_id}_deep.json"
 
-            if getattr(self.client, "auth_failed", False) or getattr(self.client, "cloudflare_blocked", False):
+            if self._session_failed():
                 log(f"\n[!] Session authentication failed or blocked by Cloudflare. Halting crawl to protect dataset.")
                 for remaining in EXCHANGE_ENTITIES:
                     r_id = remaining["id"]
@@ -176,11 +193,15 @@ class DeepArkmCrawler:
 
             log(f"\n{'='*60}\n>>> Processing Entity: {ent_name} [{ent_id}]\n{'='*60}")
             
+            failures_before = self.failed_requests
             ent_data = self._crawl_entity(ent)
+            entity_complete = self.failed_requests == failures_before and not self._session_failed()
+            if entity_complete:
+                completed_entities += 1
             ent_wallets = ent_data.get("wallets", [])
 
             # Safety check: if 0 wallets were returned but a previous non-empty cache exists, protect it!
-            if len(ent_wallets) == 0 and ent_file.exists():
+            if (not entity_complete or not ent_wallets) and ent_file.exists():
                 try:
                     cached = json.loads(ent_file.read_text(encoding="utf-8"))
                     cached_wallets = cached.get("wallets", [])
@@ -196,21 +217,36 @@ class DeepArkmCrawler:
                 total_unique_all.add(w["address"].lower())
 
             # Save individual entity report atomically
-            if len(ent_wallets) > 0 or not ent_file.exists():
+            if entity_complete and (ent_wallets or not ent_file.exists()):
                 atomic_write_json(ent_file, ent_data)
                 log(f"Saved {len(ent_wallets)} wallets for {ent_name} -> {ent_file.name}")
 
         # Master report
+        complete = completed_entities == len(EXCHANGE_ENTITIES)
         master_summary = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "method": "Multi-Chain Slicing + Depth-2 Hot Wallet Scraping",
-            "total_entities_crawled": len(EXCHANGE_ENTITIES),
+            "total_entities_crawled": completed_entities,
+            "complete": complete,
+            "failed_requests": self.failed_requests,
             "total_unique_wallets": len(total_unique_all),
             "entities": results,
         }
         master_path = master_path or (BASE_DIR / "api_output" / "deep_iranian_exchanges_all_wallets.json")
+        if not complete:
+            log(f"DEEP CRAWL INCOMPLETE ({completed_entities}/{len(EXCHANGE_ENTITIES)} entities). Keeping the previous master file.")
+            return master_summary
+
+        # Keep historical aggregate rows available to the next aggregation.
+        if master_path.is_file():
+            try:
+                previous = json.loads(master_path.read_text(encoding="utf-8"))
+                if isinstance(previous, dict) and isinstance(previous.get("all_wallets"), list):
+                    master_summary["all_wallets"] = previous["all_wallets"]
+            except (OSError, ValueError) as exc:
+                log(f"  ! Could not read previous master file: {exc}")
         atomic_write_json(master_path, master_summary)
-        
+
         log(f"\n{'*'*60}")
         log(f"DEEP CRAWL COMPLETE!")
         log(f"Total Unique Verified Wallets: {len(total_unique_all)}")
@@ -224,7 +260,7 @@ class DeepArkmCrawler:
         wallets_map: Dict[Tuple[str, str], Dict[str, Any]] = {}
         hot_wallets_to_expand: Set[Tuple[str, str]] = set()
 
-        if getattr(self.client, "auth_failed", False) or getattr(self.client, "cloudflare_blocked", False):
+        if self._session_failed():
             log(f"  ! Skipping {ent_name}: session auth failed or blocked by Cloudflare.")
             return {
                 "entity_id": ent_id,
@@ -239,8 +275,8 @@ class DeepArkmCrawler:
         
         # 1a. Root Top Address
         top_url = f"{API_BASE}/balances/entity_top_address/{quote(ent_id)}"
-        resp = self.client._send({"method": "GET", "url": top_url, "headers": _API_HEADERS, "body": None, "body_json": None})
-        if resp and resp.status_code == 200:
+        resp = self._fetch(top_url)
+        if resp is not None:
             top_addr = resp.text.strip('"').strip()
             if top_addr and len(top_addr) > 8:
                 chain_guess = "tron" if top_addr.startswith("T") else ("dogecoin" if top_addr.startswith("D") else "evm")
@@ -257,11 +293,13 @@ class DeepArkmCrawler:
 
         # 1b. Entity Predictions
         pred_url = f"{API_BASE}/intelligence/entity_predictions/{quote(ent_id)}"
-        resp = self.client._send({"method": "GET", "url": pred_url, "headers": _API_HEADERS, "body": None, "body_json": None})
-        if resp and resp.status_code == 200:
+        resp = self._fetch(pred_url)
+        if resp is not None:
             try:
                 preds = resp.json()
-                if isinstance(preds, list):
+                if not isinstance(preds, list):
+                    raise ValueError("expected a predictions list")
+                if preds:
                     log(f"    Ingested {len(preds)} AI predicted wallets from entity_predictions")
                     for p in preds:
                         p_addr = p.get("address")
@@ -279,15 +317,19 @@ class DeepArkmCrawler:
                                     "source": "intelligence/entity_predictions",
                                 }
             except Exception as e:
+                self.failed_requests += 1
                 log(f"    ! Predictions parse error: {e}")
 
         # 1c. Search labeled addresses (capped at 50)
         search_url = f"{API_BASE}/intelligence/search?query={quote(ent_id)}&arkhamAddresses=50"
-        resp = self.client._send({"method": "GET", "url": search_url, "headers": _API_HEADERS, "body": None, "body_json": None})
-        if resp and resp.status_code == 200:
+        resp = self._fetch(search_url)
+        if resp is not None:
             try:
                 s_data = resp.json()
-                for a in s_data.get("arkhamAddresses", []):
+                addresses = s_data.get("arkhamAddresses", [])
+                if not isinstance(addresses, list):
+                    raise ValueError("expected an addresses list")
+                for a in addresses:
                     addr_s = a.get("address")
                     chain_s = a.get("chain")
                     lbl = (a.get("arkhamLabel") or {}).get("name", "")
@@ -303,19 +345,20 @@ class DeepArkmCrawler:
                         if "hot" in lbl.lower():
                             hot_wallets_to_expand.add((addr_s, chain_s))
             except Exception as e:
+                self.failed_requests += 1
                 log(f"    ! Search parse error: {e}")
 
         # Phase 2: Multi-Chain Transfer Slicing
         log(f"  [2/4] Slicing Transfers across {len(self.chains)} Chains (up to {self.max_transfers_per_chain} txs/chain)...")
         for ch in self.chains:
             tx_url = f"{API_BASE}/transfers?base={quote(ent_id)}&chain={ch}&limit={self.max_transfers_per_chain}&flow=all"
-            resp = self.client._send({"method": "GET", "url": tx_url, "headers": _API_HEADERS, "body": None, "body_json": None})
-            if resp and resp.status_code == 200:
+            resp = self._fetch(tx_url)
+            if resp is not None:
                 try:
                     d = resp.json()
-                    txs = d.get("transfers", [])
+                    txs = d.get("transfers")
                     if not isinstance(txs, list):
-                        continue
+                        raise ValueError("expected a transfers list")
                     found_in_chain = 0
                     for tx in txs:
                         if not isinstance(tx, dict):
@@ -343,6 +386,7 @@ class DeepArkmCrawler:
                     if txs:
                         log(f"    Chain [{ch:12s}]: {len(txs):3d} txs inspected -> +{found_in_chain} new exchange wallets")
                 except Exception as e:
+                    self.failed_requests += 1
                     log(f"    ! Transfers parse error on {ch}: {e}")
 
         # Phase 3: Depth-2 Hot Wallet Traversal
@@ -358,13 +402,13 @@ class DeepArkmCrawler:
                 target_chains = [hw_chain] if hw_chain in ("tron", "bitcoin", "dogecoin") else ["bsc", "ethereum", "arbitrum_one", "polygon"]
                 for ch in target_chains:
                     hw_url = f"{API_BASE}/transfers?base={quote(hw_addr)}&chain={ch}&limit={self.depth2_limit}&flow=all"
-                    resp = self.client._send({"method": "GET", "url": hw_url, "headers": _API_HEADERS, "body": None, "body_json": None})
-                    if resp and resp.status_code == 200:
+                    resp = self._fetch(hw_url)
+                    if resp is not None:
                         try:
                             d = resp.json()
-                            txs = d.get("transfers", [])
+                            txs = d.get("transfers")
                             if not isinstance(txs, list):
-                                continue
+                                raise ValueError("expected a transfers list")
                             dep_count = 0
                             for tx in txs:
                                 if not isinstance(tx, dict):
@@ -390,6 +434,7 @@ class DeepArkmCrawler:
                             if dep_count > 0:
                                 log(f"    Hot Wallet {hw_addr[:14]}... on [{ch}]: +{dep_count} deposit wallets identified")
                         except Exception as e:
+                            self.failed_requests += 1
                             log(f"    ! Depth-2 parse error on {ch}: {e}")
 
         # Phase 4: Breakdown and Return
@@ -447,8 +492,8 @@ def main(argv: list[str] | None = None) -> int:
         depth2_limit=args.depth2_limit,
         max_depth2_wallets=args.depth2_wallets,
     )
-    crawler.run()
-    return 0
+    summary = crawler.run()
+    return 0 if summary["complete"] else 1
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -23,6 +23,9 @@ from typing import Any, Dict, List, Set
 BASE_DIR = Path(__file__).resolve().parent
 
 # Curated List of Validated Root Hot Wallets Discovered from Arkham
+LEGACY_BITCOIN_SOURCE = "onchain/blockstream"
+BITCOIN_INBOUND_SOURCE = "onchain/blockstream/inbound"
+
 ROOT_HOT_WALLETS = [
     # TRON Hot Wallets (Majority of Iranian retail volume: USDT-TRC20)
     {
@@ -233,6 +236,15 @@ class OnChainSweeper:
         self.out_dir = out_dir or (BASE_DIR / "api_output" / "onchain_swept_wallets")
         self.out_dir.mkdir(parents=True, exist_ok=True)
         self.discovered_wallets: Dict[str, Dict[str, Any]] = {}
+        self.failed_targets: List[Dict[str, str]] = []
+
+    def _record_failure(self, chain: str, target: Dict[str, str], reason: str) -> None:
+        self.failed_targets.append({
+            "exchange": target["exchange"],
+            "chain": chain,
+            "reason": reason,
+        })
+        log(f"  ! {target['name']} on {chain}: {reason}")
 
     def sweep_tron(self, target: Dict[str, str]) -> int:
         addr = target["address"]
@@ -249,11 +261,9 @@ class OnChainSweeper:
                 url += f"&fingerprint={fingerprint}"
             
             data = http_get_json(url)
-            if not isinstance(data, dict) or "data" not in data:
-                break
-
-            txs = data.get("data")
+            txs = data.get("data") if isinstance(data, dict) else None
             if not isinstance(txs, list):
+                self._record_failure("tron", target, f"invalid or unavailable response on page {page}")
                 break
             total_txs += len(txs)
 
@@ -295,34 +305,49 @@ class OnChainSweeper:
         
         url = f"https://blockstream.info/api/address/{addr}/txs"
         data = http_get_json(url)
-        if not data or not isinstance(data, list):
-            log(f"  -> No data or rate limited on Bitcoin explorer.")
+        if not isinstance(data, list):
+            self._record_failure("bitcoin", target, "invalid or unavailable transaction response")
             return 0
 
         txs = [tx for tx in data if isinstance(tx, dict)]
         new_wallets = 0
         for tx in txs:
-            # Vin addresses are depositors
-            for vin in tx.get("vin") or []:
-                if not isinstance(vin, dict):
-                    continue
-                prevout = vin.get("prevout") or {}
-                if not isinstance(prevout, dict):
-                    continue
-                vin_addr = prevout.get("scriptpubkey_address")
-                if vin_addr and vin_addr != addr:
-                    key = f"bitcoin:{vin_addr}"
-                    if key not in self.discovered_wallets:
-                        self.discovered_wallets[key] = {
-                            "address": vin_addr,
-                            "chain": "bitcoin",
-                            "label": f"{exchange} User BTC Depositor / Associated Wallet",
-                            "exchange": exchange,
-                            "target_hot_wallet": addr,
-                            "source": "onchain/blockstream",
-                            "first_seen": datetime.now(timezone.utc).isoformat(),
-                        }
-                        new_wallets += 1
+            outputs = tx.get("vout")
+            if not isinstance(outputs, list) or not any(
+                isinstance(output, dict)
+                and output.get("scriptpubkey_address") == addr
+                and type(output.get("value")) is int
+                and output["value"] > 0
+                for output in outputs
+            ):
+                continue
+            inputs = tx.get("vin")
+            if not isinstance(inputs, list):
+                continue
+            input_addresses = {
+                vin["prevout"]["scriptpubkey_address"]
+                for vin in inputs
+                if isinstance(vin, dict)
+                and isinstance(vin.get("prevout"), dict)
+                and isinstance(vin["prevout"].get("scriptpubkey_address"), str)
+                and vin["prevout"]["scriptpubkey_address"]
+            }
+            # A spend by the hot wallet can return change to the same address.
+            if addr in input_addresses:
+                continue
+            for vin_addr in sorted(input_addresses):
+                key = f"bitcoin:{vin_addr}"
+                if key not in self.discovered_wallets:
+                    self.discovered_wallets[key] = {
+                        "address": vin_addr,
+                        "chain": "bitcoin",
+                        "label": f"{exchange} User BTC Depositor / Associated Wallet",
+                        "exchange": exchange,
+                        "target_hot_wallet": addr,
+                        "source": BITCOIN_INBOUND_SOURCE,
+                        "first_seen": datetime.now(timezone.utc).isoformat(),
+                    }
+                    new_wallets += 1
 
         log(f"  -> Inspected {len(txs)} Bitcoin txs -> Discovered {new_wallets} new unique deposit wallets.")
         return new_wallets
@@ -347,16 +372,16 @@ class OnChainSweeper:
         for chain in chains:
             rpc_url = EVM_RPCS.get(chain)
             if not rpc_url:
-                log(f"  -> No RPC configured for {chain}.")
+                self._record_failure(chain, target, "RPC is not configured")
                 continue
             latest_hex = self._rpc(rpc_url, "eth_blockNumber", [])
             if not isinstance(latest_hex, str):
-                log(f"  -> {chain}: block height unavailable.")
+                self._record_failure(chain, target, "block height unavailable")
                 continue
             try:
                 latest = int(latest_hex, 16)
             except ValueError:
-                log(f"  -> {chain}: unreadable block height.")
+                self._record_failure(chain, target, "unreadable block height")
                 continue
 
             # Fall back to smaller span if public RPC limits maximum block range
@@ -378,7 +403,7 @@ class OnChainSweeper:
                     break
 
             if not isinstance(logs, list):
-                log(f"  -> {chain}: no logs returned.")
+                self._record_failure(chain, target, "transfer logs unavailable")
                 continue
             found_here = 0
             for entry in logs:
@@ -410,13 +435,17 @@ class OnChainSweeper:
         return new_wallets
 
     def run(self, summary_path: Path | None = None, targets: List[Dict[str, str]] | None = None) -> Dict[str, Any]:
+        self.failed_targets.clear()
         out_file = summary_path or (BASE_DIR / "api_output" / "onchain_swept_wallets.json")
         if out_file.exists():
             try:
                 existing_data = json.loads(out_file.read_text(encoding="utf-8"))
                 for ew in existing_data.get("wallets", []):
-                    if isinstance(ew, dict) and ew.get("address") and ew.get("chain"):
-                        key = f"{ew['chain'].lower()}:{ew['address'].lower()}"
+                    if not isinstance(ew, dict) or ew.get("source") == LEGACY_BITCOIN_SOURCE:
+                        continue
+                    if ew.get("address") and ew.get("chain"):
+                        address = ew["address"]
+                        key = f"{ew['chain'].lower()}:{address.lower() if address.lower().startswith('0x') else address}"
                         if key not in self.discovered_wallets:
                             self.discovered_wallets[key] = ew
                 log(f"Loaded {len(self.discovered_wallets)} historical swept wallets from {out_file.name}")
@@ -460,14 +489,14 @@ class OnChainSweeper:
             "method": "Hybrid On-Chain Gateway Sweeper (TronGrid + Blockstream + EVM JSON-RPC)",
             "total_swept_wallets": len(wallets_list),
             "skipped_targets": skipped,
+            "failed_targets": self.failed_targets.copy(),
             "wallets": wallets_list,
         }
 
-        out_file = summary_path or (BASE_DIR / "api_output" / "onchain_swept_wallets.json")
         atomic_write_json(out_file, summary)
         
         log(f"\n{'*'*60}")
-        log(f"ON-CHAIN SWEEP COMPLETE!")
+        log("ON-CHAIN SWEEP INCOMPLETE" if self.failed_targets else "ON-CHAIN SWEEP COMPLETE")
         log(f"Discovered {len(wallets_list)} Active On-Chain User Deposit Wallets!")
         log(f"Saved to: {out_file}")
         log(f"{'*'*60}\n")
@@ -489,8 +518,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     sweeper = OnChainSweeper(max_pages=args.pages, limit_per_page=args.limit)
-    sweeper.run()
-    return 0
+    summary = sweeper.run()
+    return 1 if summary["failed_targets"] else 0
 
 if __name__ == "__main__":
     sys.exit(main())

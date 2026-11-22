@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-03T12:48:48.564638+00:00",
   "method": "Hybrid On-Chain Gateway Sweeper (TronGrid + Blockstream)",
-  "total_swept_wallets": 488,
+  "total_swept_wallets": 487,
   "wallets": [
     {
       "address": "TT5bkt3PL2CKNfAkBHKUz4NH1im8GjUcS1",
@@ -4872,15 +4872,6 @@
       "target_hot_wallet": "TUHpMF2TkFaJrowUYMzpuY8rzL4kNXXkuE",
       "source": "onchain/trongrid",
       "first_seen": "2026-11-03T12:48:36.032947+00:00"
-    },
-    {
-      "address": "bc1q8v7yw3ftthxxlm87f2yskv3g6dqedlu5qtgqdz",
-      "chain": "bitcoin",
-      "label": "Nobitex.ir User BTC Depositor / Associated Wallet",
-      "exchange": "Nobitex.ir",
-      "target_hot_wallet": "bc1qgr3d2uwesguppck3mmdzk63p2n42788a87pczr",
-      "source": "onchain/blockstream",
-      "first_seen": "2026-11-03T12:48:37.968481+00:00"
     }
   ]
 }

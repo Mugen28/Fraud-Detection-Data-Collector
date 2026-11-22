@@ -268,6 +268,34 @@ class TestLocalSQLiteSync(unittest.TestCase):
             conn.close()
 
 
+    def test_sync_removes_legacy_sources_and_preserves_current_rows(self):
+        with TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / "backup.db"
+            with sqlite3.connect(path) as conn:
+                conn.executescript(db_sync.SQLITE_SCHEMA)
+                for address, source in (
+                    ("inferred", "cross_chain_evm_resolution"),
+                    ("unverified", "onchain/blockstream"),
+                    ("observed", "onchain/blockstream/inbound"),
+                ):
+                    conn.execute(
+                        "INSERT INTO wallets (exchange_id, exchange_name, chain, address, "
+                        "wallet_type, source, first_seen, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                        ("nobitex", "Nobitex", "bitcoin", address, "deposit_sweeper", source, "old", "old"),
+                    )
+                for address, source in (("inferred", "cross_chain_evm_resolution"), ("labeled", "arkham")):
+                    conn.execute(
+                        "INSERT INTO hot_wallets (exchange_id, exchange_name, chain, address, source, updated_at) "
+                        "VALUES (?, ?, ?, ?, ?, ?)",
+                        ("nobitex", "Nobitex", "ethereum", address, source, "old"),
+                    )
+
+            db_sync.sync_local_sqlite([], [], {}, path)
+            with sqlite3.connect(path) as conn:
+                self.assertEqual(conn.execute("SELECT address FROM wallets").fetchall(), [("observed",)])
+                self.assertEqual(conn.execute("SELECT address FROM hot_wallets").fetchall(), [("labeled",)])
+
+
 class MockClickHouseHandler(http.server.BaseHTTPRequestHandler):
     """Minimal HTTP handler simulating ClickHouse HTTP protocol."""
 
@@ -311,6 +339,8 @@ class MockClickHouseHandler(http.server.BaseHTTPRequestHandler):
         self.send_response(200)
         if b"version()" in payload:
             resp = b"24.3.1.1\tUTC\n"
+        elif b"SELECT count()" in payload:
+            resp = b"1\n"
         else:
             resp = b""
         self.send_header("Content-Length", str(len(resp)))
@@ -395,6 +425,9 @@ class TestRemoteClickHouseSyncMocked(unittest.TestCase):
         self.assertIn(b"wallets", all_payloads)
         self.assertIn(b"hot_wallets", all_payloads)
         self.assertIn(b"sync_history", all_payloads)
+        self.assertIn(b"ALTER TABLE `default`.`wallets` DELETE WHERE source IN", all_payloads)
+        self.assertIn(b"ALTER TABLE `default`.`hot_wallets` DELETE WHERE source IN", all_payloads)
+        self.assertIn(b"SETTINGS mutations_sync = 1", all_payloads)
 
     def test_clickhouse_unreachable_strict_mode(self):
         # Point to closed port

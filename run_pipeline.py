@@ -81,10 +81,13 @@ def main(argv: list[str] | None = None) -> int:
 ======================================================================
 """)
 
+    failed_stages = []
+
     # Stage 1: Arkham Deep Crawl
     if not args.skip_arkm:
         session_file = BASE_DIR / "storage_state.json"
         if not arkham_session_ready(session_file):
+            failed_stages.append("Arkham crawl")
             print(
                 "ERROR: storage_state.json has no usable arkham_session cookie. "
                 "Run `python3 api_generator.py login` or `./run.sh --login`. Skipping Arkham stage.",
@@ -99,7 +102,7 @@ def main(argv: list[str] | None = None) -> int:
                 "--delay", str(args.delay),
             ]
             if not run_step("1. Arkham Multi-Chain & Depth-2 Crawler", cmd_arkm):
-                print("Warning: Arkham crawler stage encountered errors. Continuing pipeline...")
+                failed_stages.append("Arkham crawl")
 
     # Stage 2: Direct On-Chain Sweeper
     if not args.skip_onchain:
@@ -110,7 +113,7 @@ def main(argv: list[str] | None = None) -> int:
             "--limit", "50",
         ]
         if not run_step("2. On-Chain TronGrid & Bitcoin Sweeper", cmd_onchain):
-            print("Warning: On-chain sweeper stage encountered errors. Continuing pipeline...")
+            failed_stages.append("on-chain sweep")
 
     # Stage 3: Master Aggregation & Hot Wallet Detection
     if not args.skip_aggregate:
@@ -130,19 +133,13 @@ def main(argv: list[str] | None = None) -> int:
         if args.db_strict:
             cmd_db.append("--strict")
         if not run_step("4. Dual Database Sync (Local SQLite + ClickHouse/LightHouse)", cmd_db):
-            if args.db_strict:
-                return 1
-            print("Warning: Database synchronization encountered non-fatal errors. Continuing...")
+            failed_stages.append("database sync")
+
+    if failed_stages:
+        print(f"Pipeline incomplete. Failed stages: {', '.join(failed_stages)}.", file=sys.stderr)
+        return 1
 
     log("PIPELINE EXECUTION COMPLETE")
-    print("""
-All stages have finished. Datasets are written under api_output/:
-  - iranian_exchanges_hot_wallets.json
-  - iranian_exchanges_hot_wallets.md
-  - deep_iranian_exchanges_all_wallets.json
-  - onchain_swept_wallets.json
-  - crawler_backup.db (Local SQLite Database Backup)
-""")
     return 0
 
 if __name__ == "__main__":

@@ -31,6 +31,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 from urllib.parse import unquote, urlparse
 
+from extract_hot_wallets_and_aggregate import STALE_WALLET_SOURCES
+
 BASE_DIR = Path(__file__).resolve().parent
 
 # ==============================================================================
@@ -228,6 +230,8 @@ def load_crawl_datasets(base_dir: Path) -> Tuple[List[Dict[str, Any]], List[Dict
     hot_keys: Set[Tuple[str, str, str]] = set()
 
     for item in hot_data.get("hot_wallets", []):
+        if item.get("source") in STALE_WALLET_SOURCES:
+            continue
         addr = clean_address(item.get("address", ""))
         chain = str(item.get("chain", "")).strip().lower()
         ex_id = str(item.get("exchange_id", "")).strip().lower()
@@ -257,6 +261,8 @@ def load_crawl_datasets(base_dir: Path) -> Tuple[List[Dict[str, Any]], List[Dict
         ex_id = str(eid).strip().lower()
         ex_name = str(edata.get("entity_name") or ex_id).strip()
         for w in edata.get("wallets", []):
+            if w.get("source") in STALE_WALLET_SOURCES:
+                continue
             addr = clean_address(w.get("address", ""))
             chain = str(w.get("chain", "unknown")).strip().lower()
             if not addr:
@@ -290,11 +296,15 @@ def load_crawl_datasets(base_dir: Path) -> Tuple[List[Dict[str, Any]], List[Dict
             }
 
     # Ingest from onchain_swept_wallets.json
+    total_swept = 0
     for ow in swept_data.get("wallets", []):
+        if ow.get("source") in STALE_WALLET_SOURCES:
+            continue
         addr = clean_address(ow.get("address", ""))
         chain = str(ow.get("chain", "unknown")).strip().lower()
         if not addr:
             continue
+        total_swept += 1
         ex_name = str(ow.get("exchange", "Unknown Exchange")).strip()
         ex_id = EXCHANGE_NAME_TO_ID.get(ex_name, ex_name.lower().replace(" ", "_").replace(".", "_"))
         key = (ex_id, chain, addr.lower())
@@ -310,6 +320,8 @@ def load_crawl_datasets(base_dir: Path) -> Tuple[List[Dict[str, Any]], List[Dict
             wallets_map[key]["target_hot_wallet"] = target_hw
             wallets_map[key]["token_transferred"] = token
             wallets_map[key]["updated_at"] = now
+            if wallets_map[key]["wallet_type"] == "exchange_wallet":
+                wallets_map[key]["wallet_type"] = "deposit_sweeper"
             if not wallets_map[key]["source"]:
                 wallets_map[key]["source"] = source
         else:
@@ -355,7 +367,7 @@ def load_crawl_datasets(base_dir: Path) -> Tuple[List[Dict[str, Any]], List[Dict
     summary = {
         "total_wallets": len(all_wallets),
         "total_hot_wallets": len(hot_wallets_clean),
-        "total_onchain_swept": swept_data.get("total_swept_wallets", 0),
+        "total_onchain_swept": total_swept,
         "generated_at": now.isoformat(),
     }
 
@@ -493,6 +505,10 @@ def sync_local_sqlite(
             """,
             hot_rows,
         )
+
+        # Remove legacy rows whose only source is an obsolete inference.
+        cursor.execute("DELETE FROM wallets WHERE source IN (?, ?)", STALE_WALLET_SOURCES)
+        cursor.execute("DELETE FROM hot_wallets WHERE source IN (?, ?)", STALE_WALLET_SOURCES)
 
         # Record in sync_history
         sync_id = str(uuid.uuid4())
@@ -714,6 +730,16 @@ def sync_remote_clickhouse(
             column_type_names=hot_types,
             database=db,
         )
+
+    # Remove obsolete inferences already written by earlier crawler versions.
+    sources = ", ".join(f"'{source}'" for source in STALE_WALLET_SOURCES)
+    for table in ("wallets", "hot_wallets"):
+        qualified_table = f"`{db}`.`{table}`"
+        predicate = f"source IN ({sources})"
+        if int(client.command(f"SELECT count() FROM {qualified_table} WHERE {predicate}")):
+            client.command(
+                f"ALTER TABLE {qualified_table} DELETE WHERE {predicate} SETTINGS mutations_sync = 1"
+            )
 
     # 4. Insert sync record
     sync_id = str(uuid.uuid4())

@@ -470,7 +470,7 @@ class DeepCrawlerTests(unittest.TestCase):
                 if url.endswith("/balances/entity_top_address/nobitex"):
                     return Response(200, raw=f'"{hot}"')
                 if "/entity_predictions/" in url:
-                    return Response(200, raw="{")
+                    return Response(200, [])
                 if "/intelligence/search" in url:
                     return Response(200, {
                         "arkhamAddresses": [
@@ -509,7 +509,7 @@ class DeepCrawlerTests(unittest.TestCase):
                         ],
                     })
                 if "base=nobitex" in url:
-                    return Response(500, raw="no")
+                    return Response(200, {"transfers": []})
                 if deposit.lower() in url or hot.lower() in url:
                     return Response(200, {
                         "transfers": [{
@@ -519,7 +519,7 @@ class DeepCrawlerTests(unittest.TestCase):
                             },
                         }],
                     })
-                return None
+                return Response(200, {"transfers": []})
 
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -587,10 +587,38 @@ class DeepCrawlerTests(unittest.TestCase):
                 out_dir=deep_dir,
             )
             master = root / "master.json"
+            write_json(master, {"all_wallets": [{"address": EVM}]})
+            before = master.read_bytes()
             summary = crawler.run(master_path=master)
+            self.assertFalse(summary["complete"])
+            self.assertEqual(summary["total_entities_crawled"], 0)
+            self.assertEqual(master.read_bytes(), before)
             self.assertEqual(summary["total_unique_wallets"], 1)
             reloaded = json.loads(cached_file.read_text(encoding="utf-8"))
             self.assertEqual(len(reloaded["wallets"]), 1)
+
+
+    def test_missing_responses_surface_in_cli_and_leave_existing_files_intact(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            out = root / "api_output"
+            master = out / "deep_iranian_exchanges_all_wallets.json"
+            cached = out / "deep_iranian_wallets" / "nobitex_deep.json"
+            write_json(master, {"all_wallets": [{"address": EVM}]})
+            write_json(cached, {"wallets": [{"address": EVM}]})
+            before = (master.read_bytes(), cached.read_bytes())
+            entities = [{"id": "nobitex", "name": "Nobitex"}]
+            with (
+                patch.object(deep_arkm_crawler, "BASE_DIR", root),
+                patch.object(deep_arkm_crawler, "EXCHANGE_ENTITIES", entities),
+                patch("deep_arkm_crawler.arkham_session_ready", return_value=True),
+                patch("deep_arkm_crawler.ReplayClient") as replay,
+            ):
+                replay.return_value.auth_failed = False
+                replay.return_value.cloudflare_blocked = False
+                replay.return_value._send.return_value = None
+                self.assertEqual(deep_arkm_crawler.main(["--chains", "ethereum"]), 1)
+            self.assertEqual((master.read_bytes(), cached.read_bytes()), before)
 
 
 class OnChainTests(unittest.TestCase):
@@ -669,9 +697,21 @@ class OnChainTests(unittest.TestCase):
                 return [{
                     "vin": [
                         {"prevout": {"scriptpubkey_address": "bc1qdepositor"}},
-                        {"prevout": {"scriptpubkey_address": "bc1qhot"}},
                         {"prevout": None},
                     ],
+                    "vout": [{"scriptpubkey_address": "bc1qhot", "value": 1000}],
+                }, {
+                    "vin": [
+                        {"prevout": {"scriptpubkey_address": "bc1qhot"}},
+                        {"prevout": {"scriptpubkey_address": "bc1qcosigner"}},
+                    ],
+                    "vout": [{"scriptpubkey_address": "bc1qhot", "value": 1000}],
+                }, {
+                    "vin": [{"prevout": {"scriptpubkey_address": "bc1qwithdrawal"}}],
+                    "vout": [{"scriptpubkey_address": "bc1qother", "value": 1000}],
+                }, {
+                    "vin": [{"prevout": {"scriptpubkey_address": "bc1qzero"}}],
+                    "vout": [{"scriptpubkey_address": "bc1qhot", "value": 0}],
                 }, "bad-tx"]
 
             with patch("onchain_wallet_sweeper.http_get_json", side_effect=btc_http):
@@ -682,6 +722,9 @@ class OnChainTests(unittest.TestCase):
                     "exchange": "nobitex",
                 })
             self.assertEqual(added, 1)
+            bitcoin = [w for w in sweeper.discovered_wallets.values() if w["chain"] == "bitcoin"]
+            self.assertEqual([w["address"] for w in bitcoin], ["bc1qdepositor"])
+            self.assertEqual(bitcoin[0]["source"], sweeper_mod.BITCOIN_INBOUND_SOURCE)
             with patch("onchain_wallet_sweeper.http_get_json", return_value={"error": True}):
                 self.assertEqual(sweeper.sweep_bitcoin({
                     "address": "bc1qhot", "name": "Nobitex.ir", "chain": "bitcoin", "exchange": "nobitex",
@@ -736,6 +779,20 @@ class OnChainTests(unittest.TestCase):
             sweeper_mod.main(["--pages", "0"])
         self.assertEqual(caught.exception.code, 2)
 
+    def test_cli_reports_failed_sources_and_accepts_empty_responses(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            target = next(w for w in sweeper_mod.ROOT_HOT_WALLETS if w["chain"] == "bitcoin")
+            output = root / "api_output" / "onchain_swept_wallets.json"
+            with patch.object(sweeper_mod, "BASE_DIR", root), (
+                patch.object(sweeper_mod, "ROOT_HOT_WALLETS", [target])
+            ), patch("onchain_wallet_sweeper.http_get_json", side_effect=[None, []]):
+                self.assertEqual(sweeper_mod.main([]), 1)
+                failed = json.loads(output.read_text())["failed_targets"]
+                self.assertEqual([item["chain"] for item in failed], ["bitcoin"])
+                self.assertEqual(sweeper_mod.main([]), 0)
+                self.assertEqual(json.loads(output.read_text())["failed_targets"], [])
+
     def test_root_addresses_are_sweepable(self):
         defects = [
             (wallet["chain"], wallet["address"])
@@ -760,7 +817,8 @@ class OnChainTests(unittest.TestCase):
                         "chain": "tron",
                         "exchange": "Nobitex.ir",
                         "label": "Old deposit",
-                    }
+                    },
+                    {"address": "bc1qlegacy", "chain": "bitcoin", "source": sweeper_mod.LEGACY_BITCOIN_SOURCE},
                 ]
             })
             sweeper = self._sweeper(root)
@@ -835,7 +893,7 @@ class AggregateTests(unittest.TestCase):
             self.assertEqual(master["total_hot_wallets"], len(master["hot_wallets"]))
             self.assertEqual(
                 master["total_unique_wallets"],
-                master["hot_wallets_in_master"] + master["total_deposit_wallets"],
+                master["hot_wallets_in_master"] + master["total_deposit_wallets"] + master["total_other_wallets"],
             )
             self.assertEqual(stats["unique"], master["total_unique_wallets"])
             chains = {
@@ -843,7 +901,7 @@ class AggregateTests(unittest.TestCase):
                 for item in hot["hot_wallets"]
                 if item["address"].lower() == EVM.lower()
             }
-            self.assertTrue(set(aggregate_mod.EVM_CHAINS).issubset(chains))
+            self.assertEqual(chains, {"ethereum"})
             categories = {
                 (item["address"].lower(), item["chain"]): item["category"]
                 for item in master["all_wallets"]
@@ -855,6 +913,37 @@ class AggregateTests(unittest.TestCase):
             report = (root / "api_output" / "iranian_exchanges_hot_wallets.md").read_text(encoding="utf-8")
             rows = [line for line in report.splitlines() if line.startswith("| ") and "`" in line]
             self.assertEqual(len(rows), len(hot["hot_wallets"]))
+
+    def test_legacy_expansions_are_removed_but_independent_observations_survive(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            master_path = root / "api_output" / "deep_iranian_exchanges_all_wallets.json"
+            legacy = {"address": EVM, "chain": "polygon", "source": aggregate_mod.LEGACY_EVM_SOURCE}
+            write_json(master_path, {
+                "hot_wallets": [legacy, {**legacy, "chain": "optimism"}],
+                "all_wallets": [
+                    {**legacy, "category": "Hot Wallet"},
+                    {**legacy, "chain": "optimism", "category": "Hot Wallet"},
+                ],
+                "entities": {"test": {
+                    "entity_name": "Test Exchange",
+                    "wallets": [
+                        {"address": EVM, "chain": "ethereum", "label": "Hot Wallet"},
+                        {"address": EVM, "chain": "polygon", "label": "Exchange Labeled Wallet"},
+                        {"address": EVM, "chain": "base", "label": "Hot Wallet"},
+                    ],
+                }},
+            })
+
+            for _ in range(2):
+                aggregate_mod.aggregate(root)
+                master = json.loads(master_path.read_text())
+                categories = {w["chain"]: w["category"] for w in master["all_wallets"] if w["address"] == EVM}
+                self.assertEqual(categories, {
+                    "ethereum": "Hot Wallet",
+                    "polygon": "Exchange Wallet",
+                    "base": "Hot Wallet",
+                })
 
     def test_corrupt_onchain_file_does_not_abort(self):
         with TemporaryDirectory() as tmp:
@@ -884,10 +973,10 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(run_pipeline.main(["--onchain-pages", "0"]), 2)
         self.assertEqual(run_pipeline.main(["--delay", "-0.1"]), 2)
 
-    def test_missing_session_skips_arkham_without_spawning_it(self):
+    def test_missing_session_fails_pipeline_without_spawning_arkham(self):
         with patch("run_pipeline.arkham_session_ready", return_value=False), \
              patch("run_pipeline.subprocess.run", side_effect=AssertionError("should not run")):
-            self.assertEqual(run_pipeline.main(["--skip-onchain", "--skip-aggregate", "--skip-db"]), 0)
+            self.assertEqual(run_pipeline.main(["--skip-onchain", "--skip-aggregate", "--skip-db"]), 1)
 
     def test_stage_failures_and_command_wiring(self):
         calls = []
@@ -903,7 +992,7 @@ class PipelineTests(unittest.TestCase):
         with patch("run_pipeline.arkham_session_ready", return_value=True), \
              patch("run_pipeline.subprocess.run", side_effect=fake_run):
             code = run_pipeline.main(["--onchain-pages", "3", "--depth2-limit", "7", "--delay", "0.5"])
-        self.assertEqual(code, 0)
+        self.assertEqual(code, 1)
         self.assertEqual(len(calls), 4)
         self.assertIn("--depth2-limit", calls[0])
         self.assertIn("7", calls[0])
@@ -1099,7 +1188,7 @@ class DeploymentTests(unittest.TestCase):
         if "hot_wallets_in_master" in master:
             self.assertEqual(
                 master["total_unique_wallets"],
-                master["hot_wallets_in_master"] + master["total_deposit_wallets"],
+                master["hot_wallets_in_master"] + master["total_deposit_wallets"] + master["total_other_wallets"],
             )
         else:
             self.assertEqual(
@@ -1109,6 +1198,8 @@ class DeploymentTests(unittest.TestCase):
 
         hot = json.loads((output / "iranian_exchanges_hot_wallets.json").read_text(encoding="utf-8"))
         self.assertEqual(hot["total_hot_wallets"], len(hot["hot_wallets"]))
+        self.assertEqual(hot["hot_wallets"], master["hot_wallets"])
+        self.assertFalse(any(w.get("source") in aggregate_mod.STALE_WALLET_SOURCES for w in hot["hot_wallets"] + wallets))
         report = (output / "iranian_exchanges_hot_wallets.md").read_text(encoding="utf-8")
         rows = [line for line in report.splitlines() if line.startswith("| ") and "`" in line]
         self.assertEqual(len(rows), len(hot["hot_wallets"]))

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T11:23:24.983850+00:00",
-  "total_hot_wallets": 223,
+  "generated_at": "2026-11-22T07:55:27.919501+00:00",
+  "total_hot_wallets": 107,
   "exchanges_covered": [
     "AbanTether",
     "ArzPaya",
@@ -16,47 +16,20 @@
     {
       "exchange_id": "abantether",
       "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "address": "0x549D4fC107185De6997f7bCbA5d28F0DFB7eAF2c",
       "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "abantether",
       "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "abantether",
-      "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "abantether",
-      "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
+      "address": "0x549D4fC107185De6997f7bCbA5d28F0DFB7eAF2c",
       "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "abantether",
-      "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
-      "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "abantether",
@@ -68,67 +41,31 @@
       "source": "balances/entity_top_address"
     },
     {
-      "exchange_id": "abantether",
-      "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "abantether",
-      "exchange_name": "AbanTether",
-      "address": "0x549d4fc107185de6997f7bcba5d28f0dfb7eaf2c",
-      "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "AbanTether Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
       "exchange_id": "arzpaya-com",
       "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
       "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x82a403c1"
     },
     {
       "exchange_id": "arzpaya-com",
       "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "arzpaya-com",
-      "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "arzpaya-com",
-      "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
       "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x82a403c1"
     },
     {
       "exchange_id": "arzpaya-com",
       "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
       "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "arzpaya-com",
@@ -142,20 +79,11 @@
     {
       "exchange_id": "arzpaya-com",
       "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "arzpaya-com",
-      "exchange_name": "ArzPaya",
-      "address": "0x82a403c14483931b2ff6e4440c8373ccfee698b8",
+      "address": "0x82a403c14483931B2fF6e4440c8373ccFEe698B8",
       "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "ArzPaya Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x82a403c1"
     },
     {
       "exchange_id": "bit24",
@@ -169,173 +97,56 @@
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
       "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x0595DB3a"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x41c456D2"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x4c95a643"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xF4e1039B"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
       "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x0595DB3a"
     },
     {
       "exchange_id": "bitpin",
@@ -385,56 +196,47 @@
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
       "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x41c456D2"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x4c95a643"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
-      "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xF4e1039B"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
     },
     {
       "exchange_id": "bitpin",
@@ -448,110 +250,47 @@
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0x0595db3a47bf1a0d34d1fc23cc4e69f0d01672f9",
+      "address": "0x0595DB3a47bF1A0D34D1FC23Cc4e69f0D01672F9",
       "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x0595DB3a"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0x41c456D2FD185d796f33e2Fbf4E1fd3b4Ef64922",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x41c456D2"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0x4c95a643bd39570D3b7Fb55D6638799D51402C7a",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x4c95a643"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0xF4e1039B460E62d3651f98B0f4Be4076CB5950F7",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "bitpin",
-      "exchange_name": "Bitpin",
-      "address": "0xF678a501B9166B4A4cFE58B6fCbBB179D4435A30",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xF4e1039B"
     },
     {
       "exchange_id": "bitpin",
       "exchange_name": "Bitpin",
       "address": "0xe4FB46B495A859C864907b3053DC1ef6094bF122",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Bitpin Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xe4FB46B4"
     },
     {
       "exchange_id": "bitpin",
@@ -567,54 +306,36 @@
       "exchange_name": "Excoino",
       "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
       "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x98439001"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
       "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
       "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "excoino",
-      "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
       "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
       "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "excoino",
-      "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
@@ -628,29 +349,29 @@
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
       "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
       "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
       "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
@@ -666,81 +387,36 @@
       "exchange_name": "Excoino",
       "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
       "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
       "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
       "address": "0x749990cacC189D70C09f339Fd30AF3E4Ca8754f1",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "excoino",
       "exchange_name": "Excoino",
-      "address": "0x98439001c0c9d6002f3a0b3fc245efb52c36f175",
+      "address": "0x98439001c0C9D6002F3A0b3Fc245eFb52c36f175",
       "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Excoino Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "farhad-exchange",
@@ -750,51 +426,6 @@
       "role": "Primary Master Hot Wallet",
       "label": "Primary Master Hot Wallet",
       "source": "balances/entity_top_address"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "farhad-exchange",
-      "exchange_name": "Farhad Exchange",
-      "address": "0xef5e27fc28e086fae55854ceb194d0d4cae632f4",
-      "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Farhad Exchange Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
     },
     {
       "exchange_id": "nobitex",
@@ -808,263 +439,29 @@
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "address": "0xad000F8F23B9eC2957e44cB5d6Ea03925441d42c",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
-      "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
       "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xc4CBab6F"
     },
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
       "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
-      "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xea91bE90"
     },
     {
       "exchange_id": "nobitex",
@@ -1123,24 +520,6 @@
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
-      "chain": "bsc",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
-      "chain": "bsc",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
       "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
       "chain": "bsc",
       "role": "Secondary Hot Wallet / Operational",
@@ -1150,11 +529,11 @@
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
+      "address": "0xad000F8F23B9eC2957e44cB5d6Ea03925441d42c",
       "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "nobitex",
@@ -1170,9 +549,9 @@
       "exchange_name": "Nobitex.ir",
       "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
       "chain": "bsc",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xea91bE90"
     },
     {
       "exchange_id": "nobitex",
@@ -1195,38 +574,11 @@
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
-      "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
-      "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
-      "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
       "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x7eB6a795"
     },
     {
       "exchange_id": "nobitex",
@@ -1249,29 +601,20 @@
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
+      "address": "0xad000F8F23B9eC2957e44cB5d6Ea03925441d42c",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
-      "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
       "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xc4CBab6F"
     },
     {
       "exchange_id": "nobitex",
@@ -1281,15 +624,6 @@
       "role": "Secondary Hot Wallet / Operational",
       "label": "Hot Wallet",
       "source": "intelligence/search"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
-      "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
     },
     {
       "exchange_id": "nobitex",
@@ -1303,173 +637,29 @@
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
       "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
       "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xc4CBab6F25aacd8cadC432abb91b85698BF9B43e",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x17d55c29cbF1B3669EA049d89e6A8B41B209556C",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x3De2ced6112f125B36B60ce147eaa43aC51B3E48",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0x6402a848109479616E3723FddE5aFb4D4881E770",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
       "address": "0x7eB6a79587DFd5Da426DFF27ff11da1F09c90A2B",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x7eB6a795"
     },
     {
       "exchange_id": "nobitex",
       "exchange_name": "Nobitex.ir",
-      "address": "0x8D56f551b44a6dA6072a9608d63d664ce67681a5",
+      "address": "0xad000F8F23B9eC2957e44cB5d6Ea03925441d42c",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xD16E4cdb153B2DCc617061174223a6D4BFaE53f5",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xF639d88a89384A4D97f2bA9159567Ddb3890Ea07",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xad000f8f23b9ec2957e44cb5d6ea03925441d42c",
-      "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xad000F8F"
     },
     {
       "exchange_id": "nobitex",
@@ -1485,18 +675,9 @@
       "exchange_name": "Nobitex.ir",
       "address": "0xea91bE909d902A02C67ccfd10ac85dD1d968Fab4",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "nobitex",
-      "exchange_name": "Nobitex.ir",
-      "address": "0xed55D1B71b6bfA952ddBC4f24375C91652878560",
-      "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Nobitex.ir Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0xea91bE90"
     },
     {
       "exchange_id": "nobitex",
@@ -1593,126 +774,27 @@
       "exchange_name": "Ramzinex",
       "address": "0x4a1245702e693107204D608caC53959ddb00a795",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x4a124570"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x6752ec83"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
       "chain": "arbitrum_one",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
-      "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
-      "chain": "avalanche",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
-      "chain": "base",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x83c2C126"
     },
     {
       "exchange_id": "ramzinex",
@@ -1728,9 +810,9 @@
       "exchange_name": "Ramzinex",
       "address": "0x4a1245702e693107204D608caC53959ddb00a795",
       "chain": "bsc",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x4a124570"
     },
     {
       "exchange_id": "ramzinex",
@@ -1749,15 +831,6 @@
       "role": "Secondary Hot Wallet / Operational",
       "label": "Hot Wallet",
       "source": "transfers/chain/ethereum"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
-      "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
     },
     {
       "exchange_id": "ramzinex",
@@ -1782,9 +855,9 @@
       "exchange_name": "Ramzinex",
       "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x371661da"
     },
     {
       "exchange_id": "ramzinex",
@@ -1800,27 +873,27 @@
       "exchange_name": "Ramzinex",
       "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x6752ec83"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
       "chain": "ethereum",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x83c2C126"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
+      "address": "0x8e8aFe1Fe20F444C6bF57C4fCd100207d6762227",
       "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "ramzinex",
@@ -1835,91 +908,37 @@
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x4a1245702e693107204D608caC53959ddb00a795",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
-      "chain": "optimism",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x371661daE4ea4525D6Bd228C0c36fCE249C477ea",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x371661da"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x4a1245702e693107204D608caC53959ddb00a795",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x4a124570"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x6752ec83A037b57d12DFf0FBc4b39c46e7Fc125d",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "transfers/chain/ethereum"
     },
     {
       "exchange_id": "ramzinex",
       "exchange_name": "Ramzinex",
       "address": "0x83c2C126725E60952F4E227ae57DFaE580C40DbD",
       "chain": "polygon",
-      "role": "Secondary Hot Wallet / Operational (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "ramzinex",
-      "exchange_name": "Ramzinex",
-      "address": "0x8e8afe1fe20f444c6bf57c4fcd100207d6762227",
-      "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Ramzinex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
+      "role": "Secondary Hot Wallet / Operational",
+      "label": "Hot Wallet",
+      "source": "depth2/hot_wallet/0x83c2C126"
     },
     {
       "exchange_id": "ramzinex",
@@ -1943,73 +962,10 @@
       "exchange_id": "wallex-ir",
       "exchange_name": "Wallex",
       "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "arbitrum_one",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "avalanche",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "base",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "bsc",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "ethereum",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
       "chain": "evm",
       "role": "Primary Master Hot Wallet",
       "label": "Primary Master Hot Wallet",
       "source": "balances/entity_top_address"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "optimism",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
-    },
-    {
-      "exchange_id": "wallex-ir",
-      "exchange_name": "Wallex",
-      "address": "0xd09e06cc2f2fb51aab6ff6663bb7a5682bf372ac",
-      "chain": "polygon",
-      "role": "Primary Master Hot Wallet (Cross-Chain EVM)",
-      "label": "Wallex Hot Wallet",
-      "source": "cross_chain_evm_resolution"
     },
     {
       "exchange_id": "wallex-ir",

@@ -2,16 +2,8 @@
 """
 extract_hot_wallets_and_aggregate.py
 ====================================
-Accurate Hot Wallet Detection, Multi-Chain Expansion, and Master Aggregation.
-
-1. Ingests all existing wallet and transfer datasets (Arkham + On-Chain).
-2. Performs Transaction Flow Convergence Analysis to discover unlabelled Hot Wallets
-   (identifying central aggregators receiving deposits or funding user withdrawals).
-3. Cross-Chain Expands verified EVM Hot Wallets across all EVM-compatible networks.
-4. Generates:
-   - api_output/iranian_exchanges_hot_wallets.json  (Clean registry of confirmed Hot Wallets)
-   - api_output/iranian_exchanges_hot_wallets.md    (Executive Markdown Report)
-   - api_output/deep_iranian_exchanges_all_wallets.json (Updated aggregated master database)
+Extracts hot wallets with chain-specific labels or curated roots and merges
+the Arkham and on-chain wallet datasets.
 """
 
 import json
@@ -21,17 +13,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Set, Tuple
 
+from onchain_wallet_sweeper import LEGACY_BITCOIN_SOURCE, ROOT_HOT_WALLETS
+
 BASE_DIR = Path(__file__).resolve().parent
 
-EVM_CHAINS = [
-    "ethereum",
-    "bsc",
-    "polygon",
-    "arbitrum_one",
-    "optimism",
-    "base",
-    "avalanche",
-]
+LEGACY_EVM_SOURCE = "cross_chain_evm_resolution"
+STALE_WALLET_SOURCES = (LEGACY_EVM_SOURCE, LEGACY_BITCOIN_SOURCE)
+
 
 def clean_address(addr: str) -> str:
     return addr.strip().strip('"').strip()
@@ -111,7 +99,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
             continue
         
         for w in ws:
-            if not isinstance(w, dict):
+            if not isinstance(w, dict) or w.get("source") in STALE_WALLET_SOURCES:
                 continue
             addr = clean_address(str(w.get("address") or ""))
             chain = str(w.get("chain") or "").strip().lower()
@@ -131,7 +119,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                 is_hot = True
                 role = "Sweeper / Treasury Wallet"
 
-            if is_hot and addr:
+            if is_hot and addr and chain:
                 k = (addr.lower(), chain)
                 if k not in seen_hot_keys:
                     seen_hot_keys.add(k)
@@ -146,24 +134,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                     }
                     all_hot_wallets.append(item)
 
-                # Cross-Chain EVM Expansion for Root EVM Hot Wallets
-                if chain in ("evm", "bsc", "ethereum") and addr.startswith("0x") and len(addr) == 42:
-                    for evm_ch in EVM_CHAINS:
-                        k_evm = (addr.lower(), evm_ch)
-                        if k_evm not in seen_hot_keys:
-                            seen_hot_keys.add(k_evm)
-                            all_hot_wallets.append({
-                                "exchange_id": ent_id,
-                                "exchange_name": ent_name,
-                                "address": addr,
-                                "chain": evm_ch,
-                                "role": f"{role} (Cross-Chain EVM)",
-                                "label": f"{ent_name} Hot Wallet",
-                                "source": "cross_chain_evm_resolution",
-                            })
-
     # 2. Add Hot Wallets monitored in On-Chain Sweeper
-    from onchain_wallet_sweeper import ROOT_HOT_WALLETS
     for rw in ROOT_HOT_WALLETS:
         addr = clean_address(rw["address"])
         ch = rw["chain"]
@@ -182,26 +153,11 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                 "label": f"{ex_name} {role}",
                 "source": "onchain_curated_root",
             })
-            if ch in ("evm", "bsc", "ethereum") and addr.startswith("0x"):
-                for evm_ch in EVM_CHAINS:
-                    k_evm = (addr.lower(), evm_ch)
-                    if k_evm not in seen_hot_keys:
-                        seen_hot_keys.add(k_evm)
-                        all_hot_wallets.append({
-                            "exchange_id": ex_id,
-                            "exchange_name": ex_name,
-                            "address": addr,
-                            "chain": evm_ch,
-                            "role": f"{role} (Cross-Chain EVM)",
-                            "label": f"{ex_name} Hot Wallet",
-                            "source": "cross_chain_evm_resolution",
-                        })
-
     # Sort Hot Wallets by Exchange and Chain
     all_hot_wallets.sort(key=lambda x: (x.get("exchange_name") or "", x.get("chain") or "", x.get("address") or ""))
     hot_keys = {(hw["address"].lower(), hw["chain"]) for hw in all_hot_wallets}
 
-    print(f"Total Confirmed Iranian Exchange Hot Wallets Identified: {len(all_hot_wallets)}")
+    print(f"Total Iranian Exchange Hot Wallets Registered: {len(all_hot_wallets)}")
 
     # 3. Master Aggregation with On-Chain Swept Wallets
     # Merge on-chain deposit wallets into the master database
@@ -217,12 +173,17 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
         if not isinstance(ent_wallets, list):
             continue
         for w in ent_wallets:
-            if not isinstance(w, dict):
+            if not isinstance(w, dict) or w.get("source") in STALE_WALLET_SOURCES:
                 continue
             addr = clean_address(str(w.get("address") or ""))
             ch = str(w.get("chain") or "").strip().lower()
             if addr:
                 k = (addr.lower(), ch)
+                category = "Exchange Wallet"
+                if k in hot_keys:
+                    category = "Hot Wallet"
+                elif "deposit" in str(w.get("label") or "").lower():
+                    category = "Deposit / User Wallet"
                 merged_unique_wallets[k] = {
                     "exchange_id": ent_id,
                     "exchange_name": ent_name,
@@ -231,13 +192,13 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                     "label": w.get("label"),
                     "usd_balance": w.get("usd_balance"),
                     "source": w.get("source"),
-                    "category": "Hot Wallet" if (addr.lower(), ch) in hot_keys else "Deposit / User Wallet",
+                    "category": category,
                 }
 
     # Ingest onchain deposit wallets
     added_from_onchain = 0
     for ow in onchain_wallets:
-        if not isinstance(ow, dict):
+        if not isinstance(ow, dict) or ow.get("source") in STALE_WALLET_SOURCES:
             continue
         addr = clean_address(str(ow.get("address") or ""))
         ch = str(ow.get("chain") or "").strip().lower()
@@ -257,6 +218,10 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
         ex_id = ex_id_map.get(ex_name, "iranian_exchange")
         if addr:
             k = (addr.lower(), ch)
+            if k in merged_unique_wallets and merged_unique_wallets[k]["category"] == "Exchange Wallet":
+                merged_unique_wallets[k]["category"] = "On-Chain Active Deposit Wallet"
+                merged_unique_wallets[k]["target_hot_wallet"] = ow.get("target_hot_wallet")
+                merged_unique_wallets[k]["token_transferred"] = ow.get("token_transferred")
             if k not in merged_unique_wallets:
                 added_from_onchain += 1
                 merged_unique_wallets[k] = {
@@ -272,7 +237,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                     "category": "Hot Wallet" if k in hot_keys else "On-Chain Active Deposit Wallet",
                 }
 
-    # Ensure all confirmed hot wallets (including cross-chain EVM expansions) are present in merged_unique_wallets
+    # Ensure all registered hot wallets are present in merged_unique_wallets
     for hw in all_hot_wallets:
         addr = clean_address(str(hw.get("address") or ""))
         ch = str(hw.get("chain") or "").strip().lower()
@@ -295,13 +260,16 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
     # Preserve historical wallets from previous master database if not present
     if isinstance(deep_data, dict) and isinstance(deep_data.get("all_wallets"), list):
         for pw in deep_data["all_wallets"]:
-            if not isinstance(pw, dict):
+            if not isinstance(pw, dict) or pw.get("source") in STALE_WALLET_SOURCES:
                 continue
             addr = clean_address(str(pw.get("address") or ""))
             ch = str(pw.get("chain") or "").strip().lower()
             if addr:
                 k = (addr.lower(), ch)
                 if k not in merged_unique_wallets:
+                    category = pw.get("category", "Exchange Wallet")
+                    if category == "Hot Wallet":
+                        category = "Exchange Wallet"
                     merged_unique_wallets[k] = {
                         "exchange_id": pw.get("exchange_id", "iranian_exchange"),
                         "exchange_name": pw.get("exchange_name", "Unknown"),
@@ -312,13 +280,17 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
                         "source": pw.get("source", "historical_master_db"),
                         "target_hot_wallet": pw.get("target_hot_wallet"),
                         "token_transferred": pw.get("token_transferred"),
-                        "category": "Hot Wallet" if k in hot_keys else pw.get("category", "Deposit / User Wallet"),
+                        "category": category,
                     }
 
     hot_in_master = sum(1 for w in merged_unique_wallets.values() if w["category"] == "Hot Wallet")
-    deposit_count = len(merged_unique_wallets) - hot_in_master
+    deposit_count = sum(
+        w["category"] in ("Deposit / User Wallet", "On-Chain Active Deposit Wallet")
+        for w in merged_unique_wallets.values()
+    )
+    other_count = len(merged_unique_wallets) - hot_in_master - deposit_count
     print(f"Added {added_from_onchain} fresh deposit wallets from On-Chain Sweeper.")
-    print(f"Grand Total Unique Master Wallets (Hot + Deposit): {len(merged_unique_wallets)}")
+    print(f"Grand Total Unique Master Wallets: {len(merged_unique_wallets)}")
 
     # 4. Save Hot Wallets Registry JSON
     hot_registry = {
@@ -338,6 +310,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
         "total_hot_wallets": len(all_hot_wallets),
         "hot_wallets_in_master": hot_in_master,
         "total_deposit_wallets": deposit_count,
+        "total_other_wallets": other_count,
         "entities": entities,
         "hot_wallets": all_hot_wallets,
         "all_wallets": list(merged_unique_wallets.values()),
@@ -349,9 +322,12 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
     # 6. Generate Executive Markdown Report of Hot Wallets
     md_lines = [
         "# فهرست تفکیکی هات‌والت‌های صرافی‌های ایرانی (Iranian Crypto Exchanges Hot Wallets Registry)",
-        f"**تاریخ بروزرسانی:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  ",
-        f"**تعداد کل هات‌والت‌های تاییدشده:** {len(all_hot_wallets)} آدرس  ",
-        f"**تعداد کل والت‌های مستند دیتابیس (هات‌والت + واریزی):** {len(merged_unique_wallets):,} آدرس  \n",
+        f"**تاریخ بروزرسانی:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
+        "",
+        f"**تعداد کل رکوردهای هات‌والت:** {len(all_hot_wallets)} آدرس",
+        "",
+        f"**تعداد کل والت‌های مستند دیتابیس (همهٔ دسته‌ها):** {len(merged_unique_wallets):,} آدرس",
+        "",
         "---",
         "## جدول جامع هات‌والت‌های شناسایی‌شده به تفکیک صرافی و شبکه",
         "",
@@ -369,8 +345,7 @@ def aggregate(base_dir: Path | None = None) -> Dict[str, int]:
         "---",
         "## نکات مهم در بهره‌برداری از هات‌والت‌ها",
         "1. **Primary Master Hot Wallet:** این والت‌ها به عنوان کانون نهایی تسویه حساب‌های ریالی/ارزی و دریافت واریزهای تجمیع‌شده کاربران عمل می‌کنند.",
-        "2. **Cross-Chain EVM:** به دلیل ساختار کلید خصوصی مشترک در پروتکل‌های اتریومی، هر آدرس هات‌والت اتریوم/BSC به طور هم‌زمان روی زنجیره‌های Polygon, Arbitrum, Optimism, Base و Avalanche نیز در اختیار صرافی است.",
-        "3. **TRON TRC-20:** با توجه به محبوبیت بالای تتر در ایران، هات‌والت‌های ترون بیش از ۸۰٪ حجم نقدی تسویه را به خود اختصاص داده‌اند.",
+        "2. **EVM:** ردیف‌های با شبکهٔ عمومی EVM شبکهٔ مشخصی را تعیین نمی‌کنند. ثبت هات‌والت در هر شبکه به برچسب همان شبکه یا ورودی مرجع آن شبکه نیاز دارد.",
     ])
 
     hot_md_path = base_dir / "api_output" / "iranian_exchanges_hot_wallets.md"
